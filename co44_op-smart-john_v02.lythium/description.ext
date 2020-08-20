@@ -1,0 +1,40 @@
+﻿// TTT Standart Repo + RHs Repo
+ 
+/*------onLoad------*/
+author="[TTT] Andx "; //Autor der Mission (Missionsbauer)
+OnLoadName = "OP Smart John"; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = "A lot of them were great, some were brilliant, and almost all were unquestionably courageous [...]<br/>~David Finkel"; //Beschreibung im LoadScreen (unter dem Bild)
+loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+OnLoadMissionTime = true;
+
+/*------Header------*/
+class Header
+{
+	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
+	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
+	maxPlayers = 45; //Anzahl der Spieler +1 für den HC
+};
+
+/*------Respawn------*/	
+respawn = 3;
+respawnDelay = 5;
+respawnDialog = false;
+
+/*------Stuff------*/	
+disabledAI = 1; //Deaktiviert AI in der Slotliste
+
+corpseLimit = 50;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 1200;
+
+/*------Functions------*/	
+#include "W_Teleporter\dialog.hpp"
+#include "Spec_crateNaming\DescriptionExt.hpp"
+
+class CfgFunctions 
+{
+	#include "W_Teleporter\CfgFunctions.hpp"
+	#include "Spec_crateNaming\CfgFunctions.hpp"
+};
+
+cba_settings_hasSettingsFile = 1; //CBA einstellungen laden
