@@ -42,6 +42,7 @@ player addItemToVest "HandGrenade";
 player addItemToVest "ACE_M84";
 player addItemToVest "UK3CB_BAF_SmokeShellGreen";
 player addItemToVest "acex_intelitems_notepad";
+player addItemToVest "UK3CB_BAF_9_17Rnd";
 for "_i" from 1 to 2 do {player addItemToVest "UK3CB_BAF_SmokeShell";};
 for "_i" from 1 to 4 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd";};
 for "_i" from 1 to 2 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd_T";};

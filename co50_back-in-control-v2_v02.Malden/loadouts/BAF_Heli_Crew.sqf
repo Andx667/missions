@@ -52,6 +52,6 @@ player linkItem "ACE_Altimeter";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
-[player,"Roundel_RAF"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true]
+[player,"Roundel_RAF"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true];
 
 player setVariable ["ACE_IsAdvEngineer", true];

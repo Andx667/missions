@@ -73,7 +73,6 @@ player linkItem "ACE_Altimeter";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
-
-[player,"MEDF"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true]
+[player,"MEDF"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true];
 
 player setVariable ["ace_medical_medicClass", 2, true];
