@@ -51,9 +51,6 @@ player linkItem "ACE_Altimeter";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
-[] spawn {
-    sleep 60;
-    [player,"Roundel_RAF"] call bis_fnc_setUnitInsignia;
-};
+[player,"Roundel_RAF"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true]
 
 player setVariable ["ACE_IsAdvEngineer", true];

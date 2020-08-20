@@ -64,9 +64,6 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 
-[] spawn {
-    sleep 60;
-    [player,"MEDA"] call bis_fnc_setUnitInsignia;
-};
+[player,"MEDA"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true]
 
 player setVariable ["ace_medical_medicClass", 1, true];

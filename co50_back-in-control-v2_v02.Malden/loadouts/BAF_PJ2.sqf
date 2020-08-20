@@ -74,9 +74,6 @@ player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
 
-[] spawn {
-    sleep 60;
-    [player,"MEDF"] call bis_fnc_setUnitInsignia;
-};
+[player,"MEDF"] remoteExecCall ["bis_fnc_setUnitInsignia",0,true]
 
 player setVariable ["ace_medical_medicClass", 2, true];
