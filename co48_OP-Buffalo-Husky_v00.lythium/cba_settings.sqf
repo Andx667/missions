@@ -15,3 +15,6 @@ force ace_medical_treatment_medicEpinephrine = 1;
 force ace_repair_engineerSetting_repair = 1;
 force ace_repair_repairDamageThreshold_engineer = 0.0;
 force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum Reifenwechsel
+
+// ACEX Headless
+force acex_headless_enabled = true;
