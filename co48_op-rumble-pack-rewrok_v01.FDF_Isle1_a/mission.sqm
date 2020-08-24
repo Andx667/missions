@@ -13632,7 +13632,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_LAT""];}";
-						description="#5 Light Anti Tank";
+						description="#5 Rifleman (Light Anti Tank)";
 						isPlayable=1;
 					};
 					id=4647;
@@ -14542,7 +14542,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_LAT""];}";
-						description="#5 Light Anti Tank";
+						description="#5 Rifleman (Light Anti Tank)";
 						isPlayable=1;
 					};
 					id=4656;
@@ -15452,7 +15452,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_LAT""];}";
-						description="#5 Light Anti Tank";
+						description="#5 Rifleman (Light Anti Tank)";
 						isPlayable=1;
 					};
 					id=4665;
