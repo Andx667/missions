@@ -55,8 +55,6 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "ACE_microDAGR";
 
-player addItemToVest "ACE_microDAGR";
-
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 player addItemToBackpack "ACE_Vector";
 

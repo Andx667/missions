@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2600;
+		nextID=2616;
 	};
 	class Camera
 	{
-		pos[]={11001.268,102.80156,9547.3574};
-		dir[]={0.011802706,-0.59415495,0.80433673};
-		up[]={0.0087167518,0.80432814,0.59410834};
-		aside[]={0.99994165,1.5075784e-007,-0.01467296};
+		pos[]={17638.08,39.135742,13946.957};
+		dir[]={-0.38514471,-0.49653584,0.77792937};
+		up[]={-0.22031292,0.8680082,0.44499362};
+		aside[]={0.89621097,-1.9476283e-007,0.44370872};
 	};
 };
 binarizationWanted=0;
@@ -526,10 +526,9 @@ class Mission
 		timeOfChanges=1800.0002;
 		startWeather=0.1471387;
 		startWind=0.1;
-		startWaves=0.1;
 		forecastWeather=0.59989953;
 		forecastWind=0.1;
-		forecastWaves=0.1;
+		forecastWaves=0;
 		forecastLightnings=0.1;
 		wavesForced=1;
 		windForced=1;
@@ -619,7 +618,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={17619.291,23.812496,13969.525};
-				angles[]={-0,0.81121159,0};
+				angles[]={0,0.81121159,0};
 			};
 			side="Empty";
 			flags=4;
@@ -775,16 +774,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17619.883,23.812496,13970.028};
+				position[]={17619.883,23.812498,13970.028};
 				angles[]={0,0.81121159,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=221;
 			type="Box_EAF_Ammo_F";
-			atlOffset=53.528442;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1010,7 +1009,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17620.828,23.812496,13970.76};
+				position[]={17620.828,23.812498,13970.76};
 				angles[]={0,0.81121159,0};
 			};
 			side="Empty";
@@ -1020,7 +1019,6 @@ class Mission
 			};
 			id=227;
 			type="Box_EAF_Ammo_F";
-			atlOffset=0.055913925;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1089,16 +1087,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17620.863,23.812054,13972.51};
+				position[]={17621.406,23.812498,13972.467};
 				angles[]={0,0.88273519,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=233;
 			type="Box_EAF_Ammo_F";
-			atlOffset=53.528;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1168,7 +1166,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17628.496,23.701309,13969.856};
+				position[]={17622.551,23.678074,13967.978};
 				angles[]={0,0.83833402,0};
 			};
 			side="Empty";
@@ -1178,7 +1176,6 @@ class Mission
 			};
 			id=237;
 			type="Box_EAF_WpsLaunch_F";
-			atlOffset=0.023231506;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1208,7 +1205,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17627.273,23.701309,13971.206};
+				position[]={17623.701,23.678074,13969.216};
 				angles[]={0,0.83833402,0};
 			};
 			side="Empty";
@@ -1218,7 +1215,6 @@ class Mission
 			};
 			id=238;
 			type="Box_EAF_WpsLaunch_F";
-			atlOffset=0.023231506;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1248,16 +1244,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17623.207,23.812496,13964.012};
+				position[]={17623.207,23.812054,13964.012};
 				angles[]={0,3.9676394,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=239;
 			type="Box_EAF_Support_F";
+			atlOffset=53.528;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1275,7 +1271,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""Laserbatteries""],[3]],[[""ACE_UAVBattery"",""B_UavTerminal""],[10,1]],[[],[]]],false]";
+							value="[[[[],[]],[[""Laserbatteries""],[3]],[[""ACE_UAVBattery"",""B_UavTerminal"",""ITC_Land_B_AR2i_Packed""],[10,1,2]],[[],[]]],false]";
 						};
 					};
 				};
@@ -1734,7 +1730,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17582.375,23.599348,13930.857};
+				position[]={17509.287,23.599947,13836.968};
 				angles[]={0,1.7305812,0};
 			};
 			side="Empty";
@@ -1745,6 +1741,7 @@ class Mission
 			};
 			id=562;
 			type="CFP_B_USMC_Towing_Tractor_DES_01";
+			atlOffset=0.00030899048;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1831,17 +1828,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17575.096,23.599346,13924.071};
+				position[]={17502.008,23.599945,13830.182};
 				angles[]={0,1.7305812,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
 			};
 			id=565;
 			type="CFP_B_USMC_Towing_Tractor_DES_01";
-			atlOffset=6.3404579;
+			atlOffset=0.0005607605;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3733,7 +3731,7 @@ class Mission
 					};
 					id=2227;
 					type="Land_BagBunker_Small_F";
-					atlOffset=0.27013731;
+					atlOffset=0.27013779;
 				};
 				class Item8
 				{
@@ -3752,6 +3750,7 @@ class Mission
 					};
 					id=2228;
 					type="Land_BagFence_Short_F";
+					atlOffset=4.7683716e-007;
 				};
 				class Item9
 				{
@@ -3770,7 +3769,7 @@ class Mission
 					};
 					id=2232;
 					type="Land_BagFence_Long_F";
-					atlOffset=-0.12514925;
+					atlOffset=-0.12514973;
 				};
 				class Item10
 				{
@@ -3789,7 +3788,6 @@ class Mission
 					};
 					id=2233;
 					type="Land_Razorwire_F";
-					atlOffset=-4.7683716e-007;
 				};
 				class Item11
 				{
@@ -20265,6 +20263,7 @@ class Mission
 				};
 			};
 			id=4744;
+			atlOffset=9.5367432e-007;
 		};
 		class Item233
 		{
@@ -20281,6 +20280,7 @@ class Mission
 			};
 			id=4745;
 			type="O_APC_Wheeled_02_rcws_v2_F";
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21057,14 +21057,14 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={17548.582,16.80418,13898.646};
+				position[]={17557.541,16.804779,13884.23};
 				angles[]={0,0.85743332,0};
 			};
 			areaSize[]={62.805664,0,170.96115};
 			flags=1;
 			id=4798;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=46.80418;
+			atlOffset=46.804779;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21113,10 +21113,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17599.342,27.158901,13943.363};
+				position[]={17526.254,27.1595,13849.474};
 				angles[]={0,2.3850448,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -21125,7 +21126,6 @@ class Mission
 			};
 			id=4799;
 			type="I_Heli_Transport_02_LDF_F";
-			atlOffset=53.528;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21174,10 +21174,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17562.926,27.158901,13908.992};
+				position[]={17489.838,27.159945,13815.103};
 				angles[]={0,2.3850448,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -21186,7 +21187,7 @@ class Mission
 			};
 			id=4800;
 			type="I_Heli_Transport_02_LDF_F";
-			atlOffset=53.528;
+			atlOffset=0.00054550171;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21419,7 +21420,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""Laserbatteries""],[3]],[[""ACE_UAVBattery"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_quikclot"",""ACE_SpottingScope"",""ACE_EntrenchingTool"",""ToolKit"",""ItemcTab"",""ACE_packingBandage"",""ItemAndroid""],[1,5,4,2,5,1,2,1,1,5,1]],[[""B_AssaultPack_eaf_F""],[1]]],false]";
+							value="[[[[],[]],[[""Laserbatteries""],[3]],[[""ACE_UAVBattery"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_quikclot"",""ACE_SpottingScope"",""ACE_EntrenchingTool"",""ToolKit"",""ItemcTab"",""ACE_packingBandage"",""ITC_Land_B_AR2i_Packed""],[1,5,4,2,5,1,2,1,1,5,1]],[[""B_AssaultPack_eaf_F""],[1]]],false]";
 						};
 					};
 				};
@@ -23300,6 +23301,7 @@ class Mission
 			};
 			id=4870;
 			type="O_Radar_System_02_F";
+			atlOffset=-0.0015907288;
 		};
 		class Item282
 		{
