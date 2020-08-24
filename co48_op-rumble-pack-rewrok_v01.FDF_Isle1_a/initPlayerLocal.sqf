@@ -20,6 +20,6 @@ teleporter_01 addAction ["Zuschauermodus", {
 teleporter_01 addAction ["Zum Träger teleportieren", {
     params ["_target","_caller"];
     _caller setPosASL (getPosASL port);
-}];
+},[],1,false,true,"","",3];
 
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
