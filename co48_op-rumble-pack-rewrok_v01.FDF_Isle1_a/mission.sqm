@@ -14028,7 +14028,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_CFR""];}";
-						description="#9 Combat First Responder";
+						description="#9 Combat Life Saver";
 						isPlayable=1;
 					};
 					id=4651;
@@ -14938,7 +14938,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_CFR""];}";
-						description="#9 Combat First Responder";
+						description="#9 Combat Life Saver";
 						isPlayable=1;
 					};
 					id=4660;
@@ -15848,7 +15848,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_CFR""];}";
-						description="#9 Combat First Responder";
+						description="#9 Combat Life Saver";
 						isPlayable=1;
 					};
 					id=4669;
