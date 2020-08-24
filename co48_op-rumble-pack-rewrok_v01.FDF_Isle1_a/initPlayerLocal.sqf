@@ -16,4 +16,10 @@ teleporter_01 addAction ["Zuschauermodus", {
 	["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
 },[],1,false,true,"","",3];
 
+//Port zum Träger
+teleporter_01 addAction ["Zum Träger teleportieren", {
+    params ["_target","_caller"];
+    _caller setPosASL (getPosASL port);
+}];
+
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
