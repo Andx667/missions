@@ -57,3 +57,8 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
+
+[] spawn {
+    sleep 60;
+    [player,"insignia190"] call bis_fnc_setUnitInsignia;
+};

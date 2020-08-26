@@ -54,3 +54,8 @@ player linkItem "ItemAndroid";
 player setVariable ["ACE_IsEngineer", 2, true];
 
 player action ["SwitchWeapon", player, player, -1];
+
+[] spawn {
+    sleep 60;
+    [player,"insignia201"] call bis_fnc_setUnitInsignia;
+};
