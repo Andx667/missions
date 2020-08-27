@@ -56,8 +56,3 @@ player linkItem "TFAR_microdagr";
 player linkItem "TFAR_rf7800str";
 
 player setVariable ["ACE_isEOD", true, true];
-
-[] spawn {
-    sleep 60;
-    [player,"insignia81"] call bis_fnc_setUnitInsignia;
-};

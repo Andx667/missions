@@ -67,5 +67,5 @@ player setVariable ["ACE_isEOD", true, true];
 
 [] spawn {
     sleep 60;
-    [player,"insignia114"] call bis_fnc_setUnitInsignia;
+    [player,"insignia144"] call bis_fnc_setUnitInsignia;
 };
