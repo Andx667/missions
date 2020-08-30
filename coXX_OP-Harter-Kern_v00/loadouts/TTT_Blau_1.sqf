@@ -29,7 +29,7 @@ player addVest "TTT_Vest_Heavy_Blue_US_Woodland";
 player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -37,6 +37,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
+player addItemToUniform "ACE_morphine"
 player addItemToVest "ACE_DefusalKit";
 player addItemToVest "ACE_M26_Clacker";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
@@ -46,6 +47,13 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToBackpack "TTT_Helmet_1_BW_Flecktarn";
+player addItemToBackpack "ACE_wirecutter";
+player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ACE_SpraypaintRed";
+player addItemToBackpack "ACE_SpraypaintGreen";
+player addItemToBackpack "ACE_SpraypaintBlue";
+player addItemToBackpack "ACE_SpraypaintBlack";
+for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
 
 comment "Add items";

@@ -37,6 +37,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
+player addItemToUniform "ACE_morphine"
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_Tracer";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -47,6 +48,7 @@ player addItemToBackpack "TTT_Helmet_2_BW_Flecktarn";
 for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
+for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
 player addHeadgear "TTT_Beret_Green";
 
 comment "Add items";
