@@ -1,9 +1,9 @@
 ﻿// TTT Standart Repo + 3CB Repo
  
 /*------onLoad------*/
-author="[TTT] Andx "; //Autor der Mission (Missionsbauer)
-OnLoadName = "OP Buffalo Husky"; //Überschrift im LoadScreen (über dem Bild)
-onLoadMission = "You don't have to be a hero to do this job. But it helps."; //Beschreibung im LoadScreen (unter dem Bild)
+author="[TTT] Andx, [TTT] monclefu "; //Autor der Mission (Missionsbauer)
+OnLoadName = "Defender 2035"; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
 loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = true;
 
@@ -12,7 +12,7 @@ class Header
 {
 	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
 	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
-	maxPlayers = 49; //Anzahl der Spieler +1 für den HC
+	maxPlayers = 53; //Anzahl der Spieler +1 für den HC
 };
 
 /*------Respawn------*/	
@@ -22,6 +22,12 @@ respawnDialog = false;
 
 /*------Stuff------*/	
 disabledAI = 1; //Deaktiviert AI in der Slotliste
+joinUnassigned = 1;
+allowFunctionsRecompile = 1;
+allowFunctionsLog = 1;
+briefing = 1;
+debriefing = 1;
+enableDebugConsole = 2;
 
 /*------Functions------*/	
 #include "W_Teleporter\dialog.hpp"
@@ -35,3 +41,12 @@ class CfgFunctions
 };
 
 cba_settings_hasSettingsFile = 1; //CBA einstellungen laden
+
+//Streamator
+class CLib {
+    Modules[] = {"CLib", "Streamator"};
+    useExperimentalAutoload = 0;
+    useCompressedFunction = 0;
+    useFallbackRemoteExecution = 0;
+    FrameGraphSize = 128;
+};
