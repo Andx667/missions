@@ -12,3 +12,6 @@ force ace_viewdistance_limitViewDistance = 6000;
 
 //TFAR Bluefor Radio works with Greenfor
 force tfar_radiocode_independent = "_bluefor";
+
+//Enable hc
+force acex_headless_enabled = true;
