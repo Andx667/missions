@@ -28,7 +28,7 @@ player forceAddUniform "UK3CB_BAF_U_CombatUniform_MTP";
 player addVest "UK3CB_BAF_V_Osprey_Marksman_A";
 
 comment "Add binoculars";
-player addWeapon "ACE_Vector";
+player addWeapon "Binocular";
 
 comment "Add items to containers";
 for "_i" from 1 to 8 do {player addItemToUniform "ACE_fieldDressing";};
@@ -44,7 +44,7 @@ player addItemToVest "acex_intelitems_notepad";
 for "_i" from 1 to 4 do {player addItemToVest "UK3CB_BAF_9_17Rnd";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 for "_i" from 1 to 4 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd";};
-for "_i" from 1 to 2 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd_T";};
+for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd_T";};
 
 
 player addHeadgear selectRandom ["UK3CB_BAF_H_Mk7_Camo_A","UK3CB_BAF_H_Mk7_Camo_B","UK3CB_BAF_H_Mk7_Camo_D","UK3CB_BAF_H_Mk7_Camo_E","UK3CB_BAF_H_Mk7_Camo_F"];
