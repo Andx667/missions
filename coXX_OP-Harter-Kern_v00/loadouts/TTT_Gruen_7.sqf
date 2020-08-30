@@ -15,9 +15,10 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_lmg_minimipara_long_railed";
+player addWeapon "hlc_lmg_mk48mod1";
+player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter";
-player addPrimaryWeaponItem "hlc_200rnd_556x45_M_SAW";
+player addPrimaryWeaponItem "hlc_200Rnd_762x51_M_M60E4";
 player addWeapon "CUP_hgun_Glock17_blk";
 player addHandgunItem "optic_MRD_black";
 player addHandgunItem "CUP_17Rnd_9x19_glock17";
@@ -41,9 +42,9 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
-player addItemToVest "hlc_200rnd_556x45_M_SAW";
-player addItemToBackpack "TTT_Helmet_7_BW_Flecktarn";
-player addItemToBackpack "hlc_200rnd_556x45_M_SAW";
+player addItemToVest "hlc_100Rnd_762x51_M_M60E4";
+player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
+player addItemToBackpack "hlc_100Rnd_762x51_M_M60E4";
 player addHeadgear "TTT_Beret_Green";
 
 comment "Add items";

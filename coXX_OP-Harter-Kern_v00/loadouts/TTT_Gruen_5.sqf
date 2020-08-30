@@ -41,7 +41,7 @@ player addItemToUniform "CUP_17Rnd_9x19_glock17";
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_Tracer";};
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
 
