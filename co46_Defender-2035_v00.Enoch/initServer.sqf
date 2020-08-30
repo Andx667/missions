@@ -23,6 +23,7 @@ setDate [2035, 6, 12, 7, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei M
 //Höherer Verbrauch für Hubschrauber
 [[
 
-	heli_01
+	heli_01,
+	heli_02
 
 ],4] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS
