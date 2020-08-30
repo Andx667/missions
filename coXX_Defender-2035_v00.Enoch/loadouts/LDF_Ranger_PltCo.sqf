@@ -52,7 +52,6 @@ player addItemToVest "SmokeShellGreen";
 
 for "_i" from 1 to 6 do {player addItemToBackpack "ACE_HuntIR_M203";};
 player addItemToBackpack "ACE_HuntIR_monitor";
-player addItemToBackpack "ACE_SpraypaintRed";
 
 player addHeadgear "H_HelmetHBK_chops_F";
 player addGoggles "G_Tactical_Clear";
@@ -63,5 +62,3 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
-
-cutText ["", "PLAIN"];

@@ -60,8 +60,8 @@ player addGoggles (selectRandom ["G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
-player linkItem "TFAR_anprc152";
+player linkItem "TFAR_microdagr";
+player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
 
 cutText ["", "PLAIN"];

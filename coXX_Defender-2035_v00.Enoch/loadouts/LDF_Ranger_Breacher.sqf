@@ -3,7 +3,6 @@ player setRank "PRIVATE";								//PRIVATE, CORPORAL, SERGEANT, LIEUTENANT, CAPT
 comment "Exported from Arsenal by Andx";
 
 comment "[!] UNIT MUST BE LOCAL [!]";
-
 if (!local player) exitWith {};
 
 comment "Remove existing items";
@@ -43,30 +42,27 @@ player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "11Rnd_45ACP_Mag";
-
-for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
+player addItemToVest "ACE_Clacker";
+player addItemToVest "ACE_DefusalKit";
+for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
 for "_i" from 1 to 4 do {player addItemToVest "ACE_M84";};
 for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
-for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
+for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
 player addItemToVest "SmokeShellGreen";
-
-for "_i" from 1 to 4 do {player addItemToBackpack "6Rnd_12Gauge_Pellets";};
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_SpraypaintRed";
 player addItemToBackpack "ACE_SpraypaintGreen";
-
-player addGoggles selectRandom ["","G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_Combat_clear","BWA3_G_Combat_orange","PBW_shemagh_beige","PBW_shemagh_gruen"];
+for "_i" from 1 to 4 do {player addItemToBackpack "6Rnd_12Gauge_Pellets";};
+for "_i" from 1 to 2 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "H_HelmetHBK_headset_F";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
-player linkItem "TFAR_anprc152";
+player linkItem "TFAR_microdagr";
+player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
 
 player setVariable ["ACE_isEOD", true];
-
-cutText ["", "PLAIN"];

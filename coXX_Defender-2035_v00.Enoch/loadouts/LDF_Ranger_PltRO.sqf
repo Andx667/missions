@@ -58,6 +58,4 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
-player linkItem "ItemcTab";
-
-cutText ["", "PLAIN"];
+player linkItem "ItemAndroid";

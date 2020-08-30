@@ -50,11 +50,11 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 
-for "_i" from 1 to 3 do {player addItemToBackpack "ACE_adenosine";};
+for "_i" from 1 to 9 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 8 do {player addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 3 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 6 do {player addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 18 do {player addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 9 do {player addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 5 do {player addItemToBackpack "ACE_quikclot";};
 for "_i" from 1 to 20 do {player addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 20 do {player addItemToBackpack "ACE_elasticBandage";};
@@ -72,6 +72,7 @@ player linkItem "ItemMicroDAGR";
 
 player setVariable ["ace_medical_medicClass", 1, true];
 
-cutText ["", "PLAIN"];
-
-[player, "MedA"] call BIS_fnc_setUnitInsignia;
+[] spawn {
+    sleep 60;
+    [player,"MEDA"] call bis_fnc_setUnitInsignia;
+};
