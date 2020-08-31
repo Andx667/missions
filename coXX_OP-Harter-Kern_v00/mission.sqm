@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=82;
+		nextID=134;
 	};
 	class Camera
 	{
-		pos[]={1029.9183,60.150093,2775.7046};
-		dir[]={-0.46559477,-0.73542136,0.49256721};
-		up[]={-0.50518584,0.67759091,0.53444999};
-		aside[]={0.72682393,7.4814307e-007,0.68701911};
+		pos[]={1041.6962,159.34096,2993.9995};
+		dir[]={-0.36817935,-0.85265255,-0.37104931};
+		up[]={-0.6005376,0.52250123,-0.60522258};
+		aside[]={-0.70993322,3.6093406e-006,0.70444882};
 	};
 };
 binarizationWanted=0;
@@ -27,34 +27,13 @@ addons[]=
 	"acex_headless",
 	"A3_Modules_F_Curator_Curator",
 	"CFP_B_USMC_DES",
-	"CFP_B_USARMY_2003_WDL",
-	"A3_Characters_F_Exp",
-	"ace_explosives",
-	"hlcweapons_acr",
-	"hlcweapons_core",
-	"bwa3_attachments",
-	"bwa3_comp_ace",
-	"CUP_Weapons_Glock17",
-	"A3_Weapons_F_Enoch_Acc",
-	"CUP_Weapons_Ammunition",
-	"A3_Weapons_F",
-	"tfar_handhelds",
-	"cTab",
-	"TTT_Berets",
-	"TTT_Units_BW",
-	"ace_medical_treatment",
-	"ace_captives",
-	"TTT_Units_US",
-	"ace_grenades",
-	"ace_realisticnames",
-	"TTT_Units_Base",
-	"A3_Characters_F_Tank"
+	"CFP_B_USARMY_2003_WDL"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=7;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -99,129 +78,6 @@ class AddonsMetaData
 			className="CFP_B_USARMY_2003_WDL";
 			name="CFP_B_USARMY_2003_WDL";
 			author="Drew";
-		};
-		class Item7
-		{
-			className="A3_Characters_F_Exp";
-			name="Arma 3 Apex - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item8
-		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item9
-		{
-			className="hlcweapons_acr";
-			name="hlcweapons_acr";
-			author="toadie";
-		};
-		class Item10
-		{
-			className="hlcweapons_core";
-			name="hlcweapons_core";
-			author="toadie";
-		};
-		class Item11
-		{
-			className="bwa3_attachments";
-			name="Bundeswehr - Weapon Attachments";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
-		};
-		class Item12
-		{
-			className="bwa3_comp_ace";
-			name="Bundeswehr - ACE3";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
-		};
-		class Item13
-		{
-			className="CUP_Weapons_Glock17";
-			name="CUP_Weapons_Glock17";
-		};
-		class Item14
-		{
-			className="A3_Weapons_F_Enoch";
-			name="Arma 3 Contact Platform - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item15
-		{
-			className="CUP_Weapons_Ammunition";
-			name="CUP_Weapons_Ammunition";
-		};
-		class Item16
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item17
-		{
-			className="tfar_handhelds";
-			name="tfar_handhelds";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		};
-		class Item18
-		{
-			className="cTab";
-			name="cTab";
-		};
-		class Item19
-		{
-			className="TTT_Berets";
-			name="TTT_Berets";
-		};
-		class Item20
-		{
-			className="TTT_Units_BW";
-			name="TTT_Units_BW";
-		};
-		class Item21
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item22
-		{
-			className="ace_captives";
-			name="ACE3 - Captives";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item23
-		{
-			className="TTT_Units_US";
-			name="TTT_Units_US";
-		};
-		class Item24
-		{
-			className="ace_grenades";
-			name="ACE3 - Grenades";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item25
-		{
-			className="TTT_Units_Base";
-			name="TTT_Units_Base";
-		};
-		class Item26
-		{
-			className="A3_Characters_F_Tank";
-			name="Arma 3 Tank - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
 		};
 	};
 };
@@ -1129,146 +985,155 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={963.80872,13.161439,2984.5957};
+						position[]={991.39288,13.161439,2967.3809};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_1""];}";
 						isPlayer=1;
 					};
-					id=18;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=95;
+					type="B_Survivor_F";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={968.80872,13.161439,2979.5957};
+						position[]={996.39288,13.161439,2962.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_2""];}";
 					};
-					id=19;
-					type="B_CTRG_Soldier_M_tna_F";
+					id=96;
+					type="B_Survivor_F";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={958.80872,13.161439,2979.5957};
+						position[]={986.39288,13.161439,2962.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_3""];}";
 					};
-					id=20;
-					type="B_CTRG_Soldier_Medic_tna_F";
+					id=97;
+					type="B_Survivor_F";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={973.80872,13.161439,2974.5957};
+						position[]={1001.3929,13.161439,2957.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_4""];}";
 					};
-					id=21;
-					type="B_CTRG_Soldier_tna_F";
+					id=98;
+					type="B_Survivor_F";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={953.80872,13.161439,2974.5957};
+						position[]={981.39288,13.161439,2957.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
 					};
-					id=22;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=99;
+					type="B_Survivor_F";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={978.80872,13.161439,2969.5957};
+						position[]={1006.3929,13.161439,2952.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
 					};
-					id=23;
-					type="B_CTRG_Soldier_JTAC_tna_F";
+					id=100;
+					type="B_Survivor_F";
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={948.80872,13.161439,2969.5957};
+						position[]={976.39288,13.161439,2952.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
 					};
-					id=24;
-					type="B_CTRG_Soldier_Exp_tna_F";
+					id=101;
+					type="B_Survivor_F";
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={983.80872,13.161439,2964.5957};
+						position[]={1011.3929,13.161439,2947.3809};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
 					};
-					id=25;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=102;
+					type="B_Survivor_F";
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={946.4502,13.161439,2967.125};
+						position[]={974.03436,13.161439,2949.9102};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_9""];}";
 					};
-					id=69;
-					type="B_CTRG_Soldier_Medic_tna_F";
+					id=103;
+					type="B_Survivor_F";
 				};
 			};
 			class Attributes
@@ -1314,13 +1179,14 @@ class Mission
 						position[]={993.30688,13.161439,2955.1743};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_1""];}";
 					};
-					id=27;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=104;
+					type="B_Survivor_F";
 				};
 				class Item1
 				{
@@ -1330,14 +1196,15 @@ class Mission
 						position[]={998.30688,13.161439,2950.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_2""];}";
 					};
-					id=28;
-					type="B_CTRG_Soldier_M_tna_F";
+					id=105;
+					type="B_Survivor_F";
 				};
 				class Item2
 				{
@@ -1347,13 +1214,14 @@ class Mission
 						position[]={988.30688,13.161439,2950.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_3""];}";
 					};
-					id=29;
-					type="B_CTRG_Soldier_Medic_tna_F";
+					id=106;
+					type="B_Survivor_F";
 				};
 				class Item3
 				{
@@ -1363,13 +1231,14 @@ class Mission
 						position[]={1003.3069,13.161439,2945.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_4""];}";
 					};
-					id=30;
-					type="B_CTRG_Soldier_tna_F";
+					id=107;
+					type="B_Survivor_F";
 				};
 				class Item4
 				{
@@ -1379,13 +1248,14 @@ class Mission
 						position[]={983.30688,13.161439,2945.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
 					};
-					id=31;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=108;
+					type="B_Survivor_F";
 				};
 				class Item5
 				{
@@ -1395,14 +1265,15 @@ class Mission
 						position[]={1008.3069,13.161439,2940.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
 					};
-					id=32;
-					type="B_CTRG_Soldier_JTAC_tna_F";
+					id=109;
+					type="B_Survivor_F";
 				};
 				class Item6
 				{
@@ -1412,13 +1283,14 @@ class Mission
 						position[]={978.30688,13.161439,2940.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
 					};
-					id=33;
-					type="B_CTRG_Soldier_Exp_tna_F";
+					id=110;
+					type="B_Survivor_F";
 				};
 				class Item7
 				{
@@ -1428,13 +1300,14 @@ class Mission
 						position[]={1013.3069,13.161439,2935.1743};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
 					};
-					id=34;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=111;
+					type="B_Survivor_F";
 				};
 				class Item8
 				{
@@ -1444,12 +1317,13 @@ class Mission
 						position[]={975.31854,13.161439,2935.7991};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_9""];}";
 					};
-					id=70;
-					type="B_CTRG_Soldier_Medic_tna_F";
+					id=112;
+					type="B_Survivor_F";
 				};
 			};
 			class Attributes
@@ -1492,145 +1366,154 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1019.3848,13.161439,2926.073};
+						position[]={998.20715,13.161439,2938.3535};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_1""];}";
 					};
-					id=36;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=113;
+					type="B_Survivor_F";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1024.3848,13.161439,2921.073};
+						position[]={1003.2071,13.161439,2933.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_2""];}";
 					};
-					id=37;
-					type="B_CTRG_Soldier_M_tna_F";
+					id=114;
+					type="B_Survivor_F";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1014.3848,13.161439,2921.073};
+						position[]={993.20715,13.161439,2933.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_3""];}";
 					};
-					id=38;
-					type="B_CTRG_Soldier_Medic_tna_F";
+					id=115;
+					type="B_Survivor_F";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1029.3848,13.161439,2916.073};
+						position[]={1008.2071,13.161439,2928.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_4""];}";
 					};
-					id=39;
-					type="B_CTRG_Soldier_tna_F";
+					id=116;
+					type="B_Survivor_F";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1009.3848,13.161439,2916.073};
+						position[]={988.20715,13.161439,2928.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
 					};
-					id=40;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=117;
+					type="B_Survivor_F";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1034.3848,13.161439,2911.073};
+						position[]={1013.2071,13.161439,2923.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
 					};
-					id=41;
-					type="B_CTRG_Soldier_JTAC_tna_F";
+					id=118;
+					type="B_Survivor_F";
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1004.3848,13.161439,2911.073};
+						position[]={983.20715,13.161439,2923.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
 					};
-					id=42;
-					type="B_CTRG_Soldier_Exp_tna_F";
+					id=119;
+					type="B_Survivor_F";
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1039.3848,13.161439,2906.073};
+						position[]={1018.2071,13.161439,2918.3535};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
 					};
-					id=43;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=120;
+					type="B_Survivor_F";
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1000.1359,13.161439,2906.739};
+						position[]={978.95819,13.161439,2919.0195};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_9""];}";
 					};
-					id=71;
-					type="B_CTRG_Soldier_M_tna_F";
+					id=121;
+					type="B_Survivor_F";
 				};
 			};
 			class Attributes
@@ -1673,49 +1556,178 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={939.01349,13.161439,3006.1907};
+						position[]={939.013,13.161439,3006.1912};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Braun_1""];}";
 					};
-					id=45;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=86;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={944.01349,13.161439,3001.1907};
+						position[]={944.013,13.161439,3001.1912};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Braun_2""];}";
 					};
-					id=46;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=87;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={949.01349,13.161439,2996.1907};
+						position[]={949.013,13.161439,2996.1912};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Braun_3""];}";
 					};
-					id=48;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=88;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -1758,49 +1770,178 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={917.96429,13.161439,3026.5564};
+						position[]={917.96399,13.161439,3026.5562};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_01""];}";
 					};
-					id=50;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=92;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={922.96429,13.161439,3021.5564};
+						position[]={922.96399,13.161439,3021.5562};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_02""];}";
 					};
-					id=51;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=93;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={912.96429,13.161439,3021.5564};
+						position[]={912.96399,13.161439,3021.5562};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_03""];}";
 					};
-					id=52;
-					type="B_CTRG_Soldier_tna_F";
+					id=94;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -1846,13 +1987,14 @@ class Mission
 						position[]={962.10034,13.161439,2850.54};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Silber_1""];}";
 					};
-					id=55;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=122;
+					type="B_Survivor_F";
 				};
 				class Item1
 				{
@@ -1862,14 +2004,15 @@ class Mission
 						position[]={967.10034,13.161439,2845.54};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Silber_2""];}";
 					};
-					id=56;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=123;
+					type="B_Survivor_F";
 				};
 				class Item2
 				{
@@ -1879,13 +2022,14 @@ class Mission
 						position[]={957.10034,13.161439,2845.54};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Silber_4""];}";
 					};
-					id=57;
-					type="B_CTRG_Soldier_tna_F";
+					id=124;
+					type="B_Survivor_F";
 				};
 				class Item3
 				{
@@ -1895,13 +2039,14 @@ class Mission
 						position[]={972.10034,13.161439,2840.54};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Silber_3""];}";
 					};
-					id=58;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=125;
+					type="B_Survivor_F";
 				};
 			};
 			class Attributes
@@ -1925,7 +2070,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Platin-1";
+							value="Silber-1";
 						};
 					};
 				};
@@ -1947,146 +2092,14 @@ class Mission
 						position[]={985.97852,13.161439,2823.3403};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="hlc_rifle_ACR68_SBR_black";
-								optics="hlc_optic_HensoldtZO_lo_Docter";
-								flashlight="BWA3_acc_VarioRay_irlaser_black";
-								class primaryMuzzleMag
-								{
-									name="hlc_30rnd_68x43_FMJ";
-									ammoLeft=26;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Glock17_blk";
-								optics="optic_MRD_black";
-								class primaryMuzzleMag
-								{
-									name="CUP_17Rnd_9x19_glock17";
-									ammoLeft=17;
-								};
-							};
-							class uniform
-							{
-								typeName="TTT_Uniform_Silver_BW_Flecktarn";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="CUP_17Rnd_9x19_glock17";
-										count=1;
-										ammoLeft=17;
-									};
-								};
-								class ItemCargo
-								{
-									items=5;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=12;
-									};
-									class Item1
-									{
-										name="ACE_packingBandage";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_CableTie";
-										count=2;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=2;
-									};
-									class Item4
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="TTT_Vest_Crew_US_Desert";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=6;
-									class Item0
-									{
-										name="ACE_M84";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="HandGrenade";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShell";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="CUP_17Rnd_9x19_glock17";
-										count=1;
-										ammoLeft=17;
-									};
-									class Item5
-									{
-										name="hlc_30rnd_68x43_FMJ";
-										count=2;
-										ammoLeft=26;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="TFAR_rt1523g_bwmod";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="TTT_Helmet_Hawk";
-										count=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="TFAR_anprc152";
-							gps="ItemAndroid";
-							headgear="TTT_Beret_Silver";
-						};
+						init="call{this setVariable [""loadout"", ""TTT_Silber_1""];}";
 					};
-					id=60;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=126;
+					type="B_Survivor_F";
 				};
 				class Item1
 				{
@@ -2096,14 +2109,15 @@ class Mission
 						position[]={990.97852,13.161439,2818.3403};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Silber_2""];}";
 					};
-					id=61;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=127;
+					type="B_Survivor_F";
 				};
 				class Item2
 				{
@@ -2113,13 +2127,14 @@ class Mission
 						position[]={980.97852,13.161439,2818.3403};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Silber_4""];}";
 					};
-					id=62;
-					type="B_CTRG_Soldier_tna_F";
+					id=128;
+					type="B_Survivor_F";
 				};
 				class Item3
 				{
@@ -2129,13 +2144,14 @@ class Mission
 						position[]={995.97852,13.161439,2813.3403};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Silber_3""];}";
 					};
-					id=63;
-					type="B_CTRG_Soldier_LAT2_tna_F";
+					id=129;
+					type="B_Survivor_F";
 				};
 			};
 			class Attributes
@@ -2159,7 +2175,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Platin-2";
+							value="Silber-2";
 						};
 					};
 				};
@@ -2178,198 +2194,237 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1007.1711,13.161439,2797.8586};
+						position[]={1007.171,13.161439,2797.8591};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="hlc_rifle_ACR68_SBR_black";
-								optics="hlc_optic_HensoldtZO_lo_Docter";
-								flashlight="BWA3_acc_VarioRay_irlaser_black";
-								class primaryMuzzleMag
-								{
-									name="hlc_30rnd_68x43_FMJ";
-									ammoLeft=26;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Glock17_blk";
-								optics="optic_MRD_black";
-								class primaryMuzzleMag
-								{
-									name="CUP_17Rnd_9x19_glock17";
-									ammoLeft=17;
-								};
-							};
-							class uniform
-							{
-								typeName="TTT_Uniform_Silver_BW_Flecktarn";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="CUP_17Rnd_9x19_glock17";
-										count=1;
-										ammoLeft=17;
-									};
-								};
-								class ItemCargo
-								{
-									items=5;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=12;
-									};
-									class Item1
-									{
-										name="ACE_packingBandage";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_CableTie";
-										count=2;
-									};
-									class Item3
-									{
-										name="ACE_tourniquet";
-										count=2;
-									};
-									class Item4
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="TTT_Vest_Crew_US_Desert";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=6;
-									class Item0
-									{
-										name="ACE_M84";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="HandGrenade";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="SmokeShell";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="CUP_17Rnd_9x19_glock17";
-										count=1;
-										ammoLeft=17;
-									};
-									class Item5
-									{
-										name="hlc_30rnd_68x43_FMJ";
-										count=3;
-										ammoLeft=26;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="TFAR_rt1523g_bwmod";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="TTT_Helmet_Hawk";
-										count=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="TFAR_microdagr";
-							radio="TFAR_anprc152";
-							gps="ItemAndroid";
-							headgear="TTT_Beret_Silver";
-						};
+						init="call{this setVariable [""loadout"", ""TTT_Weiß_1""];}";
 					};
-					id=65;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=130;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1012.1711,13.161439,2792.8586};
+						position[]={1012.171,13.161439,2792.8591};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Weiß_2""];}";
 					};
-					id=66;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=131;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1002.1711,13.161439,2792.8586};
+						position[]={1002.171,13.161439,2792.8591};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Weiß_4""];}";
 					};
-					id=67;
-					type="B_CTRG_Soldier_tna_F";
+					id=132;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.1711,13.161439,2787.8586};
+						position[]={1017.171,13.161439,2787.8591};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Weiß_3""];}";
 					};
-					id=68;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=133;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -2412,49 +2467,178 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1056.6606,13.161439,2877.6411};
+						position[]={1056.661,13.161439,2877.6411};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Gold_1""];}";
 					};
-					id=73;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=89;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1061.6606,13.161439,2872.6411};
+						position[]={1061.661,13.161439,2872.6411};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Gold_2""];}";
 					};
-					id=74;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=90;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1066.6606,13.161439,2867.6411};
+						position[]={1066.661,13.161439,2867.6411};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Gold_3""];}";
 					};
-					id=76;
-					type="B_CTRG_Soldier_LAT2_tna_F";
+					id=91;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -2497,65 +2681,237 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1041.1,13.161439,2898.4084};
+						position[]={1041.1,13.161439,2898.408};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{this setVariable [""loadout"", ""TTT_Blau_1""];}";
 					};
-					id=78;
-					type="B_CTRG_Soldier_TL_tna_F";
+					id=82;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1046.1,13.161439,2893.4084};
+						position[]={1046.1,13.161439,2893.408};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
+						init="call{this setVariable [""loadout"", ""TTT_Blau_2""];}";
 					};
-					id=79;
-					type="B_CTRG_Soldier_AR_tna_F";
+					id=83;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1036.1,13.161439,2893.4084};
+						position[]={1036.1,13.161439,2893.408};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Blau_3""];}";
 					};
-					id=80;
-					type="B_CTRG_Soldier_tna_F";
+					id=84;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1051.1,13.161439,2888.4084};
+						position[]={1051.1,13.161439,2888.408};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
+						init="call{this setVariable [""loadout"", ""TTT_Blau_4""];}";
 					};
-					id=81;
-					type="B_CTRG_Soldier_LAT_tna_F";
+					id=85;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
