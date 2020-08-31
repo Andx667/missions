@@ -52,7 +52,7 @@ for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";
 for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
 player addHeadgear "TTT_Beret_Green";
 
-player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_black"];
+player addGoggles selectRandom ["BWA3_G_Combat_orange"];
 
 comment "Add items";
 player linkItem "ItemMap";

@@ -48,7 +48,7 @@ player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
 player addHeadgear "TTT_Beret_Green";
 
-player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_black"];
+player addGoggles selectRandom ["BWA3_G_Combat_orange"];
 
 comment "Add items";
 player linkItem "ItemMap";
