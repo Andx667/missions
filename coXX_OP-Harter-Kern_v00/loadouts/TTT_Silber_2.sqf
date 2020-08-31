@@ -15,7 +15,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_Carb_black";
+player addWeapon "hlc_rifle_ACR68_SBR_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
@@ -24,12 +24,9 @@ player addHandgunItem "optic_MRD_black";
 player addHandgunItem "CUP_17Rnd_9x19_glock17";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_White_BW_Flecktarn";
+player forceAddUniform "TTT_Uniform_Silver_BW_Flecktarn";
 player addVest "TTT_Vest_Crew_US_Desert";
-player addBackpack "B_Carryall_khk";
-
-comment "Add binoculars";
-player addWeapon "Binocular";
+player addBackpack "TFAR_rt1523g_bwmod";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -38,26 +35,19 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
+
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
-player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
-for "_i" from 1 to 27 do {player addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 27 do {player addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 9 do {player addItemToBackpack "ACE_quikclot";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_adenosine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV_250";};
-player addHeadgear "TTT_Beret_White";
+for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
+player addItemToBackpack "TTT_Helmet_Hawk";
+player addHeadgear "TTT_Beret_Silver";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
-player linkItem "TFAR_rf7800str";
-player linkItem "ItemMicroDAGR";
+player linkItem "TFAR_anprc152";
+player linkItem "ItemAndroid";
