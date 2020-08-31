@@ -27,4 +27,4 @@ setDate [2035, 6, 12, 7, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei M
 	heli_02,
 	heli_03,
 	heli_04
-],14] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS
+],10] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS

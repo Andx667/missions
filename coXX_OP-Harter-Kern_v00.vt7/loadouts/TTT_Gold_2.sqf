@@ -30,7 +30,7 @@ player addVest "TTT_Vest_Heavy_Gold_US_Desert";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add binoculars";
-player addWeapon "Rangefinder";
+player addWeapon "Laserdesignator_03";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -41,6 +41,7 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_Tracer";};
 player addItemToVest "ACE_M84";
+player addItemToVest "Laserbatteries";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
