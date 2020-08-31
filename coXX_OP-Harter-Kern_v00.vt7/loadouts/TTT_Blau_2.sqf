@@ -54,6 +54,7 @@ player addItemToBackpack "ACE_SpraypaintRed";
 player addItemToBackpack "ACE_SpraypaintGreen";
 player addItemToBackpack "ACE_SpraypaintBlue";
 player addItemToBackpack "ACE_SpraypaintBlack";
+player addItemToBackpack "ACE_VMH3";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
 

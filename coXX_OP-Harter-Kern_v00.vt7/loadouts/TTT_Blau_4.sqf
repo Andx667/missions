@@ -50,6 +50,7 @@ player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ACE_VMH3";
 player addItemToBackpack "ACE_SpraypaintRed";
 player addItemToBackpack "ACE_SpraypaintGreen";
 player addItemToBackpack "ACE_SpraypaintBlue";

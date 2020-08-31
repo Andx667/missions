@@ -50,6 +50,7 @@ player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ACE_VMH3";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
 
