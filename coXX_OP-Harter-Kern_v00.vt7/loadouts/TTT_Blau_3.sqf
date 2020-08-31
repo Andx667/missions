@@ -64,3 +64,6 @@ player linkItem "ItemMicroDAGR";
     sleep 60;
     [player,"insignia29"] call bis_fnc_setUnitInsignia;
 };
+
+player setVariable ["ACE_isEngineer", 1];
+player setVariable ["ACE_isEOD", true];

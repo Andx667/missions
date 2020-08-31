@@ -67,3 +67,5 @@ player linkItem "ItemAndroid";
     sleep 60;
    	[player,"MedB"] call BIS_fnc_setUnitInsignia;
 };
+
+player setVariable ["ace_medical_medicClass", 2];
