@@ -64,3 +64,8 @@ player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
 player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
+
+[] spawn {
+    sleep 60;
+   	[player,"MedA"] call BIS_fnc_setUnitInsignia;
+};

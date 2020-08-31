@@ -1,4 +1,4 @@
-player setRank "SERGEANT";
+player setRank "LIEUTNANT";
 
 comment "Exported from Arsenal by Andx";
 
@@ -64,3 +64,8 @@ player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
+
+[] spawn {
+    sleep 60;
+   	[player,"MedA"] call BIS_fnc_setUnitInsignia;
+};

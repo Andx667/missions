@@ -55,3 +55,18 @@ player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
 player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
+
+[] spawn {
+    sleep 60;
+	_insiginia = [0.35, 0.06, 0.09, 0.02, 0.04, 0.01, 0.37, 0.06] selectRandomWeighted [
+		"USP_PATCH_BLOOD_OPOS_BLK",
+		"USP_PATCH_BLOOD_ONEG_BLK",
+		"USP_PATCH_BLOOD_BPOS_BLK",
+		"USP_PATCH_BLOOD_BNEG_BLK",
+		"USP_PATCH_BLOOD_ABPOS_BLK",
+		"USP_PATCH_BLOOD_ABNEG_BLK",
+		"USP_PATCH_BLOOD_APOS_BLK",
+		"USP_PATCH_BLOOD_ANEG_BLK"
+		];
+    [player, _insignia] call bis_fnc_setUnitInsignia;
+};
