@@ -32,7 +32,7 @@ player addVest "TTT_Vest_Heavy_Green_US_Woodland";
 player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -48,6 +48,7 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToBackpack "TTT_Helmet_9_BW_Flecktarn";
+player addItemToBackpack "ACE_EntrenchingTool";
 player addHeadgear "TTT_Beret_Green";
 
 player addGoggles selectRandom ["BWA3_G_Combat_orange"];

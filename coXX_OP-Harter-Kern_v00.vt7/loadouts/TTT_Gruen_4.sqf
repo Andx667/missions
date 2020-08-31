@@ -46,6 +46,7 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
+player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
 player addHeadgear "TTT_Beret_Green";
 

@@ -1,4 +1,3 @@
-player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
@@ -19,7 +18,7 @@ comment "Add weapons";
 player addWeapon "hlc_lmg_mk48mod1";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter";
-player addPrimaryWeaponItem "hlc_200Rnd_762x51_M_M60E4";
+player addPrimaryWeaponItem "150Rnd_762x51_Box_Tracer";
 player addWeapon "CUP_hgun_Glock17_blk";
 player addHandgunItem "optic_MRD_black";
 player addHandgunItem "CUP_17Rnd_9x19_glock17";
@@ -39,17 +38,19 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
 player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_Maptools";
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
-player addItemToVest "hlc_100Rnd_762x51_M_M60E4";
+player addItemToVest "150Rnd_762x51_Box_Tracer";
 player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
-player addItemToBackpack "hlc_100Rnd_762x51_M_M60E4";
+for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
+player addItemToBackpack "ACE_EntrenchingTool";
 player addHeadgear "TTT_Beret_Green";
 
-player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_clear"];
+player addGoggles selectRandom ["BWA3_G_Combat_orange"];
 
 comment "Add items";
 player linkItem "ItemMap";

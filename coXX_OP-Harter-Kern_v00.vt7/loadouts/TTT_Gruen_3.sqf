@@ -47,6 +47,7 @@ player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToVest "150Rnd_762x51_Box_Tracer";
 player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
+player addItemToBackpack "ACE_EntrenchingTool";
 player addHeadgear "TTT_Beret_Green";
 
 player addGoggles selectRandom ["BWA3_G_Combat_orange"];

@@ -46,6 +46,7 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToBackpack "TTT_Helmet_6_BW_Flecktarn";
+player addItemToBackpack "ACE_EntrenchingTool";
 for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
