@@ -54,6 +54,8 @@ for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
 player addHeadgear "TTT_Beret_Gold";
 
+player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_clear","BWA3_G_Combat_black"];
+
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";

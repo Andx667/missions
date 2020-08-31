@@ -38,7 +38,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
-player addItemToUniform "ACE_morphine"
+player addItemToUniform "ACE_morphine";
 player addItemToVest "ACE_DefusalKit";
 player addItemToVest "ACE_M26_Clacker";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
@@ -56,6 +56,8 @@ player addItemToBackpack "ACE_SpraypaintBlue";
 player addItemToBackpack "ACE_SpraypaintBlack";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
+
+player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_clear","BWA3_G_Combat_black"];
 
 comment "Add items";
 player linkItem "ItemMap";

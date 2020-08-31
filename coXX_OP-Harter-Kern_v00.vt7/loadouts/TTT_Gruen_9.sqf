@@ -50,6 +50,8 @@ player addItemToVest "CUP_17Rnd_9x19_glock17";
 player addItemToBackpack "TTT_Helmet_9_BW_Flecktarn";
 player addHeadgear "TTT_Beret_Green";
 
+player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_clear","BWA3_G_Combat_black"];
+
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";

@@ -49,6 +49,8 @@ player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 player addItemToBackpack "hlc_100Rnd_762x51_M_M60E4";
 player addHeadgear "TTT_Beret_Green";
 
+player addGoggles selectRandom ["BWA3_G_Combat_orange","BWA3_G_Combat_clear","BWA3_G_Combat_black"];
+
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
