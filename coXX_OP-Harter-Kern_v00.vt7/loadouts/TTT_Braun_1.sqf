@@ -1,4 +1,4 @@
-player setRank "LIEUTNANT";
+player setRank "LIEUTENANT";
 
 comment "Exported from Arsenal by Andx";
 

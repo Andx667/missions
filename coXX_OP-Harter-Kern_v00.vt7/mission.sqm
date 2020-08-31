@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=138;
+		nextID=190;
 	};
 	class Camera
 	{
-		pos[]={1024.8296,59.327267,2871.2378};
-		dir[]={-0.49198705,-0.75410354,-0.43516958};
-		up[]={-0.56484944,0.65674728,-0.49961573};
-		aside[]={-0.66255826,1.8703286e-006,0.74907041};
+		pos[]={1008.0339,97.223824,3000.9941};
+		dir[]={-0.74848807,-0.63071424,0.20544672};
+		up[]={-0.60827583,0.77592719,0.16696243};
+		aside[]={0.26473555,3.4908298e-006,0.9644503};
 	};
 };
 binarizationWanted=0;
@@ -773,8 +773,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={990.67749,15.030912,2849.3037};
-				angles[]={0,0.9098227,0};
+				position[]={894.09167,15.030912,3047.9546};
+				angles[]={-0,0.9098227,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1202,8 +1202,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1004.8065,15.030912,2828.6816};
-				angles[]={0,0.9098227,0};
+				position[]={908.2207,15.030912,3027.3325};
+				angles[]={-0,0.9098227,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1631,8 +1631,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1024.0015,15.030912,2804.6396};
-				angles[]={0,0.9538399,0};
+				position[]={927.41565,15.030912,3003.2905};
+				angles[]={-0,0.9538399,0};
 			};
 			side="Empty";
 			flags=4;
@@ -2011,7 +2011,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={991.39288,13.161439,2967.3809};
+						position[]={933.99261,13.442278,2912.3689};
+						angles[]={6.278327,4.0753169,6.2791295};
 					};
 					side="West";
 					flags=6;
@@ -2023,15 +2024,16 @@ class Mission
 						isPlayer=1;
 						isPlayable=1;
 					};
-					id=95;
-					type="B_Survivor_F";
+					id=151;
+					type="B_Soldier_F";
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={996.39288,13.161439,2962.3809};
+						position[]={935.573,13.46072,2908.2576};
+						angles[]={6.2802353,5.5099468,0.00417188};
 					};
 					side="West";
 					flags=4;
@@ -2043,15 +2045,16 @@ class Mission
 						description="#2 Truppführer";
 						isPlayable=1;
 					};
-					id=96;
-					type="B_Survivor_F";
+					id=152;
+					type="B_Soldier_F";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={986.39288,13.161439,2962.3809};
+						position[]={936.6629,13.467038,2908.856};
+						angles[]={6.2802353,5.5099468,0.00417188};
 					};
 					side="West";
 					flags=4;
@@ -2062,15 +2065,16 @@ class Mission
 						description="#3 MG-Schütze";
 						isPlayable=1;
 					};
-					id=97;
-					type="B_Survivor_F";
+					id=153;
+					type="B_Soldier_F";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1001.3929,13.161439,2957.3809};
+						position[]={934.01685,13.437821,2907.1616};
+						angles[]={-0,5.5099468,0};
 					};
 					side="West";
 					flags=4;
@@ -2081,15 +2085,16 @@ class Mission
 						description="#4 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=98;
-					type="B_Survivor_F";
+					id=154;
+					type="B_Soldier_F";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={981.39288,13.161439,2957.3809};
+						position[]={932.815,13.437821,2906.3796};
+						angles[]={-0,5.5099468,0};
 					};
 					side="West";
 					flags=4;
@@ -2100,15 +2105,16 @@ class Mission
 						description="#5 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=99;
-					type="B_Survivor_F";
+					id=155;
+					type="B_Soldier_F";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1006.3929,13.161439,2952.3809};
+						position[]={931.58185,13.437562,2905.2192};
+						angles[]={-0,5.5099468,0};
 					};
 					side="West";
 					flags=4;
@@ -2120,15 +2126,16 @@ class Mission
 						description="#6 Truppführer";
 						isPlayable=1;
 					};
-					id=100;
-					type="B_Survivor_F";
+					id=156;
+					type="B_Soldier_F";
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={976.39288,13.161439,2952.3809};
+						position[]={930.29694,13.437562,2904.5398};
+						angles[]={-0,5.5099468,0};
 					};
 					side="West";
 					flags=4;
@@ -2139,15 +2146,16 @@ class Mission
 						description="#7 MG-Schütze";
 						isPlayable=1;
 					};
-					id=101;
-					type="B_Survivor_F";
+					id=157;
+					type="B_Soldier_F";
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1011.3929,13.161439,2947.3809};
+						position[]={928.26208,13.439862,2903.3066};
+						angles[]={-0,5.5099468,0};
 					};
 					side="West";
 					flags=4;
@@ -2158,15 +2166,16 @@ class Mission
 						description="#8 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=102;
-					type="B_Survivor_F";
+					id=158;
+					type="B_Soldier_F";
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={974.03436,13.161439,2949.9102};
+						position[]={927.16748,13.439862,2902.4956};
+						angles[]={-0,5.5099468,0};
 					};
 					side="West";
 					flags=4;
@@ -2176,8 +2185,8 @@ class Mission
 						description="#9 Gruppenscharfschütze";
 						isPlayable=1;
 					};
-					id=103;
-					type="B_Survivor_F";
+					id=159;
+					type="B_Soldier_F";
 				};
 			};
 			class Attributes
@@ -2220,7 +2229,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={993.30701,13.161439,2955.1741};
+						position[]={967,13.412709,2912.05};
+						angles[]={-0,4.0225701,0};
 					};
 					side="West";
 					flags=6;
@@ -2231,8 +2241,8 @@ class Mission
 						description="#1 Gruppenführer@Infanteriegruppe ""Grün-2""";
 						isPlayable=1;
 					};
-					id=104;
-					type="B_Survivor_F";
+					id=160;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2281,7 +2291,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={998.30688,13.161439,2950.1743};
+						position[]={962.70892,13.412709,2905.9758};
 					};
 					side="West";
 					flags=4;
@@ -2293,15 +2303,15 @@ class Mission
 						description="#2 Truppführer";
 						isPlayable=1;
 					};
-					id=105;
-					type="B_Survivor_F";
+					id=161;
+					type="B_Soldier_F";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={988.30688,13.161439,2950.1743};
+						position[]={961.29742,13.412709,2905.0764};
 					};
 					side="West";
 					flags=4;
@@ -2312,15 +2322,15 @@ class Mission
 						description="#3 MG-Schütze";
 						isPlayable=1;
 					};
-					id=106;
-					type="B_Survivor_F";
+					id=162;
+					type="B_Soldier_F";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1003.3069,13.161439,2945.1743};
+						position[]={958.09131,13.412709,2903.1563};
 					};
 					side="West";
 					flags=4;
@@ -2331,15 +2341,16 @@ class Mission
 						description="#4 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=107;
-					type="B_Survivor_F";
+					id=163;
+					type="B_Soldier_F";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={983.30688,13.161439,2945.1743};
+						position[]={957.51208,13.412709,2909.8762};
+						angles[]={-0,2.3973417,0};
 					};
 					side="West";
 					flags=4;
@@ -2350,15 +2361,16 @@ class Mission
 						description="#5 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=108;
-					type="B_Survivor_F";
+					id=164;
+					type="B_Soldier_F";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1008.3069,13.161439,2940.1743};
+						position[]={958.69867,13.412709,2910.5918};
+						angles[]={-0,2.3441379,0};
 					};
 					side="West";
 					flags=4;
@@ -2370,15 +2382,16 @@ class Mission
 						description="#6 Truppführer";
 						isPlayable=1;
 					};
-					id=109;
-					type="B_Survivor_F";
+					id=165;
+					type="B_Soldier_F";
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={978.30688,13.161439,2940.1743};
+						position[]={954.84363,13.412709,2908.0405};
+						angles[]={-0,2.3105187,0};
 					};
 					side="West";
 					flags=4;
@@ -2389,15 +2402,16 @@ class Mission
 						description="#7 MG-Schütze";
 						isPlayable=1;
 					};
-					id=110;
-					type="B_Survivor_F";
+					id=166;
+					type="B_Soldier_F";
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1013.3069,13.161439,2935.1743};
+						position[]={956,13.412709,2909.05};
+						angles[]={-0,2.5063846,0};
 					};
 					side="West";
 					flags=4;
@@ -2408,15 +2422,15 @@ class Mission
 						description="#8 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=111;
-					type="B_Survivor_F";
+					id=167;
+					type="B_Soldier_F";
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={975.31854,13.161439,2935.7991};
+						position[]={959.78009,13.412709,2904.0583};
 					};
 					side="West";
 					flags=4;
@@ -2426,8 +2440,8 @@ class Mission
 						description="#9 Gruppenscharfschütze";
 						isPlayable=1;
 					};
-					id=112;
-					type="B_Survivor_F";
+					id=168;
+					type="B_Soldier_F";
 				};
 			};
 			class Attributes
@@ -2470,7 +2484,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={998.20697,13.161439,2938.353};
+						position[]={947.05402,13.412709,2900.2007};
+						angles[]={-0,3.6005759,0};
 					};
 					side="West";
 					flags=6;
@@ -2481,8 +2496,8 @@ class Mission
 						description="#1 Gruppenführer@Infanteriegruppe ""Grün-3""";
 						isPlayable=1;
 					};
-					id=113;
-					type="B_Survivor_F";
+					id=169;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2531,7 +2546,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1003.2071,13.161439,2933.3535};
+						position[]={940,13.412709,2897.05};
+						angles[]={-0,1.8748424,0};
 					};
 					side="West";
 					flags=4;
@@ -2543,15 +2559,16 @@ class Mission
 						description="#2 Truppführer";
 						isPlayable=1;
 					};
-					id=114;
-					type="B_Survivor_F";
+					id=170;
+					type="B_Soldier_F";
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={993.20715,13.161439,2933.3535};
+						position[]={939,13.412709,2896.05};
+						angles[]={-0,1.6252456,0};
 					};
 					side="West";
 					flags=4;
@@ -2562,15 +2579,16 @@ class Mission
 						description="#3 MG-Schütze";
 						isPlayable=1;
 					};
-					id=115;
-					type="B_Survivor_F";
+					id=171;
+					type="B_Soldier_F";
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1008.2071,13.161439,2928.3535};
+						position[]={938,13.412709,2895.05};
+						angles[]={-0,1.4657151,0};
 					};
 					side="West";
 					flags=4;
@@ -2581,15 +2599,16 @@ class Mission
 						description="#4 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=116;
-					type="B_Survivor_F";
+					id=172;
+					type="B_Soldier_F";
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={988.20715,13.161439,2928.3535};
+						position[]={937,13.412709,2894.05};
+						angles[]={-0,1.360633,0};
 					};
 					side="West";
 					flags=4;
@@ -2600,15 +2619,15 @@ class Mission
 						description="#5 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=117;
-					type="B_Survivor_F";
+					id=173;
+					type="B_Soldier_F";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1013.2071,13.161439,2923.3535};
+						position[]={943,13.412709,2892.05};
 					};
 					side="West";
 					flags=4;
@@ -2620,15 +2639,15 @@ class Mission
 						description="#6 Truppführer";
 						isPlayable=1;
 					};
-					id=118;
-					type="B_Survivor_F";
+					id=174;
+					type="B_Soldier_F";
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={983.20715,13.161439,2923.3535};
+						position[]={942,13.412709,2891.05};
 					};
 					side="West";
 					flags=4;
@@ -2639,15 +2658,15 @@ class Mission
 						description="#7 MG-Schütze";
 						isPlayable=1;
 					};
-					id=119;
-					type="B_Survivor_F";
+					id=175;
+					type="B_Soldier_F";
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1018.2071,13.161439,2918.3535};
+						position[]={941,13.412709,2890.05};
 					};
 					side="West";
 					flags=4;
@@ -2658,15 +2677,15 @@ class Mission
 						description="#8 Gewehrschütze";
 						isPlayable=1;
 					};
-					id=120;
-					type="B_Survivor_F";
+					id=176;
+					type="B_Soldier_F";
 				};
 				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={978.95819,13.161439,2919.0195};
+						position[]={940,13.412709,2889.05};
 					};
 					side="West";
 					flags=4;
@@ -2676,8 +2695,8 @@ class Mission
 						description="#9 Gruppenscharfschütze";
 						isPlayable=1;
 					};
-					id=121;
-					type="B_Survivor_F";
+					id=177;
+					type="B_Soldier_F";
 				};
 			};
 			class Attributes
@@ -2720,7 +2739,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={961.26538,13.161439,2976.6797};
+						position[]={919.86182,13.391109,2925.2371};
+						angles[]={-0,0.93081594,-0};
 					};
 					side="West";
 					flags=6;
@@ -2731,8 +2751,8 @@ class Mission
 						description="#1 Feldarzt@Beweglicher Sanitätstrupp ""Braun""";
 						isPlayable=1;
 					};
-					id=86;
-					type="B_Survivor_F";
+					id=142;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2781,7 +2801,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={966.26538,13.161439,2971.6797};
+						position[]={918.76428,13.391824,2926.7476};
+						angles[]={-0,0.81161296,-0};
 					};
 					side="West";
 					flags=4;
@@ -2793,8 +2814,8 @@ class Mission
 						description="#2 Gefechtssanitäter";
 						isPlayable=1;
 					};
-					id=87;
-					type="B_Survivor_F";
+					id=143;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2843,7 +2864,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={971.26538,13.161439,2966.6797};
+						position[]={917.85779,13.392447,2928.095};
+						angles[]={-0,0.95247436,-0};
 					};
 					side="West";
 					flags=4;
@@ -2854,8 +2876,8 @@ class Mission
 						description="#3 Gefechtssanitäter";
 						isPlayable=1;
 					};
-					id=88;
-					type="B_Survivor_F";
+					id=144;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2940,7 +2962,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={976.00232,13.161439,2987.9854};
+						position[]={948.1618,13.469604,2922.2793};
+						angles[]={0.0023161219,1.7868888,6.2791591};
 					};
 					side="West";
 					flags=6;
@@ -2951,8 +2974,8 @@ class Mission
 						description="#1 Zugführer@Infanterie Zug ""Grün""";
 						isPlayable=1;
 					};
-					id=92;
-					type="B_Survivor_F";
+					id=148;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3001,7 +3024,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={981.00232,13.161439,2982.9854};
+						position[]={949.61145,13.468851,2920.0886};
+						angles[]={0.0023161219,0,6.2791591};
 					};
 					side="West";
 					flags=4;
@@ -3013,8 +3037,8 @@ class Mission
 						description="#2 Stellv. Zugführer";
 						isPlayable=1;
 					};
-					id=93;
-					type="B_Survivor_F";
+					id=149;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3063,7 +3087,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={971.00232,13.161439,2982.9854};
+						position[]={949.68683,13.460441,2923.2358};
+						angles[]={0.0028887119,2.2432196,6.278985};
 					};
 					side="West";
 					flags=4;
@@ -3074,8 +3099,8 @@ class Mission
 						description="#3 Funker";
 						isPlayable=1;
 					};
-					id=94;
-					type="B_Survivor_F";
+					id=150;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3160,7 +3185,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={962.09998,13.161439,2850.54};
+						position[]={956.29456,13.439862,2927.8667};
+						angles[]={-0,1.6534104,0};
 					};
 					side="West";
 					flags=6;
@@ -3171,8 +3197,8 @@ class Mission
 						description="#1 Co-Pilot@Flugbereitschaft ""Silber-1""";
 						isPlayable=1;
 					};
-					id=122;
-					type="B_Survivor_F";
+					id=178;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3221,7 +3247,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={967.09998,13.161439,2845.54};
+						position[]={958.04938,13.439862,2929.2466};
+						angles[]={-0,3.098712,0};
 					};
 					side="West";
 					flags=4;
@@ -3233,8 +3260,8 @@ class Mission
 						description="#2 Pilot";
 						isPlayable=1;
 					};
-					id=123;
-					type="B_Survivor_F";
+					id=179;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3283,7 +3310,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={972.09998,13.161439,2840.54};
+						position[]={956.96606,13.439862,2926.3035};
+						angles[]={-0,0.89036566,0};
 					};
 					side="West";
 					flags=4;
@@ -3294,8 +3322,8 @@ class Mission
 						description="#3 Crew Chief";
 						isPlayable=1;
 					};
-					id=125;
-					type="B_Survivor_F";
+					id=180;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3344,7 +3372,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={958.97998,13.161439,2846.9321};
+						position[]={959.70007,13.439862,2926.9363};
+						angles[]={-0,4.1756845,0};
 					};
 					side="West";
 					flags=4;
@@ -3355,8 +3384,8 @@ class Mission
 						description="#4 Doorgunner";
 						isPlayable=1;
 					};
-					id=124;
-					type="B_Survivor_F";
+					id=181;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3441,7 +3470,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={985.979,13.161439,2823.3401};
+						position[]={952.37653,13.437821,2925.3337};
+						angles[]={-0,2.7922873,0};
 					};
 					side="West";
 					flags=6;
@@ -3452,8 +3482,8 @@ class Mission
 						description="#1 Co-Pilot@Flugbereitschaft ""Silber-2""";
 						isPlayable=1;
 					};
-					id=126;
-					type="B_Survivor_F";
+					id=182;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3502,7 +3532,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={990.979,13.161439,2818.3401};
+						position[]={953.94891,13.437821,2923.0867};
+						angles[]={-0,5.1167812,0};
 					};
 					side="West";
 					flags=4;
@@ -3514,8 +3545,8 @@ class Mission
 						description="#2 Pilot";
 						isPlayable=1;
 					};
-					id=127;
-					type="B_Survivor_F";
+					id=183;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3564,7 +3595,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={995.979,13.161439,2813.3401};
+						position[]={951.93182,13.437821,2922.634};
+						angles[]={-0,0.28215054,0};
 					};
 					side="West";
 					flags=4;
@@ -3575,8 +3607,8 @@ class Mission
 						description="#3 Crew Chief";
 						isPlayable=1;
 					};
-					id=129;
-					type="B_Survivor_F";
+					id=184;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3625,7 +3657,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={980.979,13.161439,2818.3401};
+						position[]={950.78131,13.437821,2923.9861};
+						angles[]={-0,1.7411556,0};
 					};
 					side="West";
 					flags=4;
@@ -3636,8 +3669,8 @@ class Mission
 						description="#4 Doorgunner";
 						isPlayable=1;
 					};
-					id=128;
-					type="B_Survivor_F";
+					id=185;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3722,7 +3755,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1007.171,13.161439,2797.8591};
+						position[]={915.31683,13.392436,2926.3215};
+						angles[]={-0,0.98560464,-0};
 					};
 					side="West";
 					flags=6;
@@ -3733,8 +3767,8 @@ class Mission
 						description="#1 Co-Pilot@Forward Air MedEvac ""Weiß""";
 						isPlayable=1;
 					};
-					id=130;
-					type="B_Survivor_F";
+					id=186;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3783,7 +3817,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1012.171,13.161439,2792.8591};
+						position[]={916.19873,13.391811,2924.9521};
+						angles[]={-0,0.95496398,-0};
 					};
 					side="West";
 					flags=4;
@@ -3795,8 +3830,8 @@ class Mission
 						description="#2 Pilot";
 						isPlayable=1;
 					};
-					id=131;
-					type="B_Survivor_F";
+					id=187;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3845,7 +3880,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1017.171,13.161439,2787.8591};
+						position[]={917.17792,13.391156,2923.5535};
+						angles[]={-0,0.87551451,-0};
 					};
 					side="West";
 					flags=4;
@@ -3856,8 +3892,8 @@ class Mission
 						description="#3 Leitender Notarzt";
 						isPlayable=1;
 					};
-					id=133;
-					type="B_Survivor_F";
+					id=188;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3906,7 +3942,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1002.171,13.161439,2792.8591};
+						position[]={918.15906,13.390532,2922.2498};
+						angles[]={-0,0.91958767,-0};
 					};
 					side="West";
 					flags=4;
@@ -3917,8 +3954,8 @@ class Mission
 						description="#4 Notarzt";
 						isPlayable=1;
 					};
-					id=132;
-					type="B_Survivor_F";
+					id=189;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4003,7 +4040,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1056.661,13.161439,2877.6411};
+						position[]={921.28339,13.39203,2929.1187};
+						angles[]={-0,1.1011604,-0};
 					};
 					side="West";
 					flags=6;
@@ -4014,8 +4052,8 @@ class Mission
 						description="#1 JTAC@Tactical Air Control Party ""Gold""";
 						isPlayable=1;
 					};
-					id=89;
-					type="B_Survivor_F";
+					id=145;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4064,7 +4102,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1061.661,13.161439,2872.6411};
+						position[]={922.4115,13.391244,2927.4104};
+						angles[]={-0,0.87299031,-0};
 					};
 					side="West";
 					flags=4;
@@ -4076,8 +4115,8 @@ class Mission
 						description="#2 FAC";
 						isPlayable=1;
 					};
-					id=90;
-					type="B_Survivor_F";
+					id=146;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4126,7 +4165,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1066.661,13.161439,2867.6411};
+						position[]={923.50037,13.390273,2925.769};
+						angles[]={6.2826972,0.71490133,6.2822089};
 					};
 					side="West";
 					flags=4;
@@ -4137,8 +4177,8 @@ class Mission
 						description="#3 FAC";
 						isPlayable=1;
 					};
-					id=91;
-					type="B_Survivor_F";
+					id=147;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4223,7 +4263,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1041.1,13.161439,2898.408};
+						position[]={913.10468,13.392438,2923.4443};
+						angles[]={0.00034526698,1.0877016,6.2826972};
 					};
 					side="West";
 					flags=6;
@@ -4234,8 +4275,8 @@ class Mission
 						description="#1 Truppführer@Pioniertrupp ""Blau""";
 						isPlayable=1;
 					};
-					id=82;
-					type="B_Survivor_F";
+					id=138;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4284,7 +4325,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1046.1,13.161439,2893.408};
+						position[]={913.86493,13.392377,2922.5369};
+						angles[]={0.00034526698,1.0920293,6.2826972};
 					};
 					side="West";
 					flags=4;
@@ -4296,8 +4338,8 @@ class Mission
 						description="#2 Kampfpionier";
 						isPlayable=1;
 					};
-					id=83;
-					type="B_Survivor_F";
+					id=139;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4346,7 +4388,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1051.1,13.161439,2888.408};
+						position[]={914.74518,13.392335,2921.3943};
+						angles[]={0.00034526698,0.83951616,6.2826972};
 					};
 					side="West";
 					flags=4;
@@ -4357,8 +4400,8 @@ class Mission
 						description="#3 Kampfpionier";
 						isPlayable=1;
 					};
-					id=85;
-					type="B_Survivor_F";
+					id=140;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4407,7 +4450,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1036.1,13.161439,2893.408};
+						position[]={915.46783,13.392365,2920.2583};
+						angles[]={0.00034526698,0.82706797,6.2826972};
 					};
 					side="West";
 					flags=4;
@@ -4418,8 +4462,8 @@ class Mission
 						description="#4 Kampfpionier";
 						isPlayable=1;
 					};
-					id=84;
-					type="B_Survivor_F";
+					id=141;
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
