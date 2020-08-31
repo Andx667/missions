@@ -16,10 +16,10 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_FULL_black";
+player addWeapon "hlc_rifle_ACR68_mid_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
-player addPrimaryWeaponItem "CUP_30Rnd_680x43_Stanag";
+player addWeapon "BWA3_RGW90_Loaded";
 player addWeapon "CUP_hgun_Glock17_blk";
 player addHandgunItem "optic_MRD_black";
 player addHandgunItem "CUP_17Rnd_9x19_glock17";

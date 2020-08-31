@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_FULL_black";
+player addWeapon "hlc_rifle_ACR68_mid_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
 player addPrimaryWeaponItem "muzzle_snds_65_TI_blk_F";
