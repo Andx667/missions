@@ -33,7 +33,7 @@ for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "ACE_morphine";
+player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
 
 player addItemToVest "ACE_M84";
