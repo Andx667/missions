@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={996.26697,20.050331,2820.9583};
-		dir[]={-0.71824455,-0.63164181,-0.29222783};
-		up[]={-0.5850991,0.77522337,-0.23805727};
-		aside[]={-0.37691242,3.1362288e-007,0.92639589};
+		pos[]={1038.9443,60.150093,2766.1558};
+		dir[]={-0.46559477,-0.73542136,0.49256721};
+		up[]={-0.50518584,0.67759091,0.53444999};
+		aside[]={0.72682393,7.4814307e-007,0.68701911};
 	};
 };
 binarizationWanted=0;
@@ -2185,6 +2185,139 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="hlc_rifle_ACR68_SBR_black";
+								optics="hlc_optic_HensoldtZO_lo_Docter";
+								flashlight="BWA3_acc_VarioRay_irlaser_black";
+								class primaryMuzzleMag
+								{
+									name="hlc_30rnd_68x43_FMJ";
+									ammoLeft=26;
+								};
+							};
+							class handgun
+							{
+								name="CUP_hgun_Glock17_blk";
+								optics="optic_MRD_black";
+								class primaryMuzzleMag
+								{
+									name="CUP_17Rnd_9x19_glock17";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="TTT_Uniform_Silver_BW_Flecktarn";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="CUP_17Rnd_9x19_glock17";
+										count=1;
+										ammoLeft=17;
+									};
+								};
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=12;
+									};
+									class Item1
+									{
+										name="ACE_packingBandage";
+										count=2;
+									};
+									class Item2
+									{
+										name="ACE_CableTie";
+										count=2;
+									};
+									class Item3
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item4
+									{
+										name="ACE_morphine";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TTT_Vest_Crew_US_Desert";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="ACE_M84";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_17Rnd_9x19_glock17";
+										count=1;
+										ammoLeft=17;
+									};
+									class Item5
+									{
+										name="hlc_30rnd_68x43_FMJ";
+										count=3;
+										ammoLeft=26;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="TFAR_rt1523g_bwmod";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="TTT_Helmet_Hawk";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="TFAR_microdagr";
+							radio="TFAR_anprc152";
+							gps="ItemAndroid";
+							headgear="TTT_Beret_Silver";
+						};
 					};
 					id=65;
 					type="B_CTRG_Soldier_TL_tna_F";
