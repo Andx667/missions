@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2616;
+		nextID=2632;
 	};
 	class Camera
 	{
-		pos[]={18251.535,30.474173,14588.848};
-		dir[]={0.70409763,-0.32288724,0.63262749};
-		up[]={0.24027351,0.94634289,0.21588355};
-		aside[]={0.6684162,-1.6904669e-006,-0.7439298};
+		pos[]={18289.236,49.406372,14649.109};
+		dir[]={-0.84096658,-0.53111476,0.10451866};
+		up[]={-0.52713758,0.84719479,0.065514967};
+		aside[]={0.12334994,-1.9329527e-006,0.99247444};
 	};
 };
 binarizationWanted=0;
@@ -18785,10 +18785,10 @@ class Mission
 		class Item205
 		{
 			dataType="Marker";
-			position[]={18357.703,0,14473.579};
+			position[]={18357.703,0,14473.58};
 			name="marker_6";
 			text="Flugzeugträger";
-			type="b_hq";
+			type="b_naval";
 			id=4562;
 			atlOffset=30;
 		};
@@ -23711,7 +23711,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18268.006,24.446676,14605.212};
+				position[]={18261.133,23.933186,14617.021};
 			};
 			side="Empty";
 			class Attributes
@@ -23720,7 +23720,7 @@ class Mission
 			};
 			id=4893;
 			type="HeliHEmpty";
-			atlOffset=0.91823006;
+			atlOffset=0.30039978;
 		};
 	};
 	class Connections

@@ -27,7 +27,7 @@ player addHandgunItem "CUP_17Rnd_9x19_glock17";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Brown_BW_Flecktarn";
 player addVest "TTT_Vest_Heavy_Brown_US_Woodland";
-player addBackpack "B_Carryall_khk";
+player addBackpack "B_Kitbag_rgr";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -40,8 +40,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
 player addItemToUniform "ACE_Maptools";
-player addItemToVest "ACE_DefusalKit";
-player addItemToVest "ACE_Clacker";
+player addItemToVest "ACE_SurgicalKit";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -57,7 +56,7 @@ for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV_250";};
+for "_i" from 1 to 9 do {player addItemToBackpack "ACE_salineIV_250";};
 player addHeadgear "TTT_Beret_Brown";
 player addGoggles "G_Tactical_Black";
 

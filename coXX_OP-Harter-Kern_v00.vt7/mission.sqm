@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=129;
+		nextID=153;
 	};
 	class Camera
 	{
-		pos[]={911.85486,33.088108,3037.1614};
-		dir[]={-0.41629732,-0.5219335,0.74467152};
-		up[]={-0.25472906,0.85285634,0.45565981};
-		aside[]={0.87296498,-5.3062104e-007,0.48802277};
+		pos[]={932.81793,35.39016,2907.9509};
+		dir[]={-0.37701023,-0.73222339,0.5674203};
+		up[]={-0.40522867,0.68094766,0.60989445};
+		aside[]={0.8330043,-1.2899109e-006,0.553478};
 	};
 };
 binarizationWanted=0;
@@ -982,7 +982,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1012.1473,15.030912,2841.0703};
-				angles[]={-0,5.6789303,0};
+				angles[]={0,5.6789303,0};
 			};
 			side="Empty";
 			flags=4;
@@ -5127,6 +5127,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
 			};
 			id=230;
 			type="ACE_medicalSupplyCrate_advanced";
@@ -5166,6 +5167,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
 			};
 			id=231;
 			type="ACE_medicalSupplyCrate_advanced";
@@ -5205,6 +5207,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
 			};
 			id=232;
 			type="ACE_medicalSupplyCrate_advanced";
@@ -5244,6 +5247,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
 			};
 			id=233;
 			type="ACE_medicalSupplyCrate_advanced";
@@ -5283,6 +5287,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
 			};
 			id=234;
 			type="ACE_medicalSupplyCrate_advanced";
@@ -5322,6 +5327,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
 			};
 			id=235;
 			type="ACE_medicalSupplyCrate_advanced";
