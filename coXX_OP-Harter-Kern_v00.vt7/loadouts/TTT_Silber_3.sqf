@@ -38,6 +38,7 @@ player addItemToUniform "CUP_17Rnd_9x19_glock17";
 
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
+player addItemToVest "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
@@ -67,4 +68,4 @@ player linkItem "ItemMicroDAGR";
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
 
-player setVariable ["ACE_isEngineer", 2];
+player setVariable ["ACE_IsAdvEngineer", true];

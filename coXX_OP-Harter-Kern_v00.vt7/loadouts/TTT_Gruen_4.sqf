@@ -42,6 +42,7 @@ player addItemToUniform "CUP_17Rnd_9x19_glock17";
 player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
+player addItemToVest "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";

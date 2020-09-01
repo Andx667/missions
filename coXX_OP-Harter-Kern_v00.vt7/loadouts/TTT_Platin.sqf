@@ -1,4 +1,4 @@
-player setRank "PRIVATE";
+player setRank "MAJOR";
 
 comment "Exported from Arsenal by Andx";
 
@@ -25,8 +25,10 @@ player addHandgunItem "optic_MRD_black";
 player addHandgunItem "CUP_17Rnd_9x19_glock17";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_Silver_BW_Flecktarn";
+player forceAddUniform "U_B_HeliPilotCoveralls";
+player setObjectTexture [0, "\A3\Characters_F\Common\Data\coveralls_grey_co.paa"];
 player addVest "TTT_Vest_Crew_US_Desert";
+player addBackpack "TFAR_rt1523g_bwmod";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -38,19 +40,20 @@ player addItemToUniform "CUP_17Rnd_9x19_glock17";
 
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
+player addItemToVest "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "CUP_17Rnd_9x19_glock17";
 for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
-player addItemToBackpack "TTT_Helmet_Hawk";
-player addHeadgear "TTT_Beret_Silver";
+player addItemToBackpack "TTT_Helmet_Falcon";
+player addHeadgear "TTT_Beret_Platinum";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
 player linkItem "TFAR_anprc152";
-player linkItem "ItemMicroDAGR";
+player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 60;
@@ -67,4 +70,4 @@ player linkItem "ItemMicroDAGR";
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
 
-player setVariable ["ACE_isEngineer", 2];
+player setVariable ["ACE_IsAdvEngineer", true];
