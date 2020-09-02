@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=169;
+		nextID=172;
 	};
 	class Camera
 	{
-		pos[]={7034.1255,152.42628,6596.1538};
-		dir[]={0.17362055,-0.24556929,-0.95383477};
-		up[]={0.044003755,0.96924841,-0.2417582};
-		aside[]={-0.98390126,-2.17864e-007,-0.17908713};
+		pos[]={7217.7124,219.37083,8197.0879};
+		dir[]={-0.61621559,-0.77776003,0.12497818};
+		up[]={-0.76222032,0.62845153,0.15459137};
+		aside[]={0.19878712,3.256835e-006,0.98011643};
 	};
 };
 binarizationWanted=0;
@@ -22703,7 +22703,7 @@ class Mission
 												"STRING"
 											};
 										};
-										value="mil_arrow2";
+										value="";
 									};
 								};
 								class Item1
@@ -42857,7 +42857,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""BAF_Crew_SC""];}";
-						description="#4 Second-in-Commandq3 SCOTS Heavy Weapon Section ""Foxhound-2""";
+						description="#4 Second-in-Command@3 SCOTS Heavy Weapon Section ""Foxhound-2""";
 						isPlayable=1;
 					};
 					id=2074;
