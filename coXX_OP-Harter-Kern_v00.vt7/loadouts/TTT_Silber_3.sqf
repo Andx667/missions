@@ -28,6 +28,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Silver_BW_Flecktarn";
 player addVest "TTT_Vest_Crew_US_Desert";
+player addBackpack "B_AssaultPack_cbr";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};

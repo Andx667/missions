@@ -9,11 +9,12 @@
 	last Updated: 15.09.2019 by [TTT] EinStein
 */
 
-stein_mop_useAnimation = false;
+stein_mop_useAnimation = true;
 stein_mop_buildAnimation = "Acts_carFixingWheel";
-stein_mop_buildTime = 5;
-stein_mop_object = "Land_ClutterCutter_large_F";
-stein_mop_items = ["Tarp_01_Large_Red_F"];
+stein_mop_buildTime = 15;
+stein_mop_object = "Land_MedicalTent_01_floor_dark_F";
+stein_mop_items = ["Land_FirstAidKit_01_open_F","Land_EmergencyBlanket_02_F","Land_Stethoscope_01_F","Land_Camping_Light_off_F"];
+//stein_mop_backpack = ["UK3CB_BAF_B_Bergen_MTP_Medic_H_B","UK3CB_BAF_B_Bergen_MTP_Medic_L_A"];
 stein_mop_backpack = ["B_Kitbag_rgr"];
 
 stein_mop_canBuild = {
@@ -65,7 +66,7 @@ stein_mop_zip_progressBar = {
 	_arguments params [];
 	_target setVariable ["inUse", true, true];
 	if (stein_mop_useAnimation) then {_caller playMove stein_mop_buildAnimation;};
-	[stein_mop_buildTime, _this, stein_mop_zip, stein_mop_cancel, "Lege Plane zusammen"] call ace_common_fnc_progressBar;
+	[stein_mop_buildTime, _this, stein_mop_zip, stein_mop_cancel, "Baue mobilen Operationsbereich ab"] call ace_common_fnc_progressBar;
 }; //return code
 
 stein_mop_build = {
@@ -73,11 +74,11 @@ stein_mop_build = {
 	_arguments params [];
 	private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
 	_mop = stein_mop_object createVehicle _position;
-	//_mop setVariable ["ace_medical_isMedicalFacility", true, true];
+	_mop setVariable ["ace_medical_isMedicalFacility", true, true];
 	_mop setVariable ["inUse", false, true];
 	_caller setVariable ["hasTent", false];
 	{
-		private _posItem = (getPos _mop);
+		private _posItem = (getPos _mop) findEmptyPosition [1, 3, "Tank"];
 		_x createVehicle _posItem;
 	} forEach stein_mop_items;
 	_caller switchMove "";
@@ -86,19 +87,19 @@ stein_mop_build = {
 stein_mop_build_progressBar = {
 	params ["_target","_caller","_arguments"];
 	_arguments params [];
-	private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2];
+	private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
 	if (_position isEqualTo []) exitWith {
-		hint "Kein Platz für die Signalplane.";
+		hint "Nicht genug Platz zum Aufbau der MOP vorhanden.";
 	};
 	if (stein_mop_useAnimation) then {_caller playMove stein_mop_buildAnimation;};
-	[stein_mop_buildTime, _this, stein_mop_build, stein_mop_cancel, "Lege Plane aus"] call ace_common_fnc_progressBar;
+	[stein_mop_buildTime, _this, stein_mop_build, stein_mop_cancel, "Richte mobilen Operationsbereich ein"] call ace_common_fnc_progressBar;
 }; //return code
 
-_buildMOP = ["stein_mop_build", "Signalplane auslegen", "",
+_buildMOP = ["stein_mop_build", "Errichte mobilen Operationsbereich", "",
 	stein_mop_build_progressBar, stein_mop_canBuild
 ] call ace_interact_menu_fnc_createAction;
 
-_zipMOP = ["stein_mop_zip", "Signalplane einsammeln", "",
+_zipMOP = ["stein_mop_zip", "Baue mobilen Operationsbereich ab", "",
 	stein_mop_zip_progressBar, stein_mop_canZip
 ] call ace_interact_menu_fnc_createAction;
 

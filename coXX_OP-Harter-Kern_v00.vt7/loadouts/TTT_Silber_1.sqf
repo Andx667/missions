@@ -26,7 +26,8 @@ player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_Silver_BW_Flecktarn";
+player forceAddUniform "U_B_HeliPilotCoveralls";
+player setObjectTexture [0, "\A3\Characters_F\Common\Data\coveralls_grey_co.paa"];
 player addVest "TTT_Vest_Crew_US_Desert";
 player addBackpack "TFAR_rt1523g_bwmod";
 
