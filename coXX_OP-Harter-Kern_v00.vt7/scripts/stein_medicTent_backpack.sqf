@@ -14,7 +14,7 @@ stein_mop_buildAnimation = "Acts_carFixingWheel";
 stein_mop_buildTime = 5;
 stein_mop_object = "Land_ClutterCutter_large_F";
 stein_mop_items = ["Tarp_01_Large_Red_F"];
-stein_mop_backpack = ["B_AssaultPack_mcamo","TFAR_rt1523g_big_rhs"];
+stein_mop_backpack = ["B_Kitbag_rgr"];
 
 stein_mop_canBuild = {
 	params ["_target","_caller","_arguments"];
