@@ -44,7 +44,7 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
-player addItemToBackpack "TTT_Helmet_Hawk";
+player addItemToBackpack "TTT_Helmet_Buzzard";
 player addHeadgear "TTT_Beret_Silver";
 
 comment "Add items";
