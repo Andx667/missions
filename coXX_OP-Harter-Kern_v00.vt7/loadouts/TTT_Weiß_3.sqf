@@ -44,7 +44,6 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-player addItemToVest "hlc_optic_HensoldtZO_lo_Docter_2D_2D";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
@@ -56,7 +55,8 @@ for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV_250";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_salineIV_250";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_salineIV_500";};
 player addHeadgear "TTT_Beret_White";
 
 player addGoggles selectRandom ["BWA3_G_Combat_orange"];

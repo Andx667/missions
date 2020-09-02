@@ -44,7 +44,7 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_Tracer";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-player addItemToVest "hlc_optic_HensoldtZO_lo_Docter_2D_2D";
+
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "Laserbatteries";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};

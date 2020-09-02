@@ -40,7 +40,6 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-player addItemToVest "hlc_optic_HensoldtZO_lo_Docter_2D_2D";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
