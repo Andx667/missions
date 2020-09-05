@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=1895;
+		nextID=1898;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=273;
+		nextID=297;
 	};
 	class Camera
 	{
-		pos[]={11159.153,403.95349,12393.917};
-		dir[]={-0.39488775,-0.30822966,0.86555398};
-		up[]={-0.12797086,0.95128709,0.28049722};
-		aside[]={0.90984643,4.2654574e-007,0.41509685};
+		pos[]={940.4212,41.449947,2892.8105};
+		dir[]={-0.2981708,-0.83486658,0.46271658};
+		up[]={-0.45222214,0.55044889,0.70178217};
+		aside[]={0.84059966,3.8207509e-007,0.5416742};
 	};
 };
 binarizationWanted=0;
@@ -433,7 +433,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=278;
+		items=281;
 		class Item0
 		{
 			dataType="Object";
@@ -13609,7 +13609,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1085.1219,15.030912,2754.7659};
+				position[]={1086.4302,15.030912,2756.4177};
 				angles[]={-0,0.9098227,0};
 			};
 			side="Empty";
@@ -13619,7 +13619,7 @@ class Mission
 				lock="UNLOCKED";
 				name="heli_04";
 				textures="Black";
-				pylons="CUP_PylonPod_19Rnd_Rocket_FFAR_M;PylonRack_4Rnd_ACE_Hellfire_AGM114L[0];PylonRack_4Rnd_ACE_Hellfire_AGM114L[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;";
+				pylons="FIR_Hydra_P_7rnd_M;PylonRack_3Rnd_ACE_Hellfire_AGM114K[0];PylonRack_3Rnd_ACE_Hellfire_AGM114K[0];FIR_Hydra_P_7rnd_M;";
 			};
 			id=1242;
 			type="CFP_B_USMC_MH_60S_Knighthawk_ESSS_x4_DES_01";
@@ -14059,7 +14059,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1104.8087,15.030912,2728.7424};
+				position[]={1106.3105,15.030912,2729.9956};
 				angles[]={-0,0.9098227,0};
 			};
 			side="Empty";
@@ -14069,7 +14069,7 @@ class Mission
 				lock="UNLOCKED";
 				name="heli_02";
 				textures="Black";
-				pylons="CUP_PylonPod_19Rnd_Rocket_FFAR_M;PylonRack_4Rnd_ACE_Hellfire_AGM114L[0];PylonRack_4Rnd_ACE_Hellfire_AGM114L[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;";
+				pylons="FIR_Hydra_P_7rnd_M;PylonRack_3Rnd_ACE_Hellfire_AGM114K[0];PylonRack_3Rnd_ACE_Hellfire_AGM114K[0];FIR_Hydra_P_7rnd_M;";
 			};
 			id=1243;
 			type="CFP_B_USMC_MH_60S_Knighthawk_ESSS_x4_DES_01";
@@ -14500,7 +14500,7 @@ class Mission
 				lock="UNLOCKED";
 				name="heli_03";
 				textures="Black";
-				pylons="CUP_PylonPod_19Rnd_Rocket_FFAR_M;PylonRack_4Rnd_ACE_Hellfire_AGM114L[0];PylonRack_4Rnd_ACE_Hellfire_AGM114L[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;";
+				pylons="FIR_Hydra_P_7rnd_M;PylonRack_3Rnd_ACE_Hellfire_AGM114K[0];PylonRack_3Rnd_ACE_Hellfire_AGM114K[0];FIR_Hydra_P_7rnd_M;";
 			};
 			id=1244;
 			type="CFP_B_USMC_MH_60S_Knighthawk_ESSS_x4_DES_01";
@@ -20956,7 +20956,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={921.05298,13.951426,2915.144};
-				angles[]={-0,5.746758,0};
+				angles[]={0,5.746758,0};
 			};
 			side="Empty";
 			flags=4;
@@ -25151,7 +25151,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={983.4173,16.748507,3003.8601};
-				angles[]={-0,0.81913805,0};
+				angles[]={0,0.81913805,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26600,6 +26600,7 @@ class Mission
 					};
 					id=1795;
 					type="O_medic_F";
+					atlOffset=-1.1444092e-005;
 				};
 				class Item8
 				{
@@ -27434,7 +27435,7 @@ class Mission
 					};
 					showWP="NEVER";
 					id=1857;
-					atlOffset=-1.9073486e-005;
+					atlOffset=-4.196167e-005;
 				};
 			};
 			class Attributes
@@ -28096,7 +28097,7 @@ class Mission
 				};
 			};
 			id=1869;
-			atlOffset=-0.0038261414;
+			atlOffset=-0.0038795471;
 		};
 		class Item270
 		{
@@ -28115,7 +28116,7 @@ class Mission
 			};
 			id=1873;
 			type="O_MBT_02_cannon_F";
-			atlOffset=-0.0038261414;
+			atlOffset=-0.0038795471;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28300,7 +28301,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10936.367,38.921436,12792.202};
-						angles[]={-0,3.3650076,0};
+						angles[]={0,3.3650076,0};
 					};
 					side="East";
 					flags=4;
@@ -28316,7 +28317,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10936.367,38.921436,12792.202};
-						angles[]={-0,3.3650076,0};
+						angles[]={0,3.3650076,0};
 					};
 					side="East";
 					flags=4;
@@ -28332,7 +28333,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10936.367,38.921436,12792.202};
-						angles[]={-0,3.3650076,0};
+						angles[]={0,3.3650076,0};
 					};
 					side="East";
 					flags=6;
@@ -28397,7 +28398,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={10936.367,41.29044,12792.152};
-				angles[]={-0,3.3650076,0};
+				angles[]={0,3.3650076,0};
 			};
 			side="East";
 			flags=6;
@@ -28749,6 +28750,106 @@ class Mission
 			};
 			id=1894;
 			type="O_MBT_02_cannon_F";
+		};
+		class Item278
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={891.19739,16.172859,2980.8569};
+				angles[]={-0,5.7764454,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=1895;
+			type="rnt_lkw_10t_mil_gl_kat_i_repair_fleck";
+			atlOffset=0.099996567;
+		};
+		class Item279
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={903.12628,16.172859,2990.092};
+				angles[]={-0,5.7328825,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=1896;
+			type="rnt_lkw_5t_mil_gl_kat_i_fuel_fleck";
+			atlOffset=0.099996567;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_refuel_fuelCargo";
+					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=46000;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item280
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={897.55139,16.172859,2985.6787};
+				angles[]={-0,5.6465058,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+			};
+			id=1897;
+			type="rnt_lkw_7t_mil_gl_kat_i_mun_fleck";
+			atlOffset=0.099996567;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_rearm_rearmCargo";
+					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=12000;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
