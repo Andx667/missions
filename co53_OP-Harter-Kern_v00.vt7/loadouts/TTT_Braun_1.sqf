@@ -27,7 +27,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Brown_BW_Flecktarn";
-player addVest "TTT_Vest_Heavy_Brown_US_Woodland";
+player addVest "TTT_Vest_Lite_Brown_US_Woodland";
 player addBackpack "B_Kitbag_rgr";
 
 comment "Add binoculars";

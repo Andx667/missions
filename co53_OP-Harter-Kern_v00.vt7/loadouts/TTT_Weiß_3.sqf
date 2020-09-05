@@ -59,7 +59,7 @@ for "_i" from 1 to 10 do {player addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_salineIV_500";};
 player addHeadgear "TTT_Beret_White";
 
-player addGoggles "G_Tactical_Black";
+player addGoggles "BWA3_G_Combat_clear";
 
 comment "Add items";
 player linkItem "ItemMap";

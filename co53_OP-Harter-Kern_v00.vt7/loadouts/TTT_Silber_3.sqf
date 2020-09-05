@@ -48,6 +48,8 @@ for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToBackpack "TTT_Helmet_Buzzard";
 player addHeadgear "TTT_Beret_Silver";
 
+player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
+
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
