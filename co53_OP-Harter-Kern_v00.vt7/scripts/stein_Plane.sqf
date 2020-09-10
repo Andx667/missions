@@ -15,7 +15,7 @@ stein_mop_plane_buildTime = 5;
 stein_mop_plane_object = "Tarp_01_Large_Red_F";
 stein_mop_plane_items = [];
 //stein_mop_plane_backpack = ["stein_mop_plane_items"];
-stein_mop_plane_backpack = ["B_TacticalPack_oli","TFAR_rt1523g_big_bwmod"];
+stein_mop_plane_backpack = ["TFAR_rt1523g_big_bwmod"];
 
 stein_mop_plane_canBuild = {
 	params ["_target","_caller","_arguments"];
