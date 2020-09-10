@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_GL_mid_black";
+player addWeapon "hlc_rifle_ACR68_mid_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_Tracer";
@@ -50,11 +50,6 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "TTT_Helmet_2_BW_Flecktarn";
-for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellYellow";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellPurple";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
 player addHeadgear "TTT_Beret_Grey";
 
 player addGoggles "BWA3_G_Combat_black";
