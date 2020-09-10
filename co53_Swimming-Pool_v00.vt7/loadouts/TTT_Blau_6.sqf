@@ -1,3 +1,4 @@
+player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
@@ -15,19 +16,19 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_lmg_mk48mod1";
+player addWeapon "hlc_rifle_ACR68_Carb_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "150Rnd_762x51_Box_Tracer";
+player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
-player addVest "TTT_Vest_Heavy_Green_US_Woodland";
-player addBackpack "B_AssaultPack_cbr";
+player forceAddUniform "TTT_Uniform_Blue_BW_Flecktarn";
+player addVest "TTT_Vest_Heavy_Blue_US_Woodland";
+player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -38,21 +39,29 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
-player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_morphine";
+player addItemToVest "ACE_DefusalKit";
+player addItemToVest "ACE_Clacker";
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
-player addItemToVest "150Rnd_762x51_Box_Tracer";
-player addItemToBackpack "TTT_Helmet_2_BW_Flecktarn";
-for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
+player addItemToBackpack "TTT_Helmet_6_BW_Flecktarn";
+player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
-player addHeadgear "TTT_Beret_Green";
+player addItemToBackpack "ACE_VMH3";
+player addItemToBackpack "ACE_SpraypaintRed";
+player addItemToBackpack "ACE_SpraypaintGreen";
+player addItemToBackpack "ACE_SpraypaintBlue";
+player addItemToBackpack "ACE_SpraypaintBlack";
+for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
+player addHeadgear "TTT_Beret_Blue";
 
-player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
+player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
 
 comment "Add items";
 player linkItem "ItemMap";
@@ -63,15 +72,8 @@ player linkItem "ItemMicroDAGR";
 
 [] spawn {
     sleep 60;
-	_insignia = [
-		"USP_PATCH_BLOOD_OPOS_BLK",
-		"USP_PATCH_BLOOD_ONEG_BLK",
-		"USP_PATCH_BLOOD_BPOS_BLK",
-		"USP_PATCH_BLOOD_BNEG_BLK",
-		"USP_PATCH_BLOOD_ABPOS_BLK",
-		"USP_PATCH_BLOOD_ABNEG_BLK",
-		"USP_PATCH_BLOOD_APOS_BLK",
-		"USP_PATCH_BLOOD_ANEG_BLK"
-		] selectRandomWeighted [0.35, 0.06, 0.09, 0.02, 0.04, 0.01, 0.37, 0.06];
-    [player, _insignia] call bis_fnc_setUnitInsignia;
+    [player,"insignia29"] call bis_fnc_setUnitInsignia;
 };
+
+player setVariable ["ACE_isEngineer", 1];
+player setVariable ["ACE_isEOD", true];

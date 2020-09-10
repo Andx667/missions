@@ -1,4 +1,7 @@
 
+
+player setRank "PRIVATE";
+
 comment "Exported from Arsenal by Andx";
 
 comment "[!] UNIT MUST BE LOCAL [!]";
@@ -15,24 +18,25 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_lmg_mk48mod1";
+player addWeapon "hlc_rifle_ACR68_SBR_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "150Rnd_762x51_Box_Tracer";
+player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
-player addVest "TTT_Vest_Heavy_Green_US_Woodland";
+player forceAddUniform "TTT_Uniform_Bronze_BW_Flecktarn";
+player addVest "TTT_Vest_Crew_US_Desert";
 player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
+player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
@@ -44,14 +48,14 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 
 player addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
-player addItemToVest "150Rnd_762x51_Box_Tracer";
-player addItemToBackpack "TTT_Helmet_2_BW_Flecktarn";
-for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
-player addItemToBackpack "ACE_EntrenchingTool";
-player addHeadgear "TTT_Beret_Green";
 
+player addItemToBackpack "TTT_Helmet2_Vehiclecrew";
+player addItemToBackpack "ACE_EntrenchingTool";
+
+player addHeadgear "TTT_Beret_Bronze";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
 
 comment "Add items";

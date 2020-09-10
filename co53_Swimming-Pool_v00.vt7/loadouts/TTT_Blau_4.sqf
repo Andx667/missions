@@ -1,4 +1,4 @@
-player setRank "PRIVATE";
+player setRank "CORPORAL";
 
 comment "Exported from Arsenal by Andx";
 
@@ -31,7 +31,7 @@ player addVest "TTT_Vest_Heavy_Blue_US_Woodland";
 player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -39,10 +39,10 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
+player addItemToUniform "ACE_morphine"; 
 player addItemToUniform "ACE_Maptools";
-player addItemToUniform "ACE_morphine";
 player addItemToVest "ACE_DefusalKit";
-player addItemToVest "ACE_Clacker";
+player addItemToVest "ACE_M26_Clacker";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -53,22 +53,22 @@ player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
-player addItemToBackpack "ACE_VMH3";
 player addItemToBackpack "ACE_SpraypaintRed";
 player addItemToBackpack "ACE_SpraypaintGreen";
 player addItemToBackpack "ACE_SpraypaintBlue";
 player addItemToBackpack "ACE_SpraypaintBlack";
+player addItemToBackpack "ACE_VMH3";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
 
-player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
+player addGoggles "G_Tactical_Black";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
-player linkItem "TFAR_rf7800str";
-player linkItem "ItemMicroDAGR";
+player linkItem "TFAR_anprc152";
+player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 60;

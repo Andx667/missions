@@ -16,10 +16,11 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_GL_mid_black";
+player addWeapon "hlc_rifle_ACR68_full_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_68x43_Tracer";
+player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
+player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
@@ -31,7 +32,7 @@ player addVest "TTT_Vest_Heavy_Green_US_Woodland";
 player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -41,7 +42,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_Tracer";};
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 
@@ -49,9 +50,6 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "TTT_Helmet_8_BW_Flecktarn";
-for "_i" from 1 to 15 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
-for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
-for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
 player addItemToBackpack "ACE_EntrenchingTool";
 player addHeadgear "TTT_Beret_Green";
 

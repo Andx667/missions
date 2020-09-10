@@ -1,4 +1,4 @@
-player setRank "PRIVATE";
+player setRank "CORPORAL";
 
 comment "Exported from Arsenal by Andx";
 
@@ -20,7 +20,6 @@ player addWeapon "hlc_rifle_ACR68_mid_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
-player addWeapon "BWA3_RGW90_Loaded";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
@@ -32,7 +31,7 @@ player addVest "TTT_Vest_Heavy_Green_US_Woodland";
 player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
@@ -53,16 +52,18 @@ player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 player addItemToBackpack "TTT_Helmet_5_BW_Flecktarn";
 player addItemToBackpack "ACE_EntrenchingTool";
+for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
+for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
 
 player addHeadgear "TTT_Beret_Green";
-player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
+player addGoggles "BWA3_G_Combat_orange";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
-player linkItem "TFAR_rf7800str";
-player linkItem "ItemMicroDAGR";
+player linkItem "TFAR_anprc152";
+player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 60;
