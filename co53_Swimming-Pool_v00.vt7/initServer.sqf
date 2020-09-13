@@ -29,3 +29,8 @@ setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 	heli_04,
 	heli_05
 ],8] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS
+
+[kiste_01, fhz_01, true] call ace_cargo_fnc_loadItem;
+[kiste_02, fhz_01, true] call ace_cargo_fnc_loadItem;
+[kiste_03, fhz_01, true] call ace_cargo_fnc_loadItem;
+[kiste_04, fhz_01, true] call ace_cargo_fnc_loadItem;

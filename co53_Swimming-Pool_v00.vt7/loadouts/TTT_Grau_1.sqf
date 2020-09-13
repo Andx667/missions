@@ -50,6 +50,7 @@ player addItemToVest "Laserbatteries";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "TTT_Helmet_1_BW_Flecktarn";
+player addHeadgear "TTT_Beret_Grey";
 
 player addGoggles "G_Tactical_Black";
 
@@ -62,5 +63,5 @@ player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 60;
-    [player,"insignia26"] call bis_fnc_setUnitInsignia;
+    [player,"insignia30"] call bis_fnc_setUnitInsignia;
 };

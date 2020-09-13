@@ -46,7 +46,7 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-
+player addItemToVest "ACE_microDAGR";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};

@@ -46,9 +46,11 @@ player addItemToVest "ACE_M84";
 player addItemToVest "Laserbatteries";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
+player addItemToVest "ItemAndroid";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
+player addItemToBackpack "ITC_Land_B_AR2i_Packed";
 player addHeadgear "TTT_Beret_Grey";
 
 player addGoggles "BWA3_G_Combat_black";
@@ -58,9 +60,9 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
 player linkItem "TFAR_anprc152";
-player linkItem "ItemAndroid";
+player linkItem "B_UavTerminal";
 
 [] spawn {
     sleep 60;
-    [player,"insignia26"] call bis_fnc_setUnitInsignia;
+    [player,"insignia30"] call bis_fnc_setUnitInsignia;
 };

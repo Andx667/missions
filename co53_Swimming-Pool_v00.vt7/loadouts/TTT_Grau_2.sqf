@@ -63,5 +63,5 @@ player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 60;
-    [player,"insignia26"] call bis_fnc_setUnitInsignia;
+    [player,"insignia30"] call bis_fnc_setUnitInsignia;
 };
