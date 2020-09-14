@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=1968;
+		nextID=1969;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={906.33081,38.326077,2955.6467};
-		dir[]={0.27401379,-0.72051758,-0.63710368};
-		up[]={0.28469557,0.69336659,-0.66194177};
-		aside[]={-0.9187007,2.9570947e-007,-0.39512277};
+		pos[]={890.80347,47.331413,2926.8384};
+		dir[]={0.47480023,-0.77804124,0.41161141};
+		up[]={0.58793604,0.62810177,0.50969213};
+		aside[]={0.65511376,-3.1036325e-007,-0.75568444};
 	};
 };
 binarizationWanted=0;
@@ -425,7 +425,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=276;
+		items=277;
 		class Item0
 		{
 			dataType="Object";
@@ -1527,13 +1527,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={920.17401,13.594359,2938.78};
+				position[]={919.96014,13.594359,2939.2024};
 				angles[]={-0,4.0598803,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Munition Grün"", true]; };}";
 				name="mun_01";
 			};
 			id=216;
@@ -1567,18 +1568,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={914.84698,13.594054,2940.6345};
+				position[]={915.02429,13.594359,2940.3059};
 				angles[]={-0,2.4732013,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Granaten"", true]; };}";
 				name="grenades_01";
 			};
 			id=220;
 			type="Box_NATO_Grenades_F";
-			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1608,18 +1609,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={906.59302,13.309999,2935.2971};
+				position[]={906.86804,13.310305,2934.6353};
 				angles[]={0,0.97574371,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Grün"", true]; };}";
 				name="gruen_01";
 			};
 			id=226;
 			type="ACE_medicalSupplyCrate";
-			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1649,18 +1650,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={909.297,13.309999,2937.252};
+				position[]={909.67499,13.310305,2936.908};
 				angles[]={0,4.0790439,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Braun"", true]; };}";
 				name="braun_01";
 			};
 			id=227;
 			type="ACE_medicalSupplyCrate_advanced";
-			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1697,7 +1698,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;" \n "if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Weiß (Bandangen)"", true]; };}";
 				name="weis_01";
 			};
 			id=230;
@@ -1738,7 +1739,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;" \n "if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Weiß IV"", true]; };}";
 				name="weis_04";
 			};
 			id=231;
@@ -1779,7 +1780,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;" \n "if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Weiß IV"", true]; };}";
 				name="weis_05";
 			};
 			id=232;
@@ -1820,7 +1821,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;" \n "if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Weiß (Bandangen)"", true]; };}";
 				name="weis_02";
 			};
 			id=233;
@@ -1861,7 +1862,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;" \n "if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Weiß (Bandangen)"", true]; };}";
 				name="weis_03";
 			};
 			id=234;
@@ -1902,7 +1903,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;}";
+				init="call{[this, false] call ace_dragging_fnc_setDraggable;" \n "[this, false] call ace_dragging_fnc_setCarryable;" \n "if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Weiß IV"", true]; };}";
 				name="weis_06";
 			};
 			id=235;
@@ -1936,18 +1937,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={910.27197,13.459631,2938.271};
+				position[]={910.58698,13.459936,2937.7927};
 				angles[]={0,4.0735111,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Werfer RGW90 x3"", true]; };}";
 				name="werfer_01";
 			};
 			id=239;
 			type="Box_NATO_WpsLaunch_F";
-			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10997,17 +10998,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={914.23859,13.594359,2938.6399};
-				angles[]={-0,4.1632385,0};
+				position[]={914.23901,13.594054,2938.6399};
+				angles[]={0,4.1632385,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""UAV Bedarf"", true]; };}";
 				name="uav_01";
 			};
 			id=1209;
 			type="Box_NATO_Support_F";
+			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11044,6 +11047,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Pionierbedarf"", true]; };}";
 				name="blau_01";
 			};
 			id=1211;
@@ -18542,8 +18546,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={909.59241,14.10173,2930.6438};
-				angles[]={0,2.5401132,0};
+				position[]={909.79657,14.10173,2930.8367};
+				angles[]={-0,2.5401132,0};
 			};
 			side="Empty";
 			flags=4;
@@ -26700,13 +26704,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={910.14215,13.310305,2936.0886};
-				angles[]={-0,4.0790439,0};
+				position[]={910.73181,13.310305,2935.3652};
+				angles[]={0,4.0790439,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Braun"", true]; };}";
 				name="braun_02";
 			};
 			id=1942;
@@ -26740,13 +26745,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={910.95935,13.310305,2934.8667};
-				angles[]={-0,4.0790439,0};
+				position[]={911.78168,13.310305,2933.8738};
+				angles[]={0,4.0790439,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Braun"", true]; };}";
 				name="braun_03";
 			};
 			id=1943;
@@ -26780,13 +26786,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={907.22705,13.310305,2935.7141};
+				position[]={907.46973,13.310305,2935.0178};
 				angles[]={0,0.97574371,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Grün"", true]; };}";
 				name="gruen_02";
 			};
 			id=1947;
@@ -26820,13 +26827,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={907.63904,13.310305,2933.9226};
+				position[]={907.75977,13.310305,2933.3923};
 				angles[]={0,0.97574371,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Grün"", true]; };}";
 				name="gruen_03";
 			};
 			id=1948;
@@ -26860,13 +26868,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={908.09314,13.310305,2934.2563};
+				position[]={908.36212,13.310305,2933.8047};
 				angles[]={0,0.97574371,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Grün"", true]; };}";
 				name="gruen_04";
 			};
 			id=1949;
@@ -26900,13 +26909,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={909.16272,13.310305,2932.7559};
+				position[]={909.2063,13.310305,2932.5281};
 				angles[]={0,0.97574371,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Grün"", true]; };}";
 				name="gruen_05";
 			};
 			id=1950;
@@ -26940,13 +26950,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={908.50842,13.310305,2932.2856};
+				position[]={908.59979,13.310305,2932.0706};
 				angles[]={0,0.97574371,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""San Mat Grün"", true]; };}";
 				name="gruen_06";
 			};
 			id=1951;
@@ -26980,13 +26991,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={915.61523,13.594359,2939.6138};
+				position[]={915.74457,13.594359,2939.3635};
 				angles[]={-0,2.4732013,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Granaten"", true]; };}";
 				name="grenades_02";
 			};
 			id=1952;
@@ -27027,6 +27039,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Granaten"", true]; };}";
 				name="grenades_03";
 			};
 			id=1953;
@@ -27060,13 +27073,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={911.6203,13.459936,2936.6125};
-				angles[]={-0,4.0735111,0};
+				position[]={911.97748,13.459936,2935.8501};
+				angles[]={0,4.0735111,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Werfer RGW90 x3"", true]; };}";
 				name="werfer_02";
 			};
 			id=1954;
@@ -27100,13 +27114,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={913.12219,13.459936,2934.4834};
-				angles[]={-0,4.0735111,0};
+				position[]={913.30359,13.459936,2933.9834};
+				angles[]={0,4.0735111,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Werfer RGW90 x3"", true]; };}";
 				name="werfer_03";
 			};
 			id=1955;
@@ -27140,13 +27155,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={919.5116,13.594359,2938.1135};
+				position[]={919.08545,13.594359,2938.4866};
 				angles[]={-0,4.0598803,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Munition Grün"", true]; };}";
 				name="mun_02";
 			};
 			id=1956;
@@ -27180,13 +27196,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={918.60461,13.594359,2937.4985};
+				position[]={918.17316,13.594359,2937.8054};
 				angles[]={-0,4.0598803,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Munition Grün"", true]; };}";
 				name="mun_03";
 			};
 			id=1957;
@@ -27220,13 +27237,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={918.1347,13.594359,2938.2166};
+				position[]={917.70758,13.594359,2938.437};
 				angles[]={-0,4.0598803,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Munition Grün"", true]; };}";
 				name="mun_04";
 			};
 			id=1958;
@@ -27260,13 +27278,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={919.70178,13.594359,2939.3838};
+				position[]={919.47955,13.594359,2939.7876};
 				angles[]={-0,4.0598803,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Munition Grün"", true]; };}";
 				name="mun_05";
 			};
 			id=1959;
@@ -27300,13 +27319,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={918.94977,13.594359,2938.8572};
+				position[]={918.60522,13.594359,2939.1309};
 				angles[]={-0,4.0598803,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Munition Grün"", true]; };}";
 				name="mun_06";
 			};
 			id=1960;
@@ -27340,13 +27360,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={917.25287,13.594359,2942.3684};
-				angles[]={-0,5.7064409,0};
+				position[]={917.20398,13.594359,2942.3604};
+				angles[]={0,5.7064409,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""Pionierbedarf"", true]; };}";
 				name="blau_02";
 			};
 			id=1963;
@@ -27380,17 +27401,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={914.89325,13.594359,2937.7615};
-				angles[]={-0,4.1632385,0};
+				position[]={914.89301,13.594054,2937.761};
+				angles[]={0,4.1632385,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""HuntIR Bedarf"", true]; };}";
 				name="uav_02";
 			};
 			id=1965;
 			type="Box_NATO_Support_F";
+			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -27414,6 +27437,23 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item276
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={919.43414,14.10173,2937.8179};
+				angles[]={-0,2.5486581,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1968;
+			type="TTT_Sign_Small_Green";
 		};
 	};
 	class Connections
