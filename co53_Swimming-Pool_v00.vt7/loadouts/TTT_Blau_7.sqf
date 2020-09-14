@@ -20,6 +20,7 @@ player addWeapon "hlc_rifle_ACR68_SBR_black";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
+player addPrimaryWeaponItem "HLC_muzzle_SF3P_68";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";

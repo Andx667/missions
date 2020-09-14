@@ -19,6 +19,7 @@ player addWeapon "hlc_lmg_mk48mod1";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "150Rnd_762x51_Box_Tracer";
+player addPrimaryWeaponItem "HLC_muzzle_SF3P_68";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";

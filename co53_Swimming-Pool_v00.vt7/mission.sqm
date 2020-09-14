@@ -20666,7 +20666,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""TTT_Grau_1""];}";
-						description="#1 Artilleriebeobachter Truppführer@Joint-Fire-Support-Team ""Grau""";
+						description="#1 Artilleriebeobachter Truppführer@Joint-Fire-Observer-Team ""Grau""";
 						isPlayable=1;
 					};
 					id=1716;
