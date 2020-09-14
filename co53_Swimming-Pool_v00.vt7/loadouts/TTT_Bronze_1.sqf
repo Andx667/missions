@@ -29,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Bronze_BW_Flecktarn";
 player addVest "TTT_Vest_Crew_US_Desert";
-player addBackpack "B_AssaultPack_cbr";
+player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -77,3 +77,5 @@ player linkItem "ItemMicroDAGR";
 		] selectRandomWeighted [0.35, 0.06, 0.09, 0.02, 0.04, 0.01, 0.37, 0.06];
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
+
+player setVariable ["ACE_IsAdvEngineer", true];
