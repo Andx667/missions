@@ -2,9 +2,9 @@ setDate [2035, 6, 12, 7, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei M
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						//alle die nicht independent sind machen:
-		// _x setBehaviour "SAFE";						//Waffe gesenkt
-		// _x setCombatMode "WHITE";					//Feuerstatus "Gelb" (erwidern Feuer)
-		// _x setSpeedMode "LIMITED";					//Laufen im "Marsch"
+		_x setBehaviour "SAFE";						//Waffe gesenkt
+		_x setCombatMode "WHITE";					//Feuerstatus "Gelb" (erwidern Feuer)
+		_x setSpeedMode "LIMITED";					//Laufen im "Marsch"
 		
 		_x setSkill ["general", 0.75];				//1 ist Profi, 0 ist Noob
 		_x setSkill ["commanding", 0.75];

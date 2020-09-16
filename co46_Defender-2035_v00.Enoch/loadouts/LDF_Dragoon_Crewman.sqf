@@ -31,11 +31,10 @@ for "_i" from 1 to 6 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "11Rnd_45ACP_Mag";
+for "_i" from 1 to 2 do {player addItemToUniform "11Rnd_45ACP_Mag";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
-player addItemToUniform "11Rnd_45ACP_Mag";
 player addItemToUniform "50Rnd_570x28_SMG_03";
 
 for "_i" from 1 to 2 do {player addItemToVest "50Rnd_570x28_SMG_03";};
