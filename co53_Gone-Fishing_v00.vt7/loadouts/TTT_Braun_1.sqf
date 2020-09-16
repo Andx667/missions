@@ -42,6 +42,8 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_key_west";
+
 player addItemToVest "ACE_SurgicalKit";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
@@ -49,6 +51,7 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+
 player addItemToBackpack "TTT_Helmet_1_BW_Flecktarn";
 for "_i" from 1 to 27 do {player addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 27 do {player addItemToBackpack "ACE_packingBandage";};

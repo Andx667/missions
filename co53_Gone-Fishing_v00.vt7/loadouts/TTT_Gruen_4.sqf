@@ -36,7 +36,6 @@ comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
-player addItemToUniform "ACE_morphine"; player addItemToUniform "ACE_Maptools";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
@@ -44,9 +43,9 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
+
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};

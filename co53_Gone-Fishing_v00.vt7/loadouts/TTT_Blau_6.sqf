@@ -42,23 +42,24 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "ACE_morphine";
+
 player addItemToVest "ACE_DefusalKit";
 player addItemToVest "ACE_Clacker";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+
 player addItemToBackpack "TTT_Helmet_6_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_VMH3";
 player addItemToBackpack "ACE_Fortify";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
-player addHeadgear "TTT_Beret_Blue";
 
+player addHeadgear "TTT_Beret_Blue";
 player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
 
 comment "Add items";

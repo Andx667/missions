@@ -57,8 +57,8 @@ for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellYellow";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellPurple";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
-player addHeadgear "TTT_Beret_Green";
 
+player addHeadgear "TTT_Beret_Green";
 player addGoggles "G_Tactical_Black";
 
 comment "Add items";
