@@ -163,3 +163,14 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["BWA3_RGW90_Loaded", 3]
     ]
 ] call reim_fnc_crateFiller;
+
+//Setup ACEX Fortify
+[
+	west, 
+	50,
+	[
+	  ["Land_SurveyMarker_01_post_F",1],
+	  ["Land_Sign_MinesDanger_English_F",1],
+	  ["FlagMarker_01_F",1]
+	]
+] call acex_fortify_fnc_registerObjects;

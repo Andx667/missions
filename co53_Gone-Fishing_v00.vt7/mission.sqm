@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=2006;
+		nextID=2027;
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={952.54071,87.325569,2947.0386};
-		dir[]={-0.42956531,-0.83508068,-0.34388065};
-		up[]={-0.65192401,0.55011046,-0.52188408};
-		aside[]={-0.62499332,-8.4121712e-007,0.78072512};
+		pos[]={8426.7676,94.322075,4317.7354};
+		dir[]={-0.92028373,-0.39010265,0.032385036};
+		up[]={-0.38988408,0.92075819,0.013719804};
+		aside[]={0.035168596,-5.2731775e-007,0.99945986};
 	};
 };
 binarizationWanted=0;
@@ -496,7 +496,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=372;
+		items=390;
 		class Item0
 		{
 			dataType="Object";
@@ -23690,6 +23690,309 @@ class Mission
 			{
 			};
 			id=1999;
+		};
+		class Item372
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8402.2529,-13.375986,4284.2524};
+				angles[]={0.13120966,0,5.8809056};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2006;
+			type="UnderwaterMineAB";
+			atlOffset=-1.5411625;
+		};
+		class Item373
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8415.2705,-17.860395,4311.7173};
+				angles[]={0.011378167,0,6.1856575};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2007;
+			type="UnderwaterMineAB";
+			atlOffset=-0.4008255;
+		};
+		class Item374
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8386.8174,-14.688156,4330.8267};
+				angles[]={0.088505529,0,6.1519752};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2008;
+			type="UnderwaterMineAB";
+		};
+		class Item375
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8410.6475,-16.184265,4335.7651};
+				angles[]={6.183404,0,0.03184275};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2009;
+			type="UnderwaterMineAB";
+		};
+		class Item376
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8382.5371,-15.650656,4352.3188};
+				angles[]={0.038661517,0,6.2740831};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2010;
+			type="UnderwaterMineAB";
+		};
+		class Item377
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8385.2939,-13.320821,4382.854};
+				angles[]={6.1031322,0,0.18884844};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2011;
+			type="UnderwaterMineAB";
+		};
+		class Item378
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8338.3438,-15.006908,4371.4521};
+				angles[]={0.17564546,0,6.0703058};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2012;
+			type="UnderwaterMineAB";
+			atlOffset=-1.5237226;
+		};
+		class Item379
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8360.4443,-16.622787,4404.6523};
+				angles[]={6.1631737,0,0.21070477};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2013;
+			type="UnderwaterMineAB";
+			atlOffset=-1.5237226;
+		};
+		class Item380
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8311.4287,-8.4738102,4382.3896};
+				angles[]={0.2601774,0,5.9810133};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2014;
+			type="UnderwaterMineAB";
+		};
+		class Item381
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8295.084,-16.932756,4455.4795};
+				angles[]={6.221828,0,6.237711};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2015;
+			type="UnderwaterMineAB";
+		};
+		class Item382
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8303.6689,-15.764655,4419.4736};
+				angles[]={0.17343882,0,6.0768366};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2016;
+			type="UnderwaterMineAB";
+		};
+		class Item383
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8360.7285,-0.4081102,4370.873};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2020;
+			type="UnderwaterMine";
+			atlOffset=15.734691;
+		};
+		class Item384
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8418.6357,-0.58045322,4348.3369};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2021;
+			type="UnderwaterMine";
+			atlOffset=13.159678;
+		};
+		class Item385
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8379.2119,-0.58528483,4313.4512};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2022;
+			type="UnderwaterMine";
+			atlOffset=10.031397;
+		};
+		class Item386
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8359.373,-0.55594158,4408.2847};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2023;
+			type="UnderwaterMine";
+			atlOffset=14.327926;
+		};
+		class Item387
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8462.8154,-0.4726218,4292.6235};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2024;
+			type="UnderwaterMine";
+			atlOffset=16.933886;
+		};
+		class Item388
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8441.8447,-0.52965778,4263.4512};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2025;
+			type="UnderwaterMine";
+			atlOffset=18.518108;
+		};
+		class Item389
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8286.2402,-0.4798148,4410.1611};
+			};
+			side="Empty";
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=2026;
+			type="UnderwaterMine";
+			atlOffset=8.1711531;
 		};
 	};
 	class Connections
