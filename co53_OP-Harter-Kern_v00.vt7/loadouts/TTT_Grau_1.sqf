@@ -42,22 +42,23 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
+
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_Tracer";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
-
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "Laserbatteries";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+
 player addItemToBackpack "TTT_Helmet_1_BW_Flecktarn";
 for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellYellow";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellPurple";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
-player addHeadgear "TTT_Beret_Grey";
 
+player addHeadgear "TTT_Beret_Grey";
 player addGoggles "G_Tactical_Black";
 
 comment "Add items";
