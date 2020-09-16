@@ -42,15 +42,15 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToVest "150Rnd_762x51_Box_Tracer";
 
-player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
+player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Green";

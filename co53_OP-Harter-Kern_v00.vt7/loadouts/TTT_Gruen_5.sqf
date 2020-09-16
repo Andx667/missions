@@ -45,11 +45,11 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
-for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 player addItemToBackpack "TTT_Helmet_5_BW_Flecktarn";
