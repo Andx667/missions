@@ -35,6 +35,7 @@ setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 [kiste_03, fhz_01, true] call ace_cargo_fnc_loadItem;
 [kiste_04, fhz_01, true] call ace_cargo_fnc_loadItem;
 
+
 //Kisten befüllen
 reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 

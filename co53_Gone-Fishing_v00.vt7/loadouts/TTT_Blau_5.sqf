@@ -57,6 +57,7 @@ player addItemToBackpack "TTT_Helmet_5_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_VMH3";
+player addItemToBackpack "ACE_Fortify";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
 

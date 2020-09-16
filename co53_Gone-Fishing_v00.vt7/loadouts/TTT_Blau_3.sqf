@@ -21,7 +21,7 @@ player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
 player addPrimaryWeaponItem "HLC_muzzle_SF3P_68";
-pplayer addWeapon "hlc_pistol_P226R_Elite";
+player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
@@ -55,6 +55,7 @@ player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_VMH3";
+player addItemToBackpack "ACE_Fortify";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addHeadgear "TTT_Beret_Blue";
 

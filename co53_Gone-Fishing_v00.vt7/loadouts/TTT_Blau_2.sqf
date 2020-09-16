@@ -53,6 +53,7 @@ player addItemToVest "ACE_Clacker";
 player addItemToBackpack "TTT_Helmet_2_BW_Flecktarn";
 for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
 player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ACE_Fortify";
 player addHeadgear "TTT_Beret_Blue";
 
 player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
