@@ -79,3 +79,5 @@ player linkItem "ItemMicroDAGR";
 		] selectRandomWeighted [0.35, 0.06, 0.09, 0.02, 0.04, 0.01, 0.37, 0.06];
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
+
+player setVariable ["ACE_isEngineer", 1];

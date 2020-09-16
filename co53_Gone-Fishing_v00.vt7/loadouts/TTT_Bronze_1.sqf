@@ -81,4 +81,4 @@ player linkItem "ItemMicroDAGR";
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
 
-player setVariable ["ACE_IsAdvEngineer", true];
+player setVariable ["ACE_isEngineer", 1];

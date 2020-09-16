@@ -12,8 +12,8 @@ force ace_medical_treatment_medicIV = 2;
 force ace_medical_treatment_medicEpinephrine = 1;
 
 // ACE Logisctics
-force ace_repair_engineerSetting_repair = 1;
-force ace_repair_repairDamageThreshold_engineer = 0.0;
+force ace_repair_engineerSetting_repair = 2;
+force ace_repair_fullRepairLocation = 3;
 force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum Reifenwechsel
 
 // ACEX Headless
