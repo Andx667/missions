@@ -25,6 +25,7 @@ setDate [2035, 10, 15, 7, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei 
 
 	heli_01,
 	heli_02,
+	heli_03,
 	heli_04,
 	heli_05,
 	heli_06

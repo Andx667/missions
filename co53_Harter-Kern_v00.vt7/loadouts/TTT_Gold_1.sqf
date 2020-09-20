@@ -28,7 +28,7 @@ player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_Gold_BW_Flecktarn";
+player forceAddUniform "BWA3_Uniform_Ghillie_Fleck";
 player addVest "TTT_Vest_Heavy_Gold_US_Desert";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
