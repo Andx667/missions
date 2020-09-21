@@ -58,7 +58,7 @@ player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
 [] spawn {
-    sleep 60;
+    sleep 30;
 	_insignia = [
 		"USP_PATCH_BLOOD_OPOS_BLK",
 		"USP_PATCH_BLOOD_ONEG_BLK",

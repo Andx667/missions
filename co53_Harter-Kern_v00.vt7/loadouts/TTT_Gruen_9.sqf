@@ -65,7 +65,7 @@ player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
 
 [] spawn {
-    sleep 60;
+    sleep 30;
 	_insignia = [
 		"USP_PATCH_BLOOD_OPOS_BLK",
 		"USP_PATCH_BLOOD_ONEG_BLK",

@@ -67,6 +67,6 @@ player linkItem "TFAR_anprc152";
 player linkItem "B_UavTerminal";
 
 [] spawn {
-    sleep 60;
+    sleep 30;
     [player,"insignia30"] call bis_fnc_setUnitInsignia;
 };

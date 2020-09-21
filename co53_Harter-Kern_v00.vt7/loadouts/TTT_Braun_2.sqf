@@ -71,7 +71,7 @@ player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
 
 [] spawn {
-    sleep 60;
+    sleep 30;
    	[player,"MedA"] call BIS_fnc_setUnitInsignia;
 };
 
