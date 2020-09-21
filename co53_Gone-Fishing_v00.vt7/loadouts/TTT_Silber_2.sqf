@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_smg_mp5N_tac";
+player addWeapon "hlc_smg_mp5k_PDW";
 player addPrimaryWeaponItem "hlc_30Rnd_9x19_B_MP5";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
