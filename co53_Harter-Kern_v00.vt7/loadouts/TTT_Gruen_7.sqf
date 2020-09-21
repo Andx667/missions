@@ -15,11 +15,12 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_lmg_mk48mod1";
+player addWeapon "hlc_lmg_mk46mod1";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "150Rnd_762x51_Box_Tracer";
-player addPrimaryWeaponItem "HLC_muzzle_SF3P_68";
+player addPrimaryWeaponItem "hlc_200rnd_556x45_M_SAW";
+player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
+
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
@@ -47,10 +48,10 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
-player addItemToVest "150Rnd_762x51_Box_Tracer";
+player addItemToVest "hlc_200rnd_556x45_M_SAW";
 
-for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box_Tracer";};
-player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
+for "_i" from 1 to 2 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
+player addItemToBackpack "TTT_Helmet_7_BW_Flecktarn";
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Green";
