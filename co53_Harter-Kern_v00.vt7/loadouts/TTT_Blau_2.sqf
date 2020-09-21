@@ -63,7 +63,7 @@ player addItemToBackpack "ACE_SpraypaintBlack";
 player addItemToBackpack "ACE_VMH3";
 
 player addHeadgear "TTT_Beret_Blue";
-player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
+player addGoggles selectRandom ["PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk"];
 
 comment "Add items";
 player linkItem "ItemMap";

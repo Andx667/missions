@@ -61,7 +61,7 @@ for "_i" from 1 to 10 do {player addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 5 do {player addItemToBackpack "ACE_SurgicalKit";};
 
 player addHeadgear "TTT_Beret_Brown";
-player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
+player addGoggles selectRandom ["PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk"];
 
 comment "Add items";
 player linkItem "ItemMap";

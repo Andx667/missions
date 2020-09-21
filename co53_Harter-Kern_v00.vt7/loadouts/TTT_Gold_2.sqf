@@ -17,11 +17,12 @@ removeGoggles player;
 
 comment "Add weapons";
 comment "Add weapons";
-player addWeapon "hlc_rifle_416D20";
+player addWeapon "hlc_rifle_416D20_wdl";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
 player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
+player addPrimaryWeaponItem "HLC_muzzle_556nato_kac";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -62,7 +63,6 @@ for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
 
 player addHeadgear "TTT_Helmet_2_BW_Flecktarn";
-player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
 
 comment "Add items";
 player linkItem "ItemMap";

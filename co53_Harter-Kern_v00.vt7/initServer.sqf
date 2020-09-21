@@ -92,9 +92,9 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 [
     [mun_01, mun_02, mun_03, mun_04, mun_05, mun_06],
     [
-		["hlc_30rnd_68x43_FMJ", 28],
-		["hlc_30rnd_68x43_Tracer", 21],
-		["150Rnd_762x51_Box_Tracer", 8],
+		["hlc_30rnd_556x45_M_PMAG", 28],
+		["hlc_30rnd_556x45_T_PMAG", 21],
+		["hlc_200rnd_556x45_M_SAW", 8],
 		["hlc_15Rnd_9x19_B_P226", 9]
     ]
 ] call reim_fnc_crateFiller;

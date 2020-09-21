@@ -16,14 +16,13 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_SBR_black";
-player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
-player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
+player addWeapon "hlc_smg_mp5k_PDW";
+player addPrimaryWeaponItem "hlc_30Rnd_9x19_B_MP5";
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
+
 comment "Add containers";
 player forceAddUniform "U_B_HeliPilotCoveralls";
 player setObjectTexture [0, "\A3\Characters_F\Common\Data\coveralls_grey_co.paa"];
