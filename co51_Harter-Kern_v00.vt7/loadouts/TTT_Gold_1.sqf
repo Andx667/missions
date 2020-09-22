@@ -44,6 +44,7 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "ACE_Rangecard";
+player addItemToUniform "ACE_IR_Strobe_item";
 
 for "_i" from 1 to 6 do {player addItemToVest "BWA3_10Rnd_762x51_G28_SD";};
 for "_i" from 1 to 6 do {player addItemToVest "BWA3_10Rnd_762x51_G28_AP";};

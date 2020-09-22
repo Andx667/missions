@@ -42,6 +42,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_IR_Strobe_item";
 
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
