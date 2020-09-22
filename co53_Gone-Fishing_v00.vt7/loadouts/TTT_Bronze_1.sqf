@@ -49,6 +49,7 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "ACE_microDAGR";
 player addItemToVest "SmokeShellGreen";
+player addItemToVest "ACE_artillerytable";
 for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";

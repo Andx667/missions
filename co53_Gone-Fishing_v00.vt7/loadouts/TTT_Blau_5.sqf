@@ -22,6 +22,7 @@ player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
 player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
+player addPrimaryWeaponItem "HLC_muzzle_556nato_kac";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
