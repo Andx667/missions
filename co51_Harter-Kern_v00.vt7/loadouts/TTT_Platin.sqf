@@ -46,7 +46,7 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addItemToBackpack "TTT_Helmet_Eagle";
+player addItemToBackpack "rhsusf_ihadss";
 
 player addHeadgear "TTT_Beret_Platinum";
 

@@ -53,6 +53,7 @@ for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 player addItemToBackpack "TTT_Helmet_1_BW_Flecktarn";
+player addItemToBackpack selectRandom ["G_Respirator_yellow_F","G_Respirator_white_F","G_Respirator_blue_F"];
 for "_i" from 1 to 27 do {player addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 27 do {player addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 9 do {player addItemToBackpack "ACE_quikclot";};

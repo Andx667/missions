@@ -49,6 +49,7 @@ player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
+player addItemToBackpack selectRandom ["G_Respirator_yellow_F","G_Respirator_white_F","G_Respirator_blue_F"];
 for "_i" from 1 to 27 do {player addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 27 do {player addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 9 do {player addItemToBackpack "ACE_quikclot";};

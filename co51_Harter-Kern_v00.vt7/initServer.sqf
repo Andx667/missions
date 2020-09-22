@@ -139,9 +139,18 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [uav_01],
     [
 		["ACE_UAVbattery", 10],
-		["ITC_Land_B_AR2i_Packed", 2],
+		["ITC_Land_B_AR2i_Packed", 2]
+    ]
+] call reim_fnc_crateFiller;
+
+//Mun für Gold
+[
+    [uav_03],
+    [
 		["BWA3_10Rnd_762x51_G28_SD", 12],
-		["BWA3_10Rnd_762x51_G28_AP", 12]
+		["BWA3_10Rnd_762x51_G28_AP", 12],
+		["SmokeShellOrange", 6],
+		["SmokeShellBlue", 6]
     ]
 ] call reim_fnc_crateFiller;
 

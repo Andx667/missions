@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=2090;
+		nextID=2153;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=516;
+		nextID=537;
 	};
 	class Camera
 	{
-		pos[]={956.69012,66.453003,2865.8318};
-		dir[]={-0.18757586,-0.64543623,0.74057829};
-		up[]={-0.15848161,0.76377428,0.62570119};
-		aside[]={0.96950787,-1.4813268e-006,0.24556157};
+		pos[]={913.77637,15.779092,2938.3826};
+		dir[]={-0.39838731,-0.76024234,0.51338512};
+		up[]={-0.46607566,0.64960885,0.60060602};
+		aside[]={0.7901305,-2.2371532e-006,0.61314517};
 	};
 };
 binarizationWanted=0;
@@ -369,7 +369,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -421,7 +421,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=271;
+		items=274;
 		class Item0
 		{
 			dataType="Object";
@@ -10601,8 +10601,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={914.23901,13.594054,2938.6399};
-				angles[]={0,4.1632385,0};
+				position[]={912.62927,13.594359,2940.6057};
+				angles[]={-0,4.1632385,0};
 			};
 			side="Empty";
 			flags=4;
@@ -10613,7 +10613,6 @@ class Mission
 			};
 			id=1209;
 			type="Box_NATO_Support_F";
-			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17409,20 +17408,21 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={932,13.437562,2905.05};
-						angles[]={0,4.8557339,0};
+						position[]={932,13.437439,2905.05};
+						angles[]={0,4.8557329,0};
 					};
 					side="West";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""TTT_Braun_1""];}";
-						description="#1 Feldarzt@Beweglicher Sanitätstrupp ""Braun""";
+						description="#1 Feldarzt@Sanitätstrupp ""Braun""";
 						isPlayable=1;
 					};
 					id=1683;
 					type="B_Soldier_F";
+					atlOffset=0.27600002;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17596,6 +17596,7 @@ class Mission
 			{
 			};
 			id=1682;
+			atlOffset=0.27600002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24344,8 +24345,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={914.89301,13.594054,2937.761};
-				angles[]={0,4.1632385,0};
+				position[]={915.03705,13.594359,2934.8855};
+				angles[]={-0,4.1632385,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24356,7 +24357,6 @@ class Mission
 			};
 			id=1965;
 			type="Box_NATO_Support_F";
-			atlOffset=0.14999962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24850,11 +24850,104 @@ class Mission
 		};
 		class Item269
 		{
+			dataType="Trigger";
+			position[]={10352.078,33.68026,10442.289};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{missionNamespace setVariable [""ambush_04"", true, true];}";
+				sizeA=250;
+				sizeB=250;
+				sizeC=50;
+				activationBy="ANYPLAYER";
+				isServerOnly=1;
+			};
+			id=1731;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-3.8146973e-006;
+		};
+		class Item270
+		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1044.355,16.888283,2888.8733};
-				angles[]={0,2.495559,0};
+				position[]={914.59979,14.10173,2934.0164};
+				angles[]={-0,2.5486581,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=2090;
+			type="TTT_Sign_Small_Green";
+		};
+		class Item271
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={913.30792,14.10173,2940.6367};
+				angles[]={-0,0.90005845,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=2091;
+			type="TTT_Sign_Small_Gold";
+		};
+		class Item272
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={913.07825,13.594359,2939.9214};
+				angles[]={-0,4.1632385,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { this setVariable [""ace_cargo_displayName"", ""HuntIR Bedarf"", true]; };}";
+				name="uav_03";
+			};
+			id=2092;
+			type="Box_NATO_Support_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item273
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1043.7565,16.888283,2888.772};
+				angles[]={-0,2.495559,0};
 			};
 			side="Empty";
 			flags=4;
@@ -24889,24 +24982,6 @@ class Mission
 				};
 				nAttributes=1;
 			};
-		};
-		class Item270
-		{
-			dataType="Trigger";
-			position[]={10352.078,33.68026,10442.289};
-			class Attributes
-			{
-				condition="call{this}";
-				onActivation="call{missionNamespace setVariable [""ambush_04"", true, true];}";
-				sizeA=250;
-				sizeB=250;
-				sizeC=50;
-				activationBy="ANYPLAYER";
-				isServerOnly=1;
-			};
-			id=1731;
-			type="EmptyDetectorAreaR250";
-			atlOffset=-3.8146973e-006;
 		};
 	};
 	class Connections
