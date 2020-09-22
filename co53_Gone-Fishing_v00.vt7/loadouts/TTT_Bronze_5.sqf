@@ -58,7 +58,7 @@ player addItemToBackpack "TTT_Helmet5_Vehiclecrew";
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Bronze";
-player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
+player addGoggles selectRandom ["PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
 
 comment "Add items";
 player linkItem "ItemMap";
