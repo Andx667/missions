@@ -16,10 +16,10 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_Carb_black";
+player addWeapon "hlc_rifle_416D165";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
+player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -45,7 +45,7 @@ player addItemToUniform "ACE_morphine";
 
 player addItemToVest "ACE_DefusalKit";
 player addItemToVest "ACE_Clacker";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
@@ -60,7 +60,7 @@ player addItemToBackpack "ACE_Fortify";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 
 player addHeadgear "TTT_Beret_Blue";
-player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk"];
+player addGoggles selectRandom ["PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk"];
 
 comment "Add items";
 player linkItem "ItemMap";

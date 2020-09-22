@@ -16,10 +16,11 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_ACR68_mid_black";
+player addWeapon "hlc_rifle_416D165";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_68x43_FMJ";
+player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
+player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
 
 player addWeapon "BWA3_RGW90_Loaded";
 player addWeapon "hlc_pistol_P226R_Elite";
@@ -47,7 +48,7 @@ player addItemToUniform "ACE_Maptools";
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_68x43_FMJ";};
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
@@ -55,7 +56,7 @@ player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Green";
-player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
+player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];
 
 comment "Add items";
 player linkItem "ItemMap";
