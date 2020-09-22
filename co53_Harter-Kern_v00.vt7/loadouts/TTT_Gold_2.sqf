@@ -16,13 +16,11 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-comment "Add weapons";
-player addWeapon "hlc_rifle_416D20_wdl";
+player addWeapon "BWA3_G28";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
-player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
-player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
-player addPrimaryWeaponItem "HLC_muzzle_556nato_kac";
+player addPrimaryWeaponItem "BWA3_optic_PMII_DMR_MicroT1_rear_pip";
+player addPrimaryWeaponItem "BWA3_10Rnd_762x51_G28_SD";
+player addPrimaryWeaponItem "muzzle_snds_B";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -31,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
 player forceAddUniform "BWA3_Uniform_Ghillie_Fleck";
-player addVest "TTT_Vest_Heavy_Gold_US_Desert";
+player addVest "TTT_Vest_Lite_Gold_US_Desert";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add binoculars";
@@ -45,8 +43,10 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_Rangecard";
 
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
+for "_i" from 1 to 6 do {player addItemToVest "BWA3_10Rnd_762x51_G28_SD";};
+for "_i" from 1 to 6 do {player addItemToVest "BWA3_10Rnd_762x51_G28_AP";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -54,6 +54,7 @@ player addItemToVest "SmokeShellGreen";
 player addItemToVest "Laserbatteries";
 player addItemToVest "ItemAndroid";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+player addItemToVest "ACE_Kestrel4500";
 
 player addItemToBackpack "TTT_Beret_Gold";
 player addItemToBackpack "ITC_Land_B_AR2i_Packed";

@@ -60,7 +60,7 @@ player addItemToBackpack "ACE_Fortify";
 for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 
 player addHeadgear "TTT_Beret_Blue";
-player addGoggles selectRandom ["PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk"];
+player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];
 
 comment "Add items";
 player linkItem "ItemMap";

@@ -21,7 +21,7 @@ player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
 
-pplayer addWeapon "hlc_pistol_P226R_Elite";
+player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";

@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=495;
+		nextID=516;
 	};
 	class Camera
 	{
-		pos[]={976.5365,139.47438,2827.9104};
-		dir[]={-0.91318482,-0.35023469,-0.20891464};
-		up[]={-0.34149137,0.93662041,-0.078127913};
-		aside[]={-0.22304295,-1.1154698e-006,0.97492546};
+		pos[]={956.69012,66.453003,2865.8318};
+		dir[]={-0.18757586,-0.64543623,0.74057829};
+		up[]={-0.15848161,0.76377428,0.62570119};
+		aside[]={0.96950787,-1.4813268e-006,0.24556157};
 	};
 };
 binarizationWanted=0;
@@ -369,7 +369,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
