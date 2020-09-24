@@ -18,3 +18,6 @@ force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum
 
 // ACEX Headless
 force acex_headless_enabled = true;
+
+// Artillerie Computer ausschalten
+force ace_artillerytables_disableArtilleryComputer = true;
