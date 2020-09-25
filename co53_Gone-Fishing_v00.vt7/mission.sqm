@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=126;
+		nextID=140;
 	};
 	class Camera
 	{
@@ -12499,7 +12499,7 @@ class Mission
 					};
 					id=1066;
 					type="Land_Hammer_F";
-					atlOffset=2.2411346e-005;
+					atlOffset=2.0980835e-005;
 				};
 				class Item6
 				{
@@ -21234,7 +21234,7 @@ class Mission
 			};
 			id=1816;
 			type="UnderwaterMinePDM";
-			atlOffset=-0.01214233;
+			atlOffset=-0.012142338;
 		};
 		class Item283
 		{
@@ -24046,7 +24046,7 @@ class Mission
 					};
 					id=2346;
 					type="Land_WaterBarrel_F";
-					atlOffset=5.9604645e-008;
+					atlOffset=-0.031638145;
 				};
 				class Item3
 				{
@@ -24090,7 +24090,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={11314.384,12.913976,5951.1294};
-						angles[]={-0,0,6.2763672};
+						angles[]={0,0,6.2763672};
 					};
 					side="Empty";
 					flags=4;
@@ -24119,6 +24119,7 @@ class Mission
 					};
 					id=2355;
 					type="Land_fort_rampart";
+					atlOffset=5.9604645e-008;
 				};
 				class Item7
 				{
@@ -24282,6 +24283,7 @@ class Mission
 					};
 					id=2364;
 					type="MetalBarrel_burning_F";
+					atlOffset=-0.0010025501;
 				};
 				class Item16
 				{
@@ -24300,6 +24302,7 @@ class Mission
 					};
 					id=2370;
 					type="Barrel1";
+					atlOffset=-0.0013834238;
 				};
 				class Item17
 				{
@@ -24318,24 +24321,25 @@ class Mission
 					};
 					id=2371;
 					type="Barrel1";
+					atlOffset=-0.0015227795;
 				};
 			};
 			id=2372;
-			atlOffset=-0.0052620173;
+			atlOffset=-0.0020176172;
 		};
 		class Item374
 		{
 			dataType="Layer";
 			name="Watchtower #O9";
 			id=3242;
-			atlOffset=-0.17249298;
+			atlOffset=22.049999;
 		};
 		class Item375
 		{
 			dataType="Layer";
 			name="Watchtower #O7";
 			id=3269;
-			atlOffset=-0.18976212;
+			atlOffset=22.049999;
 		};
 		class Item376
 		{
@@ -24551,7 +24555,7 @@ class Mission
 				};
 			};
 			id=3312;
-			atlOffset=-0.21269608;
+			atlOffset=-0.18518448;
 		};
 		class Item377
 		{
@@ -24691,7 +24695,7 @@ class Mission
 				};
 			};
 			id=3323;
-			atlOffset=-0.045696259;
+			atlOffset=-0.066711426;
 		};
 		class Item378
 		{

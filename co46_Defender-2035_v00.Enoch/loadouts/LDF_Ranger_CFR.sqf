@@ -71,8 +71,3 @@ player linkItem "TFAR_anprc152";
 player linkItem "ItemMicroDAGR";
 
 player setVariable ["ace_medical_medicClass", 1, true];
-
-[] spawn {
-    sleep 60;
-    [player,"MEDA"] call bis_fnc_setUnitInsignia;
-};

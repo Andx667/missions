@@ -58,6 +58,4 @@ player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
-[player, "MEDB"] call BIS_fnc_setUnitInsignia;
-
 player setVariable ["ace_medical_medicClass", 1, true];

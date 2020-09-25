@@ -56,6 +56,4 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_rf7800str";
 
-[player, "MEDA"] call BIS_fnc_setUnitInsignia;
-
 player setVariable ["ace_medical_medicClass", 1, true];

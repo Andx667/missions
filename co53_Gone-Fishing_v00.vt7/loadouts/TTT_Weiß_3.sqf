@@ -71,7 +71,7 @@ player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 30;
-   	[player,"MedB"] call BIS_fnc_setUnitInsignia;
+   	[player,"insignia1"] call BIS_fnc_setUnitInsignia;
 };
 
 player setVariable ["ace_medical_medicClass", 2];

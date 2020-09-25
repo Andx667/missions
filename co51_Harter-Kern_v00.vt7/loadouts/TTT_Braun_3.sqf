@@ -29,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Brown_BW_Flecktarn";
 player addVest "TTT_Vest_Lite_Brown_US_Woodland";
-player addBackpack "B_TacticalPack_oli";
+player addBackpack "B_AssaultPack_rgr";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -74,7 +74,7 @@ player linkItem "ItemMicroDAGR";
 
 [] spawn {
     sleep 30;
-   	[player,"MedA"] call BIS_fnc_setUnitInsignia;
+   	[player,"insignia24"] call BIS_fnc_setUnitInsignia;
 };
 
 player setVariable ["ace_medical_medicClass", 1];
