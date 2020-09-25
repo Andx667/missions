@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_416D145";
+player addWeapon selectRandom ["hlc_rifle_416D145","hlc_rifle_416D145_CAG"];
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
@@ -29,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Brown_BW_Flecktarn";
 player addVest "TTT_Vest_Lite_Brown_US_Woodland";
-player addBackpack "B_TacticalPack_oli";
+player addBackpack "B_AssaultPack_rgr";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
