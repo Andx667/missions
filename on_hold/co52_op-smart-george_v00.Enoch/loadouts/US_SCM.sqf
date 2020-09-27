@@ -69,11 +69,6 @@ player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
-[] spawn {
-    sleep 60;
-    [player,"MedB"] call BIS_fnc_setUnitInsignia;
-};
-
 player setVariable ["ace_medical_medicClass", 2, true];
 
 player addGoggles selectRandom ["","G_Bandanna_oli","rhsusf_shemagh_grn","rhsusf_shemagh2_grn","rhsusf_shemagh_od","rhsusf_shemagh2_od","PBW_shemagh_gruen"];

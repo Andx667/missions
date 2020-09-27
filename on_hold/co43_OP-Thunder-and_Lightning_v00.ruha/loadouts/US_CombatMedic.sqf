@@ -55,8 +55,6 @@ player addHeadgear "H_HelmetSpecB_wdl";
 
 player addGoggles selectRandom ["","rhsusf_shemagh_grn","rhsusf_shemagh2_grn"];
 
-[player,"MedB"] call BIS_fnc_setUnitInsignia;
-
 player setVariable ["ace_medical_medicClass", 2, true];
 
 comment "Add items";

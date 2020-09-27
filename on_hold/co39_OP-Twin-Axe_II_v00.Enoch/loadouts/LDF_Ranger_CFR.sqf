@@ -73,5 +73,3 @@ player linkItem "ItemMicroDAGR";
 player setVariable ["ace_medical_medicClass", 1, true];
 
 cutText ["", "PLAIN"];
-
-[player, "MedA"] call BIS_fnc_setUnitInsignia;

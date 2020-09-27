@@ -69,5 +69,3 @@ player linkItem "ItemAndroid";
 player setVariable ["ace_medical_medicClass", 2, true];
 
 cutText ["", "PLAIN"];
-
-[player, "MedA"] call BIS_fnc_setUnitInsignia;
