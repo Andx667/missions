@@ -15,33 +15,30 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "rhs_weap_ak74m";
-player addPrimaryWeaponItem "rhs_acc_dtk3";
-player addPrimaryWeaponItem "rhs_30Rnd_545x39_7N10_AK";
+player addWeapon "CFP_Negev_Black";
+player addPrimaryWeaponItem "150Rnd_762x54_Box";
 
 comment "Add containers";
-player forceAddUniform "rhs_uniform_msv_emr";
-player addVest "rhs_6b23_digi_6sh92";
-player addBackpack "rhs_rpg_empty";
-
-comment "Add binoculars";
-player addWeapon "Binocular";
+player forceAddUniform "CFP_IDF_3";
+player addVest "CUP_V_IDF_Vest";
+player addBackpack "CUP_B_IDF_Backpack";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
+player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToVest "ACE_EntrenchingTool";
-for "_i" from 1 to 5 do {player addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
-for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rgn";};
-for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
-
-for "_i" from 1 to 3 do {player addItemToBackpack "rhs_rpg7_PG7V_mag";};
-
-player addHeadgear selectRandom ["rhs_6b47_ess_bala","rhs_6b47_ess","rhs_6b47_bala","rhs_6b47"];
+for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+player addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+player addItemToVest "ACE_M84";
+player addItemToVest "150Rnd_762x54_Box";
+for "_i" from 1 to 3 do {player addItemToBackpack "150Rnd_762x54_Box";};
+player addHeadgear "CFP_IDF_M76";
 
 comment "Add items";
 player linkItem "ItemMap";

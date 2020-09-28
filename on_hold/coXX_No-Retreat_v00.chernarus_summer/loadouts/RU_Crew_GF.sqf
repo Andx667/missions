@@ -17,12 +17,11 @@ removeGoggles player;
 comment "Add weapons";
 player addWeapon "rhs_weap_aks74u";
 player addPrimaryWeaponItem "rhs_acc_dtk3";
-player addPrimaryWeaponItem "rhs_30Rnd_545x39_7N10_AK";
+player addPrimaryWeaponItem "rhs_30Rnd_545x39_7N6M_AK";
 
 comment "Add containers";
 player forceAddUniform "rhs_uniform_msv_emr";
-player addVest "rhs_6b23_digi_6sh92";
-player addBackpack "rhs_medic_bag";
+player addVest "rhs_6b23_digi_crewofficer";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -31,16 +30,16 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToVest "ACE_EntrenchingTool";
-for "_i" from 1 to 5 do {player addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
-for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rgn";};
+player addItemToVest "rhs_mag_rgn";
+for "_i" from 1 to 3 do {player addItemToVest "rhs_30Rnd_545x39_7N6M_AK";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
 
-player addHeadgear selectRandom ["rhs_6b47_ess","rhs_6b47"];
+player addHeadgear selectRandom ["rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"];
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "TFAR_fadak";
 
-player setVariable ["ace_medical_medicClass", 2, true];
+player setVariable ["ACE_IsEngineer", 1, true];

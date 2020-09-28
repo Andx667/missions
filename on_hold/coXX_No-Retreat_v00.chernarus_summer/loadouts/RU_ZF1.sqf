@@ -21,8 +21,7 @@ player addPrimaryWeaponItem "rhs_30Rnd_545x39_7N10_AK";
 
 comment "Add containers";
 player forceAddUniform "rhs_uniform_msv_emr";
-player addVest "rhs_6b23_digi_6sh92";
-player addBackpack "RHS_Metis_Tripod_Bag";
+player addVest "rhs_6b23_digi_6sh92_headset";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -35,7 +34,7 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToVest "ACE_EntrenchingTool";
-for "_i" from 1 to 5 do {player addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
+for "_i" from 1 to 6 do {player addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rgn";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
 
@@ -45,3 +44,4 @@ comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "TFAR_fadak";
