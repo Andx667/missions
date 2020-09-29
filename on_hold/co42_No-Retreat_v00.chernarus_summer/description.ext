@@ -2,7 +2,7 @@
  
 /*------onLoad------*/
 author="[TTT] Andx "; //Autor der Mission (Missionsbauer)
-OnLoadName = "OP NAME"; //Überschrift im LoadScreen (über dem Bild)
+OnLoadName = "No Retreat"; //Überschrift im LoadScreen (über dem Bild)
 onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
 loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = TRUE;
@@ -12,7 +12,7 @@ class Header
 {
 	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
 	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
-	maxPlayers = 56; //Anzahl der Spieler +1 für den HC
+	maxPlayers = 43; //Anzahl der Spieler +1 für den HC
 };
 
 /*------Respawn------*/	
