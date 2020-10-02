@@ -48,3 +48,4 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_fadak";
+player linkItem "ItemAndroid";

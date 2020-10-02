@@ -42,6 +42,10 @@ for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
 for "_i" from 1 to 10 do {player addItemToBackpack "rhs_VOG25";};
 for "_i" from 1 to 5 do {player addItemToBackpack "rhs_GRD40_Red";};
 for "_i" from 1 to 5 do {player addItemToBackpack "rhs_GRD40_White";};
+for "_i" from 1 to 2 do {player addItemToBackpack "rhssaf_mag_brd_m83_blue";};
+for "_i" from 1 to 5 do {player addItemToBackpack "rhssaf_mag_brd_m83_red";};
+for "_i" from 1 to 5 do {player addItemToBackpack "rhssaf_mag_brd_m83_green";};
+for "_i" from 1 to 2 do {player addItemToBackpack "rhssaf_mag_brd_m83_orange";};
 
 player addHeadgear selectRandom ["rhs_6b47_ess_bala","rhs_6b47_ess","rhs_6b47_bala","rhs_6b47"];
 

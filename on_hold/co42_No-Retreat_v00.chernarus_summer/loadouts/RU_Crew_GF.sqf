@@ -41,5 +41,6 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_fadak";
+player linkItem "ItemAndroid";
 
 player setVariable ["ACE_IsEngineer", 1, true];

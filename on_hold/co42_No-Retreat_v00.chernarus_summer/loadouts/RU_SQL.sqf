@@ -22,6 +22,7 @@ player addPrimaryWeaponItem "rhs_30Rnd_545x39_7N10_AK";
 comment "Add containers";
 player forceAddUniform "rhs_uniform_msv_emr";
 player addVest "rhs_6b23_digi_6sh92_headset";
+player addBackpack "B_assaultpack_sgg";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -38,6 +39,11 @@ for "_i" from 1 to 6 do {player addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rgn";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
 
+for "_i" from 1 to 2 do {player addItemToBackpack "rhssaf_mag_brd_m83_blue";};
+for "_i" from 1 to 5 do {player addItemToBackpack "rhssaf_mag_brd_m83_red";};
+for "_i" from 1 to 5 do {player addItemToBackpack "rhssaf_mag_brd_m83_green";};
+for "_i" from 1 to 2 do {player addItemToBackpack "rhssaf_mag_brd_m83_orange";};
+
 player addHeadgear selectRandom ["rhs_6b47_ess_bala","rhs_6b47_ess","rhs_6b47_bala","rhs_6b47"];
 
 comment "Add items";
@@ -45,3 +51,4 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_fadak";
+player linkItem "ItemAndroid";
