@@ -48,3 +48,5 @@ player linkItem "ItemWatch";
 player linkItem "TFAR_fadak";
 
 player setVariable ["ACE_IsEngineer", 2, true];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

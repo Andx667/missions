@@ -55,3 +55,5 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 
 player setVariable ["ace_medical_medicClass", 2, true];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
