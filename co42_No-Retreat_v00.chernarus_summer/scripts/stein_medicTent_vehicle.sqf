@@ -113,7 +113,7 @@ stein_fnc_buildTent = {
 	private _position = (_target getPos [-11, getDir _target]) findEmptyPosition [2, 10, "Tank"];
 
 	_medicTent = stein_medicTent createVehicle _position;
-	_medicTent setDir (getDir _target + 90);
+	//_medicTent setDir (getDir _target + 90);
 
 	_medicTent animate ["door1_hide", 1, true];
   	_medicTent animate ["door2_hide", 1, true];

@@ -18,3 +18,6 @@ teleporter_01 addAction ["Zuschauermodus", {
 
 // JIP spawns at the teleporter
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
+
+//Stein Medic Tent Fhz
+[] call compile preprocessFileLineNumbers "scripts\stein_medicTent_vehicle.sqf";
