@@ -77,3 +77,5 @@ player linkItem "ItemMicroDAGR";
 };
 
 player setVariable ["ace_medical_medicClass", 1];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

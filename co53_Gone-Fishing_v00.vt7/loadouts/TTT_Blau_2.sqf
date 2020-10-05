@@ -74,3 +74,5 @@ player linkItem "ItemMicroDAGR";
 
 player setVariable ["ACE_isEngineer", 1];
 player setVariable ["ACE_isEOD", true];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

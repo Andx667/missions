@@ -53,7 +53,7 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addItemToBackpack "TTT_Helmet1_Vehiclecrew";
+player addItemToBackpack "TTT_Helmet_8_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_Fortify";
@@ -75,3 +75,5 @@ player linkItem "ItemMicroDAGR";
 
 player setVariable ["ACE_isEngineer", 1];
 player setVariable ["ACE_isEOD", true];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

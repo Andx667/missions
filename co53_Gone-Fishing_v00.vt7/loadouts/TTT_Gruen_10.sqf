@@ -51,7 +51,7 @@ for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addItemToBackpack "TTT_Helmet1_Vehiclecrew";
+player addItemToBackpack "TTT_Helmet_9_BW_Flecktarn";
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Green";
@@ -80,3 +80,5 @@ player linkItem "ItemMicroDAGR";
 };
 
 player setVariable ["ACE_isEngineer", 1];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

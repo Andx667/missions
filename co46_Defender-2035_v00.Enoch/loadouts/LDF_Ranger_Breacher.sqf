@@ -66,3 +66,5 @@ player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
 
 player setVariable ["ACE_isEOD", true];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

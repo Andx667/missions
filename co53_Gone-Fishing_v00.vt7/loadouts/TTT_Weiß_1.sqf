@@ -64,3 +64,5 @@ player linkItem "ItemAndroid";
 
 player setVariable ["ACE_IsAdvEngineer", true];
 player setVariable ["ace_medical_medicClass", 1];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
