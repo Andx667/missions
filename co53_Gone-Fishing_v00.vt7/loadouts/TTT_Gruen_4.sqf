@@ -20,7 +20,6 @@ player addWeapon selectRandom ["hlc_rifle_416D145","hlc_rifle_416D145_CAG"];
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
-player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
 
 player addWeapon "BWA3_RGW90_Loaded";
 player addWeapon "hlc_pistol_P226R_Elite";
