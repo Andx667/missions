@@ -1,4 +1,4 @@
-player setRank "PRIVATE";								//PRIVATE, CORPORAL, SERGEANT, LIEUTENANT, CAPTAIN, MAJOR or COLONEL <> kann hier gesetzt werden wenn gewünscht
+player setRank "PRIVATE";								
 
 comment "Exported from Arsenal by Andx";
 

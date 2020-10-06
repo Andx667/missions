@@ -50,7 +50,7 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 
-player addHeadgear "H_HelmetHBK_chops_F";
+player addHeadgear "H_HelmetHBK_headset_F";
 player addGoggles "G_Tactical_Clear";
 
 comment "Add items";

@@ -60,7 +60,7 @@ for "_i" from 1 to 4 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";
 for "_i" from 1 to 4 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
 
-player addHeadgear "H_HelmetHBK_chops_F";
+player addHeadgear "H_HelmetHBK_headset_F";
 player addGoggles "G_Tactical_Clear";
 
 comment "Add items";

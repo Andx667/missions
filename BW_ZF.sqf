@@ -15,10 +15,9 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_PSG1A1_RIS";
-player addPrimaryWeaponItem "optic_SOS";
+player addWeapon "hlc_rifle_g3sg1";
+player addPrimaryWeaponItem "HLC_Optic_ZFSG1";
 player addPrimaryWeaponItem "hlc_20rnd_762x51_b_G3";
-player addPrimaryWeaponItem "BWA3_bipod_Harris";
 player addWeapon "BWA3_P8";
 player addHandgunItem "BWA3_15Rnd_9x19_P8";
 

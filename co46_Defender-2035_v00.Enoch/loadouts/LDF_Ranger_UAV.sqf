@@ -49,7 +49,7 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "ItemAndroid";
 player addItemToBackpack "ITC_Land_I_AR2i_Packed";
-player addHeadgear "H_HelmetHBK_chops_F";
+player addHeadgear "H_HelmetHBK_headset_F";
 player addGoggles "G_Tactical_Clear";
 
 comment "Add items";
