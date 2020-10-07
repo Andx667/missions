@@ -39,6 +39,7 @@ for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
 for "_i" from 1 to 5 do {player addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rgn";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_rdg2_white";};
+
 for "_i" from 1 to 20 do {player addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 20 do {player addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 20 do {player addItemToBackpack "ACE_quikclot";};

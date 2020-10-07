@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=2153;
+		nextID=2164;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=558;
+		nextID=600;
 	};
 	class Camera
 	{
-		pos[]={919.42023,37.593826,2881.2722};
-		dir[]={0.80715853,-0.46820661,-0.35989439};
-		up[]={0.42769358,0.88355052,-0.19069487};
-		aside[]={-0.40728089,-1.287015e-006,-0.91344398};
+		pos[]={997.67505,84.939545,2862.4399};
+		dir[]={0.57427329,-0.61024177,-0.54595286};
+		up[]={0.44230467,0.7921446,-0.42048737};
+		aside[]={-0.68909442,-1.9059516e-006,-0.7248491};
 	};
 };
 binarizationWanted=0;
@@ -81,14 +81,15 @@ addons[]=
 	"A3_Armor_F_Beta_APC_Wheeled_02",
 	"A3_Armor_F_Gamma_MBT_02",
 	"ace_cookoff",
-	"RHS_US_A2_AirImport",
-	"ace_compat_rhs_usf3"
+	"CFP_B_USRANGERS_WDL",
+	"bwa3_tiger",
+	"CUP_AirVehicles_MV22"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=41;
+		items=42;
 		class Item0
 		{
 			className="rnt_lkw_10t_mil_gl_kat_i";
@@ -348,17 +349,21 @@ class AddonsMetaData
 		};
 		class Item39
 		{
-			className="RHS_US_A2_AirImport";
-			name="RHSUSF A2 Air Ports";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
+			className="CFP_B_USRANGERS_WDL";
+			name="CFP_B_USRANGERS_WDL";
+			author="Drew";
 		};
 		class Item40
 		{
-			className="ace_compat_rhs_usf3";
-			name="ACE3 - RHS USF Compatibility";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
+			className="bwa3_tiger";
+			name="Bundeswehr - UH Tiger";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/inhalt/download";
+		};
+		class Item41
+		{
+			className="CUP_AirVehicles_MV22";
+			name="CUP_AirVehicles_MV22";
 		};
 	};
 };
@@ -24403,380 +24408,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1066.3838,15.525972,2782.031};
-				angles[]={0,0.97534233,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				lock="UNLOCKED";
-				name="heli_01";
-				textures="standard";
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-				pylons=";rhs_mag_M151_19;PylonRack_4Rnd_ACE_Hellfire_AGM114K[0];PylonRack_4Rnd_ACE_Hellfire_AGM114N[0];rhs_mag_M151_19;;rhsusf_M130_CMFlare_Chaff_Magazine_x2;";
-			};
-			id=2074;
-			type="RHS_AH64D_wd";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[""rhsusf_ihadss"",""ToolKit""],[2,1]],[[""B_AssaultPack_cbr""],[1]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item263
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1087.1115,15.525972,2756.3296};
-				angles[]={0,0.97534233,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				lock="UNLOCKED";
-				name="heli_02";
-				textures="standard";
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-				pylons=";rhs_mag_M151_19;PylonRack_4Rnd_ACE_Hellfire_AGM114K[0];PylonRack_4Rnd_ACE_Hellfire_AGM114N[0];rhs_mag_M151_19;;rhsusf_M130_CMFlare_Chaff_Magazine_x2;";
-			};
-			id=2075;
-			type="RHS_AH64D_wd";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[""rhsusf_ihadss"",""ToolKit""],[2,1]],[[""B_AssaultPack_cbr""],[1]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item264
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1005.8837,15.879415,2808.1145};
-				angles[]={0,5.6878881,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				lock="UNLOCKED";
-				name="heli_05";
-				reportOwnPosition=1;
-			};
-			id=2077;
-			type="RHS_UH60M_MEV2";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=2;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="doors_hide";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[""B_AssaultPack_cbr""],[1]]],false]";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_fastroping_equipFRIES";
-					expression="[_this] call ace_fastroping_fnc_equipFRIES";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item265
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1011.7485,15.879415,2840.6089};
-				angles[]={0,5.6878881,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				lock="UNLOCKED";
-				name="heli_04";
-				reportOwnPosition=1;
-			};
-			id=2078;
-			type="RHS_UH60M_MEV2";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=2;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="doors_hide";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[""B_AssaultPack_cbr""],[1]]],false]";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_fastroping_equipFRIES";
-					expression="[_this] call ace_fastroping_fnc_equipFRIES";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item266
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={1043.897,13.16,2888.7729};
 				angles[]={0,5.6109815,0};
 			};
@@ -24789,7 +24420,7 @@ class Mission
 			id=2081;
 			type="HeliH";
 		};
-		class Item267
+		class Item263
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24806,49 +24437,7 @@ class Mission
 			id=2082;
 			type="HeliH";
 		};
-		class Item268
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1012.771,16.888283,2932.5413};
-				angles[]={0,2.495559,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				lock="UNLOCKED";
-				name="heli_06";
-				reportOwnPosition=1;
-			};
-			id=2084;
-			type="RHS_CH_47F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[""B_Parachute"",""B_AssaultPack_cbr""],[4,1]]],false]";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item269
+		class Item264
 		{
 			dataType="Trigger";
 			position[]={10352.078,33.68026,10442.289};
@@ -24866,7 +24455,7 @@ class Mission
 			type="EmptyDetectorAreaR250";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item270
+		class Item265
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24883,7 +24472,7 @@ class Mission
 			id=2090;
 			type="TTT_Sign_Small_Green";
 		};
-		class Item271
+		class Item266
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24900,7 +24489,7 @@ class Mission
 			id=2091;
 			type="TTT_Sign_Small_Gold";
 		};
-		class Item272
+		class Item267
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24941,24 +24530,23 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item273
+		class Item268
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1043.7565,16.888283,2888.772};
-				angles[]={0,2.495559,0};
+				position[]={1011.9085,15.030912,2840.1506};
+				angles[]={0,5.76018,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_03";
-				reportOwnPosition=1;
+				name="heli_02";
 			};
-			id=2085;
-			type="RHS_CH_47F";
+			id=2153;
+			type="CFP_B_USRANGERS_UH_60M_MEV_WDL_01";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24976,11 +24564,412 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[""B_Parachute"",""B_AssaultPack_cbr""],[4,1]]],false]";
+							value="[[[[""CUP_launch_M136_Loaded""],[1]],[[""CUP_M136_M""],[2]],[[""ToolKit""],[1]],[[""B_AssaultPack_cbr""],[1]]],false]";
 						};
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item269
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1006.4245,15.030912,2809.0928};
+				angles[]={0,5.76018,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				name="heli_01";
+			};
+			id=2154;
+			type="CFP_B_USRANGERS_UH_60M_MEV_WDL_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""CUP_launch_M136_Loaded""],[1]],[[""CUP_M136_M""],[2]],[[""ToolKit""],[1]],[[""B_AssaultPack_cbr""],[1]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item270
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1067.8567,14.982452,2781.8738};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="heli_04";
+			};
+			id=2160;
+			type="BWA3_Tiger_RMK_Universal";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="BWA3_SerialNumber";
+					expression="_this setVariable ['BWA3_serialNumber', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=43;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[""B_Parachute"",""B_AssaultPack_cbr""],[2,1]]],false]";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item271
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1087.4596,14.982452,2755.6277};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="heli_03";
+			};
+			id=2161;
+			type="BWA3_Tiger_RMK_Universal";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="BWA3_SerialNumber";
+					expression="_this setVariable ['BWA3_serialNumber', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=41;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[""B_Parachute"",""B_AssaultPack_cbr""],[2,1]]],false]";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item272
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={950.02521,16.748507,3124.3826};
+				angles[]={0,2.4769015,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				name="heli_06";
+				textures="VMM265_low_vis";
+			};
+			id=2162;
+			type="CUP_B_MV22_USMC_RAMPGUN";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[""CUP_M72A6_M""],[2]],[[""ToolKit""],[1]],[[""B_AssaultPack_cbr""],[1]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="turn_wing";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item273
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={983.93817,16.748507,3002.0686};
+				angles[]={0,2.4769015,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				name="heli_05";
+				textures="VMM265_low_vis";
+			};
+			id=2163;
+			type="CUP_B_MV22_USMC_RAMPGUN";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[""CUP_M72A6_M""],[2]],[[""ToolKit""],[1]],[[""B_AssaultPack_cbr""],[1]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="VehicleCustomization";
+					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+										class value
+										{
+											items=2;
+											class Item0
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="turn_wing";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=1;
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};

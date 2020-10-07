@@ -25,11 +25,13 @@ setDate [2035, 10, 15, 7, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei 
 
 	heli_01,
 	heli_02,
-	heli_03,
-	heli_04,
+
 	heli_05,
 	heli_06
-],8] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS
+],4] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS
+
+// 	heli_03,
+//	heli_04,
 
 //Kisten befüllen
 reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
