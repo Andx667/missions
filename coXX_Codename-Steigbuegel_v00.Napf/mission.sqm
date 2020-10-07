@@ -8,14 +8,14 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=155;
+		nextID=159;
 	};
 	class Camera
 	{
-		pos[]={8606.0723,165.27089,12085.82};
-		dir[]={0.94987345,-0.29739213,-0.097668208};
-		up[]={0.29596218,0.95468211,-0.030431826};
-		aside[]={-0.10229939,7.7074219e-007,-0.99486071};
+		pos[]={10522.24,299.31796,11862.47};
+		dir[]={0.5022732,-0.61804825,0.60497999};
+		up[]={0.39482236,0.78603721,0.47555637};
+		aside[]={0.76946914,2.0048756e-006,-0.63884485};
 	};
 };
 binarizationWanted=0;
@@ -27,13 +27,14 @@ addons[]=
 	"A3_Characters_F",
 	"acex_headless",
 	"A3_Modules_F_Curator_Curator",
-	"Redd_Tank_LKW_leicht_gl"
+	"Redd_Tank_LKW_leicht_gl",
+	"Desert"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=8;
 		class Item0
 		{
 			className="A3_Characters_F_Enoch";
@@ -78,6 +79,11 @@ class AddonsMetaData
 		{
 			className="Redd_Tank_LKW_leicht_gl";
 			name="Redd_Tank_LKW_leicht_gl";
+		};
+		class Item7
+		{
+			className="Desert";
+			name="Desert";
 		};
 	};
 };
@@ -365,12 +371,12 @@ class Mission
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.60000002;
-		startFog=0.65771919;
+		startWeather=1;
+		startFog=0.69814354;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0.60000002;
-		forecastFog=0.66047263;
+		forecastWeather=0.66228127;
+		forecastFog=0.70365018;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
@@ -379,14 +385,16 @@ class Mission
 		year=2010;
 		month=8;
 		day=5;
-		hour=10;
-		minute=0;
-		startFogDecay=0.020803547;
-		forecastFogDecay=0.02;
+		hour=6;
+		minute=24;
+		startFogBase=70;
+		forecastFogBase=70;
+		startFogDecay=0.053569186;
+		forecastFogDecay=0.031817216;
 	};
 	class Entities
 	{
-		items=17;
+		items=21;
 		class Item0
 		{
 			dataType="Group";
@@ -3041,6 +3049,50 @@ class Mission
 			{
 			};
 			id=108;
+		};
+		class Item17
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9537.3564,219.064,11784.283};
+			};
+			title="Außenposten";
+			id=155;
+			atlOffset=-0.00016784668;
+		};
+		class Item18
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={10443.6,170.69,11894.763};
+			};
+			title="Checkpoint";
+			id=156;
+			atlOffset=0.00035095215;
+		};
+		class Item19
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={10567.801,173.49699,12008.996};
+			};
+			title="Checkpoint";
+			id=157;
+			atlOffset=0.00047302246;
+		};
+		class Item20
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={11077.903,231.37801,11792.926};
+			};
+			title="HQ? Lager?";
+			id=158;
+			atlOffset=-0.0004119873;
 		};
 	};
 };
