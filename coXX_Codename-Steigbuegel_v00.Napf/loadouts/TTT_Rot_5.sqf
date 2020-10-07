@@ -20,7 +20,6 @@ player addWeapon "hlc_rifle_416D145_gl";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_T_PMAG";
-player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -30,22 +29,22 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
 player addVest "TTT_Vest_Heavy_Green_US_Woodland";
-player addBackpack "B_AssaultPack_cbr";
+player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
 player addWeapon "Rangefinder";
 
 comment "Add items to containers";
-for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 18 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "ACE_morphine"; 
 player addItemToUniform "ACE_IR_Strobe_item";
 
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
+for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -56,7 +55,7 @@ for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
-for "_i" from 1 to 4 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
+for "_i" from 1 to 6 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
 
 player addHeadgear "TTT_Helmet_5_BW_Flecktarn";
 player addGoggles "G_Tactical_Black";

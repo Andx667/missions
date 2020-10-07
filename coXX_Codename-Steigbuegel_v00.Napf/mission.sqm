@@ -5,40 +5,41 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=54;
+		nextID=155;
 	};
 	class Camera
 	{
-		pos[]={8607.0469,90.932396,12070.589};
-		dir[]={0.77577436,-0.48652536,-0.40211618};
-		up[]={0.43203303,0.87360042,-0.22394009};
-		aside[]={-0.46023953,1.1875527e-006,-0.88792378};
+		pos[]={8606.0723,165.27089,12085.82};
+		dir[]={0.94987345,-0.29739213,-0.097668208};
+		up[]={0.29596218,0.95468211,-0.030431826};
+		aside[]={-0.10229939,7.7074219e-007,-0.99486071};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
-	"bwa3_units",
+	"A3_Characters_F_Enoch",
 	"A3_Ui_F",
 	"TTT_Signs",
 	"A3_Characters_F",
 	"acex_headless",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Modules_F_Curator_Curator",
+	"Redd_Tank_LKW_leicht_gl"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
-			className="bwa3_units";
-			name="Bundeswehr - Characters and Clothing";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/inhalt/download";
+			className="A3_Characters_F_Enoch";
+			name="Arma 3 Contact Platform - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item1
 		{
@@ -72,6 +73,11 @@ class AddonsMetaData
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="Redd_Tank_LKW_leicht_gl";
+			name="Redd_Tank_LKW_leicht_gl";
 		};
 	};
 };
@@ -359,10 +365,12 @@ class Mission
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
+		startWeather=0.60000002;
+		startFog=0.65771919;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0.30000001;
+		forecastWeather=0.60000002;
+		forecastFog=0.66047263;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
@@ -373,12 +381,12 @@ class Mission
 		day=5;
 		hour=10;
 		minute=0;
-		startFogDecay=0.014;
-		forecastFogDecay=0.014;
+		startFogDecay=0.020803547;
+		forecastFogDecay=0.02;
 	};
 	class Entities
 	{
-		items=14;
+		items=17;
 		class Item0
 		{
 			dataType="Group";
@@ -391,18 +399,62 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8619.9805,84.868362,12091.875};
+						position[]={8619.9805,84.86837,12091.875};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_1""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_1""];}";
+						description="#1 Gruppenführer@Infanteriegruppe ""Grün-1""";
 						isPlayer=1;
 						isPlayable=1;
 					};
-					id=3;
-					type="BWA3_Rifleman_Fleck";
+					id=112;
+					type="B_W_Soldier_F";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
@@ -412,14 +464,15 @@ class Mission
 						position[]={8616.2393,84.680206,12093.25};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_2""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_2""];}";
+						description="#2 MG-Schütze";
 						isPlayable=1;
 					};
-					id=4;
-					type="BWA3_Rifleman_Fleck";
+					id=113;
+					type="B_W_Soldier_F";
 					atlOffset=1.5258789e-005;
 				};
 				class Item2
@@ -430,14 +483,15 @@ class Mission
 						position[]={8613.5371,84.570625,12094.418};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_3""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_3""];}";
+						description="#3 Grenadier";
 						isPlayable=1;
 					};
-					id=5;
-					type="BWA3_Rifleman_Fleck";
+					id=114;
+					type="B_W_Soldier_F";
 					atlOffset=5.3405762e-005;
 				};
 				class Item3
@@ -448,14 +502,15 @@ class Mission
 						position[]={8611.6113,84.48867,12095.356};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_4""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_4""];}";
+						description="#4 RGW90-Schütze";
 						isPlayable=1;
 					};
-					id=6;
-					type="BWA3_Rifleman_Fleck";
+					id=115;
+					type="B_W_Soldier_F";
 					atlOffset=-2.2888184e-005;
 				};
 				class Item4
@@ -466,14 +521,15 @@ class Mission
 						position[]={8618.6533,84.860512,12089.858};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_5""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
+						description="#5 Stellv. Gruppenführer";
 						isPlayable=1;
 					};
-					id=7;
-					type="BWA3_Rifleman_Fleck";
+					id=116;
+					type="B_W_Soldier_F";
 					atlOffset=-3.0517578e-005;
 				};
 				class Item5
@@ -484,14 +540,15 @@ class Mission
 						position[]={8615.6533,84.745506,12091.029};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_6""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
+						description="#6 MG-Schütze";
 						isPlayable=1;
 					};
-					id=8;
-					type="BWA3_Rifleman_Fleck";
+					id=117;
+					type="B_W_Soldier_F";
 					atlOffset=3.0517578e-005;
 				};
 				class Item6
@@ -502,14 +559,15 @@ class Mission
 						position[]={8613.0508,84.612823,12092.908};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_7""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
+						description="#7 Grenadier";
 						isPlayable=1;
 					};
-					id=9;
-					type="BWA3_Rifleman_Fleck";
+					id=118;
+					type="B_W_Soldier_F";
 					atlOffset=3.8146973e-005;
 				};
 				class Item7
@@ -520,14 +578,15 @@ class Mission
 						position[]={8610.7939,84.529427,12093.658};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_8""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
+						description="#8 ZF-Schütze";
 						isPlayable=1;
 					};
-					id=10;
-					type="BWA3_Rifleman_Fleck";
+					id=119;
+					type="B_W_Soldier_F";
 					atlOffset=4.5776367e-005;
 				};
 			};
@@ -535,6 +594,7 @@ class Mission
 			{
 			};
 			id=2;
+			atlOffset=7.6293945e-006;
 		};
 		class Item1
 		{
@@ -551,14 +611,57 @@ class Mission
 						position[]={8618.4365,84.9944,12084.287};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_1""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_1""];}";
+						description="#1 Gruppenführer@Infanteriegruppe ""Grün-2""";
 						isPlayable=1;
 					};
-					id=12;
-					type="BWA3_Rifleman_Fleck";
+					id=120;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
@@ -568,14 +671,15 @@ class Mission
 						position[]={8614.6953,84.866493,12085.662};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_2""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_2""];}";
+						description="#2 MG-Schütze";
 						isPlayable=1;
 					};
-					id=13;
-					type="BWA3_Rifleman_Fleck";
+					id=121;
+					type="B_W_Soldier_F";
 					atlOffset=1.5258789e-005;
 				};
 				class Item2
@@ -586,14 +690,15 @@ class Mission
 						position[]={8611.9932,84.783264,12086.83};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_3""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_3""];}";
+						description="#3 Grenadier";
 						isPlayable=1;
 					};
-					id=14;
-					type="BWA3_Rifleman_Fleck";
+					id=122;
+					type="B_W_Soldier_F";
 					atlOffset=5.3405762e-005;
 				};
 				class Item3
@@ -604,14 +709,15 @@ class Mission
 						position[]={8610.0674,84.722481,12087.769};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_4""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_4""];}";
+						description="#4 RGW90-Schütze";
 						isPlayable=1;
 					};
-					id=15;
-					type="BWA3_Rifleman_Fleck";
+					id=123;
+					type="B_W_Soldier_F";
 					atlOffset=-2.2888184e-005;
 				};
 				class Item4
@@ -622,14 +728,15 @@ class Mission
 						position[]={8617.1094,85.018967,12082.271};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_5""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
+						description="#5 Stellv. Gruppenführer";
 						isPlayable=1;
 					};
-					id=16;
-					type="BWA3_Rifleman_Fleck";
+					id=124;
+					type="B_W_Soldier_F";
 					atlOffset=1.5258789e-005;
 				};
 				class Item5
@@ -640,14 +747,15 @@ class Mission
 						position[]={8614.1094,84.934853,12083.441};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_6""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
+						description="#6 MG-Schütze";
 						isPlayable=1;
 					};
-					id=17;
-					type="BWA3_Rifleman_Fleck";
+					id=125;
+					type="B_W_Soldier_F";
 					atlOffset=3.0517578e-005;
 				};
 				class Item6
@@ -658,14 +766,15 @@ class Mission
 						position[]={8611.5068,84.830795,12085.32};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_7""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
+						description="#7 Grenadier";
 						isPlayable=1;
 					};
-					id=18;
-					type="BWA3_Rifleman_Fleck";
+					id=126;
+					type="B_W_Soldier_F";
 					atlOffset=3.8146973e-005;
 				};
 				class Item7
@@ -676,14 +785,15 @@ class Mission
 						position[]={8609.25,84.740715,12086.07};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_8""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
+						description="#8 ZF-Schütze";
 						isPlayable=1;
 					};
-					id=19;
-					type="BWA3_Rifleman_Fleck";
+					id=127;
+					type="B_W_Soldier_F";
 					atlOffset=4.5776367e-005;
 				};
 			};
@@ -704,34 +814,80 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8620.5947,85.740936,12071.431};
+						position[]={8617.5547,85.356461,12076.46};
+						angles[]={0.069882989,0,0.01399754};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_1""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_1""];}";
+						description="#1 Gruppenführer@Infanteriegruppe ""Grün-3""";
 						isPlayable=1;
 					};
-					id=21;
-					type="BWA3_Rifleman_Fleck";
+					id=128;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8616.8535,85.604729,12072.806};
+						position[]={8613.8135,85.207802,12077.835};
+						angles[]={0.069881961,0,0.013999403};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_2""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_2""];}";
+						description="#2 MG-Schütze";
 						isPlayable=1;
 					};
-					id=22;
-					type="BWA3_Rifleman_Fleck";
+					id=129;
+					type="B_W_Soldier_F";
 					atlOffset=1.5258789e-005;
 				};
 				class Item2
@@ -739,17 +895,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8614.1514,85.494377,12073.974};
+						position[]={8611.1113,85.088242,12079.003};
+						angles[]={0.069881961,0,0.013999403};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_3""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_3""];}";
+						description="#3 Grenadier";
 						isPlayable=1;
 					};
-					id=23;
-					type="BWA3_Rifleman_Fleck";
+					id=130;
+					type="B_W_Soldier_F";
 					atlOffset=5.3405762e-005;
 				};
 				class Item3
@@ -757,53 +915,58 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8612.2256,85.407654,12074.912};
+						position[]={8609.1855,84.984856,12079.941};
+						angles[]={0.075850479,0,0.027990974};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_4""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_4""];}";
+						description="#4 RGW90-Schütze";
 						isPlayable=1;
 					};
-					id=24;
-					type="BWA3_Rifleman_Fleck";
-					atlOffset=-2.2888184e-005;
+					id=131;
+					type="B_W_Soldier_F";
+					atlOffset=-7.6293945e-006;
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8619.2676,85.918686,12069.414};
+						position[]={8616.2275,85.479034,12074.443};
+						angles[]={0.069881961,0,0.013999403};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_5""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
+						description="#5 Stellv. Gruppenführer";
 						isPlayable=1;
 					};
-					id=25;
-					type="BWA3_Rifleman_Fleck";
-					atlOffset=-3.0517578e-005;
+					id=132;
+					type="B_W_Soldier_F";
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8616.2676,85.768806,12070.585};
+						position[]={8613.2275,85.362282,12075.614};
+						angles[]={0.075850479,0,0.0080009829};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_6""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
+						description="#6 MG-Schütze";
 						isPlayable=1;
 					};
-					id=26;
-					type="BWA3_Rifleman_Fleck";
+					id=133;
+					type="B_W_Soldier_F";
 					atlOffset=3.0517578e-005;
 				};
 				class Item6
@@ -811,17 +974,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8613.665,85.605225,12072.464};
+						position[]={8610.625,85.1987,12077.493};
+						angles[]={0.075850479,0,0.0080009829};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_7""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
+						description="#7 Grenadier";
 						isPlayable=1;
 					};
-					id=27;
-					type="BWA3_Rifleman_Fleck";
+					id=134;
+					type="B_W_Soldier_F";
 					atlOffset=3.8146973e-005;
 				};
 				class Item7
@@ -829,18 +994,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8611.4082,85.530212,12073.214};
+						position[]={8608.3682,85.091064,12078.243};
+						angles[]={0.075850479,0,0.027990974};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_8""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
+						description="#8 ZF-Schütze";
 						isPlayable=1;
 					};
-					id=28;
-					type="BWA3_Rifleman_Fleck";
-					atlOffset=4.5776367e-005;
+					id=135;
+					type="B_W_Soldier_F";
+					atlOffset=3.8146973e-005;
 				};
 			};
 			class Attributes
@@ -863,14 +1030,57 @@ class Mission
 						position[]={8620.2637,86.901649,12062.002};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_1""];}";
+						description="#1 Gruppenführer@Schwere Infanteriegruppe ""Grün-4""";
 						isPlayable=1;
 					};
-					id=30;
-					type="BWA3_Rifleman_Fleck";
+					id=136;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
@@ -880,14 +1090,15 @@ class Mission
 						position[]={8616.5225,86.716057,12063.377};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_2""];}";
+						description="#2 MG3-Schütze";
 						isPlayable=1;
 					};
-					id=31;
-					type="BWA3_Rifleman_Fleck";
+					id=137;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -939,14 +1150,15 @@ class Mission
 						position[]={8613.8203,86.645302,12064.545};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_3""];}";
+						description="#3 MG3-Assistent";
 						isPlayable=1;
 					};
-					id=32;
-					type="BWA3_Rifleman_Fleck";
+					id=138;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -998,14 +1210,15 @@ class Mission
 						position[]={8611.8945,86.573448,12065.483};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_4""];}";
+						description="#4 Munitionsträger";
 						isPlayable=1;
 					};
-					id=33;
-					type="BWA3_Rifleman_Fleck";
+					id=139;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1057,14 +1270,15 @@ class Mission
 						position[]={8618.8721,87.292267,12059.793};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_5""];}";
+						description="#5 Stellv. Gruppenführer";
 						isPlayable=1;
 					};
-					id=34;
-					type="BWA3_Rifleman_Fleck";
+					id=140;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1116,14 +1330,15 @@ class Mission
 						position[]={8615.9365,87.205322,12061.156};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_6""];}";
+						description="#6 MG3-Schütze";
 						isPlayable=1;
 					};
-					id=35;
-					type="BWA3_Rifleman_Fleck";
+					id=141;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1175,14 +1390,15 @@ class Mission
 						position[]={8613.334,86.983444,12063.035};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_7""];}";
+						description="#7 MG3-Assistent";
 						isPlayable=1;
 					};
-					id=36;
-					type="BWA3_Rifleman_Fleck";
+					id=142;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1234,14 +1450,15 @@ class Mission
 						position[]={8611.0771,86.97049,12063.785};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Rot_8""];}";
+						description="#8 Munitionsträger";
 						isPlayable=1;
 					};
-					id=37;
-					type="BWA3_Rifleman_Fleck";
+					id=143;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1307,14 +1524,15 @@ class Mission
 						position[]={8628.3604,85.516548,12103.46};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_01""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_01""];}";
+						description="#1 Zugführer@Zugführung ""Grün""";
 						isPlayable=1;
 					};
-					id=39;
-					type="BWA3_Rifleman_Fleck";
+					id=144;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1366,14 +1584,15 @@ class Mission
 						position[]={8627.6748,85.305397,12100.942};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_02""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_02""];}";
+						description="#2 Stellv. Zugführer";
 						isPlayable=1;
 					};
-					id=40;
-					type="BWA3_Rifleman_Fleck";
+					id=145;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1425,14 +1644,15 @@ class Mission
 						position[]={8625.6426,85.336494,12104.74};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Grün_03""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_03""];}";
+						description="#3 Zugfunker";
 						isPlayable=1;
 					};
-					id=41;
-					type="BWA3_Rifleman_Fleck";
+					id=146;
+					type="B_W_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2292,6 +2512,535 @@ class Mission
 				};
 				nAttributes=4;
 			};
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=6;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8588.1709,83.742584,12088.565};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_1""];}";
+						description="#1 Leitender Notarzt@Sanitätstrupp ""Weiß""";
+						isPlayable=1;
+					};
+					id=147;
+					type="B_W_Soldier_F";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8585.0977,83.888969,12086.479};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_2""];}";
+						description="#2 Sanitäter";
+						isPlayable=1;
+					};
+					id=148;
+					type="B_W_Soldier_F";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8583.2998,83.440964,12091.553};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_3""];}";
+						description="#3 Sanitäter";
+						isPlayable=1;
+					};
+					id=149;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8581.3945,83.799217,12087.125};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_4""];}";
+						description="#4 Notarzt";
+						isPlayable=1;
+					};
+					id=150;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8581.0176,83.359154,12093.319};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_5""];}";
+						description="#5 Sanitäter";
+						isPlayable=1;
+					};
+					id=151;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8578.9863,83.546402,12089.131};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_6""];}";
+						description="#6 Sanitäter";
+						isPlayable=1;
+					};
+					id=152;
+					type="B_W_Soldier_F";
+					atlOffset=7.6293945e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=54;
+			atlOffset=7.6293945e-006;
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8592.1299,85.243362,12104.167};
+				angles[]={6.2491999,1.9959943,0.027990974};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=107;
+			type="Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu";
+			atlOffset=1.5258789e-005;
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8591.9092,83.49334,12101.825};
+						angles[]={6.2492037,0,0.02799508};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_3""];}";
+						description="#1 Logistiktruppführer@Luftlandelogistik ""Silber""";
+						isPlayable=1;
+					};
+					id=153;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8591.1768,83.437012,12100.772};
+						angles[]={6.2492037,0,0.02799508};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""TTT_Braun_3""];}";
+						description="#2 Logistiker / Kraftfahrer";
+						isPlayable=1;
+					};
+					id=154;
+					type="B_W_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=108;
 		};
 	};
 };

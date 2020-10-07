@@ -50,13 +50,12 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 for "_i" from 1 to 15 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
 player addItemToBackpack "ACE_EntrenchingTool";
 
-player addHeadgear "TTT_Beret_Green";
+player addHeadgear "TTT_Helmet_3_BW_Flecktarn";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];
 
 comment "Add items";

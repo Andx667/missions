@@ -18,7 +18,8 @@ comment "Add weapons";
 player addWeapon "hlc_rifle_416D145";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_556x45_t_PMAG";
+player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
+
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
@@ -30,27 +31,29 @@ player addVest "TTT_Vest_Heavy_Green_US_Woodland";
 player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
-player addWeapon "Bincoluar";
+player addWeapon "Binocular";
 
 comment "Add items to containers";
-for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 18 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "ACE_morphine";
-player addItemToUniform "ACE_MapTools";
-player addItemToUniform "ACE_IR_Strobe_Item";
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_t_PMAG";};
+player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_morphine"; 
+player addItemToUniform "ACE_IR_Strobe_item";
+
+for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-for "_i" from 1 to 8 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
+for "_i" from 1 to 7 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
+player addItemToBackpack "ACE_EntrenchingTool";
 
-player addHeadgear "TTT_Helmet_4_BW_Flecktarn";
+player addHeadgear "TTT_Helmet_8_BW_Flecktarn";
 player addGoggles "BWA3_G_Combat_orange";
 
 comment "Add items";
