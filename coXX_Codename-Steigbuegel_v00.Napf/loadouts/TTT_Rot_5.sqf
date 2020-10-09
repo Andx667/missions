@@ -53,9 +53,7 @@ player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
-for "_i" from 1 to 6 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
+for "_i" from 1 to 7 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
 
 player addHeadgear "TTT_Helmet_5_BW_Flecktarn";
 player addGoggles "G_Tactical_Black";

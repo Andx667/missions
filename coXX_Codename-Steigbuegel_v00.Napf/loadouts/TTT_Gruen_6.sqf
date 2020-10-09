@@ -28,16 +28,16 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
 player addVest "TTT_Vest_Heavy_Green_US_Woodland";
-player addBackpack "B_AssaultPack_cbr";
+player addBackpack "B_Kitbag_cbr";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
-for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 18 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
@@ -49,7 +49,7 @@ for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToVest "hlc_200rnd_556x45_M_SAW";
 
-for "_i" from 1 to 2 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
+for "_i" from 1 to 3 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Helmet_6_BW_Flecktarn";

@@ -35,10 +35,10 @@ comment "Add binoculars";
 player addWeapon "Rangefinder";
 
 comment "Add items to containers";
-for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 18 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
@@ -53,6 +53,8 @@ player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "ACE_EntrenchingTool";
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
+for "_i" from 1 to 5 do {player addItemToBackpack "hlc_30rnd_556x45_T_PMAG";};
+for "_i" from 1 to 5 do {player addItemToBackpack "hlc_30rnd_556x45_M_PMAG";};
 
 player addHeadgear "TTT_Helmet_5_BW_Flecktarn";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];
