@@ -20,5 +20,4 @@ teleporter_01 addAction ["Zuschauermodus", {
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
 
 //Plane
-// [] call compile preprocessFileLineNumbers "scripts\stein_medicTent_backpack.sqf";
-// [] call compile preprocessFileLineNumbers "scripts\stein_Plane.sqf";
+[] call compile preprocessFileLineNumbers "scripts\stein_medicTent_backpack.sqf";

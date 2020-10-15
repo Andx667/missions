@@ -23,8 +23,8 @@ player addWeapon "hlc_pistol_P226US";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
-player forceAddUniform "MNP_CombatUniform_Canada";
-player addVest "MNP_Vest_Canada_T2";
+player forceAddUniform "U_B_CombatUniform_mcam_wdl_f";
+player addVest "V_PlateCarrier2_wdl";
 player addBackpack "TFAR_rt1523g_bwmod";
 
 comment "Add items to containers";
@@ -44,7 +44,7 @@ for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "hlc_15Rnd_9x19_B_P226";};
 for "_i" from 1 to 6 do {player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_PMAG";};
-player addHeadgear "MNP_Helmet_Canada_T";
+player addHeadgear "H_HelmetSpecB_wdl";
 
 player addGoggles selectRandom ["rhsusf_oakley_goggles_blk","rhsusf_oakley_goggles_clr","rhsusf_shemagh_gogg_grn","rhsusf_shemagh2_gogg_grn"];
 

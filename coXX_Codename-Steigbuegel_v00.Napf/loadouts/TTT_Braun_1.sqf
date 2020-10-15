@@ -29,41 +29,41 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Brown_BW_Flecktarn";
 player addVest "TTT_Vest_Lite_Brown_US_Woodland";
-player addBackpack "B_Kitbag_rgr";
+player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
-for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 18 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "ACE_IR_Strobe_item";
 
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
+for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+player addItemToVest selectRandom ["G_Respirator_yellow_F","G_Respirator_white_F","G_Respirator_blue_F"];
 
-player addItemToBackpack "TTT_Helmet_1_BW_Flecktarn";
-player addItemToBackpack selectRandom ["G_Respirator_yellow_F","G_Respirator_white_F","G_Respirator_blue_F"];
-for "_i" from 1 to 27 do {player addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 27 do {player addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 9 do {player addItemToBackpack "ACE_quikclot";};
+for "_i" from 1 to 30 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 30 do {player addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_quikclot";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 9 do {player addItemToBackpack "ACE_salineIV_250";};
-for "_i" from 1 to 5 do {player addItemToBackpack "ACE_SurgicalKit";};
+for "_i" from 1 to 4 do {player addItemToBackpack "ACE_tourniquet";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_salineIV_250";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 9 do {player addItemToBackpack "ACE_SurgicalKit";};
 
-player addHeadgear "TTT_Beret_Brown";
+player addHeadgear "TTT_Helmet_1_BW_Flecktarn";
 player addGoggles "G_Tactical_Black";
 
 comment "Add items";

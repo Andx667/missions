@@ -15,7 +15,7 @@ stein_mop_buildTime = 15;
 stein_mop_object = "Land_MedicalTent_01_floor_dark_F";
 stein_mop_items = ["Land_FirstAidKit_01_open_F","Land_EmergencyBlanket_02_F","Land_Stethoscope_01_F","Land_Camping_Light_off_F"];
 //stein_mop_backpack = ["UK3CB_BAF_B_Bergen_MTP_Medic_H_B","UK3CB_BAF_B_Bergen_MTP_Medic_L_A"];
-stein_mop_backpack = ["B_Kitbag_rgr"];
+stein_mop_backpack = ["B_Carryall_khk"];
 
 stein_mop_canBuild = {
 	params ["_target","_caller","_arguments"];
