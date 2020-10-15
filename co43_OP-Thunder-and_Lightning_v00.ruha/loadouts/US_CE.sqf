@@ -51,7 +51,6 @@ for "_i" from 1 to 4 do {player addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_S
 for "_i" from 1 to 4 do {player addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
 for "_i" from 1 to 2 do {player addItemToBackpack "SLAMDirectionalMine_Wire_Mag";};
 for "_i" from 1 to 5 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
-player addItemToBackpack "ACE_VMH3";
 
 player addGoggles selectRandom ["rhsusf_oakley_goggles_blk","rhsusf_oakley_goggles_clr","rhsusf_shemagh_gogg_grn","rhsusf_shemagh2_gogg_grn"];
 
