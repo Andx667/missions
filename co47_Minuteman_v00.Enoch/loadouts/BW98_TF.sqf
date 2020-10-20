@@ -43,4 +43,4 @@ comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
-player linkItem "PBW_sem52sl";
+player linkItem "TFAR_anprc152";
