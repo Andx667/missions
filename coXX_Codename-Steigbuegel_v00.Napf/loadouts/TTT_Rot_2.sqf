@@ -51,7 +51,6 @@ player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 player addHeadgear "TTT_Helmet_2_BW_Flecktarn";
-
 player addGoggles "BWA3_G_Combat_orange";
 
 comment "Add items";

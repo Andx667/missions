@@ -28,7 +28,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
 player addVest "TTT_Vest_Heavy_Green_US_Woodland";
-player addBackpack "rnt_mg3_static_tripod";
+player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -50,8 +50,10 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addHeadgear "TTT_Helmet_7_BW_Flecktarn";
+for "_i" from 1 to 7 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
+player addItemToBackpack "ACE_EntrenchingTool";
 
+player addHeadgear "TTT_Helmet_7_BW_Flecktarn";
 player addGoggles "BWA3_G_Combat_orange";
 
 comment "Add items";

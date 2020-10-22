@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=600;
+		nextID=621;
 	};
 	class Camera
 	{
-		pos[]={997.67505,84.939545,2862.4399};
-		dir[]={0.57427329,-0.61024177,-0.54595286};
-		up[]={0.44230467,0.7921446,-0.42048737};
-		aside[]={-0.68909442,-1.9059516e-006,-0.7248491};
+		pos[]={1116.1245,65.406868,2201.2019};
+		dir[]={-0.35534453,-0.45480064,0.81676269};
+		up[]={-0.18145572,0.89055169,0.4170737};
+		aside[]={0.91708153,-3.5618723e-007,0.3989847};
 	};
 };
 binarizationWanted=0;
@@ -426,7 +426,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=274;
+		items=272;
 		class Item0
 		{
 			dataType="Object";
@@ -17864,7 +17864,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11750.438,27.43869,7053.3467};
+						position[]={11763.955,27.068386,7060.2866};
 					};
 					side="West";
 					flags=7;
@@ -17873,10 +17873,10 @@ class Mission
 						init="call{this setVariable [""loadout"", ""TTT_Gold_1""];}";
 						description="#1 Aufklärer Truppführer@Aufklärungstrupp ""Gold""";
 						isPlayable=1;
+						stance="Down";
 					};
 					id=1691;
 					type="B_Soldier_F";
-					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17925,7 +17925,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11748.642,27.474339,7053.5415};
+						position[]={11762.158,27.088717,7060.4814};
 					};
 					side="West";
 					flags=5;
@@ -17934,6 +17934,7 @@ class Mission
 						init="call{this setVariable [""loadout"", ""TTT_Gold_2""];}";
 						description="#2 Aufklärer Dronenbediener";
 						isPlayable=1;
+						stance="Down";
 					};
 					id=1692;
 					type="B_Soldier_F";
@@ -17985,7 +17986,6 @@ class Mission
 			{
 			};
 			id=1690;
-			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24405,40 +24405,6 @@ class Mission
 		};
 		class Item262
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1043.897,13.16,2888.7729};
-				angles[]={0,5.6109815,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=2081;
-			type="HeliH";
-		};
-		class Item263
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1012.1685,13.16,2932.9314};
-				angles[]={0,2.5433412,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=2082;
-			type="HeliH";
-		};
-		class Item264
-		{
 			dataType="Trigger";
 			position[]={10352.078,33.68026,10442.289};
 			class Attributes
@@ -24455,7 +24421,7 @@ class Mission
 			type="EmptyDetectorAreaR250";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item265
+		class Item263
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24472,7 +24438,7 @@ class Mission
 			id=2090;
 			type="TTT_Sign_Small_Green";
 		};
-		class Item266
+		class Item264
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24489,7 +24455,7 @@ class Mission
 			id=2091;
 			type="TTT_Sign_Small_Gold";
 		};
-		class Item267
+		class Item265
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24530,7 +24496,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item268
+		class Item266
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24571,7 +24537,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item269
+		class Item267
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24612,7 +24578,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item270
+		class Item268
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24670,7 +24636,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item271
+		class Item269
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24728,7 +24694,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item272
+		class Item270
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24850,7 +24816,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item273
+		class Item271
 		{
 			dataType="Object";
 			class PositionInfo

@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_416D145_gl";
+player addWeapon "hlc_rifle_416D145";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_T_PMAG";
@@ -29,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
 player addVest "TTT_Vest_Heavy_Green_US_Woodland";
-player addBackpack "B_Carryall_khk";
+player addBackpack "rnt_mg3_static_tripod";
 
 comment "Add binoculars";
 player addWeapon "Rangefinder";
@@ -53,7 +53,6 @@ player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
-for "_i" from 1 to 7 do {player addItemToBackpack "rnt_mg3_kasten_fake";};
 
 player addHeadgear "TTT_Helmet_5_BW_Flecktarn";
 player addGoggles "G_Tactical_Black";

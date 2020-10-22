@@ -115,7 +115,9 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["ACE_TacticalLadder_Pack", 1],
 		["TFAR_rt1523g_big_bwmod", 1],
 		["ACE_EntrenchingTool", 8],
-		["ACE_wirecutter", 2]
+		["ACE_wirecutter", 2],
+		["Redd_Milan_Static_Tripod", 1],
+		["Redd_Milan_Static_Barrel", 1]
     ]
 ] call reim_fnc_crateFiller;
 
