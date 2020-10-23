@@ -177,3 +177,51 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 	  ["FlagMarker_01_F",1]
 	]
 ] call acex_fortify_fnc_registerObjects;
+
+//Füchse
+[
+    [fhz_02, fhz_03],
+    [
+		["rnt_mg3_static_barell", 1],
+		["rnt_mg3_static_tripod", 1],
+		["rnt_mg3_kasten_fake", 7],
+		["B_AssaultPack_cbr", 1],
+		["Toolkit", 1],
+		["ACE_TacticalLadder_Pack", 1],
+		["TFAR_rt1523g_big_bwmod", 1],
+		["ACE_EntrenchingTool", 8],
+		["ACE_wirecutter", 2],
+		["Redd_Milan_Static_Tripod", 1],
+		["Redd_Milan_Static_Barrel", 1]
+    ]
+] call reim_fnc_crateFiller;
+
+[
+    [fhz_01],
+    [
+		["rnt_mg3_static_barell", 1],
+		["rnt_mg3_static_tripod", 1],
+		["rnt_mg3_kasten_fake", 7],
+		["B_AssaultPack_cbr", 1],
+		["Toolkit", 1],
+		["ACE_TacticalLadder_Pack", 1],
+		["TFAR_rt1523g_big_bwmod", 1],
+		["ACE_EntrenchingTool", 8],
+		["ACE_wirecutter", 2],
+		["Redd_Milan_Static_Tripod", 1],
+		["Redd_Milan_Static_Barrel", 1]
+    ]
+] call reim_fnc_crateFiller;
+
+//Fennek
+[
+    [fhz_04,fhz_05, fhz_06],
+    [
+		["B_AssaultPack_cbr", 1],
+		["Toolkit", 1],
+		["ACE_TacticalLadder_Pack", 1],
+		["TFAR_rt1523g_big_bwmod", 1],
+		["ACE_EntrenchingTool", 4],
+		["ACE_wirecutter", 2]
+    ]
+] call reim_fnc_crateFiller;
