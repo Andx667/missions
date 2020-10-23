@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon selectRandom ["hlc_rifle_416D145","hlc_rifle_416D145_CAG"];
+player addWeapon "hlc_rifle_416D145_gl";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
@@ -52,12 +52,15 @@ player addItemToVest "hlc_15Rnd_9x19_B_P226";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 
-player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
+player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_VMH3";
 player addItemToBackpack "ACE_Fortify";
-for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
+for "_i" from 1 to 2 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
+for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
+for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
 
 player addHeadgear "TTT_Beret_Blue";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];

@@ -1,5 +1,3 @@
-player setRank "PRIVATE";
-
 comment "Exported from Arsenal by Andx";
 
 comment "[!] UNIT MUST BE LOCAL [!]";
@@ -16,10 +14,10 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_416D145_gl";
+player addWeapon "hlc_lmg_mk46mod1";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
+player addPrimaryWeaponItem "hlc_200rnd_556x45_M_SAW";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -43,17 +41,15 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+player addItemToVest "hlc_200rnd_556x45_M_SAW";
 
 player addItemToBackpack "TTT_Helmet_7_BW_Flecktarn";
-for "_i" from 1 to 15 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
-for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
-for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
+for "_i" from 1 to 2 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Green";

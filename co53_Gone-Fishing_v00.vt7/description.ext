@@ -38,6 +38,7 @@ class CfgFunctions
 	#include "W_Teleporter\CfgFunctions.hpp"
 	#include "Spec_crateNaming\CfgFunctions.hpp"
 	#include "Fett_Redd_Fuel\CfgFunctions.hpp"
+	#include "Redd_Ari\CfgFunctions.hpp"
 };
 
 cba_settings_hasSettingsFile = 1; //CBA einstellungen laden
