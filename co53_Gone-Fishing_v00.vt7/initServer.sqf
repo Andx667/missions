@@ -28,15 +28,7 @@ setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 	heli_03,
 	heli_04,
 	heli_05
-],8] call Fett_Redd_fnc_FuelConsumption;//14 too much for RHS
-
-
-
-//Kisten einladen
-[kiste_01, fhz_01, true] call ace_cargo_fnc_loadItem;
-[kiste_02, fhz_01, true] call ace_cargo_fnc_loadItem;
-[kiste_03, fhz_01, true] call ace_cargo_fnc_loadItem;
-[kiste_04, fhz_01, true] call ace_cargo_fnc_loadItem;
+],8] call Fett_Redd_fnc_FuelConsumption;
 
 //Kisten befüllen
 reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
@@ -88,9 +80,9 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 [
     [weis_04, weis_05, weis_06],
     [
-		["ACE_salineIV", 25],
-		["ACE_salineIV_500", 25],
-		["ACE_salineIV_250", 25],
+		["ACE_bloodIV", 25],
+		["ACE_bloodIV_500", 25],
+		["ACE_bloodIV_250", 25],
 		["ACE_PersonalAidKit", 3]
     ]
 ] call reim_fnc_crateFiller;
@@ -170,7 +162,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 //Setup ACEX Fortify
 [
 	west, 
-	50,
+	100,
 	[
 	  ["Land_SurveyMarker_01_post_F",1],
 	  ["Land_Sign_MinesDanger_English_F",1],
@@ -196,6 +188,8 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
+
+// Blau
 [
     [fhz_01],
     [
@@ -213,9 +207,9 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
-//Fennek
+//Fennek + PzH 2000
 [
-    [fhz_04,fhz_05, fhz_06],
+    [fhz_04,fhz_05, fhz_06, fhz_07, fhz_08],
     [
 		["B_AssaultPack_cbr", 1],
 		["Toolkit", 1],
