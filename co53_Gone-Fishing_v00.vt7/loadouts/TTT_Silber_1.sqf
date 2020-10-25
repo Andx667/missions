@@ -25,7 +25,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
 player forceAddUniform "U_B_HeliPilotCoveralls";
-player setObjectTexture [0, "\A3\Characters_F\Common\Data\coveralls_grey_co.paa"];
+// player setObjectTexture [0, "\A3\Characters_F\Common\Data\coveralls_grey_co.paa"];
 player addVest "TTT_Vest_Crew_US_Desert";
 player addBackpack "TFAR_rt1523g_bwmod";
 
@@ -72,6 +72,6 @@ player linkItem "ItemAndroid";
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
 
-player setVariable ["ACE_IsAdvEngineer", true];
+player setVariable ["ACE_IsEngineer", 2];
 
 [ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

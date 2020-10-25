@@ -46,7 +46,7 @@ player addItemToUniform "ACE_key_west";
 
 player addItemToVest "ACE_DefusalKit";
 player addItemToVest "ACE_Clacker";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
+for "_i" from 1 to 7 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";

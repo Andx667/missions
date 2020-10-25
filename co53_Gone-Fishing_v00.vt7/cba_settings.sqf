@@ -21,3 +21,7 @@ force acex_headless_enabled = true;
 
 // Artillerie Computer ausschalten
 force ace_artillerytables_disableArtilleryComputer = true;
+
+
+//
+force TFAR_globalRadioRangeCoef = 2.5;

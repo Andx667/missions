@@ -49,7 +49,7 @@ player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
+for "_i" from 1 to 7 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 
 player addItemToBackpack "TTT_Helmet_3_BW_Flecktarn";
