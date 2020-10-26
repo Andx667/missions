@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=19;
+		nextID=21;
 	};
 	class Camera
 	{
@@ -24146,7 +24146,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={11238.605,21.951462,6817.4409};
-			angle=6.1033115;
+			angle=6.1033106;
 			class Attributes
 			{
 				condition="call{this}";
@@ -27015,7 +27015,7 @@ class Mission
 			alpha=0.0015550413;
 			a=1921.139;
 			b=553.21503;
-			angle=53.821995;
+			angle=53.821987;
 			id=492;
 			atlOffset=19.024422;
 		};
@@ -27029,7 +27029,7 @@ class Mission
 			alpha=0;
 			a=439.237;
 			b=205.101;
-			angle=199.09398;
+			angle=199.09395;
 			id=496;
 			atlOffset=-22.166687;
 		};
@@ -30972,6 +30972,7 @@ class Mission
 			};
 			id=739;
 			type="LOP_BH_Nissan_PKM";
+			atlOffset=-0.1005249;
 		};
 		class Item175
 		{

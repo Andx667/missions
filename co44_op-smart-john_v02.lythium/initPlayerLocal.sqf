@@ -1,12 +1,12 @@
 // W-Teleporter
 teleporter_01 addAction ["W-Teleporter",{createDialog "W_RscTeleportDialog"},[],1,false,true,"","",3];
 
-teleporter_1 addAction ["Zur USS.Atacama", {
+teleporter_01 addAction ["Zum Logistikflughafen", {
     params ["_target","_caller"];
     _caller setPosASL (getPosASL tele_log);
 }];
 
-teleporter_1 addAction ["Zur USS.Atacama", {
+teleporter_01 addAction ["Zum Krankenhaus", {
     params ["_target","_caller"];
     _caller setPosASL (getPosASL tele_kh);
 }];
