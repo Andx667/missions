@@ -22,7 +22,7 @@ player addHandgunItem "rhsusf_mag_15Rnd_9x19_JHP";
 
 comment "Add containers";
 player forceAddUniform "rhs_uniform_abu";
-player addVest "rhsusf_iotv_ucp";
+player addVest "rhsusf_spcs_ucp_crewman";
 player addBackpack "TFAR_rt1523g_rhs";
 
 comment "Add items to containers";

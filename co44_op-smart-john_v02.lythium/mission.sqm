@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10914.238,82.305389,7620.2515};
-		dir[]={0.25896853,-0.4451879,-0.85720664};
-		up[]={0.12875117,0.89543098,-0.42617708};
-		aside[]={-0.95730144,-2.7348869e-007,-0.28920802};
+		pos[]={12337.235,52.152557,1987.8031};
+		dir[]={0.23239437,-0.64074224,-0.73175132};
+		up[]={0.19394763,0.76774895,-0.61069369};
+		aside[]={-0.95310038,1.9252911e-007,-0.30269167};
 	};
 };
 binarizationWanted=0;
@@ -4329,7 +4329,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""US_SAW""];}";
-						description="#6 Automatic Rifleman";
+						description="#7 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=548;
@@ -24146,7 +24146,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={11238.605,21.951462,6817.4409};
-			angle=6.1033106;
+			angle=6.1033096;
 			class Attributes
 			{
 				condition="call{this}";
@@ -27015,7 +27015,7 @@ class Mission
 			alpha=0.0015550413;
 			a=1921.139;
 			b=553.21503;
-			angle=53.821987;
+			angle=53.82198;
 			id=492;
 			atlOffset=19.024422;
 		};
@@ -27029,7 +27029,7 @@ class Mission
 			alpha=0;
 			a=439.237;
 			b=205.101;
-			angle=199.09395;
+			angle=199.09392;
 			id=496;
 			atlOffset=-22.166687;
 		};
