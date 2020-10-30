@@ -8,22 +8,22 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=2385;
+		nextID=2386;
 	};
 	class MarkerIDProvider
 	{
-		nextID=50;
+		nextID=51;
 	};
 	class LayerIndexProvider
 	{
-		nextID=188;
+		nextID=201;
 	};
 	class Camera
 	{
-		pos[]={10101.712,250.20694,12312.58};
-		dir[]={-0.91619003,-0.29103687,-0.2759245};
-		up[]={-0.27876368,0.95666373,-0.083955511};
-		aside[]={-0.28840309,4.2049214e-007,0.95762748};
+		pos[]={9822.0332,118.08659,9865.0635};
+		dir[]={0.16317166,-0.3020103,0.93925565};
+		up[]={0.051694833,0.95330054,0.29756835};
+		aside[]={0.98526382,-5.9226295e-008,-0.17116369};
 	};
 };
 binarizationWanted=0;
@@ -631,7 +631,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=232;
+		items=233;
 		class Item0
 		{
 			dataType="Marker";
@@ -1499,6 +1499,7 @@ class Mission
 			};
 			id=160;
 			type="Redd_Tank_Wiesel_1A4_MK20_Flecktarn";
+			atlOffset=-0.1330719;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1578,6 +1579,7 @@ class Mission
 			};
 			id=161;
 			type="Redd_Tank_Wiesel_1A4_MK20_Flecktarn";
+			atlOffset=-0.16307068;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12351,21 +12353,21 @@ class Mission
 		class Item156
 		{
 			dataType="Marker";
-			position[]={11149.994,143.52637,11962.137};
+			position[]={11249.813,144.89941,12127.073};
 			name="marker_16";
 			markerType="RECTANGLE";
 			type="rectangle";
 			colorName="ColorEAST";
 			a=441.405;
 			b=50;
-			angle=55.44952;
+			angle=25.660545;
 			id=2057;
-			atlOffset=-10.537857;
+			atlOffset=-5.8118896;
 		};
 		class Item157
 		{
 			dataType="Marker";
-			position[]={12040.749,142.64551,11613.856};
+			position[]={12200.922,114.90308,11936.764};
 			name="marker_17";
 			markerType="RECTANGLE";
 			type="rectangle";
@@ -12374,7 +12376,7 @@ class Mission
 			b=50;
 			angle=358.98471;
 			id=2058;
-			atlOffset=-28.389877;
+			atlOffset=-53.489273;
 		};
 		class Item158
 		{
@@ -12387,7 +12389,7 @@ class Mission
 		class Item159
 		{
 			dataType="Marker";
-			position[]={12953.52,12.407227,11948.339};
+			position[]={13139.228,37.213623,12345.581};
 			name="marker_20";
 			markerType="RECTANGLE";
 			type="rectangle";
@@ -12396,21 +12398,20 @@ class Mission
 			b=50;
 			angle=319.57031;
 			id=2061;
-			atlOffset=-55.836098;
+			atlOffset=-20.848446;
 		};
 		class Item160
 		{
 			dataType="Marker";
-			position[]={13757.783,-42.475533,12618.478};
+			position[]={13873.816,22.736721,12823.176};
 			name="marker_21";
 			markerType="RECTANGLE";
 			type="rectangle";
 			colorName="ColorEAST";
-			a=441.405;
+			a=236.11087;
 			b=50;
-			angle=319.57031;
+			angle=336.51114;
 			id=2062;
-			atlOffset=-94.260254;
 		};
 		class Item161
 		{
@@ -12507,33 +12508,32 @@ class Mission
 		class Item169
 		{
 			dataType="Marker";
-			position[]={11517.67,153.79892,11614.18};
+			position[]={11687.128,71.433838,11932.439};
 			name="marker_30";
 			type="mil_dot";
 			colorName="ColorEAST";
 			id=2071;
-			atlOffset=0.00050354004;
+			atlOffset=-104.96756;
 		};
 		class Item170
 		{
 			dataType="Marker";
-			position[]={12546.357,97.051003,11653.094};
+			position[]={12722.78,87.675575,11992.261};
 			name="marker_31";
 			text="FLET";
 			type="mil_dot";
 			colorName="ColorEAST";
 			id=2072;
-			atlOffset=0.00029754639;
 		};
 		class Item171
 		{
 			dataType="Marker";
-			position[]={13357.641,56.494576,12295.172};
+			position[]={13525.148,30.069824,12682.82};
 			name="marker_32";
 			type="mil_dot";
 			colorName="ColorEAST";
 			id=2073;
-			atlOffset=0.00049591064;
+			atlOffset=-36.719604;
 		};
 		class Item172
 		{
@@ -17042,6 +17042,17 @@ class Mission
 			};
 			id=2373;
 			atlOffset=0.0001373291;
+		};
+		class Item232
+		{
+			dataType="Marker";
+			position[]={10537.476,172.799,11948.846};
+			name="marker_50";
+			text="Obj. Pass";
+			type="hd_objective";
+			colorName="ColorRed";
+			id=2385;
+			atlOffset=-0.00032043457;
 		};
 	};
 	class Connections
