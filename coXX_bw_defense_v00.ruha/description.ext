@@ -27,7 +27,6 @@ allowFunctionsRecompile = 1;
 allowFunctionsLog = 1;
 briefing = 1;
 debriefing = 1;
-enableDebugConsole = 2;
 
 /*------Functions------*/	
 #include "W_Teleporter\dialog.hpp"

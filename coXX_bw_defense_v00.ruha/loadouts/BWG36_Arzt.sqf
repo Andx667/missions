@@ -31,6 +31,8 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {player addItemToUniform "Chemlight_green";};
+for "_i" from 1 to 3 do {player addItemToUniform "Chemlight_yellow";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "acex_intelitems_notepad";
 player addItemToVest "ACE_EntrenchingTool";

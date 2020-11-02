@@ -32,6 +32,8 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {player addItemToUniform "Chemlight_green";};
+for "_i" from 1 to 3 do {player addItemToUniform "Chemlight_yellow";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "acex_intelitems_notepad";
 player addItemToVest "ACE_EntrenchingTool";
@@ -41,8 +43,8 @@ for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_EPR_G36";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 player addItemToVest "BWA3_DM32_Green";
-player addItemToBackpack "ACE_Fortify";
 player addItemToBackpack "ACE_wirecutter";
+for "_i" from 1 to 14 do {player addItemToBackpack "ACE_FlareTripMine_Mag";};
 player addHeadgear "PBW_muetze2_fleck";
 
 comment "Add items";
