@@ -2,8 +2,8 @@
  
 /*------onLoad------*/
 author="[TTT] Andx"; //Autor der Mission (Missionsbauer)
-OnLoadName = "Harter Kern"; //Überschrift im LoadScreen (über dem Bild)
-onLoadMission = "Wenn ein Atom, so groß wie ein Fussballstadion wäre, dann wäre der Kern ein Reiskorn im Mittelkreis."; //Beschreibung im LoadScreen (unter dem Bild)
+OnLoadName = ""; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
 loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = true;
 
@@ -37,16 +37,6 @@ class CfgFunctions
 {
 	#include "W_Teleporter\CfgFunctions.hpp"
 	#include "Spec_crateNaming\CfgFunctions.hpp"
-	#include "Fett_Redd_Fuel\CfgFunctions.hpp"
 };
 
 cba_settings_hasSettingsFile = 1; //CBA einstellungen laden
-
-//Streamator
-class CLib {
-    Modules[] = {"CLib", "Streamator"};
-    useExperimentalAutoload = 0;
-    useCompressedFunction = 0;
-    useFallbackRemoteExecution = 0;
-    FrameGraphSize = 128;
-};
