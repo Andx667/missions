@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=22;
+		nextID=24;
 	};
 	class Camera
 	{
-		pos[]={12614.147,302.43335,15240.302};
-		dir[]={-0.95248467,-0.27638277,-0.12805621};
-		up[]={-0.27391928,0.96104491,-0.036826923};
-		aside[]={-0.13324575,-1.0798612e-007,0.99108708};
+		pos[]={10506.909,438.67838,12574.571};
+		dir[]={-0.49506435,-0.3928284,0.77506936};
+		up[]={-0.21146956,0.91958433,0.33107579};
+		aside[]={0.84280795,7.6732249e-008,0.53832918};
 	};
 };
 binarizationWanted=0;
@@ -27015,7 +27015,7 @@ class Mission
 			alpha=0.0015550413;
 			a=1921.139;
 			b=553.21503;
-			angle=53.821976;
+			angle=53.821968;
 			id=492;
 			atlOffset=19.024422;
 		};
@@ -30969,7 +30969,7 @@ class Mission
 			};
 			id=739;
 			type="LOP_BH_Nissan_PKM";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.021499634;
 		};
 		class Item175
 		{
@@ -33577,14 +33577,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10812.84,30.957479,2726.5181};
+				position[]={10812.84,28.342291,2726.5181};
 				angles[]={0,6.0977888,0};
 			};
 			areaSize[]={7.3122907,0,25.623657};
 			flags=1;
 			id=761;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=2.6151886;
 			class CustomAttributes
 			{
 				class Attribute0

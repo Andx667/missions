@@ -1,9 +1,9 @@
 ﻿// TTT Standart Repo + CUP Repo
  
 /*------onLoad------*/
-author="[TTT] Andx, [TTT] monclefu "; //Autor der Mission (Missionsbauer)
-OnLoadName = "Defender 2035"; //Überschrift im LoadScreen (über dem Bild)
-onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
+author="[TTT] Andx"; //Autor der Mission (Missionsbauer)
+OnLoadName = "Gone Fishing"; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = "Where are they? Gone Fishing."; //Beschreibung im LoadScreen (unter dem Bild)
 loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = true;
 

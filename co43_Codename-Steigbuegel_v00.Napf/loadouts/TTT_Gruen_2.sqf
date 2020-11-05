@@ -48,9 +48,9 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToVest "hlc_200rnd_556x45_M_SAW";
+player addItemToVest "ACE_EntrenchingTool";
 
-for "_i" from 1 to 3 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
-player addItemToBackpack "ACE_EntrenchingTool";
+for "_i" from 1 to 4 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
 
 player addHeadgear "TTT_Helmet_2_BW_Flecktarn";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];

@@ -1,4 +1,4 @@
-setDate [2035, 10, 15, 7, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
+setDate [2035, 10, 15, 5, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						//alle die nicht independent sind machen:

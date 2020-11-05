@@ -7,7 +7,7 @@ force ace_medical_treatment_medicPAK = 2;
 force ace_medical_treatment_locationPAK = 2;
 force ace_medical_treatment_consumePAK = 1;
 
-force ace_medical_treatment_medicIV = 2;
+force ace_medical_treatment_medicIV = 1;
 
 force ace_medical_treatment_medicEpinephrine = 1;
 
