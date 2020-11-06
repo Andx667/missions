@@ -8,7 +8,7 @@ if ((getPosATL(_myVeh) select 2) > 35) then							// h1 = Fahrzeug / Mindest Abw
 	{
 	private _para = createVehicle ["B_Parachute_02_F", [0,0,100], [], 0, ""];
 	_para setPosATL (_myVeh modelToWorld[0,0,-35]);           						//wo Objekt spawnt
-	private _ammoBoxOrVeh = createVehicle ["Box_NATO_Ammo_F", [0,0,80], [], 0, ""];     					//was spawnt, höhe nicht relevant
+	private _ammoBoxOrVeh = createVehicle ["B_CargoNet_01_ammo_F", [0,0,80], [], 0, ""];     					//was spawnt, höhe nicht relevant
 	_ammoBoxOrVeh attachTo [_para,[0,0,0]];
 
 	//Inhalt der Ammo Box
@@ -18,11 +18,10 @@ if ((getPosATL(_myVeh) select 2) > 35) then							// h1 = Fahrzeug / Mindest Abw
 	clearItemCargo _ammoBoxOrVeh;        
 	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_30rnd_556x45_T_PMAG", 8];    
 	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_30rnd_556x45_M_PMAG", 24];
-	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_200rnd_556x45_M_SAW", 12];
-	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_20Rnd_762x51_T_M14", 12];  
+	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_200rnd_556x45_M_SAW", 10];
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_fieldDressing", 24];
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_packingBandage", 16]; 
-	_ammoBoxOrVeh addItemCargoGlobal ["rnt_mg3_kasten_fake", 7];
+	_ammoBoxOrVeh addItemCargoGlobal ["rnt_mg3_kasten_fake", 4];
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_morphine", 8];        
 	_ammoBoxOrVeh addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 10];    
 	_ammoBoxOrVeh addItemCargoGlobal ["BWA3_RGW90_Loaded", 2];

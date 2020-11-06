@@ -20,7 +20,7 @@ player addWeapon "hlc_rifle_416D20";
 player addPrimaryWeaponItem "BWA3_muzzle_snds_QDSS";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_556x45_T_PMAG";
+player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
 player addPrimaryWeaponItem "BWA3_bipod_Harris";
 
 player addWeapon "hlc_pistol_P226R_Elite";
@@ -45,14 +45,14 @@ player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 
-for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 player addItemToBackpack "ACE_EntrenchingTool";
-for "_i" from 1 to 6 do {player addItemToBackpack "hlc_30rnd_556x45_T_PMAG";};
+for "_i" from 1 to 6 do {player addItemToBackpack "hlc_30rnd_556x45_M_PMAG";};
 
 player addHeadgear "TTT_Helmet_8_BW_Flecktarn";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];

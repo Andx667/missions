@@ -51,9 +51,6 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
-for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
-
 player addHeadgear "TTT_Helmet_1_BW_Flecktarn";
 player addGoggles "G_Tactical_Black";
 

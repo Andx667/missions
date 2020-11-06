@@ -52,10 +52,9 @@ for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addItemToBackpack "TTT_Helmet1_Vehiclecrew";
 player addItemToBackpack "ACE_EntrenchingTool";
 
-player addHeadgear "TTT_Beret_Bronze";
+player addHeadgear "TTT_Helmet1_Vehiclecrew";
 player addGoggles selectRandom ["PBW_Balaclava_schwarzR","PBW_Balaclava_beigeR","PBW_Brille_braun","PBW_Brille_gelb"];
 
 comment "Add items";
