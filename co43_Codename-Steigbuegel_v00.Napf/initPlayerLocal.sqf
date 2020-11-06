@@ -19,5 +19,6 @@ teleporter_01 addAction ["Zuschauermodus", {
 // JIP spawns at the teleporter
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
 
-//Plane
+// Plane
 [] call compile preprocessFileLineNumbers "scripts\stein_medicTent_backpack.sqf";
+
