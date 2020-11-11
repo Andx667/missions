@@ -8,7 +8,7 @@ if ((getPosATL(_myVeh) select 2) > 35) then							// h1 = Fahrzeug / Mindest Abw
 	{
 	private _para = createVehicle ["B_Parachute_02_F", [0,0,100], [], 0, ""];
 	_para setPosATL (_myVeh modelToWorld[0,0,-35]);           						//wo Objekt spawnt
-	private _ammoBoxOrVeh = createVehicle ["B_CargoNet_01_ammo_F", [0,0,80], [], 0, ""];     					//was spawnt, höhe nicht relevant
+	private _ammoBoxOrVeh = createVehicle ["CFP_B_DEARMY_WDL_SupplyBox", [0,0,80], [], 0, ""];     					//was spawnt, höhe nicht relevant
 	_ammoBoxOrVeh attachTo [_para,[0,0,0]];
 
 	//Inhalt der Ammo Box
