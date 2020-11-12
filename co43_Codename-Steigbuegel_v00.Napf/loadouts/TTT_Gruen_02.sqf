@@ -29,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
 player addVest "TTT_Vest_Heavy_Green_US_Woodland";
-player addBackpack "TFAR_rt1523g_big_bwmod";
+player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
 player addWeapon "Rangefinder";

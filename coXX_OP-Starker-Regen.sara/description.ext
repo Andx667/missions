@@ -1,0 +1,77 @@
+﻿// TTT Standart Repo + CUP Repo
+ 
+/*------onLoad------*/
+author="[TTT] Andx"; //Autor der Mission (Missionsbauer)
+OnLoadName = "Starker Regen"; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
+loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+OnLoadMissionTime = true;
+
+/*------Header------*/
+class Header
+{
+	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
+	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
+	maxPlayers = 60; //Anzahl der Spieler +1 für den HC
+};
+
+/*------Respawn------*/	
+respawn = 3;
+respawnDelay = 5;
+respawnDialog = false;
+
+/*------Stuff------*/	
+disabledAI = 1; //Deaktiviert AI in der Slotliste
+joinUnassigned = 1;
+allowFunctionsRecompile = 1;
+allowFunctionsLog = 1;
+briefing = 1;
+debriefing = 1;
+
+/*------Functions------*/	
+#include "W_Teleporter\dialog.hpp"
+
+class CfgFunctions 
+{
+	#include "W_Teleporter\CfgFunctions.hpp"
+	#include "Fett_Redd_Fuel\CfgFunctions.hpp"
+	#include "vcom\cfgFunctions.hpp"
+};
+
+cba_settings_hasSettingsFile = 1; //CBA einstellungen laden
+
+//Streamator
+class CLib {
+    Modules[] = {"CLib", "Streamator"};
+    useExperimentalAutoload = 0;
+    useCompressedFunction = 0;
+    useFallbackRemoteExecution = 0;
+    FrameGraphSize = 128;
+};
+
+//für VCOM
+class CfgRemoteExec
+{
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		mode = 2;
+		jip = 1;		
+		
+		class vcm_serverask { allowedTargets = 0;jip = 1; };
+		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
+		
+	};
+	
+	
+};
+
+class Extended_PreInit_EventHandlers {
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
+};
+
+//VCOM Ende

@@ -15,15 +15,16 @@ if ((getPosATL(_myVeh) select 2) > 35) then							// h1 = Fahrzeug / Mindest Abw
 
 	clearWeaponCargo _ammoBoxOrVeh;
 	clearMagazineCargo _ammoBoxOrVeh; 
-	clearItemCargo _ammoBoxOrVeh;        
+	clearItemCargo _ammoBoxOrVeh;    
+
 	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_30rnd_556x45_T_PMAG", 8];    
 	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_30rnd_556x45_M_PMAG", 24];
 	_ammoBoxOrVeh addMagazineCargoGlobal ["hlc_200rnd_556x45_M_SAW", 10];
+	_ammoBoxOrVeh addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 10];  
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_fieldDressing", 24];
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_packingBandage", 16]; 
 	_ammoBoxOrVeh addItemCargoGlobal ["rnt_mg3_kasten_fake", 4];
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_morphine", 8];        
-	_ammoBoxOrVeh addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", 10];    
 	_ammoBoxOrVeh addItemCargoGlobal ["BWA3_RGW90_Loaded", 2];
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_salineIV_250", 10];  
 	_ammoBoxOrVeh addItemCargoGlobal ["ACE_SurgicalKit", 5];    
