@@ -106,9 +106,9 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
-//VBA reserve
+//VBA
 [
-    [san_01, san_02, san_03, san_04], 
+    [san_01, san_02, san_03, san_04, san_05, san_06], 
     [
 		["ACE_fieldDressing", 20],
 		["ACE_packingBandage", 20],
@@ -124,34 +124,5 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["ACE_adenosine", 10],
 		["ACE_surgicalKit", 10],
 		["ACE_personalAidKit", 2]
-    ]
-] call reim_fnc_crateFiller;
-
-//san primär
-[
-    [san_05, san_06, san_07, san_08], 
-    [
-		["ACE_packingBandage", 20],
-		["ACE_elasticBandage", 20],
-		["ACE_tourniquet", 10],
-		["ACE_tourniquet", 20],
-		["ACE_salineIV_250", 7],
-		["ACE_salineIV_500", 7],
-		["ACE_salineIV", 7],
-		["ACE_morphine", 15],
-		["ACE_epinephrine", 7],
-		["ACE_adenosine", 7],
-		["ACE_bodyBag", 2],
-		["ACE_surgicalKit", 10],
-		["ACE_personalAidKit", 2]
-    ]
-] call reim_fnc_crateFiller;
-
-//Pio
-[
-    [pio_01, pio_02, pio_03, pio_05, pio_05, pio_06], 
-    [
-		["DemoCharge_Remote_Mag", 2],
-		["APERSMine_Range_Mag", 20]
     ]
 ] call reim_fnc_crateFiller;
