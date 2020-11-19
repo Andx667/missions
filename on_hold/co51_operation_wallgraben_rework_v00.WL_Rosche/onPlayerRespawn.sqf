@@ -33,6 +33,3 @@ if (GEAR_KEEP_GOGGLES) then {
 			_unit setVariable ["axe_gear_goggles", nil];
 	};
 };
-
-//Toggle Weapon Safety
-[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
