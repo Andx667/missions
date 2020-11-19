@@ -55,3 +55,5 @@ player linkItem "TFAR_anprc152";
     sleep 30;
    	[player,"Redd_HptGef"] call BIS_fnc_setUnitInsignia;
 };
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

@@ -66,3 +66,5 @@ player linkItem "ItemAndroid";
     sleep 60;
     [player,"insignia156"] call bis_fnc_setUnitInsignia;
 };
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

@@ -60,3 +60,5 @@ player setVariable ["ACE_IsEngineer", true, true];
     sleep 30;
    	[player,"Redd_FW"] call BIS_fnc_setUnitInsignia;
 };
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

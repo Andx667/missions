@@ -64,3 +64,5 @@ player linkItem "ItemMicroDAGR";
     sleep 60;
     [player,"insignia48"] call bis_fnc_setUnitInsignia;
 };
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

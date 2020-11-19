@@ -9,4 +9,3 @@ if (_loadoutVar == "") then {
 	[] spawn compile preprocessFileLineNumbers _loadoutSQF;
 };
 
-[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

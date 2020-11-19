@@ -50,3 +50,5 @@ player linkItem "ItemWatch";
     sleep 30;
    	[player,"Redd_Gef"] call BIS_fnc_setUnitInsignia;
 };
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

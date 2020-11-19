@@ -62,3 +62,5 @@ player setVariable ["ace_medical_medicClass", 2, true];
     sleep 60;
     [player,"insignia1"] call bis_fnc_setUnitInsignia;
 };
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

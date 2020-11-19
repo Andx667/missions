@@ -53,3 +53,5 @@ player linkItem "ItemWatch";
 };
 
 player setVariable ["ACE_IsEngineer", true, true];
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
