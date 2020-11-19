@@ -31,6 +31,7 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "acex_intelitems_notepad";
+player addItemToUniform "BW_Facepaint";
 player addItemToUniform "ACE_RangeTable_82mm";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToVest "ACE_EntrenchingTool";
