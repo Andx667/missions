@@ -20,6 +20,9 @@ player addWeapon "hlc_rifle_G36A1";
 player addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_Tracers_G36";
 
+player addWeapon "BWA3_P2A1";
+player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Red";
+
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
 player addVest "pbw_splitter_grpfhr";
@@ -36,6 +39,8 @@ player addItemToUniform "BW_Facepaint";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Red";};
+for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Green";};
 player addItemToVest "ACE_EntrenchingTool";
 player addItemToUniform "acex_intelitems_notepad";
 for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_Tracers_G36";};

@@ -1,4 +1,4 @@
-setDate [2003, 09, 15, 16, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
+setDate [2003, 09, 15, 4, 00];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						//alle die nicht independent sind machen:
@@ -44,7 +44,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 
 //Logistik
 [
-    [fhz_07, fhz_08, fhz_09, fhz_10, fhz_11, fhz_12],
+    [fhz_07, fhz_08, fhz_10, fhz_11],
     [
 		["BWA3_PatrolPack_Fleck", 1],
 		["Toolkit", 1]
@@ -73,16 +73,17 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 [
     [werfer_01, werfer_02, werfer_03, werfer_04, werfer_05, werfer_06],
     [
-		["BWA3_PzF3_Tandem_Loaded", 2],
-		["Redd_Milan_Static_Barrel", 1],
-		["Redd_Milan_Static_Tripod", 1]
+		["BWA3_PzF3_Tandem_Loaded", 2]
     ]
 ] call reim_fnc_crateFiller;
 
 //Mun Nachschub
 [
-    [mun_01, mun_02, mun_03, mun_04, mun_05, mun_06, mun_07, mun_08, mun_09, mun_10, mun_11, mun_12,
-	mun_13, mun_14, mun_15, mun_16, mun_16, mun_17, mun_18
+    [
+		mun_02, mun_03, mun_04, mun_05,
+	 	mun_06, mun_08, mun_09, mun_10,
+	 	mun_11, mun_12, mun_14, mun_15,
+	  	mun_16, mun_16, mun_17, mun_18
 	],
     [
 		["hlc_30rnd_556x45_Tracers_G36", 10],

@@ -20,6 +20,9 @@ player addWeapon "hlc_rifle_G36KA1";
 player addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
 
+player addWeapon "BWA3_P2A1";
+player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Red";
+
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
 player addVest "pbw_splitter_grpfhr";
@@ -35,6 +38,8 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "acex_intelitems_notepad";
 player addItemToUniform "ACE_RangeTable_82mm";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Red";};
+for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Green";};
 player addItemToVest "ACE_EntrenchingTool";
 player addItemToVest "ACE_microDAGR";
 for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_EPR_G36";};
@@ -42,6 +47,10 @@ for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 player addItemToVest "BWA3_DM32_Green";
 player addHeadgear "PBW_muetze2_fleck";
+
+player addItemToBackpack "BWA3_1Rnd_Flare_Multistar_Red";
+player addItemToBackpack "BWA3_1Rnd_Flare_Multistar_Green";
+player addItemToBackpack "BWA3_1Rnd_Flare_Multistar_White";
 
 player addGoggles selectRandom ["","PBW_shemagh_gruen","PBW_shemagh_beige"];
 
