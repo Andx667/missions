@@ -20,13 +20,22 @@ setDate [2035, 9, 25, 5, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei M
 	};
 } forEach allUnits;
 
-	[[
+//Höherer Verbrauch für Hubschrauber (Viper)
+[
+	[
+		heli_01,
+		heli_02
+	],
+	14
+] call Fett_Redd_fnc_FuelConsumption;
 
-		heli_veh_1,
-		heli_veh_2,
-		heli_veh_3,
-		heli_veh_4,
-		heli_veh_5,
-		heli_veh_6
-		
-	],8] call Fett_Redd_fnc_FuelConsumption;
+//Höherer Verbrauch für Hubschrauber (Log/MedEvac)
+[
+	[
+		heli_03,
+		heli_04,
+		heli_05,
+		heli_06
+	],
+	8
+] call Fett_Redd_fnc_FuelConsumption;

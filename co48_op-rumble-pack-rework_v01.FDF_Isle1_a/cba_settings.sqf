@@ -9,6 +9,3 @@ force ace_medical_treatment_consumePAK = 1;
 
 //Sichtweite
 force ace_viewdistance_limitViewDistance = 6000;
-
-//Bluefor kann mit Grün funken 
-force tfar_radiocode_independent = "_bluefor";

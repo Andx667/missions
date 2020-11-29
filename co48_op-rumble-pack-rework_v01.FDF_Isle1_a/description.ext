@@ -8,7 +8,7 @@ class Header
 {
    gameType = "coop";
    minPlayers = "1";
-   maxPlayers = "52";
+   maxPlayers = "49";
 };
 
 respawn = 3;
@@ -18,12 +18,12 @@ disableAI = 1;														//muss zusaätzlich unter "Attribute >> Multiplayer"
 cba_settings_hasSettingsFile = 1;
 
 /*------Functions------*/	
-#include "scripts\W_Teleporter\dialog.hpp"
-#include "scripts\Spec_crateNaming\DescriptionExt.hpp"
+#include "W_Teleporter\dialog.hpp"
+#include "Spec_crateNaming\DescriptionExt.hpp"
 
 class CfgFunctions 
 {
-	#include "scripts\W_Teleporter\CfgFunctions.hpp"
-	#include "scripts\Spec_crateNaming\Cfgfunctions.hpp"
+	#include "W_Teleporter\CfgFunctions.hpp"
+	#include "Spec_crateNaming\Cfgfunctions.hpp"
    #include "Fett_Redd_Fuel\CfgFunctions.hpp"
 };

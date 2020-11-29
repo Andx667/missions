@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2648;
+		nextID=2680;
 	};
 	class Camera
 	{
-		pos[]={10132.564,94.503128,9557.8516};
-		dir[]={-0.29202461,-0.55271113,0.78053749};
-		up[]={-0.19367644,0.83337289,0.51766729};
-		aside[]={0.93660033,3.1432137e-009,0.35041261};
+		pos[]={18262.688,66.072731,14526.118};
+		dir[]={0.525729,-0.55819756,0.64208549};
+		up[]={0.35363695,0.82966685,0.43190476};
+		aside[]={0.77381968,-5.3819531e-007,-0.63358492};
 	};
 };
 binarizationWanted=0;
@@ -13523,7 +13523,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_LMG""];}";
-						description="#7 Light Machine Gunner";
+						description="#7 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=4649;
@@ -14433,7 +14433,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_LMG""];}";
-						description="#7 Light Machine Gunner";
+						description="#7 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=4658;
@@ -15343,7 +15343,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""LDF_Ranger_LMG""];}";
-						description="#7 Light Machine Gunner";
+						description="#7 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=4667;
@@ -20928,19 +20928,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18236.711,27.159348,14597.394};
+				position[]={18236.711,27.158901,14597.394};
 				angles[]={0,2.3850448,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_veh_6";
+				name="heli_03";
 				textures="Camo";
 			};
 			id=4799;
 			type="I_Heli_Transport_02_LDF_F";
+			atlOffset=53.528;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20989,7 +20989,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={18171.063,27.169491,14540.777};
+				position[]={18171.063,27.169903,14540.777};
 				angles[]={0,2.3850448,0};
 			};
 			side="Empty";
@@ -20997,11 +20997,12 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_veh_5";
+				name="heli_05";
 				textures="Camo";
 			};
 			id=4800;
 			type="I_Heli_Transport_02_LDF_F";
+			atlOffset=0.0004119873;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21057,7 +21058,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_veh_4";
+				name="heli_04";
 			};
 			id=4802;
 			type="I_E_Heli_light_03_unarmed_F";
@@ -21136,7 +21137,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_veh_3";
+				name="heli_06";
 			};
 			id=4803;
 			type="I_E_Heli_light_03_unarmed_F";
@@ -21426,7 +21427,7 @@ class Mission
 					flags=2;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""USMC_Heli_Pilot""];}";
+						init="call{this setVariable [""loadout"", ""LDF_Helicopter_Pilot""];}";
 						description="#1 Co-Pilot@LDF MedEvac ""Butterfly""";
 						isPlayable=1;
 					};
@@ -21519,19 +21520,19 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={18289.092,23.530331,14642.436};
-						angles[]={0,3.8500707,0};
+						position[]={18289.092,23.530437,14642.436};
+						angles[]={0,3.8500741,0};
 					};
 					side="West";
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""USMC_Heli_Pilot""];}";
+						init="call{this setVariable [""loadout"", ""LDF_Helicopter_Pilot""];}";
 						description="#2 Pilot";
 						isPlayable=1;
 					};
 					id=4678;
 					type="B_Soldier_F";
-					atlOffset=53.528893;
+					atlOffset=53.528999;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22811,7 +22812,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_veh_1";
+				name="heli_01";
 				textures="USMC";
 				pylons="CUP_PylonPod_1Rnd_AIM_9L_Sidewinder_M[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;PylonRack_4Rnd_ACE_Hellfire_AGM114K[0];PylonRack_4Rnd_ACE_Hellfire_AGM114K[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;CUP_PylonPod_1Rnd_AIM_9L_Sidewinder_M[0];";
 			};
@@ -22961,7 +22962,7 @@ class Mission
 			class Attributes
 			{
 				lock="UNLOCKED";
-				name="heli_veh_2";
+				name="heli_02";
 				textures="USMC";
 				pylons="CUP_PylonPod_1Rnd_AIM_9L_Sidewinder_M[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;PylonRack_4Rnd_ACE_Hellfire_AGM114K[0];PylonRack_4Rnd_ACE_Hellfire_AGM114K[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;CUP_PylonPod_1Rnd_AIM_9L_Sidewinder_M[0];";
 			};
