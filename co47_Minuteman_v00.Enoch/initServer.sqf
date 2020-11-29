@@ -24,7 +24,6 @@ setDate [1998, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 
 //Kisten
-
 //Inf Munition
 [
     [kiste_01, kiste_02, kiste_03, kiste_04, kiste_05],
@@ -36,6 +35,8 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["BWA3_DM32_Green", 4],
 		["DemoCharge_Remote_Mag", 2],
 		["SatchelCharge_Remote_Mag", 1]
+		["BWA3_1Rnd_Flare_Multistar_Red", 8],
+		["BWA3_1Rnd_Flare_Multistar_Green", 8]
     ]
 ] call reim_fnc_crateFiller;
 

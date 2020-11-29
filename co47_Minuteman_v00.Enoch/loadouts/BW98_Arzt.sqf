@@ -19,6 +19,9 @@ comment "Add weapons";
 player addWeapon "hlc_rifle_g3a3v";
 player addPrimaryWeaponItem "hlc_20rnd_762x51_b_G3";
 
+player addWeapon "BWA3_P2A1";
+player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Green";
+
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
 player addVest "pbw_splitter_sani";
@@ -31,6 +34,8 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_MapTools";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "acex_intelitems_notepad";
+for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Red";};
+for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Green";};
 
 for "_i" from 1 to 6 do {player addItemToVest "hlc_20rnd_762x51_b_G3";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
