@@ -23,7 +23,7 @@ setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 //Höherer Verbrauch für Hubschrauber
 [[
 
-	fhz_05, 
+	fhz_11, 
 	fhz_10
 
 ],8] call Fett_Redd_fnc_FuelConsumption;
@@ -35,14 +35,49 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 [
     [fhz_01, fhz_02, fhz_03, fhz_04],
     [
-		["hlc_30rnd_68x43_MFMJ", 12],
-		["TFAR_mr3000_bwmod", 1],
+		["hlc_30rnd_68x43_MFMJ", 24],
+		["HandGrenade", 24],
+		["ACE_M84", 24],
 		["CUP_sgun_M1014_Entry_vfg", 1],
 		["CUP_6Rnd_12Gauge_Pellets_No0_Buck", 10],
 		["ACE_TacticalLadder_Pack", 1],
 		["CFP_Kitbag_PolygonWoodland", 2],
 		["Toolkit", 1],
 		["BWA3_PzF3_Tandem_Loaded", 2],
-		["ACE_EntrenchingTool", 8]
+		["ACE_EntrenchingTool", 8],
+		["hlc_100Rnd_762x51_M_M60E4", 5],
+		["hlc_lmg_mk48mod1", 1]
     ]
+] call reim_fnc_crateFiller;
+
+//Mun
+[
+	[kiste_01, kiste_02, kiste_03, kiste_04],
+	[
+		["hlc_30rnd_68x43_MFMJ", 24],
+		["HandGrenade", 12],
+		["ACE_M84", 12],
+		["1Rnd_HE_Grenade_shell", 10],
+		["hlc_200rnd_556x45_M_SAW", 8]
+	]
+] call reim_fnc_crateFiller;
+
+//Werfer
+[
+	[kiste_05, kiste_06],
+	[
+		["BWA3_PzF3_Tandem_Loaded", 2]
+	]
+] call reim_fnc_crateFiller;
+
+//VBT
+[
+	[san_01, san_02],
+	[
+		["ACE_fieldDressing", 24],
+		["ACE_packingBandage", 12],
+		["ACE_tourniquet", 12],
+		["ACE_morphine", 12],
+		["ACE_salineIV_250", 12]
+	]
 ] call reim_fnc_crateFiller;

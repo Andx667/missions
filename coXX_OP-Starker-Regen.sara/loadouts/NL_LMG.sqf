@@ -17,8 +17,9 @@ removeGoggles player;
 comment "Add weapons";
 player addWeapon "hlc_lmg_mk46mod1";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
-player addPrimaryWeaponItem "BWA3_optic_EOTech_Mag_Off";
+player addPrimaryWeaponItem "BWA3_optic_CompM2";
 player addPrimaryWeaponItem "hlc_200rnd_556x45_M_SAW";
+
 player addWeapon "CUP_hgun_Glock17";
 player addHandgunItem "CUP_17Rnd_9x19_glock17";
 
@@ -36,11 +37,13 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "CUP_17Rnd_9x19_glock17";
+
 player addItemToVest "CUP_17Rnd_9x19_glock17";
-player addItemToVest "HandGrenade";
-player addItemToVest "ACE_M84";
+for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {player addItemToVest "ACE_M84";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 for "_i" from 1 to 3 do {player addItemToVest "hlc_200rnd_556x45_M_SAW";};
+
 player addHeadgear "CUP_H_OpsCore_Spray";
 
 comment "Add items";

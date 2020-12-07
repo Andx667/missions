@@ -21,3 +21,6 @@ if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
 
 //Stein Medic Tent Fhz
 [] call compile preprocessFileLineNumbers "scripts\stein_medicTent_vehicle.sqf";
+
+//Plane
+[] call compile preprocessFileLineNumbers "scripts\stein_Plane.sqf";

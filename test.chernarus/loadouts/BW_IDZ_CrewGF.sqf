@@ -16,41 +16,42 @@ removeGoggles player;
 
 comment "Add weapons";
 player addWeapon "CUP_smg_MP7";
-player addPrimaryWeaponItem "optic_Yorris";
+player addPrimaryWeaponItem "BWA3_optic_RSAS";
 player addPrimaryWeaponItem "CUP_40Rnd_46x30_MP7";
 
-player addWeapon "CUP_hgun_Glock17";
-player addHandgunItem "CUP_17Rnd_9x19_glock17";
+player addWeapon "BWA3_P2A1";
+player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Green";
 
 comment "Add containers";
-player forceAddUniform "CUP_U_CRYE_G3C_M81";
-player addVest "CFP_RAV_operator_M81";
+player forceAddUniform "BWA3_Uniform_Crew_Fleck";
+player addVest "BWA3_Vest_Fleck";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-player addItemToUniform "ACE_IR_Strobe_Item";
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_packingBandage";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "CUP_17Rnd_9x19_glock17";
+player addItemToUniform "acex_intelitems_notepad";
 
-player addItemToVest "CUP_17Rnd_9x19_glock17";
-player addItemToVest "HandGrenade";
-player addItemToVest "ACE_M84";
-for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 for "_i" from 1 to 3 do {player addItemToVest "CUP_40Rnd_46x30_MP7";};
-for "_i" from 1 to 3 do {player addItemToVest "ACE_Chemlight_HiRed";};
+player addItemToVest "BWA3_DM32_Green";
+for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
+player addItemToVest "BWA3_DM51A1";
 
-player addHeadgear "H_HelmetCrew_I";
+player addHeadgear "BWA3_Beret_Pz";
+player addGoggles "PBW_Headset";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "TFAR_microdagr";
+player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
-player linkItem "ItemMicroDagr";
+
+[] spawn {
+    sleep 30;
+   	[player,"Redd_Fw"] call BIS_fnc_setUnitInsignia;
+};
 
 [ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

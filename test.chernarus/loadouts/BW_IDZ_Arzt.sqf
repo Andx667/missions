@@ -1,4 +1,3 @@
-player setRank "CAPTAIN";
 
 comment "Exported from Arsenal by Andx";
 
@@ -16,48 +15,59 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_g3a3v";
-player addPrimaryWeaponItem "hlc_20rnd_762x51_b_G3";
-
+player addWeapon "BWA3_G36A3";
+player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
+player addPrimaryWeaponItem "BWA3_optic_ZO4x30_RSAS";
+player addPrimaryWeaponItem "BWA3_30Rnd_556x45_G36";
 player addWeapon "BWA3_P2A1";
 player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Green";
 
 comment "Add containers";
-player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_sani";
+player forceAddUniform "BWA3_Uniform_Fleck";
+player addVest "BWA3_Vest_Medic_Fleck";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
-player addItemToUniform "ACE_morphine";
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_packingBandage";};
+player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
+player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "acex_intelitems_notepad";
 for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Red";};
 for "_i" from 1 to 4 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Green";};
 
-for "_i" from 1 to 6 do {player addItemToVest "hlc_20rnd_762x51_b_G3";};
+player addItemToVest "BWA3_DM32_Green";
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
-for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
+player addItemToVest "BWA3_DM51A1";
+player addItemToVest "ACE_M84";
+for "_i" from 1 to 4 do {player addItemToVest "BWA3_30Rnd_556x45_G36";};
+player addItemToVest "ItemcTabHCam";
 player addItemToVest "ACE_SurgicalKit";
 
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_fieldDressing";}
+player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "ACE_Canteen";
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_adenosine";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_salineIV_250";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 8 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 8 do {player addItemToBackpack "ACE_adenosine";};
-for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_quikclot";};
+for "_i" from 1 to 15 do {player addItemToBackpack "ACE_salineIV_250";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_salineIV";};
+for "_i" from 1 to 6 do {player addItemToBackpack "ACE_tourniquet";};
 
-player addGoggles selectRandom ["","PBW_shemagh_gruen","PBW_shemagh_beige"];
-player addHeadgear "PBW_Muetze2_fleck";
+player addHeadgear "BWA3_OpsCore_Fleck_Camera";
+player addGoggles "PBW_Headset";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "TFAR_anprc152";
+player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 30;
