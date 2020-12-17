@@ -3,7 +3,7 @@ setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 //Setup ACEX Fortify
 [
 	west, 
-	1000,
+	200,
 	[
 	  ["EFM_wood_wall_2m_single", 1],
 	  ["Land_BagFence_Short_F", 1],

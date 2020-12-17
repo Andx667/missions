@@ -1,12 +1,6 @@
 // W-Teleporter
 teleporter_01 addAction ["W-Teleporter",{createDialog "W_RscTeleportDialog"},[],1,false,true,"","",3];
 
-//Teleport zum Flughafen
-teleporter_01 addAction ["Zum Krankenhaus", {
-    params ["_target","_caller"];
-    _caller setPosASL (getPosASL tele_kh);
-}];
-
 
 //Zuschauermodus
 teleporter_01 addAction ["Zuschauermodus", {
@@ -25,6 +19,3 @@ teleporter_01 addAction ["Zuschauermodus", {
 
 // JIP spawns at the teleporter
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
-
-//Plane
-[] call compile preprocessFileLineNumbers "scripts\stein_medicTent_backpack.sqf";
