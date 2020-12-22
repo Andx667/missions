@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=1491;
+		nextID=1494;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=55;
+		nextID=81;
 	};
 	class Camera
 	{
-		pos[]={14652.503,61.185104,10883.989};
-		dir[]={-0.81368417,-0.54242408,-0.20947674};
-		up[]={-0.52535003,0.84006506,-0.13524705};
-		aside[]={-0.24933662,-1.9578147e-007,0.96851695};
+		pos[]={13516.327,58.233925,9243.333};
+		dir[]={-0.1315842,-0.52854323,0.83878547};
+		up[]={-0.081921518,0.848818,0.52222812};
+		aside[]={0.98804486,-1.6507693e-006,0.15500613};
 	};
 };
 binarizationWanted=0;
@@ -689,7 +689,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=126;
+		items=129;
 		class Item0
 		{
 			dataType="Object";
@@ -2644,7 +2644,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={13522.026,19.981438,9209.9043};
-						angles[]={-0,0.91083497,0};
+						angles[]={0,0.91083497,0};
 					};
 					side="West";
 					flags=4;
@@ -11385,7 +11385,7 @@ class Mission
 									};
 									id=492;
 									type="Land_Sign_MinesDanger_English_F";
-									atlOffset=-1.9047546;
+									atlOffset=-1.904789;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -12958,7 +12958,7 @@ class Mission
 									};
 									id=533;
 									type="Land_TimberLog_05_F";
-									atlOffset=-0.20981216;
+									atlOffset=-0.21006393;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -13081,7 +13081,7 @@ class Mission
 									};
 									id=536;
 									type="Land_TimberLog_05_F";
-									atlOffset=-0.31965637;
+									atlOffset=-0.31952667;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -18085,17 +18085,17 @@ class Mission
 											dataType="Object";
 											class PositionInfo
 											{
-												position[]={14484.458,58.02195,10505.865};
-												angles[]={0,2.9618254,0};
+												position[]={14484.458,57.648796,10505.865};
+												angles[]={0.22557428,2.9618254,0.1176189};
 											};
 											side="Empty";
+											flags=4;
 											class Attributes
 											{
 												disableSimulation=1;
 											};
 											id=1360;
 											type="Land_BagFence_01_long_green_F";
-											atlOffset=0.37315369;
 										};
 										class Item15
 										{
@@ -18332,7 +18332,7 @@ class Mission
 											};
 											id=1462;
 											type="CUP_ker_deravej";
-											atlOffset=-0.31081772;
+											atlOffset=-0.31077194;
 										};
 										class Item27
 										{
@@ -18515,6 +18515,7 @@ class Mission
 											};
 											id=1471;
 											type="Land_BagFence_01_corner_green_F";
+											atlOffset=0.00020599365;
 										};
 										class Item36
 										{
@@ -18896,7 +18897,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={14483.552,57.21236,10507.133};
-						angles[]={-0,4.4567695,0};
+						angles[]={0,4.4567695,0};
 					};
 					side="East";
 					flags=4;
@@ -18940,7 +18941,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14483.552,58.194984,10507.083};
-				angles[]={-0,4.4567695,0};
+				angles[]={0,4.4567695,0};
 			};
 			side="East";
 			flags=4;
@@ -19476,6 +19477,309 @@ class Mission
 			{
 			};
 			id=1484;
+		};
+		class Item126
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14220.106,39.833836,10799.383};
+			};
+			areaSize[]={5,-1,5};
+			flags=1;
+			id=1491;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=2.9261627;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item127
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14215.939,38.368702,10716.461};
+			};
+			areaSize[]={5,-1,5};
+			flags=1;
+			id=1492;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=1.5733109;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item128
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14251.385,37.441147,10693.185};
+			};
+			areaSize[]={1,-1,1};
+			id=1493;
+			type="ModuleEditTerrainObject_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#name";
+					expression="_this setVariable [""#name"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=7;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="#initServer";
+					expression="_this setVariable [""#initServer"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="#state";
+					expression="_this setVariable [""#state"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="#allowDamage";
+					expression="_this setVariable [""#allowDamage"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="#doorStates";
+					expression="_this setVariable [""#doorStates"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="#init";
+					expression="_this setVariable [""#init"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=7;
+			};
 		};
 	};
 	class Connections
