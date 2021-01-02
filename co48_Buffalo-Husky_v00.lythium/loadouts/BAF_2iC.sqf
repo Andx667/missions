@@ -60,7 +60,7 @@ player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
 [] spawn {
-    sleep 60;
+    sleep 30;
     [player,"insignia82"] call bis_fnc_setUnitInsignia;
 };
 

@@ -66,7 +66,7 @@ player linkItem "ItemMicroDAGR";
 player setVariable ["ACE_isEOD", true, true];
 
 [] spawn {
-    sleep 60;
+    sleep 30;
     [player,"insignia144"] call bis_fnc_setUnitInsignia;
 };
 
