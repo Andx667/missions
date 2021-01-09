@@ -20,6 +20,7 @@ player addWeapon "rhs_weap_m4a1";
 player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
 player addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 player addPrimaryWeaponItem "rhsusf_acc_grip3";
+player addPrimaryWeaponItem "rhsusf_acc_anpeq15_light";
 
 comment "Add containers";
 player forceAddUniform "rhs_uniform_g3_m81";

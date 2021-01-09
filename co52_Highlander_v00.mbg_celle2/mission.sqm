@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=90;
+		nextID=95;
 	};
 	class Camera
 	{
-		pos[]={5192.1118,18.695671,12113.886};
-		dir[]={0.55101073,-0.6064285,0.5734452};
-		up[]={0.42018792,0.79510427,0.43729722};
-		aside[]={0.72115719,-2.4284236e-007,-0.69294173};
+		pos[]={8574.9121,174.95309,9434.9004};
+		dir[]={-0.89961994,-0.39000079,-0.19700457};
+		up[]={-0.38104501,0.92076999,-0.083446667};
+		aside[]={-0.21395169,1.1092488e-006,0.97697979};
 	};
 };
 binarizationWanted=0;
@@ -2566,6 +2566,7 @@ class Mission
 					};
 					id=1499;
 					type="rhsusf_m1151_m2_v2_usarmy_wd";
+					atlOffset=-0.0016202927;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3694,7 +3695,7 @@ class Mission
 				};
 			};
 			id=66;
-			atlOffset=0.25109291;
+			atlOffset=0.25104809;
 		};
 		class Item3
 		{
@@ -18934,7 +18935,7 @@ class Mission
 					showWP="NEVER";
 					id=1250;
 					type="Move";
-					atlOffset=7.8807125;
+					atlOffset=7.8807201;
 				};
 			};
 			class Attributes
@@ -22293,7 +22294,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1331.6262,14.451439,7688.9985};
-						angles[]={-0,2.2479789,0};
+						angles[]={0,2.2479789,0};
 					};
 					side="East";
 					flags=6;
@@ -22309,7 +22310,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1331.6262,14.451439,7688.9985};
-						angles[]={-0,2.2479789,0};
+						angles[]={0,2.2479789,0};
 					};
 					side="East";
 					flags=5;
@@ -22363,7 +22364,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1331.6262,16.644215,7688.9487};
-				angles[]={-0,2.2479789,0};
+				angles[]={0,2.2479789,0};
 			};
 			side="East";
 			flags=4;
@@ -22491,6 +22492,7 @@ class Mission
 			};
 			id=1503;
 			type="rhsusf_m1151_mk19_v2_usarmy_wd";
+			atlOffset=-0.00065803528;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24976,6 +24978,7 @@ class Mission
 			};
 			id=1498;
 			type="RHS_M2A3_wd";
+			atlOffset=-0.0001335144;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25118,6 +25121,7 @@ class Mission
 			};
 			id=1328;
 			type="RHS_M2A3_wd";
+			atlOffset=-0.0015325546;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26108,7 +26112,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Dagger-1-1";
+							value="1-1";
 						};
 					};
 				};
@@ -26510,7 +26514,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Dagger-2-1";
+							value="2-1";
 						};
 					};
 				};
@@ -26912,7 +26916,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Dagger-3-1";
+							value="3-1";
 						};
 					};
 				};
@@ -27315,7 +27319,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Dagger-1-2";
+							value="1-2";
 						};
 					};
 				};
@@ -27719,7 +27723,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Dagger-2-2";
+							value="2-2";
 						};
 					};
 				};
@@ -28125,7 +28129,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Dagger-3-2";
+							value="3-2";
 						};
 					};
 				};
@@ -30245,7 +30249,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2964.165,18.429546,10848.544};
+				position[]={2964.165,18.429548,10848.542};
 			};
 			areaSize[]={1,-1,1};
 			id=1856;
@@ -35873,7 +35877,7 @@ class Mission
 			};
 			id=1901;
 			type="Land_UWreck_Heli_Attack_02_F";
-			atlOffset=0.062517166;
+			atlOffset=0.062509537;
 		};
 		class Item479
 		{
@@ -36930,7 +36934,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""US_Pilot""];}";
-						description="#1 Co-Pilot@MedEvac ""Sunray-2""";
+						description="#1 Co-Pilot@MedEvac ""Sunray-1""";
 						isPlayable=1;
 					};
 					id=1837;
@@ -37163,6 +37167,29 @@ class Mission
 			{
 			};
 			id=1999;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Sunray-1";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item533
 		{
@@ -37183,7 +37210,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""US_Pilot""];}";
-						description="#1 Co-Pilot@MedEvac ""Sunray-1""";
+						description="#1 Co-Pilot@MedEvac ""Sunray-2""";
 						isPlayable=1;
 					};
 					id=1839;
@@ -37416,6 +37443,29 @@ class Mission
 			{
 			};
 			id=2003;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Sunray-2";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections

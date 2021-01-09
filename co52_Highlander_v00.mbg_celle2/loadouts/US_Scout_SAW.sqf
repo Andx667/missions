@@ -20,6 +20,7 @@ player addWeapon "rhs_weap_m249_light_S";
 player addPrimaryWeaponItem "rhsusf_acc_ELCAN_ard";
 player addPrimaryWeaponItem "rhsusf_100Rnd_556x45_mixed_soft_pouch";
 player addPrimaryWeaponItem "rhsusf_acc_grip4_bipod";
+player addPrimaryWeaponItem "rhsusf_acc_anpeq15_light";
 
 comment "Add containers";
 player forceAddUniform "rhs_uniform_g3_m81";
