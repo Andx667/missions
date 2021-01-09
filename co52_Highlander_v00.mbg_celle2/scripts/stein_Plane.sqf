@@ -4,9 +4,10 @@
 	description: adds an ACE-AddAction to a backpack, which can be used to build a medical area.
 	
 	Usage (initPlayerLocal.sqf):
-	[] call compile preprocessFileLineNumbers "scripts\stein_medicTent_backpack.sqf";
+	[] call compile preprocessFileLineNumbers "scripts\stein_plane.sqf";
 	
 	last Updated: 15.09.2019 by [TTT] EinStein
+	Edit by Andx 09.01.2021
 */
 
 stein_mop_plane_useAnimation = false;
