@@ -3890,7 +3890,7 @@ class Mission
 						rank="SERGEANT";
 					};
 					id=1397;
-					type="rhsgref_cdf_para_squadleader";
+					type="rhsgref_cdf_reg_squadleader";
 					atlOffset=5.2298083;
 				};
 				class Item1
@@ -3907,7 +3907,7 @@ class Mission
 						skill=0.40000001;
 					};
 					id=1406;
-					type="rhsgref_cdf_para_medic";
+					type="rhsgref_cdf_reg_medic";
 					atlOffset=0.45932102;
 				};
 			};
@@ -13606,7 +13606,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=1400;
-					type="rhsgref_cdf_para_rifleman";
+					type="rhsgref_cdf_reg_rifleman";
 					atlOffset=2.6713052;
 				};
 				class Item1
@@ -13623,7 +13623,7 @@ class Mission
 						skill=0.40000001;
 					};
 					id=1401;
-					type="rhsgref_cdf_para_rifleman";
+					type="rhsgref_cdf_reg_rifleman";
 					atlOffset=0.49617338;
 				};
 			};
@@ -13677,7 +13677,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=1398;
-					type="rhsgref_cdf_para_machinegunner";
+					type="rhsgref_cdf_reg_machinegunner";
 					atlOffset=-4.7683716e-007;
 				};
 				class Item1
@@ -13695,7 +13695,7 @@ class Mission
 						rank="CORPORAL";
 					};
 					id=1402;
-					type="rhsgref_cdf_para_machinegunner";
+					type="rhsgref_cdf_reg_machinegunner";
 					atlOffset=-4.7683716e-007;
 				};
 				class Item2
@@ -13712,7 +13712,7 @@ class Mission
 						skill=0.40000001;
 					};
 					id=1404;
-					type="rhsgref_cdf_para_rifleman";
+					type="rhsgref_cdf_reg_rifleman";
 					atlOffset=4.7683716e-007;
 				};
 				class Item3
@@ -13729,7 +13729,7 @@ class Mission
 						skill=0.40000001;
 					};
 					id=1405;
-					type="rhsgref_cdf_para_rifleman";
+					type="rhsgref_cdf_reg_rifleman";
 					atlOffset=4.7683716e-007;
 				};
 				class Item4
