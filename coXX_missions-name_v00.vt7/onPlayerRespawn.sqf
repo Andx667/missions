@@ -7,7 +7,7 @@ private _loadoutSQF = ["loadouts\", _loadoutVar, ".sqf"] joinString "";
 
 //assign the loadout file
 if (_loadoutVar == "") then {
-	[] spawn compile preprocessFileLineNumbers "loadouts\US_Scout_Rifleman.sqf";
+	[] spawn compile preprocessFileLineNumbers "loadouts\US_Rifleman.sqf";
 } else {
 	[] spawn compile preprocessFileLineNumbers _loadoutSQF;
 };
