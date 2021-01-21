@@ -16,8 +16,8 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "rhs_weap_m4a1";
-player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
+player addWeapon "rhs_weap_m16a4";
+player addPrimaryWeaponItem "rhsusf_acc_ACOG";
 player addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 player addPrimaryWeaponItem "rhsusf_acc_grip3";
 player addPrimaryWeaponItem "rhsusf_acc_anpeq15_light";
@@ -35,13 +35,14 @@ comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_quikclot";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "acex_intelitems_notepad";
 player addItemToUniform "US_Facepaint";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToVest "ACE_EntrenchingTool";
+
 for "_i" from 1 to 8 do {player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
 player addItemToVest "rhs_mag_mk84";
 player addItemToVest "rhs_mag_m67";

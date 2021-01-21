@@ -14,3 +14,9 @@ force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum
 
 //
 force TFAR_globalRadioRangeCoef = 2;
+
+// ACEX Field Rations
+force acex_field_rations_enabled = true;
+force force acex_field_rations_timeWithoutWater = 3;
+force force acex_field_rations_timeWithoutFood = 3;
+

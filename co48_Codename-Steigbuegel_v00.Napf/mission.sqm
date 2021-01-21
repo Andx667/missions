@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=3762;
+		nextID=3763;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=377;
+		nextID=393;
 	};
 	class Camera
 	{
-		pos[]={10303.214,263.60944,11864.298};
-		dir[]={-0.86181515,-0.49145165,0.12643318};
-		up[]={-0.48630652,0.87080055,0.071342297};
-		aside[]={0.14515258,-1.5844853e-006,0.98951292};
+		pos[]={10110.813,245.25623,11908.455};
+		dir[]={-0.90134114,-0.36636183,-0.23151314};
+		up[]={-0.35493547,0.93036574,-0.091168664};
+		aside[]={-0.2488198,1.0436343e-006,0.96865642};
 	};
 };
 binarizationWanted=0;
@@ -10763,7 +10763,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10463.317,172.38635,11934.38};
+						position[]={10463.253,172.40392,11933.52};
 					};
 					side="East";
 					flags=5;
@@ -11132,7 +11132,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={10451.536,175.97754,11931.087};
-				angles[]={-0,3.8577302,6.2826972};
+				angles[]={0,3.8577302,6.2826972};
 			};
 			side="Empty";
 			flags=4;
@@ -12122,6 +12122,7 @@ class Mission
 			};
 			id=1852;
 			type="Land_CamoNetVar_EAST";
+			atlOffset=-1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13778,6 +13779,7 @@ class Mission
 					};
 					id=2107;
 					type="CUP_O_RU_Soldier_MG_M_EMR";
+					atlOffset=0.0001373291;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14044,6 +14046,7 @@ class Mission
 				};
 			};
 			id=2106;
+			atlOffset=0.0001373291;
 		};
 		class Item159
 		{
@@ -18877,6 +18880,7 @@ class Mission
 					};
 					id=3276;
 					type="CUP_O_RU_Engineer_M_EMR";
+					atlOffset=-0.0001373291;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19050,7 +19054,6 @@ class Mission
 									class Attributes
 									{
 										init="call{this addAction [""Nachschub Rufen"", { " \n "    params [""_target"",""_caller""]; " \n "    missionNamespace setVariable [""nachschub"", true, true];" \n "}];}";
-										createAsSimpleObject=1;
 									};
 									id=3747;
 									type="Land_MultiScreenComputer_01_black_F";
@@ -19245,11 +19248,11 @@ class Mission
 						};
 					};
 					id=3675;
-					atlOffset=-41.107239;
+					atlOffset=0.38565063;
 				};
 			};
 			id=3741;
-			atlOffset=-41.107239;
+			atlOffset=0.38565063;
 		};
 		class Item209
 		{

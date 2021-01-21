@@ -34,6 +34,7 @@ comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_quikclot";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
@@ -41,7 +42,7 @@ player addItemToUniform "acex_intelitems_notepad";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "US_Facepaint";
 
-player addItemToVest "ACE_EntrenchingTool";
+
 player addItemToVest "rhs_mag_mk84";
 player addItemToVest "rhs_mag_m67";
 player addItemToVest "SmokeShellGreen";
@@ -54,7 +55,8 @@ comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
-player linkItem "TFAR_anprc152";
+player linkItem "TFAR_microdagr";
+player linkItem "TFAR_rf7800str";
 
 [] spawn {
     sleep 30;
