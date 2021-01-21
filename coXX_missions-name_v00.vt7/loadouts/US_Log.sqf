@@ -29,7 +29,7 @@ player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "US_Facepaint";
 player addItemToVest "ACE_EntrenchingTool";
-for "_i" from 1 to 8 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
+for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellGreen";
