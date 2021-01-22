@@ -23,3 +23,39 @@ setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei
 
 //Kisten befüllen
 reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
+
+//Infantry
+[
+    [car_01, car_02, car_03],
+    [
+		["UK3CB_B_Alice_K", 1],
+		["Toolkit", 1]
+    ]
+] call reim_fnc_crateFiller;
+
+// OPL
+[
+    [car_04],
+    [
+		["UK3CB_B_Alice_K", 1],
+		["Toolkit", 1]
+    ]
+] call reim_fnc_crateFiller;
+
+// Medic
+[
+    [car_05],
+    [
+		["UK3CB_B_Alice_K", 1],
+		["Toolkit", 1]
+    ]
+] call reim_fnc_crateFiller;
+
+// Logistik
+[
+    [car_06],
+    [
+		["UK3CB_B_Alice_K", 1],
+		["Toolkit", 1]
+    ]
+] call reim_fnc_crateFiller;

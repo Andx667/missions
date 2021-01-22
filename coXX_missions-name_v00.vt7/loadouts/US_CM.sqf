@@ -1,3 +1,4 @@
+player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
@@ -15,16 +16,13 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "UK3CB_M21";
-player addPrimaryWeaponItem "uk3cb_optic_artel_m14";
-player addPrimaryWeaponItem "UK3CB_M14_20rnd_762x51";
+player addWeapon "UK3CB_M16A2";
+player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd";
 
 comment "Add containers";
 player forceAddUniform "UK3CB_CW_US_B_LATE_U_CombatUniform_01_WDL";
 player addVest "UK3CB_V_Chestrig_OLI";
-
-comment "Add binoculars";
-player addWeapon "Binocular";
+player addBackpack "UK3CB_B_Alice_Bedroll_K";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
@@ -33,11 +31,15 @@ player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "US_Facepaint";
 player addItemToVest "ACE_EntrenchingTool";
-player addItemToVest "ACE_RangeCard";
-player addItemToVest "rhs_mag_m67";
+for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
+for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellGreen";
-for "_i" from 1 to 5 do {player addItemToVest "UK3CB_M14_20rnd_762x51";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_surgicalKit";};
+for "_i" from 1 to 18 do {player addItemToBackpack "ACE_tourniquet";};
+for "_i" from 1 to 25 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 25 do {player addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 25 do {player addItemToBackpack "ACE_quikclot";};
 player addHeadgear "UK3CB_CW_US_B_LATE_H_PASGT_01_WDL";
 
 comment "Add items";

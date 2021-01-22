@@ -1,3 +1,4 @@
+player setRank "CORPORAL";
 
 comment "Exported from Arsenal by Andx";
 
@@ -21,6 +22,9 @@ player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd_T";
 comment "Add containers";
 player forceAddUniform "UK3CB_CW_US_B_LATE_U_CombatUniform_01_WDL";
 player addVest "UK3CB_V_Chestrig_OLI";
+
+comment "Add binoculars";
+player addWeapon "Binocular";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
