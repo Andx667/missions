@@ -25,7 +25,7 @@ player forceAddUniform "UK3CB_CW_US_B_LATE_U_CombatUniform_01_WDL";
 player addVest "UK3CB_V_Chestrig_OLI";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};

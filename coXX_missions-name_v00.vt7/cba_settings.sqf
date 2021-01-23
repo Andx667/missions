@@ -12,5 +12,5 @@ force ace_repair_engineerSetting_repair = 2;
 force ace_repair_fullRepairLocation = 3;
 force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum Reifenwechsel
 
-//
-force TFAR_globalRadioRangeCoef = 2;
+force ace_rearm_level = 2;
+force ace_rearm_supply = 1;

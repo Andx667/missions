@@ -30,7 +30,7 @@ comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_MapTools";
@@ -44,12 +44,16 @@ for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 5 do {player addItemToBackpack "ACE_surgicalKit";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_quikclot";};
-player addHeadgear "UK3CB_CW_US_B_LATE_H_PASGT_01_WDL";
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 10 do {player addItemToBackpack "ACE_quikclot";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_adenosine";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 5 do {player addItemToBackpack "ACE_morphine";};
+player addHeadgear "rhsgref_helmet_pasgt_olive";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "TFAR_anprc152";

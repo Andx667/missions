@@ -25,7 +25,7 @@ player addVest "UK3CB_V_Chestrig_OLI";
 player addBackpack "rhs_assault_umbts_engineer_empty";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
@@ -35,7 +35,6 @@ for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
-player addItemToBackpack "ToolKit";
 player addItemToBackpack "ACE_wirecutter";
 for "_i" from 1 to 12 do {player addItemToBackpack "rhs_mag_M441_HE";};
 for "_i" from 1 to 5 do {player addItemToBackpack "rhs_mag_m713_Red";};

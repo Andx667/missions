@@ -53,9 +53,60 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 
 // Logistik
 [
-    [car_06],
+    [car_06, car_07],
     [
 		["UK3CB_B_Alice_K", 1],
 		["Toolkit", 1]
+    ]
+] call reim_fnc_crateFiller;
+
+// Werfer
+[
+    [launcher_01, launcher_02, launcher_03],
+    [
+		["rhs_weap_m72a7", 3]
+    ]
+] call reim_fnc_crateFiller;
+
+//Ammo
+[
+    [ammo_01, ammo_02, ammo_03, ammo_04, ammo_05,ammo_06],
+    [
+		["UK3CB_BAF_556_30Rnd_T", 21],
+		["UK3CB_BAF_556_30Rnd", 49],
+		["rhs_mag_m67", 18],
+		["SmokeShell", 18],
+		["SmokeShellGreen", 9],
+		["rhs_mag_M441_HE", 24],
+		["rhs_mag_m713_Red", 5],
+		["rhs_mag_m714_White", 5]
+    ]
+] call reim_fnc_crateFiller;
+
+//VBT
+[
+    [san_01, san_02, san_03],
+    [
+		["ACE_fieldDressing", 100],
+		["ACE_morphine", 18],
+		["ACE_tourniquet", 18]
+    ]
+] call reim_fnc_crateFiller;
+
+//VBA
+[
+    [vba_01, vba_02, vba_03],
+    [
+		["ACE_surgicalKit", 9],
+		["ACE_elasticBandage", 30],
+		["ACE_packingBandage", 30],
+		["ACE_quikclot", 30],
+		["ACE_salineIV", 10],
+		["ACE_salineIV_250", 20],
+		["ACE_salineIV_500", 15],
+		["ACE_morphine", 18],
+		["ACE_epinephrine", 18],
+		["ACE_adenosine", 18],
+		["ACE_tourniquet", 18]
     ]
 ] call reim_fnc_crateFiller;

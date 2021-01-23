@@ -28,7 +28,7 @@ comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_MapTools";

@@ -30,7 +30,7 @@ comment "Add binoculars";
 player addWeapon "Binocular";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "rhsusf_mag_7x45acp_MHP";};
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_morphine";
@@ -42,9 +42,10 @@ for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellGreen";
-player addHeadgear "UK3CB_CW_US_B_LATE_H_PASGT_02_WDL";
+player addHeadgear "rhsgref_helmet_pasgt_olive";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "TFAR_anprc152";

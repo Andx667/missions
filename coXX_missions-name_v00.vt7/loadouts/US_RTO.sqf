@@ -25,7 +25,7 @@ player addVest "UK3CB_V_Chestrig_OLI";
 player addBackpack "UK3CB_B_B_Radio_Backpack";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 player addItemToUniform "ACE_Flashlight_MX991";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_MapTools";
