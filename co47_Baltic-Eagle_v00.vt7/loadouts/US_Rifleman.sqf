@@ -34,9 +34,13 @@ for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
 for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellGreen";
-player addHeadgear "UK3CB_CW_US_B_LATE_H_PASGT_01_WDL";
+player addItemToVest "UK3CB_CW_US_B_LATE_H_PASGT_01_WDL";
+
+player addHeadgear "UK3CB_CW_US_B_LATE_H_Patrol_Cap_WDL_01";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

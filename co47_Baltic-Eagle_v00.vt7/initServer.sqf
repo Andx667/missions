@@ -29,7 +29,8 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [car_01, car_02, car_03],
     [
 		["UK3CB_B_Alice_K", 1],
-		["Toolkit", 1]
+		["Toolkit", 1],
+		["ACE_wirecutter", 2]
     ]
 ] call reim_fnc_crateFiller;
 
@@ -79,7 +80,8 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["SmokeShellGreen", 9],
 		["rhs_mag_M441_HE", 24],
 		["rhs_mag_m713_Red", 5],
-		["rhs_mag_m714_White", 5]
+		["rhs_mag_m714_White", 5],
+		["UK3CB_M14_20rnd_762x51", 6]
     ]
 ] call reim_fnc_crateFiller;
 
