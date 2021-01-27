@@ -1,10 +1,10 @@
 ﻿// TTT Standart Repo + 3CB Repo
  
 /*------onLoad------*/
-author="[TTT] Andx"; //Autor der Mission (Missionsbauer)
-OnLoadName = ""; //Überschrift im LoadScreen (über dem Bild)
-onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
-loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+author="[TTT] Andx, [TTT] Menom"; //Autor der Mission (Missionsbauer)
+OnLoadName = "Baltic Eagle"; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = "“You can have peace. Or you can have freedom. Don’t ever count on having both at once.” Robert A. Heinlein"; //Beschreibung im LoadScreen (unter dem Bild)
+overviewPicture =  "be-image.paa"; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = true;
 
 /*------Header------*/
@@ -12,7 +12,7 @@ class Header
 {
 	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
 	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
-	maxPlayers = 60; //Anzahl der Spieler +1 für den HC
+	maxPlayers = 48; //Anzahl der Spieler +1 für den HC
 };
 
 /*------Respawn------*/	
