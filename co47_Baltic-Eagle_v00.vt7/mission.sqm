@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1025;
+	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=3013;
+		nextID=3014;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=355;
+		nextID=384;
 	};
 	class Camera
 	{
-		pos[]={16166.96,60.477711,6592.7407};
-		dir[]={-0.30552393,-0.70377302,-0.64141464};
-		up[]={-0.30265239,0.71041322,-0.63538378};
-		aside[]={-0.90283406,5.5879354e-009,0.43004695};
+		pos[]={16120.825,12.926955,6894.8442};
+		dir[]={-0.77211547,-0.62881047,-0.092244349};
+		up[]={-0.62439352,0.77754134,-0.074596599};
+		aside[]={-0.11863354,-5.4633711e-007,0.9929834};
 	};
 };
 binarizationWanted=0;
@@ -11927,7 +11927,6 @@ class Mission
 							};
 							id=2969;
 							type="Land_BagFence_Long_F";
-							atlOffset=7.6293945e-006;
 						};
 						class Item16
 						{
@@ -11946,7 +11945,7 @@ class Mission
 							};
 							id=2970;
 							type="Land_BagFence_Long_F";
-							atlOffset=7.6293945e-006;
+							atlOffset=5.3405762e-005;
 						};
 						class Item17
 						{
@@ -12243,7 +12242,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={10989.452,41.749481,13203.929};
-						angles[]={-0,2.1939504,6.2695398};
+						angles[]={0,2.1939504,6.2695398};
 					};
 					side="Empty";
 					flags=4;
@@ -13428,7 +13427,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12492.125,10.345811,7774.9438};
-				angles[]={-0,3.0765643,0};
+				angles[]={0,3.0765643,0};
 			};
 			side="Independent";
 			flags=6;
@@ -13451,7 +13450,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12492.125,8.7362547,7774.9937};
-						angles[]={-0,3.0765643,0};
+						angles[]={0,3.0765643,0};
 					};
 					side="Independent";
 					flags=7;
@@ -13773,7 +13772,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16100,2.681684,6884.0498};
-						angles[]={0.029569319,1.4176785,0.0022640675};
+						angles[]={0.029565878,1.4176785,0.0022689279};
 					};
 					side="West";
 					flags=6;
@@ -13782,7 +13781,7 @@ class Mission
 						skill=0.55000001;
 						rank="LIEUTENANT";
 						init="call{this setVariable [""loadout"", ""US_PltLdr""];}";
-						description="#1 Platoon Leader@Bravo";
+						description="#1 Platoon Leader@Platoon Lead ""Bravo""";
 						isPlayable=1;
 					};
 					id=2517;
@@ -14187,7 +14186,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16105,2.7975986,6880.0498};
-						angles[]={0.036387973,4.6186996,6.267262};
+						angles[]={0.036390115,4.6186996,6.2672682};
 					};
 					side="West";
 					flags=6;
@@ -14195,7 +14194,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""US_SQL""];}";
-						description="#1 Squadleader@Bravo-1";
+						description="#1 Squadleader@Infantry Squad ""Bravo-1""";
 						isPlayable=1;
 					};
 					id=2524;
@@ -14913,7 +14912,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16105,2.6578388,6884.0498};
-						angles[]={0.029569319,4.8109126,6.2649875};
+						angles[]={0.029565878,4.8109126,6.2649813};
 					};
 					side="West";
 					flags=6;
@@ -14921,7 +14920,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""US_SQL""];}";
-						description="#1 Squadleader@Bravo-2";
+						description="#1 Squadleader@Infantry Squad ""Bravo-2""";
 						isPlayable=1;
 					};
 					id=2536;
@@ -15637,7 +15636,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16105,2.5332835,6888.0498};
-						angles[]={0.020473262,4.7235417,6.2558889};
+						angles[]={0.020472711,4.7235417,6.2558885};
 					};
 					side="West";
 					flags=6;
@@ -15645,7 +15644,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""US_SQL""];}";
-						description="#1 Squadleader@Bravo-3";
+						description="#1 Squadleader@Infantry Squad ""Bravo-3""";
 						isPlayable=1;
 					};
 					id=2548;
@@ -16359,8 +16358,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16101,2.5188107,6891.0498};
-						angles[]={0.020473262,3.1852608,0};
+						position[]={16101,2.5188105,6891.0498};
+						angles[]={0.020472711,3.1852608,0};
 					};
 					side="West";
 					flags=6;
@@ -16368,11 +16367,12 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""US_CM_TF""];}";
-						description="#1 Senior Combat Medic@Lima";
+						description="#1 Senior Combat Medic@Combat Medic Team ""Lima""";
 						isPlayable=1;
 					};
 					id=2560;
 					type="B_Soldier_F";
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16610,6 +16610,7 @@ class Mission
 			{
 			};
 			id=2559;
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16646,8 +16647,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16103,2.5188107,6891.0498};
-						angles[]={0.020473262,2.979434,0};
+						position[]={16103,2.5188105,6891.0498};
+						angles[]={0.020472711,2.979434,0};
 					};
 					side="West";
 					flags=6;
@@ -16655,11 +16656,12 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""US_Log_TF""];}";
-						description="#1 Logistics Teamleader@Hotel";
+						description="#1 Logistics Teamleader@Logistics Team ""Hotel""";
 						isPlayable=1;
 					};
 					id=2565;
 					type="B_Soldier_F";
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16708,8 +16710,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16103,2.5035203,6892.0498};
-						angles[]={0.011372928,2.9794314,0.0022640675};
+						position[]={16103,2.50352,6892.0498};
+						angles[]={0.011379546,2.979434,0.0022689279};
 					};
 					side="West";
 					flags=4;
@@ -16722,7 +16724,6 @@ class Mission
 					};
 					id=2566;
 					type="B_Soldier_F";
-					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16771,8 +16772,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16103,2.4921434,6893.0498};
-						angles[]={0.011372928,2.9794314,0.0022640675};
+						position[]={16103,2.4921432,6893.0498};
+						angles[]={0.011379546,2.979434,0.0022689279};
 					};
 					side="West";
 					flags=4;
@@ -16780,12 +16781,11 @@ class Mission
 					{
 						skill=0.40000001;
 						init="call{this setVariable [""loadout"", ""US_Log""];}";
-						description="#3 Driver";
+						description="#3 Logistics Specialist";
 						isPlayable=1;
 					};
 					id=2567;
 					type="B_Soldier_F";
-					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16834,6 +16834,7 @@ class Mission
 			{
 			};
 			id=2564;
+			atlOffset=-2.3841858e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21060,8 +21061,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16080.437,4.6775341,6861.917};
-						angles[]={0.040932652,3.0704529,0.0045543881};
+						position[]={16080.116,4.6976547,6861.3115};
+						angles[]={0.03411676,3.0704529,0.011378167};
 					};
 					side="Empty";
 					flags=4;
@@ -21071,7 +21072,6 @@ class Mission
 					};
 					id=2488;
 					type="CamoNet_BLUFOR_F";
-					atlOffset=-2.3841858e-007;
 				};
 				class Item13
 				{
