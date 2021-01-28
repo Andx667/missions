@@ -1,4 +1,4 @@
-setDate [2035, 10, 15, 10, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
+setDate [1992, 10, 15, 6, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						//alle die nicht independent sind machen:
@@ -109,6 +109,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["ACE_morphine", 18],
 		["ACE_epinephrine", 18],
 		["ACE_adenosine", 18],
-		["ACE_tourniquet", 18]
+		["ACE_tourniquet", 18],
+		["ACE_PersonalAidKit", 3]
     ]
 ] call reim_fnc_crateFiller;
