@@ -4,7 +4,7 @@
 author="[TTT] Andx "; //Autor der Mission (Missionsbauer)
 OnLoadName = "No Retreat"; //Überschrift im LoadScreen (über dem Bild)
 onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
-loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+loadScreen =  "steigbuegel_mission.paa"; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = TRUE;
 
 /*------Header------*/

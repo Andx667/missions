@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=262;
+		nextID=272;
 	};
 	class Camera
 	{
-		pos[]={933.14966,26.689283,2907.4219};
-		dir[]={0.66317511,-0.45825827,-0.59181446};
-		up[]={0.34192273,0.88881505,-0.3051298};
-		aside[]={-0.66583979,3.9755832e-008,-0.74612939};
+		pos[]={5359.082,74.602913,5732.5977};
+		dir[]={-0.33533534,-0.94195342,-0.017201982};
+		up[]={-0.94072044,0.33573759,-0.048256606};
+		aside[]={-0.051231384,-6.2662002e-007,0.99869645};
 	};
 };
 binarizationWanted=0;
@@ -23715,7 +23715,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=10;
+				items=8;
 				class Item0
 				{
 					dataType="Object";
@@ -23928,68 +23928,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5330.3101,34.463436,5734.1372};
-						angles[]={0,1.228539,6.2490687};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
-						description="#5 Schütze / Fahrzeugschütze";
-						isPlayable=1;
-					};
-					id=3715;
-					type="B_Soldier_F";
-					atlOffset=0.0038375854;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male06ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={5332.3101,34.375717,5726.1372};
 						angles[]={6.267262,1.1970711,6.2649875};
 					};
@@ -24049,13 +23987,13 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5331.3101,34.410244,5728.1372};
-						angles[]={6.2763581,1.2980556,6.2649841};
+						position[]={5331.3101,34.409821,5728.1367};
+						angles[]={6.276361,1.2980537,6.2649813};
 					};
 					side="West";
 					flags=4;
@@ -24063,12 +24001,12 @@ class Mission
 					{
 						skill=0.40000001;
 						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
-						description="#7 MG-Schütze";
+						description="#6 MG-Schütze";
 						isPlayable=1;
 					};
 					id=3717;
 					type="B_Soldier_F";
-					atlOffset=0.0024185181;
+					atlOffset=0.0019989014;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24112,13 +24050,13 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5330.3101,34.459496,5730.1372};
-						angles[]={6.2763581,1.2845292,6.2513428};
+						position[]={5330.3101,34.459942,5730.1367};
+						angles[]={6.276361,1.2845274,6.2513504};
 					};
 					side="West";
 					flags=4;
@@ -24126,12 +24064,12 @@ class Mission
 					{
 						skill=0.40000001;
 						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
-						description="#8 Grenadier";
+						description="#7 Grenadier";
 						isPlayable=1;
 					};
 					id=3718;
 					type="B_Soldier_F";
-					atlOffset=0.0085487366;
+					atlOffset=0.0089988708;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24175,20 +24113,20 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5329.3101,34.491871,5732.1372};
-						angles[]={6.2809215,1.3462791,6.2513428};
+						position[]={5329.3101,34.491871,5732.1367};
+						angles[]={6.2809162,1.3462772,6.2513504};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""TTT_Gruen_9""];}";
-						description="#9 Gruppenscharfschütze";
+						description="#8 Gruppenscharfschütze";
 						isPlayable=1;
 					};
 					id=3719;
@@ -24236,68 +24174,6 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5328.3101,34.538345,5734.1372};
-						angles[]={0,1.2570233,6.2490687};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_10""];}";
-						description="#10 Schütze / Fahrer";
-						isPlayable=1;
-					};
-					id=3720;
-					type="B_Soldier_F";
-					atlOffset=0.010482788;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male06ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
 			};
 			class Attributes
 			{
@@ -24333,7 +24209,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=10;
+				items=8;
 				class Item0
 				{
 					dataType="Object";
@@ -24589,69 +24465,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5349.7153,34.145279,5721.3062};
-						angles[]={6.2763581,1.3587286,6.2740831};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
-						description="#5 Schütze / Fahrzeugschütze";
-						isPlayable=1;
-					};
-					id=3726;
-					type="B_Soldier_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male06ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5347.7153,34.168678,5713.3062};
-						angles[]={6.2786441,1.3272607,6.2809215};
+						position[]={5347.7148,34.168606,5713.3057};
+						angles[]={6.2786474,1.327253,6.2809162};
 					};
 					side="West";
 					flags=4;
@@ -24660,12 +24475,12 @@ class Mission
 						skill=0.44999999;
 						rank="CORPORAL";
 						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
-						description="#6 Truppführer";
+						description="#5 Truppführer";
 						isPlayable=1;
 					};
 					id=3727;
 					type="B_Soldier_F";
-					atlOffset=0.066078186;
+					atlOffset=0.066001892;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24709,7 +24524,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
@@ -24772,7 +24587,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -24835,7 +24650,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
@@ -24891,68 +24706,6 @@ class Mission
 										};
 									};
 									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5347.7153,34.214436,5721.3062};
-						angles[]={6.2763581,1.387213,6.2718124};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_10""];}";
-						description="#10 Schütze / Fahrer";
-						isPlayable=1;
-					};
-					id=3731;
-					type="B_Soldier_F";
-					atlOffset=0.048683167;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male06ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.99000001;
 								};
 							};
 						};
@@ -25518,7 +25271,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Blau";
+							value="Grün-3";
 						};
 					};
 				};

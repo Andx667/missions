@@ -4,7 +4,7 @@
 author="[TTT] Andx"; //Autor der Mission (Missionsbauer)
 OnLoadName = "Gone Fishing"; //Überschrift im LoadScreen (über dem Bild)
 onLoadMission = "Where are they? Gone Fishing."; //Beschreibung im LoadScreen (unter dem Bild)
-loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+loadScreen =  "gonefish_missions.paa"; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = true;
 
 /*------Header------*/
@@ -12,7 +12,7 @@ class Header
 {
 	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
 	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
-	maxPlayers = 60; //Anzahl der Spieler +1 für den HC
+	maxPlayers = 56; //Anzahl der Spieler +1 für den HC
 };
 
 /*------Respawn------*/	
