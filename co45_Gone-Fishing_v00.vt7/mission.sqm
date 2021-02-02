@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=272;
+		nextID=282;
 	};
 	class Camera
 	{
-		pos[]={5359.082,74.602913,5732.5977};
-		dir[]={-0.33533534,-0.94195342,-0.017201982};
-		up[]={-0.94072044,0.33573759,-0.048256606};
-		aside[]={-0.051231384,-6.2662002e-007,0.99869645};
+		pos[]={5371.2271,92.378151,5861.9204};
+		dir[]={-0.64453375,-0.60955578,0.46154481};
+		up[]={-0.49559006,0.79274637,0.35488704};
+		aside[]={0.5822112,-2.0116568e-007,0.81304103};
 	};
 };
 binarizationWanted=0;
@@ -24943,7 +24943,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5337.0112,34.58778,5752.1289};
-						angles[]={6.2695355,2.7507088,6.262712};
+						angles[]={6.2695365,2.7507088,6.2627125};
 					};
 					side="West";
 					flags=4;
@@ -24951,7 +24951,7 @@ class Mission
 					{
 						skill=0.40000001;
 						init="call{this setVariable [""loadout"", ""TTT_Blau_4""];}";
-						description="#4 Kampfpionier / Fahrzeugschütze";
+						description="#4 Kampfpionier";
 						isPlayable=1;
 					};
 					id=3736;
@@ -25193,7 +25193,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5339.0112,34.546825,5752.1289};
-						angles[]={6.2695355,2.8168044,6.262712};
+						angles[]={6.2695365,2.8168044,6.2627125};
 					};
 					side="West";
 					flags=4;
@@ -25201,7 +25201,7 @@ class Mission
 					{
 						skill=0.40000001;
 						init="call{this setVariable [""loadout"", ""TTT_Blau_8""];}";
-						description="#8 Kampfpionier / Fahrer";
+						description="#8 Kampfpionier";
 						isPlayable=1;
 					};
 					id=3740;

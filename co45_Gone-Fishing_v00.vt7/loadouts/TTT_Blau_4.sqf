@@ -16,7 +16,7 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_416D10C";
+player addWeapon selectRandom ["hlc_rifle_416D145","hlc_rifle_416D145_CAG"];
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
@@ -53,7 +53,7 @@ player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
 
-player addItemToBackpack "TTT_Helmet_8_BW_Flecktarn";
+player addItemToBackpack "TTT_Helmet_4_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_Fortify";
