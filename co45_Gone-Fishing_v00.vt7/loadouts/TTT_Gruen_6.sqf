@@ -1,5 +1,3 @@
-player setRank "CORPORAL";
-
 comment "Exported from Arsenal by Andx";
 
 comment "[!] UNIT MUST BE LOCAL [!]";
@@ -16,10 +14,10 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon selectRandom ["hlc_rifle_416D145","hlc_rifle_416D145_CAG"];
+player addWeapon "hlc_lmg_mk46mod1";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
-player addPrimaryWeaponItem "hlc_30rnd_556x45_T_PMAG";
+player addPrimaryWeaponItem "hlc_200rnd_556x45_M_SAW";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -32,7 +30,7 @@ player addVest "TTT_Vest_Heavy_Green_US_Woodland";
 player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
-player addWeapon "Rangefinder";
+player addWeapon "Binocular";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -46,14 +44,13 @@ player addItemToUniform "ACE_Maptools";
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-for "_i" from 1 to 7 do {player addItemToVest "hlc_30rnd_556x45_T_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+player addItemToVest "hlc_200rnd_556x45_M_SAW";
 
-player addItemToBackpack "TTT_Helmet_5_BW_Flecktarn";
+player addItemToBackpack "TTT_Helmet_6_BW_Flecktarn";
+for "_i" from 1 to 2 do {player addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
 player addItemToBackpack "ACE_EntrenchingTool";
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellOrange";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellBlue";};
 
 player addHeadgear "TTT_Beret_Green";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];
@@ -62,8 +59,8 @@ comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
-player linkItem "TFAR_anprc152";
-player linkItem "ItemAndroid";
+player linkItem "TFAR_rf7800str";
+player linkItem "ItemMicroDAGR";
 
 [] spawn {
     sleep 30;

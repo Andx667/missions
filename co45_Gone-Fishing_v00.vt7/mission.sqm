@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=282;
+		nextID=292;
 	};
 	class Camera
 	{
-		pos[]={5371.2271,92.378151,5861.9204};
-		dir[]={-0.64453375,-0.60955578,0.46154481};
-		up[]={-0.49559006,0.79274637,0.35488704};
-		aside[]={0.5822112,-2.0116568e-007,0.81304103};
+		pos[]={5323.9019,57.773319,5725.8525};
+		dir[]={0.1199007,-0.27586108,-0.95370799};
+		up[]={0.034413919,0.96118766,-0.27374026};
+		aside[]={-0.99220854,-8.8335946e-007,-0.12474027};
 	};
 };
 binarizationWanted=0;
@@ -23928,8 +23928,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5332.3101,34.375717,5726.1372};
-						angles[]={6.267262,1.1970711,6.2649875};
+						position[]={5332.3101,34.375523,5726.1367};
+						angles[]={6.2672682,1.1970689,6.2649813};
 					};
 					side="West";
 					flags=4;
@@ -23937,13 +23937,13 @@ class Mission
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
-						description="#6 Truppführer";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
+						description="#5 Truppführer";
 						isPlayable=1;
 					};
 					id=3716;
 					type="B_Soldier_F";
-					atlOffset=0.0051841736;
+					atlOffset=0.0050010681;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24000,7 +24000,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
 						description="#6 MG-Schütze";
 						isPlayable=1;
 					};
@@ -24063,7 +24063,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
 						description="#7 Grenadier";
 						isPlayable=1;
 					};
@@ -24125,7 +24125,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_9""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
 						description="#8 Gruppenscharfschütze";
 						isPlayable=1;
 					};
@@ -24474,7 +24474,7 @@ class Mission
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_5""];}";
 						description="#5 Truppführer";
 						isPlayable=1;
 					};
@@ -24529,21 +24529,21 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5347.7153,34.171799,5715.3062};
-						angles[]={6.2763581,1.4282453,6.2763581};
+						position[]={5347.7148,34.172241,5715.3057};
+						angles[]={6.276361,1.4282378,6.276361};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
-						description="#7 MG-Schütze";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_6""];}";
+						description="#6 MG-Schütze";
 						isPlayable=1;
 					};
 					id=3728;
 					type="B_Soldier_F";
-					atlOffset=0.051551819;
+					atlOffset=0.051994324;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24592,21 +24592,21 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5347.7153,34.185459,5717.3062};
-						angles[]={6.2763581,1.4147189,6.2763581};
+						position[]={5347.7148,34.185898,5717.3057};
+						angles[]={6.276361,1.4147115,6.276361};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						skill=0.40000001;
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
-						description="#8 Grenadier";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_7""];}";
+						description="#7 Grenadier";
 						isPlayable=1;
 					};
 					id=3729;
 					type="B_Soldier_F";
-					atlOffset=0.051555634;
+					atlOffset=0.051994324;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24655,20 +24655,20 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5347.7153,34.215248,5719.3062};
-						angles[]={6.2763581,1.4764688,6.2718124};
+						position[]={5347.7148,34.215096,5719.3057};
+						angles[]={6.276361,1.4764613,6.2718058};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""TTT_Gruen_9""];}";
-						description="#9 Gruppenscharfschütze";
+						init="call{this setVariable [""loadout"", ""TTT_Gruen_8""];}";
+						description="#8 Gruppenscharfschütze";
 						isPlayable=1;
 					};
 					id=3730;
 					type="B_Soldier_F";
-					atlOffset=0.063148499;
+					atlOffset=0.062995911;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24754,8 +24754,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5337.0112,34.501202,5746.1284};
-						angles[]={6.2740898,2.6919897,6.2786441};
+						position[]={5337.0112,34.501205,5746.1289};
+						angles[]={6.2740922,2.6919959,6.2786474};
 					};
 					side="West";
 					flags=6;
@@ -24763,7 +24763,7 @@ class Mission
 					{
 						rank="SERGEANT";
 						init="call{this setVariable [""loadout"", ""TTT_Blau_1""];}";
-						description="#1 Kampfpionier Gruüppenführer@Kampfpioniergruppe ""Blau""";
+						description="#1 Kampfpionier Gruüppenführer@Kampfpioniergruppe ""Grün-3""";
 						isPlayable=1;
 					};
 					id=3733;

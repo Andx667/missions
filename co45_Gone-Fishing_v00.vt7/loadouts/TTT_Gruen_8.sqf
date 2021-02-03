@@ -16,10 +16,12 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_416D145_gl";
+player addWeapon "hlc_rifle_416D20";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
+player addPrimaryWeaponItem "HLC_bipod_UTGShooters";
+player addPrimaryWeaponItem "HLC_muzzle_556nato_kac";
 
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
@@ -32,7 +34,7 @@ player addVest "TTT_Vest_Heavy_Green_US_Woodland";
 player addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -49,11 +51,9 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
+player addItemToVest "ACE_Rangecard";
 
-player addItemToBackpack "TTT_Helmet_7_BW_Flecktarn";
-for "_i" from 1 to 15 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
-for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
-for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
+player addItemToBackpack "TTT_Helmet_8_BW_Flecktarn";
 player addItemToBackpack "ACE_EntrenchingTool";
 
 player addHeadgear "TTT_Beret_Green";
