@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=292;
+		nextID=302;
 	};
 	class Camera
 	{
-		pos[]={5323.9019,57.773319,5725.8525};
-		dir[]={0.1199007,-0.27586108,-0.95370799};
-		up[]={0.034413919,0.96118766,-0.27374026};
-		aside[]={-0.99220854,-8.8335946e-007,-0.12474027};
+		pos[]={8259.1377,25.392487,4280.3735};
+		dir[]={-0.43101531,-0.36487955,-0.82530028};
+		up[]={-0.16891605,0.93105036,-0.32343885};
+		aside[]={-0.88641202,-2.8801151e-007,0.46293169};
 	};
 };
 binarizationWanted=0;
@@ -578,7 +578,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=466;
+		items=465;
 		class Item0
 		{
 			dataType="Object";
@@ -6104,7 +6104,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=353;
 			type="Land_Razorwire_F";
@@ -6122,7 +6122,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=354;
 			type="Land_Razorwire_F";
@@ -6139,7 +6139,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=355;
 			type="Land_Razorwire_F";
@@ -6157,7 +6157,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=356;
 			type="Land_Razorwire_F";
@@ -6175,7 +6175,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=357;
 			type="Land_Razorwire_F";
@@ -6193,7 +6193,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=358;
 			type="Land_Razorwire_F";
@@ -6211,7 +6211,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=359;
 			type="Land_Razorwire_F";
@@ -6228,7 +6228,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=360;
 			type="Land_Razorwire_F";
@@ -6246,7 +6246,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=361;
 			type="Land_Razorwire_F";
@@ -6264,7 +6264,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=362;
 			type="Land_Razorwire_F";
@@ -6282,7 +6282,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=363;
 			type="Land_Razorwire_F";
@@ -6300,7 +6300,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=364;
 			type="Land_Razorwire_F";
@@ -6318,7 +6318,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=365;
 			type="Land_Razorwire_F";
@@ -6336,7 +6336,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=366;
 			type="Land_Razorwire_F";
@@ -6354,7 +6354,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=367;
 			type="Land_Razorwire_F";
@@ -6372,7 +6372,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=369;
 			type="Land_Razorwire_F";
@@ -6390,7 +6390,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=370;
 			type="Land_Razorwire_F";
@@ -6408,7 +6408,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=371;
 			type="Land_Razorwire_F";
@@ -6426,7 +6426,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=372;
 			type="Land_Razorwire_F";
@@ -6444,7 +6444,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=373;
 			type="Land_Razorwire_F";
@@ -6462,7 +6462,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=374;
 			type="Land_Razorwire_F";
@@ -6480,7 +6480,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=375;
 			type="Land_Razorwire_F";
@@ -6497,7 +6497,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=376;
 			type="Land_Razorwire_F";
@@ -6515,7 +6515,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=377;
 			type="Land_Razorwire_F";
@@ -6532,7 +6532,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=378;
 			type="Land_Razorwire_F";
@@ -6550,7 +6550,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=379;
 			type="Land_Razorwire_F";
@@ -6567,7 +6567,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=381;
 			type="Land_Razorwire_F";
@@ -6584,7 +6584,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=382;
 			type="Land_Razorwire_F";
@@ -6602,7 +6602,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=383;
 			type="Land_Razorwire_F";
@@ -6673,7 +6673,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=406;
 			type="Land_Razorwire_F";
@@ -6691,7 +6691,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=407;
 			type="Land_Razorwire_F";
@@ -6709,7 +6709,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=408;
 			type="Land_Razorwire_F";
@@ -6727,7 +6727,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=409;
 			type="Land_Razorwire_F";
@@ -6745,7 +6745,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=410;
 			type="Land_Razorwire_F";
@@ -6763,7 +6763,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=416;
 			type="Land_Razorwire_F";
@@ -6780,7 +6780,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=417;
 			type="Land_Razorwire_F";
@@ -6798,7 +6798,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=418;
 			type="Land_Razorwire_F";
@@ -6815,7 +6815,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=419;
 			type="Land_Razorwire_F";
@@ -7584,7 +7584,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=518;
 			type="Land_Razorwire_F";
@@ -7602,7 +7602,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=519;
 			type="Land_Razorwire_F";
@@ -27622,22 +27622,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12131.361,31.198683,4943.6733};
-			};
-			side="Empty";
-			class Attributes
-			{
-				dynamicSimulation=1;
-			};
-			id=3793;
-			type="UnderwaterMine";
-			atlOffset=10.031397;
-		};
-		class Item463
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={8355.9492,-0.49679852,4338.689};
 			};
 			side="Empty";
@@ -27649,7 +27633,7 @@ class Mission
 			type="UnderwaterMine";
 			atlOffset=10.031397;
 		};
-		class Item464
+		class Item463
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27665,7 +27649,7 @@ class Mission
 			type="UnderwaterMine";
 			atlOffset=10.031397;
 		};
-		class Item465
+		class Item464
 		{
 			dataType="Object";
 			class PositionInfo
