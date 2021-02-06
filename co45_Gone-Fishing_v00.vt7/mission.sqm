@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8259.1377,25.392487,4280.3735};
-		dir[]={-0.43101531,-0.36487955,-0.82530028};
-		up[]={-0.16891605,0.93105036,-0.32343885};
-		aside[]={-0.88641202,-2.8801151e-007,0.46293169};
+		pos[]={8175.8765,87.655624,4349.1885};
+		dir[]={0.043746084,-0.35766426,-0.93287933};
+		up[]={0.016757542,0.9338308,-0.35731623};
+		aside[]={-0.99895483,-2.6312409e-007,-0.046845485};
 	};
 };
 binarizationWanted=0;
@@ -3114,7 +3114,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=158;
 			type="Land_Razorwire_F";
@@ -3132,7 +3132,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=159;
 			type="Land_Razorwire_F";
@@ -3150,7 +3150,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=160;
 			type="Land_Razorwire_F";
@@ -3167,7 +3167,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=161;
 			type="Land_Razorwire_F";
@@ -3185,7 +3185,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=162;
 			type="Land_Razorwire_F";
@@ -3203,7 +3203,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=163;
 			type="Land_Razorwire_F";
@@ -3221,7 +3221,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=164;
 			type="Land_Razorwire_F";
@@ -3238,7 +3238,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=165;
 			type="Land_Razorwire_F";
@@ -3255,7 +3255,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=166;
 			type="Land_Razorwire_F";
@@ -3273,7 +3273,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=167;
 			type="Land_Razorwire_F";
@@ -3290,7 +3290,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=168;
 			type="Land_Razorwire_F";
@@ -3307,7 +3307,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=169;
 			type="Land_Razorwire_F";
@@ -3324,7 +3324,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=170;
 			type="Land_Razorwire_F";
@@ -3341,7 +3341,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=171;
 			type="Land_Razorwire_F";
@@ -3359,7 +3359,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=172;
 			type="Land_Razorwire_F";
@@ -3377,7 +3377,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=173;
 			type="Land_Razorwire_F";
@@ -3394,7 +3394,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=174;
 			type="Land_Razorwire_F";
@@ -3411,7 +3411,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=175;
 			type="Land_Razorwire_F";
@@ -3429,7 +3429,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=176;
 			type="Land_Razorwire_F";
@@ -3447,7 +3447,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=177;
 			type="Land_Razorwire_F";
@@ -3464,7 +3464,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=178;
 			type="Land_Razorwire_F";
@@ -3481,7 +3481,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=179;
 			type="Land_Razorwire_F";
@@ -3499,7 +3499,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=180;
 			type="Land_Razorwire_F";
@@ -3516,7 +3516,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=181;
 			type="Land_Razorwire_F";
@@ -3533,7 +3533,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=182;
 			type="Land_Razorwire_F";
@@ -3551,7 +3551,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=183;
 			type="Land_Razorwire_F";
@@ -3569,7 +3569,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=184;
 			type="Land_Razorwire_F";
@@ -3587,7 +3587,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=185;
 			type="Land_Razorwire_F";
@@ -3605,7 +3605,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=186;
 			type="Land_Razorwire_F";
@@ -3623,7 +3623,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=187;
 			type="Land_Razorwire_F";
@@ -3640,7 +3640,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=188;
 			type="Land_Razorwire_F";
@@ -3658,7 +3658,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
+				disableSimulation=1;
 			};
 			id=189;
 			type="Land_Razorwire_F";
@@ -5994,6 +5994,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
+						disableSimulation=1;
 					};
 					id=344;
 					type="I_soldier_F";
