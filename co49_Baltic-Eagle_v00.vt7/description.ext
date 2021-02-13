@@ -12,7 +12,7 @@ class Header
 {
 	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
 	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
-	maxPlayers = 48; //Anzahl der Spieler +1 für den HC
+	maxPlayers = 50; //Anzahl der Spieler +1 für den HC
 };
 
 /*------Respawn------*/	

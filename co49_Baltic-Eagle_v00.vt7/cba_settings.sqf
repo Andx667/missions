@@ -16,3 +16,6 @@ force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum
 
 force ace_rearm_level = 2;
 force ace_rearm_supply = 1;
+
+//HC enable
+force acex_headless_enabled = true;
