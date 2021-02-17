@@ -1,3 +1,5 @@
+
+
 player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
@@ -16,44 +18,54 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_smg_mp5k_PDW";
-player addPrimaryWeaponItem "hlc_30Rnd_9x19_B_MP5";
+player addWeapon "hlc_rifle_416C";
+player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
+player addPrimaryWeaponItem "hlc_optic_HensoldtZO_lo_Docter_2D";
+player addPrimaryWeaponItem "hlc_30rnd_556x45_M_PMAG";
+
 player addWeapon "hlc_pistol_P226R_Elite";
 player addHandgunItem "hlc_acc_TLR1";
 player addHandgunItem "HLC_Optic_Docter_CADEX";
 player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
-player forceAddUniform "TTT_Uniform_Silver_BW_Flecktarn";
+player forceAddUniform "TTT_Uniform_Bronze_BW_Flecktarn";
 player addVest "TTT_Vest_Crew_US_Desert";
 player addBackpack "B_AssaultPack_cbr";
+
+comment "Add binoculars";
+player addWeapon "Binocular";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "ACE_morphine"; 
-player addItemToUniform "ACE_Maptools";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
+player addItemToUniform "ACE_morphine";
+player addItemToUniform "ACE_Maptools";
+player addItemToUniform "ACE_key_west";
 
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
+player addItemToVest "ACE_microDAGR";
 player addItemToVest "SmokeShellGreen";
+player addItemToVest "ACE_artillerytable";
+for "_i" from 1 to 3 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
-for "_i" from 1 to 3 do {player addItemToVest "hlc_30Rnd_9x19_B_MP5";};
 
-player addItemToBackpack "TTT_Helmet_Buzzard";
+player addItemToBackpack "TTT_Helmet5_Vehiclecrew";
+player addItemToBackpack "ACE_EntrenchingTool";
 
-player addHeadgear "TTT_Beret_Silver";
-player addGoggles selectRandom ["PBW_shemag_gruen","PBW_shemag_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandana_Beast"];
+player addHeadgear "TTT_Beret_Bronze";
+player addGoggles selectRandom ["PBW_Balaclava_schwarzR","PBW_Balaclava_beigeR","PBW_Brille_braun","PBW_Brille_gelb"];
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
-player linkItem "TFAR_anprc152";
+player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
 
 [] spawn {
@@ -71,6 +83,6 @@ player linkItem "ItemMicroDAGR";
     [player, _insignia] call bis_fnc_setUnitInsignia;
 };
 
-player setVariable ["ACE_IsAdvEngineer", true];
+player setVariable ["ACE_isEngineer", 1];
 
 [ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

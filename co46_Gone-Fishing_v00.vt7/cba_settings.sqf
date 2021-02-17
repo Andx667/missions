@@ -1,6 +1,6 @@
 // ACE Sanitäter
 force ace_medical_treatment_medicSurgicalKit = 1;
-force ace_medical_treatment_consumeSurgicalKit = 2;
+force ace_medical_treatment_consumeSurgicalKit = 1;
 force ace_medical_treatment_locationSurgicalKit = 3;
 
 force ace_medical_treatment_medicPAK = 2;
@@ -18,10 +18,6 @@ force ace_repair_wheelRepairRequiredItems = ["ToolKit"]; //benötigt Toolkit zum
 
 // ACEX Headless
 force acex_headless_enabled = true;
-
-// Artillerie Computer ausschalten
-force ace_artillerytables_disableArtilleryComputer = true;
-
 
 //
 force TFAR_globalRadioRangeCoef = 2.5;
