@@ -25,7 +25,6 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 
 comment "Add containers";
 player forceAddUniform "U_B_HeliPilotCoveralls";
-// player setObjectTexture [0, "\A3\Characters_F\Common\Data\coveralls_grey_co.paa"];
 player addVest "TTT_Vest_Crew_US_Desert";
 player addBackpack "TFAR_rt1523g_bwmod";
 
@@ -37,7 +36,6 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine"; 
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
-player addItemToUniform "ACE_key_west";
 
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -53,7 +51,7 @@ player addHeadgear "TTT_Beret_White";
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "TFAR_microdagr";
+player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 

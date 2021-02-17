@@ -42,7 +42,6 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
-player addItemToUniform "ACE_key_west";
 
 player addItemToVest "ACE_HuntIR_monitor";
 for "_i" from 1 to 5 do {player addItemToVest "hlc_30rnd_556x45_M_PMAG";};
@@ -64,7 +63,7 @@ player addGoggles "G_Tactical_Black";
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "TFAR_microdagr";
+player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
