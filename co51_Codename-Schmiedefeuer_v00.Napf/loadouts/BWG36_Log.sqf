@@ -22,7 +22,7 @@ player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
 
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_schtz";
+player addVest "pbw_koppel_schtz";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add items to containers";

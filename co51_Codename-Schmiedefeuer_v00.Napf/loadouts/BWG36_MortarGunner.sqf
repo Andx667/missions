@@ -16,13 +16,13 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_G36KA1";
+player addWeapon "hlc_rifle_G36A1";
 player addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
 
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_schtz";
+player addVest "pbw_koppel_schtz";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};

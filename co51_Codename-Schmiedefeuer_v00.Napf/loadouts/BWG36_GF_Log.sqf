@@ -25,7 +25,7 @@ player addHandgunItem "BWA3_1Rnd_Flare_Illum";
 
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_grpfhr";
+player addVest "pbw_koppel_grpfhr";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add binoculars";

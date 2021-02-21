@@ -16,13 +16,13 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_G36KA1";
+player addWeapon "hlc_rifle_G36A1";
 player addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
 
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_grpfhr";
+player addVest "pbw_koppel_grpfhr";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add items to containers";

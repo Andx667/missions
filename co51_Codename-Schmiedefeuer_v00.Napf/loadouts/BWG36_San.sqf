@@ -21,7 +21,7 @@ player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
 
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_sani";
+player addVest "pbw_koppel_sani";
 player addBackpack "BWA3_Kitbag_Fleck_Medic";
 
 comment "Add items to containers";

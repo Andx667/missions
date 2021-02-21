@@ -24,7 +24,7 @@ player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Green";
 
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
-player addVest "pbw_splitter_sani";
+player addVest "pbw_koppel_sani";
 player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add items to containers";

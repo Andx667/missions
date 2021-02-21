@@ -33,14 +33,12 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
-//Mörser 1
+//Mörser 
 [
     [fhz_03, fhz_04],
     [
 		["BWA3_PatrolPack_Fleck", 1],
-		["Toolkit", 1],
-		["Redd_Tank_M120_Tampella_Barrel",1],
-		["Redd_Tank_M120_Tampella_Tripod",1]
+		["Toolkit", 1]
     ]
 ] call reim_fnc_crateFiller;
 
