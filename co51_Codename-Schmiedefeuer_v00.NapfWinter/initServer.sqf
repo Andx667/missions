@@ -1,4 +1,4 @@
-setDate [1996, 09, 15, 5, 20];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
+setDate [1996, 09, 15, 5, 15];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						//alle die nicht independent sind machen:
@@ -38,8 +38,8 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [fhz_03, fhz_04],
     [
 		["BWA3_PatrolPack_Fleck", 1],
-		["Toolkit", 1]
-		["I_E_Mortar_01_Weapon_F",1],
+		["Toolkit", 1],
+		["I_E_Mortar_01_Weapon_F", 1],
 		["I_E_Mortar_01_support_F", 1]
     ]
 ] call reim_fnc_crateFiller;
@@ -55,7 +55,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 
 //Logistik
 [
-    [fhz_08,fhz_09, fhz_12, fhz_11],
+    [fhz_08,fhz_09, fhz_10, fhz_11],
     [
 		["BWA3_PatrolPack_Fleck", 1],
 		["Toolkit", 1]
@@ -78,20 +78,10 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
-//AT Nachschub
-[
-    [werfer_04, werfer_05, werfer_06],
-    [
-		["Redd_Milan_Static_Barrel", 1],
-		["Redd_Milan_Static_Tripod", 1]
-    ]
-] call reim_fnc_crateFiller;
-
 //Mun Nachschub
 [
     [mun_01, mun_02, mun_03, mun_04, mun_05, mun_06, mun_07, mun_08, mun_09, mun_10, mun_11, mun_12,
-	mun_13, mun_14, mun_15, mun_16, mun_16, mun_17, mun_18
-	],
+	mun_13, mun_14, mun_15, mun_16, mun_16, mun_17, mun_18],
     [
 		["hlc_30rnd_556x45_Tracers_G36", 10],
 		["hlc_30rnd_556x45_EPR_G36", 20],
@@ -132,14 +122,6 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["ACE_adenosine", 10],
 		["ACE_surgicalKit", 10],
 		["ACE_personalAidKit", 2]
-    ]
-] call reim_fnc_crateFiller;
-
-//MG3 Mun
-[
-    [mun_19, mun_20, mun_21, mun_22, mun_23, mun_24], 
-    [
-		["rnt_mg3_kasten_fake", 10]
     ]
 ] call reim_fnc_crateFiller;
 

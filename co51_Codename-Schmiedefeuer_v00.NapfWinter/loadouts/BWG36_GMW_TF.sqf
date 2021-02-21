@@ -21,7 +21,7 @@ player addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
 player addPrimaryWeaponItem "hlc_30rnd_556x45_Tracers_G36";
 
 player addWeapon "BWA3_P2A1";
-player addHandgunItem "BWA3_1Rnd_Flare_Illum";
+player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Green";
 
 comment "Add containers";
 player forceAddUniform "rnt_bw_wintertarn_uniform_item";
