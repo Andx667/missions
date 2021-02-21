@@ -26,6 +26,7 @@ player addHandgunItem "BWA3_1Rnd_Flare_Illum";
 comment "Add containers";
 player forceAddUniform "PBW_Uniform1_fleck";
 player addVest "pbw_splitter_grpfhr";
+player addBackpack "TFAR_rt1523g_big_bwmod";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -38,6 +39,8 @@ player addItemToUniform "BW_Facepaint";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 3 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Red";};
+for "_i" from 1 to 3 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Green";};
 player addItemToVest "ACE_EntrenchingTool";
 player addItemToUniform "acex_intelitems_notepad";
 for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_Tracers_G36";};
@@ -56,6 +59,8 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
+
+player setVariable ["ACE_IsEngineer", true, true];
 
 [] spawn {
     sleep 30;
