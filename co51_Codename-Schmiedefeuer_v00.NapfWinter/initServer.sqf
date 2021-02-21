@@ -39,6 +39,8 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [
 		["BWA3_PatrolPack_Fleck", 1],
 		["Toolkit", 1]
+		["I_E_Mortar_01_Weapon_F",1],
+		["I_E_Mortar_01_support_F", 1]
     ]
 ] call reim_fnc_crateFiller;
 
