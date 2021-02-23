@@ -50,7 +50,7 @@ player addItemToBackpack "ACE_VMH3";
 
 player addHeadgear "PBW_Helm2_fleck_H";
 
-player addGoggles selectRandom ["","PBW_shemagh_gruen","rhsusf_shemagh_grn","rhsusf_shemagh2_grn","BWA3_G_Combat_clear","BWA3_G_Combat_black","BWA3_G_Combat_orange"];
+player addGoggles selectRandom ["","PBW_shemagh_gruen","rhsusf_shemagh_grn","rhsusf_shemagh2_grn","BWA3_G_Combat_clear","BWA3_G_Combat_black"];
 
 comment "Add items";
 player linkItem "ItemMap";

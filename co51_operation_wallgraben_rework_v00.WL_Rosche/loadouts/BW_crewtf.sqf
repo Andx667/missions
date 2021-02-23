@@ -39,7 +39,7 @@ for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 for "_i" from 1 to 3 do {player addItemToVest "BWA3_40Rnd_46x30_MP7";};
 player addItemToVest "acex_intelitems_notepad";
 
-player addHeadgear "H_HelmetCrew_I";
+player addHeadgear "BWA3_CrewmanKSK_Fleck_Headset";
 
 comment "Add items";
 player linkItem "ItemMap";

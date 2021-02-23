@@ -19,8 +19,6 @@ player addWeapon "BWA3_MG4";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "BWA3_optic_ZO4x30_RSAS";
 player addPrimaryWeaponItem "BWA3_200Rnd_556x45_Tracer";
-player addWeapon "BWA3_P8";
-player addHandgunItem "BWA3_15Rnd_9x19_P8";
 
 comment "Add containers";
 player forceAddUniform "BWA3_Uniform_Fleck";
@@ -34,7 +32,6 @@ player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "BWA3_15Rnd_9x19_P8";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_CableTie";};
 player addItemToVest "BWA3_DM32_Green";
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
@@ -43,7 +40,7 @@ for "_i" from 1 to 2 do {player addItemToVest "BWA3_200Rnd_556x45_Tracer";};
 for "_i" from 1 to 4 do {player addItemToBackpack "BWA3_200Rnd_556x45_Tracer";};
 player addHeadgear "PBW_Helm2_fleck_H";
 
-player addGoggles selectRandom ["","PBW_shemagh_gruen","rhsusf_shemagh_grn","rhsusf_shemagh2_grn","BWA3_G_Combat_clear","BWA3_G_Combat_black","BWA3_G_Combat_orange"];
+player addGoggles selectRandom ["","PBW_shemagh_gruen","rhsusf_shemagh_grn","rhsusf_shemagh2_grn","BWA3_G_Combat_clear","BWA3_G_Combat_black"];
 
 comment "Add items";
 player linkItem "ItemMap";

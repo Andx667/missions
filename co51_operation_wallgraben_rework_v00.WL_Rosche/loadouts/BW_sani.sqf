@@ -19,8 +19,6 @@ player addWeapon "BWA3_G36A3";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "BWA3_optic_ZO4x30_RSAS";
 player addPrimaryWeaponItem "BWA3_30Rnd_556x45_G36_AP";
-player addWeapon "BWA3_P8";
-player addHandgunItem "BWA3_15Rnd_9x19_P8";
 
 comment "Add containers";
 player forceAddUniform "BWA3_Uniform_Fleck";
@@ -34,7 +32,6 @@ player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addItemToUniform "BWA3_15Rnd_9x19_P8";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_CableTie";};
 player addItemToVest "ACE_surgicalKit";
 for "_i" from 1 to 8 do {player addItemToVest "BWA3_30Rnd_556x45_G36_AP";};
