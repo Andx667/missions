@@ -25,7 +25,7 @@ player addHandgunItem "rhsusf_mag_15Rnd_9x19_JHP";
 comment "Add containers";
 player forceAddUniform "UK3CB_CW_US_B_LATE_U_CombatUniform_04_WDL";
 player addVest "UK3CB_V_Chestrig_WDL_02";
-player addBackpack "rhs_assault_umbts_engineer";
+player addBackpack "UK3CB_CHD_B_B_ENG_WDL_ALT";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
