@@ -63,9 +63,9 @@ player addGoggles selectRandom ["PBW_Balaclava_schwarzR","PBW_Balaclava_beigeR",
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
-player linkItem "TFAR_rf7800str";
 player linkItem "ItemMicroDAGR";
+player linkItem "TFAR_rf7800str";
+player linkItem "TFAR_microdagr";
 
 [] spawn {
     sleep 30;

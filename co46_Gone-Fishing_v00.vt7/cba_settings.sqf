@@ -21,3 +21,6 @@ force acex_headless_enabled = true;
 
 //
 force TFAR_globalRadioRangeCoef = 2.5;
+
+//artillery computer aus 
+force ace_artillerytables_disableArtilleryComputer = true;

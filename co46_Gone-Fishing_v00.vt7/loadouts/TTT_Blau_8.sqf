@@ -29,7 +29,7 @@ player addHandgunItem "hlc_15Rnd_9x19_B_P226";
 comment "Add containers";
 player forceAddUniform "TTT_Uniform_Blue_BW_Flecktarn";
 player addVest "TTT_Vest_Lite_Blue_US_Woodland";
-player addBackpack "B_AssaultPack_cbr";
+player addBackpack "B_Carryall_khk";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -42,7 +42,6 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "hlc_15Rnd_9x19_B_P226";
 player addItemToUniform "ACE_Maptools";
 player addItemToUniform "ACE_morphine";
-player addItemToUniform "ACE_key_west";
 
 player addItemToVest "ACE_DefusalKit";
 player addItemToVest "ACE_Clacker";
@@ -57,6 +56,8 @@ player addItemToBackpack "TTT_Helmet_8_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_Fortify";
+player addItemToBackpack "ACE_VMH3";
+for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 
 player addHeadgear "TTT_Beret_Blue";
 player addGoggles selectRandom ["PBW_Balaclava_schwarzR","PBW_Balaclava_beigeR","PBW_Brille_braun","PBW_Brille_gelb"];

@@ -53,14 +53,12 @@ player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "hlc_15Rnd_9x19_B_P226";
-player addItemToVest "ACE_Rangecard";
 
 player addItemToBackpack "TTT_Helmet_7_BW_Flecktarn";
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_VMH3";
 player addItemToBackpack "ACE_Fortify";
-for "_i" from 1 to 4 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 
 player addHeadgear "TTT_Beret_Blue";
 player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_shemagh_beige","G_Bandanna_oli","G_Bandanna_khk","G_Bandanna_Beast"];
@@ -68,8 +66,8 @@ player addGoggles selectRandom ["BWA3_G_Combat_orange","PBW_shemagh_gruen","PBW_
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "TFAR_microdagr";
 player linkItem "TFAR_rf7800str";
+player linkItem "TFAR_microdagr";
 player linkItem "ItemMicroDAGR";
 
 [] spawn {
