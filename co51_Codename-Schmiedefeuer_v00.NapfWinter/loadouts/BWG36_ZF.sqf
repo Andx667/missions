@@ -47,6 +47,8 @@ comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "TFAR_microdagr";
+player linkItem "TFAR_rf7800str";
 
 [] spawn {
     sleep 30;
