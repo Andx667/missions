@@ -1,3 +1,4 @@
+player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
@@ -15,34 +16,38 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "BWA3_G36A3";
-player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
+player addWeapon "BWA3_MG4";
 player addPrimaryWeaponItem "BWA3_optic_ZO4x30_RSAS";
-player addPrimaryWeaponItem "BWA3_30Rnd_556x45_G36_AP";
-player addWeapon "BWA3_P2A1";
-player addHandgunItem "BWA3_1Rnd_Flare_Multistar_Green";
+player addPrimaryWeaponItem "BWA3_200Rnd_556x45";
 
 comment "Add containers";
 player forceAddUniform "BWA3_Uniform_Fleck";
-player addVest "BWA3_Vest_Rifleman_Fleck";
+player addVest "BWA3_Vest_MachineGunner_Fleck";
+player addBackpack "BWA3_AssaultPack_Fleck";
 
 comment "Add items to containers";
-for "_i" from 1 to 10 do {player addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_packingBandage";};
-player addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+player addItemToUniform "BW_Facepaint";
+player addItemToUniform "acex_intelitems_notepad";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_CableTie";};
-for "_i" from 1 to 4 do {player addItemToVest "BWA3_30Rnd_556x45_G36_AP";};
-player addItemToVest "BWA3_DM32_Green";
-for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
-player addHeadgear "PBW_Helm1_fleck";
+for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
+player addItemToVest "BWA3_DM32_Green";
+for "_i" from 1 to 2 do {player addItemToVest "BWA3_200Rnd_556x45";};
+player addItemToBackpack "BWA3_200Rnd_556x45";
+player addHeadgear "PBW_Helm1_fleck_H";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
-player linkItem "TFAR_anprc152";
-player linkItem "ItemAndroid";
+player linkItem "TFAR_microdagr";
+player linkItem "TFAR_rf7800str";
+
+[] spawn {
+    sleep 30;
+   	[player,"Redd_Gef"] call BIS_fnc_setUnitInsignia;
+};

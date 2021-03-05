@@ -13,7 +13,7 @@ stein_useAnimation = true;
 stein_BuildAnimation = "Acts_carFixingWheel";
 stein_BuildTime = 20;
 stein_medicTent = "Land_tent_east";
-stein_SupportedVehicleClasses = ["Redd_Tank_Fuchs_1A4_San_Flecktarn"];
+stein_SupportedVehicleClasses = ["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San"];
 
 stein_fnc_vehicleHasTent = {
 	params ["_target","_caller","_arguments"];
