@@ -1,4 +1,4 @@
-setDate [2022, 6, 12, 3, 00];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
+setDate [2022, 9, 25, 5, 45];						//Jahr, Monat, Tag, Stunde, Minute wird bei Missionsstart gesetzt (so kann man eine Nachtmission bei hellen 1200 Uhr bearbeiten ohne ständigen wechsel)
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						//alle die nicht independent sind machen:
@@ -38,7 +38,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 ] call acex_fortify_fnc_registerObjects;
 
 //Fahrzeuge
-//Boxer (5 is ein Eagle, wird ein Dingo)
+//Allgemein (5 is ein Eagle, wird ein Dingo)
 [
     [boxer_01, boxer_02, boxer_03, boxer_04, boxer_05,
 	log_01, log_02, log_03, log_04,
@@ -57,7 +57,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [
 		["BWA3_PatrolPack_Fleck", 1],
 		["Toolkit", 1],
-		["BWA3_DM31AT_Mag", 48]
+		["BWA3_DM31AT_Mag", 24]
     ]
 ] call reim_fnc_crateFiller;
 
@@ -100,10 +100,15 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 [
     [vba_01, vba_02, vba_03, vba_04, vba_05],
 	[
-		["ACE_fieldDressing", 96],
-		["ACE_packingBandage", 24],
-		["ACE_tourniquet", 16],
-		["ACE_morphine", 8]
+		["ACE_elasticBandage", 50],
+		["ACE_packingBandage", 50],
+		["ACE_quikclot", 50],
+		["ACE_morphine", 20],
+		["ACE_epinephrine", 20],
+		["ACE_adenosine", 20],
+		["ACE_salineIV_500", 12],
+		["ACE_salineIV_250", 12],
+		["ACE_surgicalKit", 10]
     ]
 ] call reim_fnc_crateFiller;
 

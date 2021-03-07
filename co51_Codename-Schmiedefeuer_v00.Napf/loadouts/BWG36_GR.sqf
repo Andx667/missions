@@ -41,7 +41,7 @@ for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_EPR_G36";};
 for "_i" from 1 to 7 do {player addItemToVest "1Rnd_HE_Grenade_shell";};
 player addHeadgear "PBW_muetze2_fleck";
 
-player addGoggles selectRandom ["","PBW_shemagh_gruen","PBW_shemagh_beige"];
+
 
 comment "Add items";
 player linkItem "ItemMap";

@@ -41,7 +41,7 @@ player addItemToVest "BWA3_DM32_Green";
 for "_i" from 1 to 6 do {player addItemToVest "hlc_20rnd_762x51_t_G3";};
 player addHeadgear "PBW_muetze2_fleck";
 
-player addGoggles selectRandom ["","PBW_shemagh_gruen","PBW_shemagh_beige"];
+
 
 comment "Add items";
 player linkItem "ItemMap";

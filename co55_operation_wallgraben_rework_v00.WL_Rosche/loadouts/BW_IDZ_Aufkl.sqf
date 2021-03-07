@@ -21,6 +21,7 @@ player addPrimaryWeaponItem "muzzle_snds_B";
 player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 player addPrimaryWeaponItem "BWA3_optic_PMII_DMR_MicroT1_rear";
 player addPrimaryWeaponItem "BWA3_10Rnd_762x51_G28_SD";
+player addPrimaryWeaponItem "BWA3_Bipod_Harris";
 player addWeapon "BWA3_P8";
 player addHandgunItem "BWA3_15Rnd_9x19_P8";
 
@@ -43,8 +44,8 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_RangeCard";
 for "_i" from 1 to 3 do {player addItemToUniform "BWA3_15Rnd_9x19_P8";};
-for "_i" from 1 to 6 do {player addItemToVest "BWA3_10Rnd_762x51_G28_SD";};
-for "_i" from 1 to 6 do {player addItemToVest "BWA3_10Rnd_762x51_G28_AP";};
+for "_i" from 1 to 4 do {player addItemToVest "BWA3_10Rnd_762x51_G28_SD";};
+for "_i" from 1 to 4 do {player addItemToVest "BWA3_10Rnd_762x51_G28_AP";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";

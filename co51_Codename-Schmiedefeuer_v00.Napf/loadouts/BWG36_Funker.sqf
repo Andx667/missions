@@ -56,7 +56,7 @@ for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Blue";};
 player addItemToVest "BWA3_DM32_Green";
 player addHeadgear "PBW_muetze2_fleck";
 
-player addGoggles selectRandom ["","PBW_shemagh_gruen","PBW_shemagh_beige"];
+
 
 comment "Add items";
 player linkItem "ItemMap";
