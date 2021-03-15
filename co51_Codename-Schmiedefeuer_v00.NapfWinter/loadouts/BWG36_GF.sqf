@@ -34,7 +34,7 @@ comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-player addItemToUniform "BW_Facepaint";
+
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
@@ -52,7 +52,7 @@ player addItemToVest "BWA3_DM32_Purple";
 player addItemToVest "BWA3_DM32_Orange";
 
 player addHeadgear "PBW_muetze2_fleck";
-
+player addGoggles "CUP_PMC_Facewrap_Winter";
 
 comment "Add items";
 player linkItem "ItemMap";

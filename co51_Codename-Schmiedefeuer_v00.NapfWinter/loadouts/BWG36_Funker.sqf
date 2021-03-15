@@ -34,7 +34,7 @@ comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
-player addItemToUniform "BW_Facepaint";
+
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
@@ -45,6 +45,7 @@ player addItemToVest "ACE_EntrenchingTool";
 for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_EPR_G36";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
+player addItemToVest "BWA3_DM32_Green";
 
 for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Orange";};
 for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Purple";};
@@ -53,9 +54,8 @@ for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Yellow";};
 for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Green";};
 for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Blue";};
 
-player addItemToVest "BWA3_DM32_Green";
 player addHeadgear "PBW_muetze2_fleck";
-
+player addGoggles "CUP_PMC_Facewrap_Winter";
 
 
 comment "Add items";
