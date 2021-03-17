@@ -25,6 +25,7 @@ class CfgFunctions
 {
 	#include "W_Teleporter\CfgFunctions.hpp"
    	#include "Spec_cratenaming\CfgFunctions.hpp"
+	#include "EX_Breath\CfgFunctions.hpp" //Ausatmen 
 };
 
 /* Chat Kanäle aus */

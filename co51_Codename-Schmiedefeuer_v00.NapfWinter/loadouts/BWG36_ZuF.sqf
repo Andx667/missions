@@ -55,7 +55,7 @@ for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Green";};
 for "_i" from 1 to 3 do {player addItemToBackpack "BWA3_DM32_Blue";};
 
 player addItemToVest "BWA3_DM32_Green";
-player addHeadgear "PBW_muetze2_fleck";
+player addHeadgear "PBW_Helm1_fleck_H";
 player addGoggles "CUP_PMC_Facewrap_Winter";
 
 

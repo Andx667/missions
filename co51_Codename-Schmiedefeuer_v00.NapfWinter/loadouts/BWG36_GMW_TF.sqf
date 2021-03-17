@@ -52,7 +52,7 @@ player addItemToVest "BWA3_DM32_Red";
 player addItemToVest "BWA3_DM32_Purple";
 player addItemToVest "BWA3_DM32_Orange";
 
-player addHeadgear "PBW_muetze2_fleck";
+player addHeadgear "PBW_Helm1_fleck_H";
 player addGoggles "CUP_PMC_Facewrap_Winter";
 
 comment "Add items";

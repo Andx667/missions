@@ -18,3 +18,6 @@ teleporter_01 addAction ["Zuschauermodus", {
 
 // JIP spawns at the teleporter
 if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
+
+//Schnee;
+[] execVM "scripts\snow.sqf";
