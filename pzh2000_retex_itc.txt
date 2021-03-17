@@ -1,0 +1,13 @@
+this setObjectTextureGlobal [0, "rsr\rsr_vanilla\data\panzerhaubitze\panzerhaubitze_flecktarn_body_mbt_co.paa"];
+this setObjectTextureGlobal [1, "rsr\rsr_vanilla\data\panzerhaubitze\panzerhaubitze_flecktarn_scorcher_co.paa"];
+this setObjectTextureGlobal [2,"rsr\rsr_vanilla\data\panzerhaubitze\panzerhaubitze_flecktarn_turret_co.paa"]; 
+
+_retextureArray = [
+    [fahrzeug_1,0,"pfad/zur/texture1.paa"],
+    [fahrzeug_1,1,"pfad/zur/texture2.paa"]
+];
+
+{
+    _x params ["_object","_selection","_texturePath"];
+    _object setObjectTextureGlobal [_selection, _texturePath];
+} forEach _retextureArray;
