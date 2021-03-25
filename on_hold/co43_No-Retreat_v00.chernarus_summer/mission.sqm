@@ -1,4 +1,4 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=1;
@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=1265;
+		nextID=1271;
 	};
 	class MarkerIDProvider
 	{
@@ -16,13 +16,14 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2934.6563,401.31274,7712.3735};
-		dir[]={0.58161813,-0.48841539,0.65068018};
-		up[]={0.32553908,0.8725543,0.36419284};
-		aside[]={0.74563932,1.3965473e-006,-0.66651028};
+		pos[]={4772.603,381.49374,9312.8936};
+		dir[]={0.68511099,-0.41397619,0.59957647};
+		up[]={0.31158596,0.91021198,0.27268195};
+		aside[]={0.65862709,-2.424058e-007,-0.75260013};
 	};
 };
 binarizationWanted=0;
+sourceName="co43_No-Retreat_v00";
 addons[]=
 {
 	"rhs_c_btr",
@@ -415,7 +416,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2944.9099,370.06598,6836.5029};
-				angles[]={0.021328852,0.35025269,6.2818484};
+				angles[]={0.02132885,0.35025266,6.281848};
 			};
 			side="Empty";
 			flags=4;
@@ -3547,7 +3548,7 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_HoldAction";
-					expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
 					class Value
 					{
 						class data
@@ -7812,7 +7813,7 @@ class Mission
 						class Attribute0
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -7854,7 +7855,7 @@ class Mission
 						class Attribute0
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -8976,7 +8977,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9067,7 +9068,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9447,7 +9448,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9539,7 +9540,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9631,7 +9632,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9722,7 +9723,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9813,7 +9814,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -9922,7 +9923,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -10014,7 +10015,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -10106,7 +10107,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -10198,7 +10199,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -10991,7 +10992,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -11354,7 +11355,7 @@ class Mission
 						class Attribute0
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -11393,7 +11394,7 @@ class Mission
 						class Attribute0
 						{
 							property="ENH_disableAI_path";
-							expression="if(_value) then {_this disableAI 'PATH'}";
+							expression="if (_value) then {_this disableAI 'PATH'}";
 							class Value
 							{
 								class data
@@ -11521,7 +11522,7 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_groupMarker";
-					expression="			if (!is3DEN && {!(_value isEqualTo ['','','',true])}) then			{				[_this,_value] spawn				{					params ['_group','_value'];					_value params ['_type','_color','_text','_showGroupSize'];					private _leader = leader _group;					private _marker = createMarker					[						format ['ENH_GroupMarker_%1',str floor random 10e5],						_leader					];					_marker setMarkerType _type;					_marker setMarkerColor _color;					_marker setMarkerText _text;					while {true} do					{						sleep 1;						if (units _group isEqualTo []) exitWith {deleteMarker _marker};						if (_group getVariable ['ENH_GroupMarker_Update',true]) then						{							_marker setMarkerPos _leader;							if (_showGroupSize) then							{								_marker setMarkerText format ['%1 (%2)',groupId _group, count units _group];							};						};					};				};			};";
+					expression="      if (!is3DEN && !(_value isEqualTo ['', '', '', true])) then      {        [_this, _value] spawn        {          scriptName 'ENH_Attribute_GroupMarker';          params ['_group', '_value'];          _value params ['_type', '_color', '_text', '_showGroupSize'];          private _leader = leader _group;          private _marker = createMarker          [            format ['ENH_GroupMarker_%1', str floor random 10e5],            _leader          ];          _marker setMarkerType _type;          _marker setMarkerColor _color;          _marker setMarkerText (_text call BIS_fnc_localize);          while {true} do          {            sleep 1;            if (units _group isEqualTo []) exitWith {deleteMarker _marker};            if (_group getVariable ['ENH_GroupMarker_Update', true]) then            {              _marker setMarkerPos _leader;              if (_showGroupSize) then              {                _marker setMarkerText format ['%1 (%2)', groupId _group, count units _group];              };            };          };        };      };";
 					class Value
 					{
 						class data
@@ -11741,7 +11742,7 @@ class Mission
 				class Attribute0
 				{
 					property="ENH_groupMarker";
-					expression="			if (!is3DEN && {!(_value isEqualTo ['','','',true])}) then			{				[_this,_value] spawn				{					params ['_group','_value'];					_value params ['_type','_color','_text','_showGroupSize'];					private _leader = leader _group;					private _marker = createMarker					[						format ['ENH_GroupMarker_%1',str floor random 10e5],						_leader					];					_marker setMarkerType _type;					_marker setMarkerColor _color;					_marker setMarkerText _text;					while {true} do					{						sleep 1;						if (units _group isEqualTo []) exitWith {deleteMarker _marker};						if (_group getVariable ['ENH_GroupMarker_Update',true]) then						{							_marker setMarkerPos _leader;							if (_showGroupSize) then							{								_marker setMarkerText format ['%1 (%2)',groupId _group, count units _group];							};						};					};				};			};";
+					expression="      if (!is3DEN && !(_value isEqualTo ['', '', '', true])) then      {        [_this, _value] spawn        {          scriptName 'ENH_Attribute_GroupMarker';          params ['_group', '_value'];          _value params ['_type', '_color', '_text', '_showGroupSize'];          private _leader = leader _group;          private _marker = createMarker          [            format ['ENH_GroupMarker_%1', str floor random 10e5],            _leader          ];          _marker setMarkerType _type;          _marker setMarkerColor _color;          _marker setMarkerText (_text call BIS_fnc_localize);          while {true} do          {            sleep 1;            if (units _group isEqualTo []) exitWith {deleteMarker _marker};            if (_group getVariable ['ENH_GroupMarker_Update', true]) then            {              _marker setMarkerPos _leader;              if (_showGroupSize) then              {                _marker setMarkerText format ['%1 (%2)', groupId _group, count units _group];              };            };          };        };      };";
 					class Value
 					{
 						class data
