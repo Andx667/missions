@@ -27,7 +27,7 @@ player addHandgunItem "BWA3_15Rnd_9x19_P8";
 comment "Add containers";
 player forceAddUniform "BWA3_Uniform_sleeves_Fleck";
 player addVest "BWA3_Vest_JPC_Rifleman_Fleck";
-player addBackpack "BWA3_AssaultPack_Fleck";
+player addBackpack "BWA3_AssaultPack_Fleck_Medic";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -44,19 +44,18 @@ player addItemToUniform "ACE_MapTools";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "BWA3_15Rnd_9x19_P8";
-player addItemToVest "ACE_DefusalKit";
-player addItemToVest "ACE_M26_Clacker";
 player addItemToVest "ACE_M84";
 for "_i" from 1 to 3 do {player addItemToVest "ACE_Chemlight_HiGreen";};
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_S_G36";};
 for "_i" from 1 to 3 do {player addItemToVest "BWA3_15Rnd_9x19_P8";};
-for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_S_G36";};
+
 player addItemToBackpack "BWA3_DM51A1";
 player addItemToBackpack "BWA3_DM32_Green";
 for "_i" from 1 to 2 do {player addItemToBackpack "BWA3_DM25";};
 player addItemToBackpack "ACE_M84";
 for "_i" from 1 to 3 do {player addItemToBackpack "Chemlight_green";};
-for "_i" from 1 to 6 do {player addItemToBackpack "hlc_30rnd_556x45_S_G36";};
-for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
+for "_i" from 1 to 8 do {player addItemToBackpack "hlc_30rnd_556x45_S_G36";};
+
 player addHeadgear "BWA3_OpsCore_Fleck";
 player addGoggles "PBW_Headset";
 
@@ -67,8 +66,6 @@ player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemMicroDAGR";
 player linkItem "CUP_NVG_GPNVG_black";
-
-player setVariable ["ACE_isEOD", true, true];
 
 [] spawn {
     sleep 30;

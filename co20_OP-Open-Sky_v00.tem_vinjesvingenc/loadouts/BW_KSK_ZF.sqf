@@ -1,4 +1,4 @@
-player setRank "PRIVATE";
+player setRank "LIEUTENANT";
 
 comment "Exported from Arsenal by Andx";
 
@@ -26,11 +26,11 @@ player addHandgunItem "BWA3_15Rnd_9x19_P8";
 
 comment "Add containers";
 player forceAddUniform "BWA3_Uniform_sleeves_Fleck";
-player addVest "BWA3_Vest_JPC_Rifleman_Fleck";
-player addBackpack "BWA3_AssaultPack_Fleck_Medic";
+player addVest "BWA3_Vest_JPC_Leader_Fleck";
+player addBackpack "TFAR_rt1523g_bwmod";
 
 comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
@@ -45,19 +45,15 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_morphine";};
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "BWA3_15Rnd_9x19_P8";
 player addItemToVest "ACE_M84";
+for "_i" from 1 to 6 do {player addItemToVest "hlc_30rnd_556x45_S_G36";};
 for "_i" from 1 to 3 do {player addItemToVest "ACE_Chemlight_HiGreen";};
-for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_S_G36";};
 for "_i" from 1 to 3 do {player addItemToVest "BWA3_15Rnd_9x19_P8";};
-for "_i" from 1 to 6 do {player addItemToBackpack "ACE_salineIV_500";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_salineIV_250";};
-player addItemToBackpack "ACE_surgicalKit";
-for "_i" from 1 to 4 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 6 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_adenosine";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 15 do {player addItemToBackpack "ACE_quikclot";};
+player addItemToBackpack "BWA3_DM51A1";
+player addItemToBackpack "BWA3_DM32_Green";
+for "_i" from 1 to 2 do {player addItemToBackpack "BWA3_DM25";};
+player addItemToBackpack "ACE_M84";
+for "_i" from 1 to 3 do {player addItemToBackpack "Chemlight_green";};
+for "_i" from 1 to 8 do {player addItemToBackpack "hlc_30rnd_556x45_S_G36";};
 player addHeadgear "BWA3_OpsCore_Fleck";
 player addGoggles "PBW_Headset";
 
@@ -66,12 +62,10 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
-player linkItem "ItemMicroDAGR";
+player linkItem "ItemAndroid";
 player linkItem "CUP_NVG_GPNVG_black";
-
-player setVariable ["ace_medical_medicClass", 2, true];
 
 [] spawn {
     sleep 30;
-   	[player,"Redd_Gef"] call BIS_fnc_setUnitInsignia;
+   	[player,"Redd_Lt"] call BIS_fnc_setUnitInsignia;
 };
