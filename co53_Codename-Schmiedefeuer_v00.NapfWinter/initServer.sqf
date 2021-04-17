@@ -2,7 +2,7 @@ setDate [1996, 09, 15, 5, 15];						//Jahr, Monat, Tag, Stunde, Minute wird bei 
 
 { //für BLUEFOR "independent" in "west" ändern
 	if (side _x != west) then {						
-        _x setSkill ["general", 0.75];
+        _x setSkill ["general", 0.5];
         _x setSkill ["commanding", 0.75];
         _x setSkill ["courage", 0.75];
         _x setSkill ["aimingAccuracy", 0.25];
@@ -13,6 +13,7 @@ setDate [1996, 09, 15, 5, 15];						//Jahr, Monat, Tag, Stunde, Minute wird bei 
         _x setSkill ["spotTime", 1];
         _x enableAI "COVER";
         _x enableAI "AUTOCOMBAT";
+	};
 } forEach allUnits;
 
 //Kisten befüllen skipt laden
@@ -44,15 +45,6 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [
 		["BWA3_PatrolPack_Fleck", 1],
 		["Toolkit", 1]
-    ]
-] call reim_fnc_crateFiller;
-
-//Milan  
-[
-    [milan_01, milan_02, milan_03],
-    [
-		["Redd_Milan_Static_Barrel", 1],
-		["Redd_Milan_Static_Tripod", 1]
     ]
 ] call reim_fnc_crateFiller;
 
@@ -90,7 +82,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["hlc_30rnd_556x45_EPR_G36", 20],
 		["hlc_20rnd_762x51_b_G3", 6],
 		["BWA3_DM25", 20],
-		["hlc_100Rnd_762x51_M_MG3", 7],
+		["hlc_100Rnd_762x51_M_MG3", 10],
 		["1Rnd_HE_Grenade_shell", 8],
 		["BWA3_DM51A1", 10]
     ]
@@ -103,7 +95,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 		["ACE_fieldDressing", 40],
 		["ACE_packingBandage", 20],
 		["ACE_morphine", 10],
-		["ACE_tourniquet", 20]
+		["ACE_tourniquet", 10]
     ]
 ] call reim_fnc_crateFiller;
 
@@ -128,3 +120,11 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
+//Milankiste  
+[
+    [milan_01, milan_02, milan_03],
+    [
+		["Redd_Milan_Static_Barrel", 1],
+		["Redd_Milan_Static_Tripod", 1]
+    ]
+] call reim_fnc_crateFiller;

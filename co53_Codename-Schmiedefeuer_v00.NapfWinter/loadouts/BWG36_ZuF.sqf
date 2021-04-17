@@ -11,7 +11,7 @@ removeAllItems player;
 removeAllAssignedItems player;
 removeUniform player;
 removeVest player;
-removeBackpack player;d
+removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 

@@ -1,3 +1,4 @@
+player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
@@ -15,17 +16,12 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "UK3CB_BAF_L85A2_RIS_W";
-player addPrimaryWeaponItem "RKSL_optic_LDS";
-player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd";
+player addWeapon "UK3CB_BAF_L117A2";
+player addHandgunItem "UK3CB_BAF_9_15Rnd";
 
 comment "Add containers";
 player forceAddUniform "UK3CB_BAF_U_Smock_Arctic";
-player addVest "UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW";
-player addBackpack "UK3CB_BAF_B_Kitbag_Arctic";
-
-comment "Add binoculars";
-player addWeapon "Rangedfinder";
+player addVest "UK3CB_BAF_V_Pilot_DPMW";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
@@ -33,12 +29,8 @@ for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
 player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
-for "_i" from 1 to 12 do {player addItemToVest "UK3CB_BAF_556_30Rnd";};
-player addItemToVest "rhs_mag_m67";
-player addItemToVest "rhs_mag_mk84";
-player addItemToVest "UK3CB_BAF_SmokeShell";
-player addBackpack "UK3CB_BAF_B_Kitbag_Arctic";
-player addHeadgear "UK3CB_BAF_H_Mk7_Win_A";
+player addItemToUniform "UK3CB_BAF_9_15Rnd";
+player addHeadgear "H_CrewHelmetHeli_I_E";
 
 comment "Add items";
 player linkItem "ItemMap";
@@ -46,3 +38,5 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "ACE_NVG_Wide";
 player linkItem "TFAR_anprc152";
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

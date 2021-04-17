@@ -1,3 +1,4 @@
+player setRank "MAJOR";
 
 comment "Exported from Arsenal by Andx";
 
@@ -20,7 +21,7 @@ player addHandgunItem "UK3CB_BAF_9_17Rnd";
 
 comment "Add containers";
 player forceAddUniform "UK3CB_TKA_I_U_CombatUniform_03_GREY";
-player addBackpack "B_RadioBag_01_black_F";
+player addBackpack "UK3CB_AAF_B_B_FIELDPACK_DIGI_BLK_Radio";
 
 comment "Add items to containers";
 for "_i" from 1 to 5 do {player addItemToUniform "ACE_fieldDressing";};
@@ -37,3 +38,5 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "B_UavTerminal";
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;

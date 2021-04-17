@@ -1,3 +1,4 @@
+player setRank "SERGEANT";
 
 comment "Exported from Arsenal by Andx";
 
@@ -17,7 +18,7 @@ removeGoggles player;
 comment "Add weapons";
 player addWeapon "UK3CB_BAF_L85A2_RIS_W";
 player addPrimaryWeaponItem "RKSL_optic_LDS";
-player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd_T";
+player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd";
 
 comment "Add containers";
 player forceAddUniform "UK3CB_BAF_U_Smock_Arctic";
@@ -25,7 +26,7 @@ player addVest "UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW";
 player addBackpack "UK3CB_BAF_B_Kitbag_Arctic";
 
 comment "Add binoculars";
-player addWeapon "Rangedfinder";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
@@ -44,5 +45,7 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
-player linkItem "ACE_NVG_Wide";
 player linkItem "ItemAndroid";
+player linkItem "ACE_NVG_Wide";
+
+[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
