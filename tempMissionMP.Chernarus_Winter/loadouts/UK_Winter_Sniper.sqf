@@ -28,7 +28,7 @@ player addVest "UK3CB_BAF_V_Osprey_Winter";
 player addBackpack "UK3CB_BAF_B_Bergen_Arctic_JTAC_H_A";
 
 comment "Add binoculars";
-player addWeapon "Rangefinder";
+player addWeapon "ACE_Vector";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
@@ -39,11 +39,15 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "ACE_IR_Strobe_Item";
 for "_i" from 1 to 3 do {player addItemToUniform "UK3CB_BAF_9_17Rnd";};
 player addItemToVest "ACE_microDAGR";
+player addItemToVest "ACE_Kestrel4500";
+player addItemToVest "ACE_ATragMX";
 player addItemToVest "rhs_mag_m67";
 player addItemToVest "rhs_mag_mk84";
 player addItemToVest "UK3CB_BAF_SmokeShell";
 for "_i" from 1 to 6 do {player addItemToVest "UK3CB_BAF_338_5Rnd";};
 for "_i" from 1 to 6 do {player addItemToBackpack "UK3CB_BAF_338_5Rnd";};
+player addItemToBackpack "ACE_Tripod";
+
 player addHeadgear "UK3CB_BAF_H_Mk7_Win_A";
 
 comment "Add items";
@@ -51,3 +55,5 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
+player linkItem "ACE_NVG_Wide";
+

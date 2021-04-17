@@ -48,7 +48,7 @@ for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 player addItemToVest "BWA3_DM32_Green";
 
-player addHeadgear "PBW_Helm1_fleck_H";
+player addHeadgear "PBW_Helm1_fleck";
 player addGoggles "CUP_PMC_Facewrap_Winter";
 
 comment "Add items";

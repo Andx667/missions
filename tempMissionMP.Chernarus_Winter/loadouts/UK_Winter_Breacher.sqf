@@ -38,6 +38,8 @@ player addItemToVest "rhs_mag_mk84";
 player addItemToVest "UK3CB_BAF_SmokeShell";
 player addItemToBackpack "ACE_EntrenchingTool";
 for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
+player addItemToBackpack "ACE_Wirecutter";
+
 player addHeadgear "UK3CB_BAF_H_Mk7_Win_A";
 
 comment "Add items";
@@ -45,4 +47,5 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
+player linkItem "ACE_NVG_Wide";
 player linkItem "ItemAndroid";

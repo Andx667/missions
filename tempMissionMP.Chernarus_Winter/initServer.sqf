@@ -7,7 +7,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 //Fahrzeuge befüllen
 //Inf 1-5, 6 BAT, 7, Log, 8 Heli
 [
-	[fhz_01, fhz_02, fhz_03, fhz_04, fhz_05, fhz_06, fhz_07, fhz_08],
+	[fhz_01, fhz_02, fhz_03, fhz_04, fhz_05, fhz_07, fhz_08],
 	[
 		["UK3CB_BAF_B_Kitbag_Arctic", 1],
 		["UK3CB_BAF_762_100Rnd_T", 5], //= 500 Schuss fürs MG am Fhz

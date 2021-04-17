@@ -42,3 +42,4 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
+player linkItem "ACE_NVG_Wide";

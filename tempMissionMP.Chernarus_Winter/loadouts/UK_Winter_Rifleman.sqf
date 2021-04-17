@@ -18,7 +18,7 @@ comment "Add weapons";
 player addWeapon "UK3CB_BAF_L85A2_RIS_W";
 player addPrimaryWeaponItem "RKSL_optic_LDS";
 player addPrimaryWeaponItem "UK3CB_BAF_556_30Rnd";
-player addWeapon "launch_NLAW_F";
+player addWeapon "UK3CB_BAF_AT4_CS_AP_Launcher";
 
 comment "Add containers";
 player forceAddUniform "UK3CB_BAF_U_Smock_Arctic";
@@ -42,3 +42,4 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
+player linkItem "ACE_NVG_Wide";

@@ -20,8 +20,20 @@ player addHandgunItem "UK3CB_BAF_9_15Rnd";
 
 comment "Add containers";
 player forceAddUniform "UK3CB_BAF_U_Smock_Arctic";
-player addVest "UK3CB_BAF_V_Pilot_A";
+player addVest "UK3CB_BAF_V_Pilot_DPMW";
 
 comment "Add items to containers";
-for "_i" from 1 to 2 do {player addItemToUniform "UK3CB_BAF_9_15Rnd";};
+for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
+player addItemToUniform "ACE_Flashlight_XL50";
+player addItemToUniform "ACE_MapTools";
+player addItemToUniform "ACE_morphine";
+player addItemToUniform "UK3CB_BAF_9_15Rnd";
 player addHeadgear "H_CrewHelmetHeli_I_E";
+
+comment "Add items";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "ACE_NVG_Wide";
+player linkItem "TFAR_anprc152";

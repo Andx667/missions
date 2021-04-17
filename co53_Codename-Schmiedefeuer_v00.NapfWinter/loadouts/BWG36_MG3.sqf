@@ -16,17 +16,12 @@ removeHeadgear player;
 removeGoggles player;
 
 comment "Add weapons";
-player addWeapon "hlc_rifle_G36A1";
-player addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
-player addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
-
-comment "Add binoculars";
-player addWeapon "Binocular";
+player addWeapon "hlc_lmg_MG3";
+player addPrimaryWeaponItem "hlc_100Rnd_762x51_M_MG3";
 
 comment "Add containers";
 player forceAddUniform "rnt_bw_wintertarn_uniform_item";
-player addVest "pbw_splitter_mg_h";
-player addBackpack "BWA3_PatrolPack_Fleck";
+player addVest "pbw_splitter_mg";
 
 comment "Add items to containers";
 for "_i" from 1 to 12 do {player addItemToUniform "ACE_fieldDressing";};
@@ -38,13 +33,12 @@ player addItemToUniform "ACE_morphine";
 player addItemToUniform "acex_intelitems_notepad";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToVest "ACE_EntrenchingTool";
-for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_EPR_G36";};
+for "_i" from 1 to 2 do {player addItemToVest "hlc_100Rnd_762x51_M_MG3";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 player addItemToVest "BWA3_DM32_Green";
-for "_i" from 1 to 2 do {player addItemToBackpack "rnt_gmw_kasten_fake";};
 
-player addHeadgear "PBW_Helm1_fleck_H";
+player addHeadgear "PBW_Helm1_fleck";
 player addGoggles "CUP_PMC_Facewrap_Winter";
 
 comment "Add items";

@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=382;
+		nextID=400;
 	};
 	class LayerIndexProvider
 	{
-		nextID=3;
+		nextID=6;
 	};
 	class Camera
 	{
-		pos[]={10021.541,570.56647,3261.3174};
-		dir[]={-0.72695047,-0.44170114,-0.52581584};
-		up[]={-0.35790676,0.8971554,-0.25888085};
-		aside[]={-0.58608836,2.1184678e-007,0.81027615};
+		pos[]={12860.942,682.31732,107.59403};
+		dir[]={0.61964881,-0.48263744,-0.61894786};
+		up[]={0.34146929,0.87582028,-0.34108302};
+		aside[]={-0.70670652,0,-0.7075069};
 	};
 };
 binarizationWanted=0;
@@ -577,6 +577,7 @@ class Mission
 					};
 					id=157;
 					type="B_UAV_AI";
+					atlOffset=2.3841858e-005;
 				};
 			};
 			class Attributes
@@ -631,7 +632,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13801.802,17.748072,108.03339};
-				angles[]={-0,1.1051788,0};
+				angles[]={0,1.1051788,0};
 			};
 			side="Empty";
 			class Attributes
@@ -658,7 +659,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13720.918,19.191853,74.226051};
+						position[]={13720.918,19.191853,74.226006};
 						angles[]={0,2.4187295,0};
 					};
 					side="West";
@@ -666,7 +667,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Navy_Gunner""];}";
-						isPlayer=1;
+						description="#1 Kapitän";
 					};
 					id=167;
 					type="B_soldier_UAV_F";
@@ -733,7 +734,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13816.5,8.7663317,110.68734};
+						position[]={13816.5,8.76653,110.687};
 						angles[]={0,2.4187295,0};
 					};
 					side="West";
@@ -741,17 +742,61 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Pilot""];}";
+						description="#1 Co-Pilot";
 						isPlayable=1;
 					};
 					id=179;
 					type="rhsusf_army_ucp_helipilot";
+					atlOffset=0.00019741058;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13815.938,8.8493242,112.12246};
+						position[]={13815.938,8.8490191,112.122};
 						angles[]={0,2.4187295,0};
 					};
 					side="West";
@@ -759,18 +804,62 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Pilot""];}";
+						description="#2 Pilot";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=180;
 					type="rhsusf_army_ucp_helipilot";
-					atlOffset=0.083003998;
+					atlOffset=0.082700729;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13818.3,8.6555529,111.17766};
+						position[]={13818.3,8.6554613,111.178};
 						angles[]={0,2.4187295,0};
 					};
 					side="West";
@@ -778,36 +867,123 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Crew""];}";
+						description="#3 Crew Chief / Doorgunner";
 						isPlayable=1;
 					};
 					id=181;
 					type="rhsusf_army_ucp_helicrew";
-					atlOffset=161.85509;
+					atlOffset=161.855;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13817.765,8.7598019,112.81352};
+						position[]={13817.765,8.7599077,112.814};
 						angles[]={0,2.4187295,0};
 					};
 					side="West";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Crew""];}";
+						description="#4 Doorgunner";
 						isPlayable=1;
 					};
 					id=182;
 					type="rhsusf_army_ucp_helicrew";
-					atlOffset=161.94591;
+					atlOffset=0.00010490417;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=178;
+			atlOffset=0.00019741058;
 		};
 		class Item6
 		{
@@ -2380,7 +2556,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13515.537,2.3090858,4317.1782};
+						position[]={13515.537,2.3090608,4317.1777};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2388,18 +2564,60 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_C""];}";
+						description="#1 Section Commander";
 						isPlayable=1;
 					};
 					id=315;
 					type="B_Soldier_SL_F";
-					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13517.049,2.0829439,4316.8359};
+						position[]={13517.049,2.0829427,4316.8359};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2407,18 +2625,60 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_LMG""];}";
+						description="#2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=316;
 					type="B_soldier_AR_F";
-					atlOffset=1.1920929e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13518.432,1.8752109,4316.502};
+						position[]={13518.432,1.8752035,4316.502};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2426,18 +2686,60 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
+						description="#3 Grenadier";
 						isPlayable=1;
 					};
 					id=317;
 					type="B_Soldier_GL_F";
-					atlOffset=7.390976e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13519.619,1.7089336,4316.3418};
+						position[]={13519.619,1.7089338,4316.3418};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2445,11 +2747,12 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Breacher""];}";
+						description="#4 Breacher";
 						isPlayable=1;
 					};
 					id=318;
 					type="B_Soldier_F";
-					atlOffset=-4.7683716e-007;
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2498,7 +2801,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13515.469,2.3943508,4318.7588};
+						position[]={13515.469,2.3943491,4318.7588};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2506,18 +2809,60 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_2iC""];}";
+						description="#5 Second-in-Command";
 						isPlayable=1;
 					};
 					id=319;
 					type="B_Soldier_TL_F";
-					atlOffset=1.6689301e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13518.58,1.9362363,4317.9907};
+						position[]={13518.58,1.936236,4317.9907};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2525,17 +2870,61 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
+						description="#7 Grenadier";
 						isPlayable=1;
 					};
 					id=320;
 					type="B_Soldier_GL_F";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13519.875,1.7512701,4317.7354};
+						position[]={13519.875,1.7513204,4317.7358};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2543,36 +2932,122 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Rfileman""];}";
+						description="#8 Rifleman (AT)";
 						isPlayable=1;
 					};
 					id=321;
 					type="B_Soldier_F";
-					atlOffset=-4.7683716e-007;
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13516.992,2.1683865,4318.4038};
-						angles[]={6.2285743,4.3700414,6.1519442};
+						position[]={13516.992,2.1683862,4318.4038};
+						angles[]={6.2285738,4.3700423,6.1519365};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_DMR""];}";
+						description="#5 Sharpshooter";
 						isPlayable=1;
 					};
 					id=322;
 					type="B_soldier_M_F";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=314;
-			atlOffset=3.0994415e-006;
 		};
 		class Item42
 		{
@@ -2580,343 +3055,13 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=8;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13517.375,2.3140812,4322.4644};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_C""];}";
-						isPlayable=1;
-					};
-					id=324;
-					type="B_Soldier_SL_F";
-					atlOffset=2.3841858e-007;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13518.887,2.0994725,4322.1216};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_LMG""];}";
-						isPlayable=1;
-					};
-					id=325;
-					type="B_soldier_AR_F";
-					atlOffset=2.3841858e-007;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13520.269,1.9024512,4321.7881};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
-						isPlayable=1;
-					};
-					id=326;
-					type="B_Soldier_GL_F";
-					atlOffset=4.0531158e-006;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13521.456,1.7442231,4321.6274};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Breacher""];}";
-						isPlayable=1;
-					};
-					id=327;
-					type="B_Soldier_F";
-					atlOffset=4.7683716e-007;
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13517.306,2.3927946,4324.0444};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_2iC""];}";
-						isPlayable=1;
-					};
-					id=328;
-					type="B_Soldier_TL_F";
-					atlOffset=2.3841858e-007;
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13520.417,1.9604664,4323.2769};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
-						isPlayable=1;
-					};
-					id=329;
-					type="B_Soldier_GL_F";
-					atlOffset=4.7683716e-007;
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13521.713,1.7892939,4323.021};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Rfileman""];}";
-						isPlayable=1;
-					};
-					id=330;
-					type="B_Soldier_F";
-					atlOffset=4.7683716e-007;
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13518.83,2.1759703,4323.6899};
-						angles[]={6.2392149,4.3700414,6.1519442};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_DMR""];}";
-						isPlayable=1;
-					};
-					id=331;
-					type="B_soldier_M_F";
-					atlOffset=2.3841858e-007;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=323;
-			atlOffset=2.3841858e-007;
-		};
-		class Item43
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=8;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13519.702,2.2619569,4327.2051};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_C""];}";
-						isPlayable=1;
-					};
-					id=333;
-					type="B_Soldier_SL_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13521.214,2.059864,4326.8628};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_LMG""];}";
-						isPlayable=1;
-					};
-					id=334;
-					type="B_soldier_AR_F";
-					atlOffset=-2.3841858e-007;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13522.596,1.8712826,4326.5288};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
-						isPlayable=1;
-					};
-					id=335;
-					type="B_Soldier_GL_F";
-					atlOffset=3.5762787e-006;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13523.784,1.6858876,4326.3687};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Breacher""];}";
-						isPlayable=1;
-					};
-					id=336;
-					type="B_Soldier_F";
-					atlOffset=4.7683716e-007;
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13519.634,2.3418658,4328.7856};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_2iC""];}";
-						isPlayable=1;
-					};
-					id=337;
-					type="B_Soldier_TL_F";
-					atlOffset=-2.3841858e-007;
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13522.744,1.9324653,4328.0176};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
-						isPlayable=1;
-					};
-					id=338;
-					type="B_Soldier_GL_F";
-					atlOffset=-2.3841858e-007;
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13524.04,1.7352794,4327.7622};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Rfileman""];}";
-						isPlayable=1;
-					};
-					id=339;
-					type="B_Soldier_F";
-					atlOffset=2.3841858e-007;
-				};
-				class Item7
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13521.157,2.1419053,4328.4312};
-						angles[]={6.2405448,4.3700414,6.1624427};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_DMR""];}";
-						isPlayable=1;
-					};
-					id=340;
-					type="B_soldier_M_F";
-					atlOffset=2.3841858e-007;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=332;
-		};
-		class Item44
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13520.327,2.5746567,4334.7876};
+						position[]={13520.327,2.5746565,4334.7876};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2924,11 +3069,11 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_PltL""];}";
+						description="#1 Platoon Commander";
 						isPlayable=1;
 					};
 					id=342;
 					type="B_officer_F";
-					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2977,7 +3122,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13522.107,2.4805799,4336.7998};
+						position[]={13522.107,2.4805796,4336.7998};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -2985,10 +3130,12 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Sig""];}";
+						description="#3 Signaller";
 						isPlayable=1;
 					};
 					id=343;
 					type="B_Survivor_F";
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3037,7 +3184,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13521.002,2.3925791,4332.8086};
+						position[]={13521.002,2.3925788,4332.8086};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -3045,11 +3192,11 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_PltSgt""];}";
+						description="#2 Platoon Sergeant";
 						isPlayable=1;
 					};
 					id=344;
 					type="B_Soldier_F";
-					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3098,7 +3245,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13523.74,2.3723693,4338.6328};
+						position[]={13523.74,2.3723691,4338.6328};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -3106,11 +3253,11 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_FO""];}";
+						description="#4 Forward Observer";
 						isPlayable=1;
 					};
 					id=345;
 					type="B_Soldier_SL_F";
-					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3154,75 +3301,13 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13525.05,2.2775326,4340.1426};
-						angles[]={0,4.3700423,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_CM""];}";
-						isPlayable=1;
-					};
-					id=346;
-					type="B_medic_F";
-					atlOffset=-2.3841858e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male05ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
 			};
 			class Attributes
 			{
 			};
 			id=341;
-			atlOffset=2.3841858e-007;
 		};
-		class Item45
+		class Item43
 		{
 			dataType="Group";
 			side="West";
@@ -3242,6 +3327,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Doc""];}";
+						description="#1 Combat Medical Technician Class 1";
 						isPlayable=1;
 					};
 					id=348;
@@ -3294,7 +3380,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13525.695,2.9825289,4355.0942};
+						position[]={13525.695,2.9825001,4355.0938};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -3302,18 +3388,61 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_CMT""];}";
+						description="#2 Combat Medical Technician Class 2";
 						isPlayable=1;
 					};
 					id=349;
 					type="B_medic_F";
-					atlOffset=2.3841858e-006;
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13527.096,2.9188733,4356.4922};
+						position[]={13527.096,2.9188416,4356.4917};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -3321,11 +3450,54 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_CMT""];}";
+						description="#3 Combat Medical Technician Class 2";
 						isPlayable=1;
 					};
 					id=350;
 					type="B_medic_F";
-					atlOffset=5.2452087e-006;
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -3333,7 +3505,7 @@ class Mission
 			};
 			id=347;
 		};
-		class Item46
+		class Item44
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3375,7 +3547,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item47
+		class Item45
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3417,7 +3589,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item48
+		class Item46
 		{
 			dataType="Group";
 			side="West";
@@ -3437,6 +3609,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Log_C""];}";
+						description="#1 Logistics Team Leader";
 						isPlayable=1;
 					};
 					id=354;
@@ -3489,7 +3662,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13529.576,3.2586284,4367.7412};
+						position[]={13529.576,3.258606,4367.7407};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -3497,18 +3670,61 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Log""];}";
+						description="#2 Logistics Specialist";
 						isPlayable=1;
 					};
 					id=355;
 					type="B_soldier_repair_F";
-					atlOffset=-4.7683716e-007;
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13530.889,3.1943896,4369.3711};
+						position[]={13530.889,3.1943667,4369.3706};
 						angles[]={0,4.3700423,0};
 					};
 					side="West";
@@ -3516,11 +3732,53 @@ class Mission
 					class Attributes
 					{
 						init="call{this setVariable [""loadout"", ""UK_Winter_Log""];}";
+						description="#3 Logistics Specialist";
 						isPlayable=1;
 					};
 					id=356;
 					type="B_soldier_repair_F";
-					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
@@ -3528,7 +3786,7 @@ class Mission
 			};
 			id=353;
 		};
-		class Item49
+		class Item47
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -3540,7 +3798,7 @@ class Mission
 			id=357;
 			atlOffset=0.36933947;
 		};
-		class Item50
+		class Item48
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -3552,7 +3810,7 @@ class Mission
 			id=358;
 			atlOffset=0.67799282;
 		};
-		class Item51
+		class Item49
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -3564,7 +3822,7 @@ class Mission
 			id=359;
 			atlOffset=1.2348597;
 		};
-		class Item52
+		class Item50
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -3575,7 +3833,7 @@ class Mission
 			title="Für 1/2 ohne Fhz";
 			id=360;
 		};
-		class Item53
+		class Item51
 		{
 			dataType="Group";
 			side="West";
@@ -3898,7 +4156,7 @@ class Mission
 			id=361;
 			atlOffset=-2.3841858e-007;
 		};
-		class Item54
+		class Item52
 		{
 			dataType="Group";
 			side="West";
@@ -3917,7 +4175,8 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Sniper""];}";
+						init="call{this setVariable [""loadout"", ""UK_Winter_Spotter""];}";
+						description="#1 Spotter";
 						isPlayable=1;
 					};
 					id=370;
@@ -3977,7 +4236,8 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setVariable [""loadout"", ""UK_Winter_Spotter""];}";
+						init="call{this setVariable [""loadout"", ""UK_Winter_Sniper""];}";
+						description="#2 Sniper";
 						isPlayable=1;
 					};
 					id=371;
@@ -4031,7 +4291,7 @@ class Mission
 			};
 			id=369;
 		};
-		class Item55
+		class Item53
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4043,7 +4303,7 @@ class Mission
 			id=372;
 			atlOffset=2.0140915;
 		};
-		class Item56
+		class Item54
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4084,7 +4344,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item57
+		class Item55
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4126,7 +4386,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item58
+		class Item56
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4143,7 +4403,7 @@ class Mission
 			type="UK3CB_BAF_Box_EOD_Demolitions_ACE";
 			atlOffset=162.106;
 		};
-		class Item59
+		class Item57
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4161,7 +4421,7 @@ class Mission
 			type="UK3CB_BAF_Box_EOD_Demolitions_ACE";
 			atlOffset=0.00030040741;
 		};
-		class Item60
+		class Item58
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4178,13 +4438,13 @@ class Mission
 			type="UK3CB_BAF_Box_EOD_Demolitions_ACE";
 			atlOffset=162.112;
 		};
-		class Item61
+		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={13710.399,17.593679,72.24247};
-				angles[]={-0,4.2960644,0};
+				angles[]={0,4.2960644,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4199,13 +4459,13 @@ class Mission
 			type="B_AAA_System_01_F";
 			atlOffset=8.0108643e-005;
 		};
-		class Item62
+		class Item60
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={13788.564,21.722507,102.95788};
-				angles[]={-0,1.1645035,0};
+				angles[]={0,1.1645035,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4220,7 +4480,7 @@ class Mission
 			type="B_AAA_System_01_F";
 			atlOffset=8.2015991e-005;
 		};
-		class Item63
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4259,7 +4519,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item64
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4296,6 +4556,1019 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item63
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13516.436,2.4009516,4321.6206};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_C""];}";
+						description="#1 Section Commander";
+						isPlayable=1;
+					};
+					id=383;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13517.947,2.1863835,4321.2788};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_LMG""];}";
+						description="#2 Automatic Rifleman";
+						isPlayable=1;
+					};
+					id=384;
+					type="B_soldier_AR_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13519.33,1.9892174,4320.9448};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
+						description="#3 Grenadier";
+						isPlayable=1;
+					};
+					id=385;
+					type="B_Soldier_GL_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13520.518,1.8254256,4320.7847};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Breacher""];}";
+						description="#4 Breacher";
+						isPlayable=1;
+					};
+					id=386;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13516.367,2.4795845,4323.2017};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_2iC""];}";
+						description="#5 Second-in-Command";
+						isPlayable=1;
+					};
+					id=387;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13519.479,2.0350192,4322.4336};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
+						description="#7 Grenadier";
+						isPlayable=1;
+					};
+					id=388;
+					type="B_Soldier_GL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13520.773,1.8572209,4322.1787};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Rfileman""];}";
+						description="#8 Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=389;
+					type="B_Soldier_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13517.891,2.262861,4322.8467};
+						angles[]={6.2392149,4.3700423,6.1519442};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_DMR""];}";
+						description="#5 Sharpshooter";
+						isPlayable=1;
+					};
+					id=390;
+					type="B_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=382;
+		};
+		class Item64
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13517.344,2.4802434,4325.9634};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_C""];}";
+						description="#1 Section Commander";
+						isPlayable=1;
+					};
+					id=392;
+					type="B_Soldier_SL_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13518.855,2.2781503,4325.6216};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_LMG""];}";
+						description="#2 Automatic Rifleman";
+						isPlayable=1;
+					};
+					id=393;
+					type="B_soldier_AR_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13520.238,2.092171,4325.2876};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
+						description="#3 Grenadier";
+						isPlayable=1;
+					};
+					id=394;
+					type="B_Soldier_GL_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13521.426,1.9393364,4325.1274};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Breacher""];}";
+						description="#4 Breacher";
+						isPlayable=1;
+					};
+					id=395;
+					type="B_Soldier_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13517.275,2.5750091,4327.5444};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_2iC""];}";
+						description="#5 Second-in-Command";
+						isPlayable=1;
+					};
+					id=396;
+					type="B_Soldier_TL_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13520.387,2.1554434,4326.7764};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Gren""];}";
+						description="#7 Grenadier";
+						isPlayable=1;
+					};
+					id=397;
+					type="B_Soldier_GL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13521.682,1.9844322,4326.5215};
+						angles[]={0,4.3700423,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_Rfileman""];}";
+						description="#8 Rifleman (AT)";
+						isPlayable=1;
+					};
+					id=398;
+					type="B_Soldier_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13518.799,2.3707464,4327.1895};
+						angles[]={6.2285728,4.3700423,6.1624432};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{this setVariable [""loadout"", ""UK_Winter_DMR""];}";
+						description="#5 Sharpshooter";
+						isPlayable=1;
+					};
+					id=399;
+					type="B_soldier_M_F";
+					atlOffset=2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=391;
+			atlOffset=4.7683716e-007;
 		};
 	};
 };

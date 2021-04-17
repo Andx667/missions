@@ -40,4 +40,5 @@ comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "ACE_NVG_Wide";
 player linkItem "TFAR_anprc152";

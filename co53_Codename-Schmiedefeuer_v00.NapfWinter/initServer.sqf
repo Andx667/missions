@@ -47,6 +47,14 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     ]
 ] call reim_fnc_crateFiller;
 
+//Milan  
+[
+    [milan_01, milan_02, milan_03],
+    [
+		["Redd_Milan_Static_Barrel", 1],
+		["Redd_Milan_Static_Tripod", 1]
+    ]
+] call reim_fnc_crateFiller;
 
 //Logistik
 [

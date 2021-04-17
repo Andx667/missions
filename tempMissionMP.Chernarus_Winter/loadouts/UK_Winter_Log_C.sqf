@@ -24,6 +24,9 @@ player forceAddUniform "UK3CB_BAF_U_Smock_Arctic";
 player addVest "UK3CB_BAF_V_PLCE_Webbing_Plate_DPMW";
 player addBackpack "UK3CB_BAF_B_Kitbag_Arctic";
 
+comment "Add binoculars";
+player addWeapon "Rangedfinder";
+
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 3 do {player addItemToUniform "ACE_packingBandage";};
@@ -42,3 +45,4 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
+player linkItem "ACE_NVG_Wide";
