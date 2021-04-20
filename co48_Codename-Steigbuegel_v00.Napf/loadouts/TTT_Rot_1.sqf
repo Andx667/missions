@@ -57,7 +57,7 @@ player addGoggles "G_Tactical_Black";
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "TFAR_microdagr";
+player linkItem "ItemWatch";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 

@@ -62,7 +62,7 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "TFAR_microdagr";
 player linkItem "TFAR_rf7800str";
-player linkItem "ItemMicroDAGR";
+player linkItem "ItemAndroid";
 
 [] spawn {
     sleep 30;

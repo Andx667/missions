@@ -1,3 +1,4 @@
+player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
