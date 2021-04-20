@@ -1,8 +1,8 @@
 //TTT Standard Repo + CUP
 author = "[TTT] Andx";
-OnLoadName = "";
-OnLoadMission = "";
-overviewPicture = "";								//als .jpg oder .paa im Verhältnis 2:1 (empfohlen 256x128)
+OnLoadName = "Codename Schmiedefeuer";
+OnLoadMission = "Im Leben kommt es darauf an, Hammer oder Amboss zu sein - aber niemals das Material dazwischen. ~Norman Mailer";
+overviewPicture = "Codename_Schmiedefeuer_Load.paa";								//als .jpg oder .paa im Verhältnis 2:1 (empfohlen 256x128)
 
 class Header
 {
