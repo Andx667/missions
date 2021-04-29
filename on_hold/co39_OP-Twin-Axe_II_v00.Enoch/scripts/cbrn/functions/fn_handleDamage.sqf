@@ -33,6 +33,24 @@ if ((_curDamage / _maxDamage) > 0.5 && {!(_unit getVariable ["cbrn_autoDamage", 
     }, 1, [_unit]] call CBA_fnc_addPerFrameHandler;
 };
 
+
+// old values
+// if (_threadLevel >= 1) then {
+//     // level 2 threat
+//     // requires mask
+//     _actualThreat = _actualThreat - ([0,1] select (_unit getVariable ["cbrn_mask_on", false]));
+// };
+// if (_threadLevel >= 2) then {
+//     // level 3 threat
+//     // requires oxygen
+//     _actualThreat = _actualThreat - ([0,1] select (_unit getVariable ["cbrn_oxygen", false]));
+// };
+// if (_threadLevel >= 3) then {
+//     // level 4 threat
+//     // requires cbrn suit
+//     _actualThreat = _actualThreat - ([0,1] select (_unit getVariable ["cbrn_hasSuite", false]));
+// };
+
 if (_threadLevel >= 1) then {
     // level 2 threat
     // requires mask
@@ -40,13 +58,13 @@ if (_threadLevel >= 1) then {
 };
 if (_threadLevel >= 2) then {
     // level 3 threat
-    // requires oxygen
-    _actualThreat = _actualThreat - ([0,1] select (_unit getVariable ["cbrn_oxygen", false]));
+    // requires suit
+    _actualThreat = _actualThreat - ([0,1] select (_unit getVariable ["cbrn_hasSuite", false]));
 };
 if (_threadLevel >= 3) then {
     // level 4 threat
-    // requires cbrn suit
-    _actualThreat = _actualThreat - ([0,1] select (_unit getVariable ["cbrn_hasSuite", false]));
+    // requires fresh oxygen
+    _actualThreat = _actualThreat - ([0,2] select (_unit getVariable ["cbrn_oxygen", false]));
 };
 
 _actualThreat = _actualThreat max 0;

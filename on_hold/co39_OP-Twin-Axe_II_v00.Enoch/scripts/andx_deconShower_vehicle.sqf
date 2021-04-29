@@ -14,7 +14,7 @@ andx_BuildTime = 30;
 andx_deconshower = "DeconShower_01_F";
 //andx_deconfloor = "ContainmentArea_02_black_F";
 
-andx_SupportedVehicleClasses = ["I_E_Offroad_01_covered_F","I_E_Van_02_vehicle_F"];
+andx_SupportedVehicleClasses = ["I_E_Van_02_vehicle_F"];
 
 andx_shower_items = ["ContainmentArea_03_yellow_F","Land_ConnectorTent_01_wdl_open_F","DrainageDeck_01_F","Land_ClutterCutter_large_F","Land_WaterBarrel_F"];
 

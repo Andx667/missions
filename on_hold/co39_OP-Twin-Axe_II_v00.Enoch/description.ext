@@ -2,7 +2,7 @@
  
 /*------onLoad------*/
 author="[TTT] Andx, [TTT] Freddy Bacon"; //Autor der Mission (Missionsbauer)
-OnLoadName = "OP Twin Axe - II"; //Überschrift im LoadScreen (über dem Bild)
+OnLoadName = "OP Twin Axe - rework"; //Überschrift im LoadScreen (über dem Bild)
 onLoadMission = "CBRN - Chemical, Biological, Radiological and Nuclear Threats"; //Beschreibung im LoadScreen (unter dem Bild)
 loadScreen =  "titel.jpg"; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = TRUE;
@@ -12,7 +12,7 @@ class Header
 {
 	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
 	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
-	maxPlayers = 40; //Anzahl der Spieler +1 für den HC
+	maxPlayers = 41; //Anzahl der Spieler +1 für den HC
 };
 
 /*------Respawn------*/	
@@ -41,30 +41,6 @@ class CfgSounds
 {
 	sounds[] = {};
 	#include "scripts\cbrn\sounds\sounds.hpp"
-	class andx_alarm1
-	{
-		name = "andx_alarm1";
-		sound[] = {"sounds\alarm-01.ogg",1,1,10};
-		titles[] = {1, ""};
-	};
-	class andx_alarm2
-	{
-		name = "andx_alarm2";
-		sound[] = {"sounds\alarm-02.ogg",1,1,10};
-		titles[] = {1, ""};
-	};
-	class andx_alarm3
-	{
-		name = "andx_alarm3";
-		sound[] = {"sounds\alarm-03.ogg",1,1,10};
-		titles[] = {1, ""};
-	};
-	class andx_alarm4
-	{
-		name = "andx_alarm4";
-		sound[] = {"sounds\alarm-04.ogg",1,1,10};
-		titles[] = {1, ""};
-	};
 }
 
 class RscTitles {

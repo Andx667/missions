@@ -47,6 +47,7 @@ cbrn_loadouteh = ["cba_events_loadoutEvent",{
         cbrn_mask_abberation ppEffectCommit 1;
 
         "cbrn_gasmask_overlay" cutRsc ["cbrn_gasmask", "PLAIN", 1, false];
+
         cbrn_breath_handle = [_unit] spawn {
             params ["_unit"];
             private _fat = 0;
@@ -68,6 +69,7 @@ cbrn_loadouteh = ["cba_events_loadoutEvent",{
         cbrn_mask_abberation ppEffectEnable true;
         cbrn_mask_abberation ppEffectAdjust [0,0,true];
         cbrn_mask_abberation ppEffectCommit 1;
+
         "cbrn_gasmask_overlay" cutFadeOut 1;
         terminate cbrn_breath_handle;
     };

@@ -43,7 +43,33 @@ You want a threat area spanning 500 meters in radius, but you only want the full
 This will create a threat level 3.5 (Orange) zone around position _pos with total radius of 500 meters and full effect is 100 meter radius around the center!
 */
 
-// setting up examples on map
-[getMarkerPos "marker_20", 1.5, 25, 25] call cbrn_fnc_createZone;
-[getMarkerPos "marker_21", 2.5, 25, 25] call cbrn_fnc_createZone;
-[getMarkerPos "marker_22", 3.5, 25, 25] call cbrn_fnc_createZone;
+/*
+ * Arguments:
+ * 0: Center of zone, position array
+ * 1: Threatlevel between 1 and 4.9, float
+ * 2: Radius of full effect, float
+ * 3: Radius of partial effect, float
+ */
+[getMarkerPos "marker_23", 1.31, 150, 50] call cbrn_fnc_createZone; //1 obj
+
+[getMarkerPos "marker_21", 2.54, 8, 15] call cbrn_fnc_createZone; // haus mit müll
+
+[getMarkerPos "marker_22", 2.82, 5, 15] call cbrn_fnc_createZone; //unfall auto
+
+[getMarkerPos "marker_24", 1.93, 15, 15] call cbrn_fnc_createZone; //lager obj 2
+
+[getMarkerPos "marker_25", 2.46, 15, 15] call cbrn_fnc_createZone; //metall schuppen obj 2
+
+[getMarkerPos "marker_26", 2.58, 5, 15] call cbrn_fnc_createZone; //tunnel eingang
+
+[getMarkerPos "marker_28", 3.87, 15, 30] call cbrn_fnc_createZone; //maschinen raum mit intel 
+
+[getMarkerPos "marker_29", 2.91, 10, 30] call cbrn_fnc_createZone; // müll am mineneingang 
+
+[getMarkerPos "marker_32", 2.79, 10, 5] call cbrn_fnc_createZone; // müll im gang 
+
+[getMarkerPos "marker_30", 4.90, 10, 25] call cbrn_fnc_createZone; // ende 
+
+[getMarkerPos "marker_31", 4.21, 10, 10] call cbrn_fnc_createZone; // fässer am ende 
+
+[getMarkerPos "marker_27", 2.35, 200, 0] call cbrn_fnc_createZone; //gesamter Tunnel #

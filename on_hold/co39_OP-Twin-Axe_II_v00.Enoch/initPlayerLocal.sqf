@@ -22,3 +22,4 @@ if (didJIP) then {player setPosATL (getPosATL teleporter_01);};
 // calling the scripts for the CBRN functionality
 [] call compile preprocessFileLineNumbers "scripts\andx_deconShower_vehicle.sqf";
 [] call compile preprocessFileLineNumbers "scripts\stein_medicTent_vehicle.sqf";
+[] call compile preprocessFileLineNumbers "scripts\andx_cbrnLoutoutChange.sqf";
