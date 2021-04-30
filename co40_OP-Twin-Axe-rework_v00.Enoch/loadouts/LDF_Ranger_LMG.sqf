@@ -1,4 +1,4 @@
-player setRank "PRIVATE";								//PRIVATE, CORPORAL, SERGEANT, LIEUTENANT, CAPTAIN, MAJOR or COLONEL <> kann hier gesetzt werden wenn gewünscht
+player setRank "PRIVATE";
 
 comment "Exported from Arsenal by Andx";
 
@@ -23,13 +23,13 @@ player addPrimaryWeaponItem "200Rnd_65x39_cased_Box";
 player addPrimaryWeaponItem "bipod_01_F_blk";
 player addWeapon "hgun_Pistol_heavy_01_green_F";
 player addHandgunItem "acc_flashlight_pistol";
+player addHandgunItem "optic_MRD_black";
 player addHandgunItem "11Rnd_45ACP_Mag";
 
 comment "Add containers";
 player forceAddUniform "U_I_E_Uniform_01_F";
 player addVest "V_CarrierRigKBT_01_light_EAF_F";
 player addBackpack "B_AssaultPack_eaf_F";
-player addHandgunItem "optic_MRD_black";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -48,11 +48,11 @@ for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-player addItemToVest "200Rnd_65x39_cased_Box";
+player addItemToVest "200Rnd_65x39_cased_Box_Tracer_Red";
 
-for "_i" from 1 to 2 do {player addItemToBackpack "200Rnd_65x39_cased_Box";};
 player addItemToBackpack "ACE_EntrenchingTool";
-player addItemToBackpack "200Rnd_65x39_cased_Box_Tracer";
+for "_i" from 1 to 2 do {player addItemToBackpack "200Rnd_65x39_cased_Box_Tracer_Red";};
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addHeadgear "H_HelmetHBK_headset_F";
 player addGoggles (selectRandom ["G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_Combat_clear","BWA3_G_Combat_orange","PBW_shemagh_beige","PBW_shemagh_gruen"]);
@@ -60,8 +60,6 @@ player addGoggles (selectRandom ["G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemMicroDAGR";
-
-cutText ["", "PLAIN"];

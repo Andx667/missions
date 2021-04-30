@@ -1,4 +1,4 @@
-player setRank "CORPORAL";	
+player setRank "MAJOR";	
 
 comment "Exported from Arsenal by Andx";
 
@@ -56,16 +56,15 @@ for "_i" from 1 to 10 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 8 do {player addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 15 do {player addItemToBackpack "ACE_elasticBandage";};
 for "_i" from 1 to 15 do {player addItemToBackpack "ACE_packingBandage";};
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addHeadgear "H_HelmetHBK_headset_F";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
 player setVariable ["ace_medical_medicClass", 2, true];
-
-cutText ["", "PLAIN"];

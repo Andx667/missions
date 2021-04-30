@@ -26,7 +26,7 @@ player addHandgunItem "11Rnd_45ACP_Mag";
 comment "Add containers";
 player forceAddUniform "U_I_E_Uniform_01_F";
 player addVest "V_CarrierRigKBT_01_light_EAF_F";
-player addBackpack "B_TacticalPack_oli";
+player addBackpack "B_Carryall_eaf_f";
 
 comment "Add binoculars";
 player addWeapon "Binocular";
@@ -49,26 +49,18 @@ for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
-player addItemToVest "ACE_surgicalKit";
 
-for "_i" from 1 to 8 do {player addItemToBackpack "ACE_salineIV";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_salineIV_500";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_epinephrine";};
-for "_i" from 1 to 12 do {player addItemToBackpack "ACE_adenosine";};
-for "_i" from 1 to 8 do {player addItemToBackpack "ACE_tourniquet";};
-for "_i" from 1 to 25 do {player addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 25 do {player addItemToBackpack "ACE_packingBandage";};
+// TODO FREDDY
+
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addHeadgear "H_HelmetHBK_headset_F";
 
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
 
-player setVariable ["ace_medical_medicClass", 2, true];
-
-cutText ["", "PLAIN"];
+player setVariable ["ace_medical_medicClass", 1, true];

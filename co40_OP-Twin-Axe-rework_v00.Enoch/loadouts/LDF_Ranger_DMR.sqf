@@ -44,14 +44,14 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "11Rnd_45ACP_Mag";
 
-for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
-for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
+for "_i" from 1 to 6 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 
 player addItemToBackpack "ACE_EntrenchingTool";
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addHeadgear "H_HelmetHBK_headset_F";
 player addGoggles (selectRandom ["G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_Combat_clear","BWA3_G_Combat_orange","PBW_shemagh_beige","PBW_shemagh_gruen"]);
@@ -59,8 +59,6 @@ player addGoggles (selectRandom ["G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemMicroDAGR";
-
-cutText ["", "PLAIN"];

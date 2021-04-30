@@ -19,7 +19,7 @@ comment "Add weapons";
 player addWeapon "arifle_MSBS65_GL_camo_F";
 player addPrimaryWeaponItem "ACE_acc_pointer_green";
 player addPrimaryWeaponItem "optic_ico_01_camo_f";
-player addPrimaryWeaponItem "30Rnd_65x39_caseless_msbs_mag";
+player addPrimaryWeaponItem "30Rnd_65x39_caseless_msbs_mag_Tracer";
 player addWeapon "hgun_Pistol_heavy_01_green_F";
 player addHandgunItem "acc_flashlight_pistol";
 player addHandgunItem "11Rnd_45ACP_Mag";
@@ -43,8 +43,7 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "11Rnd_45ACP_Mag";
 
-for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
-for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
+for "_i" from 1 to 6 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
@@ -55,6 +54,7 @@ for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellPurple";};
 for "_i" from 1 to 4 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 for "_i" from 1 to 4 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addHeadgear "H_HelmetHBK_ear_F";
 player addGoggles "G_Tactical_Clear";
@@ -62,8 +62,6 @@ player addGoggles "G_Tactical_Clear";
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
-
-cutText ["", "PLAIN"];

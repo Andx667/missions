@@ -21,6 +21,7 @@ player addWeapon "arifle_MSBS65_UBS_camo_F";
 player addPrimaryWeaponItem "ACE_acc_pointer_green";
 player addPrimaryWeaponItem "optic_Aco";
 player addPrimaryWeaponItem "30Rnd_65x39_caseless_msbs_mag";
+
 player addWeapon "hgun_Pistol_heavy_01_green_F";
 player addHandgunItem "acc_flashlight_pistol";
 player addHandgunItem "optic_MRD_black";
@@ -44,18 +45,18 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "11Rnd_45ACP_Mag";
 
-for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
 for "_i" from 1 to 4 do {player addItemToVest "ACE_M84";};
 for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
-for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
+for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
 player addItemToVest "SmokeShellGreen";
 
-for "_i" from 1 to 4 do {player addItemToBackpack "6Rnd_12Gauge_Pellets";};
+for "_i" from 1 to 5 do {player addItemToBackpack "6Rnd_12Gauge_Pellets";};
 player addItemToBackpack "ACE_wirecutter";
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "ACE_SpraypaintRed";
 player addItemToBackpack "ACE_SpraypaintGreen";
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addGoggles selectRandom ["","G_Bandanna_oli","BWA3_G_Combat_black","BWA3_G_Combat_clear","BWA3_G_Combat_orange","PBW_shemagh_beige","PBW_shemagh_gruen"];
 player addHeadgear "H_HelmetHBK_headset_F";
@@ -63,10 +64,6 @@ player addHeadgear "H_HelmetHBK_headset_F";
 comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemMicroDAGR";
-
-player setVariable ["ACE_isEOD", true];
-
-cutText ["", "PLAIN"];

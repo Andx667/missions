@@ -1,4 +1,4 @@
-player setRank "CORPORAL";								//PRIVATE, CORPORAL, SERGEANT, LIEUTENANT, CAPTAIN, MAJOR or COLONEL <> kann hier gesetzt werden wenn gewünscht
+player setRank "Sergeant";								//PRIVATE, CORPORAL, SERGEANT, LIEUTENANT, CAPTAIN, MAJOR or COLONEL <> kann hier gesetzt werden wenn gewünscht
 
 comment "Exported from Arsenal by Andx";
 
@@ -43,17 +43,18 @@ player addItemToUniform "ACE_MapTools";
 player addItemToUniform "ACE_morphine";
 player addItemToUniform "11Rnd_45ACP_Mag";
 
-for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
-for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag_Tracer";};
+for "_i" from 1 to 6 do {player addItemToVest "30Rnd_65x39_caseless_msbs_mag";};
 for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 player addItemToVest "ACE_M84";
 player addItemToVest "HandGrenade";
 player addItemToVest "SmokeShellGreen";
 player addItemToVest "NVGoggles_INDEP";
 player addItemToVest "ACE_IR_Strobe_Item";
+for "_i" from 1 to 3 do {player addItemToVest "11Rnd_45ACP_Mag";};
 
 player addItemToBackpack "ACE_EntrenchingTool";
 player addItemToBackpack "O_NVGoggles_grn_F";
+player addItemToBackpack "G_AirPurifyingRespirator_01_F";
 
 player addHeadgear "H_HelmetHBK_ear_F";
 player addGoggles "G_Tactical_Clear";
@@ -64,5 +65,3 @@ player linkItem "ItemCompass";
 player linkItem "ChemicalDetector_01_watch_F";
 player linkItem "TFAR_anprc152";
 player linkItem "ItemAndroid";
-
-cutText ["", "PLAIN"];

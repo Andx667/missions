@@ -20,14 +20,6 @@ setDate [2035, 9, 25, 6, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei M
 	};
 } forEach allUnits;
 
-// adding TFAR LR Radio to certain vehicles
-// _vehicles = [car_01, car_02, car_03, car_04];
-
-// {
-// 	_x setVariable ["tf_hasRadio", true, true];
-// 	_x setVariable ["TF_RadioType", "TFAR_anprc155", true];
-// } forEach _vehicles;
-
 /*
 Adding zones must be done by server. If you add them via any other machine, it will simply not work!
 
