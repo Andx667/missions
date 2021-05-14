@@ -1,2 +1,0 @@
-[] execVM "scripts\intro.sqf";
-

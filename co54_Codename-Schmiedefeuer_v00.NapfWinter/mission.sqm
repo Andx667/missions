@@ -6,24 +6,28 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=1537;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
 	class ItemIDProvider
 	{
 		nextID=1251;
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=22;
 	};
 	class Camera
 	{
-		pos[]={10067.693,161.86151,7546.5605};
-		dir[]={0.92241496,-0.3671414,-0.11982433};
-		up[]={0.36408237,0.93016511,-0.047295336};
-		aside[]={-0.12882049,3.7252903e-009,-0.99166787};
+		pos[]={9960.4678,86.472633,7764.3267};
+		dir[]={-0.53222716,-0.39263996,-0.75017011};
+		up[]={-0.22721772,0.91965818,-0.32026017};
+		aside[]={-0.81565624,8.1607141e-007,0.57869315};
 	};
 };
 binarizationWanted=0;
-sourceName="co53_Codename-Schmiedefeuer_v00";
+sourceName="co54_Codename-Schmiedefeuer_v00";
 addons[]=
 {
 	"A3_Ui_F",
@@ -273,6 +277,13 @@ class AddonsMetaData
 			author="Community Upgrade Project";
 		};
 	};
+};
+dlcs[]=
+{
+	"ORANGE",
+	"Tank",
+	"CUP_Units",
+	"CUP_Vehicles"
 };
 randomSeed=7726327;
 class ScenarioData
@@ -692,6 +703,7 @@ class Mission
 			name="curator_adminVoted";
 			id=7;
 			type="ModuleCurator_F";
+			atlOffset=2.2888184e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4425,7 +4437,7 @@ class Mission
 				};
 			};
 			id=129;
-			atlOffset=4.4372673;
+			atlOffset=-0.16246605;
 		};
 		class Item54
 		{
@@ -5670,7 +5682,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9913.916,64.603889,7707.3975};
+				position[]={9913.915,64.603867,7707.3975};
 			};
 			areaSize[]={1,-1,1};
 			id=712;
@@ -5863,7 +5875,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10128.139,83.967873,7590.8638};
+				position[]={10128.14,83.967873,7590.8633};
 			};
 			areaSize[]={1,-1,1};
 			id=713;
@@ -17177,6 +17189,7 @@ class Mission
 			};
 			id=1250;
 			type="ACE_medicalSupplyCrate_advanced";
+			atlOffset=0.10009003;
 			class CustomAttributes
 			{
 				class Attribute0
