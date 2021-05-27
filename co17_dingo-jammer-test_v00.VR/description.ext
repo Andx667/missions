@@ -1,0 +1,27 @@
+﻿// TTT Standart Repo
+ 
+/*------onLoad------*/
+author="[TTT] Andx"; //Autor der Mission (Missionsbauer)
+OnLoadName = "OP "; //Überschrift im LoadScreen (über dem Bild)
+onLoadMission = ""; //Beschreibung im LoadScreen (unter dem Bild)
+loadScreen =  ""; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+OnLoadMissionTime = TRUE;
+
+/*------Header------*/
+class Header
+{
+	gameType = "coop" //Art der Mission (zb. COOP, COOP, TvT, usw.)
+	minPlayers = 1; //mindestanzahl an Spielern damit die Mission starten kann
+	maxPlayers = 17; //Anzahl der Spieler +1 für den HC
+};
+
+/*------Respawn------*/	
+respawn = 3;
+respawnDelay = 5;
+respawnDialog = false;
+
+/*------Stuff------*/	
+disabledAI = 1; //Deaktiviert AI in der Slotliste
+enableDebugConsole[] = {"76561198014636795"}; // admins and players with their UID in this list have access
+
+cba_settings_hasSettingsFile = 1; //CBA einstellungen laden

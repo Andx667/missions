@@ -45,6 +45,7 @@ for "_i" from 1 to 3 do {player addItemToBackpack "ACE_salineIV";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 10 do {player addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 8 do {player addItemToBackpack "ACE_tourniquet";};
 player addHeadgear "UK3CB_CW_US_B_LATE_H_Patrol_Cap_WDL_01";
 
 comment "Add items";
