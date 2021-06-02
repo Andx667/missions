@@ -4,7 +4,7 @@
 author="[TTT] Andx, [TTT] Menom"; //Autor der Mission (Missionsbauer)
 OnLoadName = "Baltic Eagle"; //Überschrift im LoadScreen (über dem Bild)
 onLoadMission = "“You can have peace. Or you can have freedom. Don’t ever count on having both at once.” Robert A. Heinlein"; //Beschreibung im LoadScreen (unter dem Bild)
-overviewPicture =  "be-image.paa"; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
+overviewPicture =  "img\be-image.paa"; //Banner im LoadScreen. Bild sollte 1024x512 Pixel groß sein.
 OnLoadMissionTime = true;
 
 /*------Header------*/
