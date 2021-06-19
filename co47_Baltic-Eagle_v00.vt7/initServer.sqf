@@ -13,7 +13,7 @@ setDate [1992, 10, 15, 6, 30];						//Jahr, Monat, Tag, Stunde, Minute wird bei 
 		_x setSkill ["aimingShake", 0.35];
 		_x setSkill ["aimingSpeed", 0.5];
 		_x setSkill ["reloadSpeed", 0.75];
-		_x setSkill ["spotDistance", 1];
+		_x setSkill ["spotDistance", 0.70];
 		_x setSkill ["spotTime", 1];
 		_x enableAI "COVER";
 		_x enableAI "AUTOCOMBAT";
