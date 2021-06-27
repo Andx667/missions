@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=44;
+		nextID=53;
 	};
 	class Camera
 	{
-		pos[]={6325.4902,32.298153,3965.6973};
-		dir[]={-0.90152991,-0.34785929,-0.25783646};
-		up[]={-0.33456069,0.93741614,-0.095683284};
-		aside[]={-0.27499154,5.8214937e-007,0.96151584};
+		pos[]={5293.188,408.09839,5903.8813};
+		dir[]={-0.7953099,-0.45552331,0.40009066};
+		up[]={-0.40695101,0.89020842,0.20472284};
+		aside[]={0.44941813,-9.2596747e-007,0.89337033};
 	};
 };
 binarizationWanted=0;
@@ -13161,15 +13161,15 @@ class Mission
 							dataType="Layer";
 							name="CAR CRASH SERVO";
 							id=956;
-							atlOffset=0.00015449524;
+							atlOffset=17.280001;
 						};
 					};
 					id=955;
-					atlOffset=7.724762e-005;
+					atlOffset=17.280001;
 				};
 			};
 			id=1079;
-			atlOffset=9.5367432e-007;
+			atlOffset=17.280001;
 		};
 	};
 	class Connections

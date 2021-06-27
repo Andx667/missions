@@ -43,7 +43,7 @@ for "_i" from 1 to 3 do {player addItemToUniform "BWA3_1Rnd_Flare_Multistar_Gree
 player addItemToUniform "acex_intelitems_notepad";
 
 player addItemToVest "ACE_EntrenchingTool";
-for "_i" from 1 to 8 do {player addItemToVest "hlc_30rnd_556x45_Tracers_G36";};
+for "_i" from 1 to 9 do {player addItemToVest "hlc_30rnd_556x45_Tracers_G36";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 player addItemToVest "BWA3_DM32_Green";
