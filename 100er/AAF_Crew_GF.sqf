@@ -25,6 +25,9 @@ comment "Add containers";
 player forceAddUniform "U_Tank_green_F";
 player addVest "V_TacVest_oli";
 
+comment "Add binoculars";
+player addWeapon "Binocular";
+
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {player addItemToUniform "ACE_packingBandage";};

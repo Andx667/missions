@@ -25,6 +25,10 @@ player addHandgunItem "16Rnd_9x21_Mag";
 comment "Add containers";
 player forceAddUniform "U_I_CombatUniform";
 player addVest "V_PlateCarrierIA2_dgtl";
+player addBackpack "B_RadioBag_01_digi_F";
+
+comment "Add binoculars";
+player addWeapon "Binocular";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};

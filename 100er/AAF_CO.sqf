@@ -28,7 +28,7 @@ player addVest "V_PlateCarrierIA2_dgtl";
 player addBackpack "B_RadioBag_01_digi_F";
 
 comment "Add binoculars";
-player addWeapon "Rangefinger";
+player addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 15 do {player addItemToUniform "ACE_fieldDressing";};
