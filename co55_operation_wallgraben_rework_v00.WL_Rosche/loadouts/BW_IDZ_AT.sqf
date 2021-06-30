@@ -39,7 +39,7 @@ for "_i" from 1 to 2 do {player addItemToVest "ACE_CableTie";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
 for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
 player addItemToVest "BWA3_DM32_Green";
-for "_i" from 1 to 8 do {player addItemToVest "BWA3_30Rnd_556x45_G36_AP";};
+for "_i" from 1 to 12 do {player addItemToVest "BWA3_30Rnd_556x45_G36_AP";};
 player addHeadgear "PBW_Helm1_fleck_H";
 
 comment "Add items";
